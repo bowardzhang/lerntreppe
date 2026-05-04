@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>LernTreppe – Übungsblatt</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #f0f4f9; --card: #fff; --border: #dde3ed; --text: #1e2533; --muted: #6b7280;
+      --radius: 10px;
+      --deutsch: #2563eb; --deutsch-light: #eff6ff; --deutsch-border: #bfdbfe;
+      --mathe:   #16a34a; --mathe-light:   #f0fdf4; --mathe-border:   #bbf7d0;
+      --hsu:     #d97706; --hsu-light:     #fffbeb; --hsu-border:     #fde68a;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    }
+    body { background: var(--bg); color: var(--text); min-height: 100vh; }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg,#1e3a5f 0%,#2563eb 100%);
+      color: #fff; padding: 28px 24px 24px;
+    }
+    .header-inner { max-width: 860px; margin: 0 auto; }
+    .back-link {
+      display: inline-flex; align-items: center; gap: 6px;
+      color: rgba(255,255,255,.8); text-decoration: none; font-size: .88rem;
+      margin-bottom: 14px; transition: color .15s;
+    }
+    .back-link:hover { color: #fff; }
+    .ex-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+    .meta-pill {
+      font-size: .78rem; background: rgba(255,255,255,.18); border-radius: 999px;
+      padding: 3px 12px; border: 1px solid rgba(255,255,255,.25);
+    }
+    header h1 { font-size: 1.5rem; font-weight: 800; }
+    header p  { font-size: .9rem; opacity: .85; margin-top: 4px; }
+
+    /* ── Controls bar ── */
+    .controls-bar {
+      background: var(--card); border-bottom: 1px solid var(--border);
+      padding: 12px 24px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+    }
+    .controls-bar-inner { max-width: 860px; margin: 0 auto; width: 100%; display: flex; gap: 10px; flex-wrap: wrap; }
+    .btn {
+      border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 7px 14px; font-size: .83rem; cursor: pointer;
+      background: var(--card); color: var(--text); white-space: nowrap; transition: background .15s;
+    }
+    .btn:hover { background: var(--bg); }
+    .btn.primary {
+      background: #2563eb; color: #fff; border-color: #2563eb;
+    }
+    .btn.primary:hover { background: #1d4ed8; }
+
+    /* ── Content ── */
+    .container { max-width: 860px; margin: 0 auto; padding: 28px 16px 64px; }
+
+    /* ── Question card ── */
+    .q-card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+      margin-bottom: 18px; overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,.05);
+    }
+    .q-header {
+      display: flex; align-items: flex-start; gap: 14px; padding: 18px 20px 14px;
+    }
+    .q-number {
+      width: 36px; height: 36px; border-radius: 8px; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 800; font-size: 1rem;
+      background: var(--mathe-light); color: var(--mathe); border: 1px solid var(--mathe-border);
+    }
+    .q-number.deutsch { background: var(--deutsch-light); color: var(--deutsch); border-color: var(--deutsch-border); }
+    .q-number.hsu     { background: var(--hsu-light);     color: var(--hsu);     border-color: var(--hsu-border);     }
+    .q-meta { flex: 1; min-width: 0; }
+    .q-type { font-size: .75rem; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+    .q-text { font-size: .95rem; line-height: 1.65; white-space: pre-wrap; }
+    .q-points {
+      font-size: .78rem; color: var(--muted); background: var(--bg);
+      border: 1px solid var(--border); border-radius: 999px; padding: 3px 10px;
+      flex-shrink: 0; white-space: nowrap; height: fit-content;
+    }
+
+    /* ── Image ── */
+    .q-image-wrap { padding: 0 20px 14px; }
+    .q-image-wrap img { max-width: 100%; border-radius: 8px; border: 1px solid var(--border); }
+
+    /* ── Knowledge pills ── */
+    .q-knowledge { padding: 0 20px 10px; display: flex; gap: 6px; flex-wrap: wrap; }
+    .k-pill {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: .68rem; background: #f5f3ff; border: 1px solid #ede9fe;
+      border-radius: 4px; padding: 2px 7px; color: #7c3aed;
+    }
+
+    /* ── Answer section ── */
+    .q-footer { border-top: 1px solid var(--border); padding: 12px 20px; }
+    .reveal-btn {
+      display: flex; align-items: center; gap: 8px; background: none; border: none;
+      color: #2563eb; font-size: .88rem; font-weight: 600; cursor: pointer; padding: 0;
+    }
+    .reveal-btn:hover { color: #1d4ed8; }
+    .reveal-icon { font-size: 1rem; transition: transform .2s; }
+    .answer-box { display: none; margin-top: 12px; }
+    .answer-box.visible { display: block; }
+    .answer-label {
+      font-size: .72rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .5px; color: var(--muted); margin-bottom: 6px;
+    }
+    .answer-text {
+      background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px;
+      padding: 10px 14px; font-size: .9rem; white-space: pre-wrap; line-height: 1.6; color: #14532d;
+    }
+    .steps-list {
+      margin-top: 10px; padding: 10px 14px; background: #fffbeb;
+      border: 1px solid #fde68a; border-radius: 8px; list-style: none;
+    }
+    .steps-list li {
+      font-size: .88rem; color: #78350f; padding: 3px 0; padding-left: 20px;
+      position: relative; line-height: 1.5;
+    }
+    .steps-list li::before { content: '→'; position: absolute; left: 0; color: #d97706; }
+
+    /* ── Progress ── */
+    .progress-bar-wrap {
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 14px 18px; margin-bottom: 24px; display: flex; align-items: center; gap: 14px;
+    }
+    .progress-label { font-size: .85rem; color: var(--muted); white-space: nowrap; }
+    .progress-track { flex: 1; background: var(--bg); border-radius: 999px; height: 8px; overflow: hidden; }
+    .progress-fill  { height: 100%; background: #16a34a; border-radius: 999px; transition: width .3s; }
+    .progress-count { font-size: .85rem; font-weight: 700; white-space: nowrap; }
+
+    /* ── Error / Loading ── */
+    .error-box  { color:#b91c1c; background:#fef2f2; border:1px solid #fecaca; border-radius:var(--radius); padding:16px; }
+    .loading    { text-align:center; padding:48px; color:var(--muted); }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a class="back-link" href="index.html">← Zurück zur Übersicht</a>
+    <h1 id="ex-title">Übungsblatt wird geladen …</h1>
+    <p id="ex-topic"></p>
+    <div class="ex-meta" id="ex-meta"></div>
+  </div>
+</header>
+
+<div class="controls-bar">
+  <div class="controls-bar-inner">
+    <button class="btn primary" id="btn-show-all">Alle Antworten anzeigen</button>
+    <button class="btn"         id="btn-hide-all">Alle Antworten verstecken</button>
+  </div>
+</div>
+
+<main class="container">
+  <div id="progress-wrap" style="display:none" class="progress-bar-wrap">
+    <span class="progress-label">Antworten aufgedeckt:</span>
+    <div class="progress-track"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+    <span class="progress-count" id="progress-count">0 / 0</span>
+  </div>
+  <div id="app"><div class="loading">Lade Übungsblatt …</div></div>
+</main>
+
+<script>
+const params = new URLSearchParams(location.search);
+const exerciseId = params.get('id');
+
+let revealed = 0;
+let totalQ   = 0;
+
+function updateProgress() {
+  document.getElementById('progress-wrap').style.display = '';
+  const pct = totalQ ? Math.round(revealed / totalQ * 100) : 0;
+  document.getElementById('progress-fill').style.width = pct + '%';
+  document.getElementById('progress-count').textContent = `${revealed} / ${totalQ}`;
+}
+
+function buildAnswerBox(q) {
+  const box = document.createElement('div');
+  box.className = 'answer-box';
+
+  if (q.answer_text) {
+    box.appendChild(Object.assign(document.createElement('div'), { className:'answer-label', textContent:'Antwort' }));
+    box.appendChild(Object.assign(document.createElement('div'), { className:'answer-text', textContent: q.answer_text }));
+  }
+
+  if (q.answer_steps && q.answer_steps.length) {
+    const label = document.createElement('div');
+    label.className = 'answer-label';
+    label.textContent = 'Lösungsweg';
+    label.style.marginTop = '10px';
+    box.appendChild(label);
+    const ul = document.createElement('ul');
+    ul.className = 'steps-list';
+    q.answer_steps.forEach(s => {
+      const li = document.createElement('li');
+      li.textContent = s;
+      ul.appendChild(li);
+    });
+    box.appendChild(ul);
+  }
+
+  return box;
+}
+
+function renderExercise(ex) {
+  const subjectCls = ex.subject === 'Deutsch' ? 'deutsch' : ex.subject === 'HSU' ? 'hsu' : '';
+  const numCls = subjectCls || 'mathe';
+
+  // Header
+  document.title = `LernTreppe – ${ex.subject} Klasse ${ex.grade} · ${ex.id}`;
+  document.getElementById('ex-title').textContent = `${ex.subject} – Klasse ${ex.grade} · Übungsblatt ${ex.id}`;
+  document.getElementById('ex-topic').textContent = ex.topic || ex.title || '';
+  const meta = document.getElementById('ex-meta');
+  [
+    ex.publisher,
+    `${ex.questions.length} Aufgaben`,
+    `${ex.total_points} Punkte gesamt`,
+  ].filter(Boolean).forEach(t => {
+    const p = document.createElement('span');
+    p.className = 'meta-pill';
+    p.textContent = t;
+    meta.appendChild(p);
+  });
+
+  totalQ = ex.questions.length;
+  updateProgress();
+
+  const app = document.getElementById('app');
+  app.innerHTML = '';
+
+  ex.questions.forEach(q => {
+    const card = document.createElement('div');
+    card.className = 'q-card';
+
+    // Header row
+    const qh = document.createElement('div');
+    qh.className = 'q-header';
+
+    const num = document.createElement('div');
+    num.className = `q-number ${numCls}`;
+    num.textContent = q.question_number;
+    qh.appendChild(num);
+
+    const qMeta = document.createElement('div');
+    qMeta.className = 'q-meta';
+    if (q.question_type) {
+      const qt = document.createElement('div');
+      qt.className = 'q-type';
+      qt.textContent = q.question_type;
+      qMeta.appendChild(qt);
+    }
+    const qt = document.createElement('div');
+    qt.className = 'q-text';
+    qt.textContent = q.question_text;
+    qMeta.appendChild(qt);
+    qh.appendChild(qMeta);
+
+    const pts = document.createElement('div');
+    pts.className = 'q-points';
+    pts.textContent = `${q.max_points} Pkt.`;
+    qh.appendChild(pts);
+
+    card.appendChild(qh);
+
+    // Image
+    if (q.has_image && q.image_path) {
+      const imgWrap = document.createElement('div');
+      imgWrap.className = 'q-image-wrap';
+      const img = document.createElement('img');
+      img.src = `data/img/${q.image_path}`;
+      img.alt = `Abbildung zu Aufgabe ${q.question_number}`;
+      imgWrap.appendChild(img);
+      card.appendChild(imgWrap);
+    }
+
+    // Knowledge pills
+    if (q.knowledge && q.knowledge.length) {
+      const krow = document.createElement('div');
+      krow.className = 'q-knowledge';
+      q.knowledge.forEach(kid => {
+        const pill = document.createElement('span');
+        pill.className = 'k-pill';
+        pill.textContent = kid;
+        krow.appendChild(pill);
+      });
+      card.appendChild(krow);
+    }
+
+    // Footer: answer toggle
+    const footer = document.createElement('div');
+    footer.className = 'q-footer';
+
+    const revealBtn = document.createElement('button');
+    revealBtn.className = 'reveal-btn';
+    revealBtn.innerHTML = '<span class="reveal-icon">👁</span> Antwort anzeigen';
+
+    const answerBox = buildAnswerBox(q);
+    let open = false;
+
+    revealBtn.addEventListener('click', () => {
+      open = !open;
+      if (open) {
+        answerBox.classList.add('visible');
+        revealBtn.innerHTML = '<span class="reveal-icon">🙈</span> Antwort verstecken';
+        revealed++;
+      } else {
+        answerBox.classList.remove('visible');
+        revealBtn.innerHTML = '<span class="reveal-icon">👁</span> Antwort anzeigen';
+        revealed--;
+      }
+      updateProgress();
+    });
+
+    // Store refs for bulk reveal/hide
+    card._revealBtn  = revealBtn;
+    card._answerBox  = answerBox;
+    card._open       = () => open;
+    card._setOpen    = (val) => { open = val; };
+
+    footer.appendChild(revealBtn);
+    footer.appendChild(answerBox);
+    card.appendChild(footer);
+
+    app.appendChild(card);
+  });
+
+  // Bulk controls
+  document.getElementById('btn-show-all').addEventListener('click', () => {
+    document.querySelectorAll('.q-card').forEach(c => {
+      if (!c._open()) {
+        c._answerBox.classList.add('visible');
+        c._revealBtn.innerHTML = '<span class="reveal-icon">🙈</span> Antwort verstecken';
+        c._setOpen(true);
+        revealed++;
+      }
+    });
+    updateProgress();
+  });
+  document.getElementById('btn-hide-all').addEventListener('click', () => {
+    document.querySelectorAll('.q-card').forEach(c => {
+      if (c._open()) {
+        c._answerBox.classList.remove('visible');
+        c._revealBtn.innerHTML = '<span class="reveal-icon">👁</span> Antwort anzeigen';
+        c._setOpen(false);
+        revealed--;
+      }
+    });
+    updateProgress();
+  });
+}
+
+async function init() {
+  if (!exerciseId) {
+    document.getElementById('app').innerHTML =
+      '<div class="error-box"><strong>Fehler:</strong> Kein Übungsblatt angegeben. Bitte über <a href="index.html">die Übersicht</a> aufrufen.</div>';
+    return;
+  }
+  try {
+    const res = await fetch('./data/db.json');
+    if (!res.ok) throw new Error(`data/db.json: HTTP ${res.status}`);
+    const db = await res.json();
+    const ex = (db.exercises || []).find(e => e.id === exerciseId);
+    if (!ex) throw new Error(`Übungsblatt „${exerciseId}" nicht gefunden.`);
+    renderExercise(ex);
+  } catch(err) {
+    document.getElementById('app').innerHTML =
+      `<div class="error-box"><strong>Fehler:</strong> ${err.message}</div>`;
+  }
+}
+
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,267 @@
+{
+  "exercises": [
+    {
+      "id": "0021",
+      "subject": "Mathe",
+      "grade": 4,
+      "title": "Lernzielkontrolle – Grundschule Klasse 4 Mathematik",
+      "topic": "Zahlenraum bis 10 000: schriftliche Addition, schriftliche Subtraktion, schriftliche Multiplikation, halbschriftliche Division, Sachaufgaben",
+      "publisher": "CATLUX",
+      "source_pdf": "0021.pdf",
+      "total_points": 41.0,
+      "questions": [
+        {
+          "id": 1,
+          "question_number": 1,
+          "question_type": "Vorgänger und Nachfolger",
+          "question_text": "Trage die Nachbarzahlen ein!\nVorgänger  [___]  3100  [___]  Nachfolger\nVorgänger  [___]  7779  [___]  Nachfolger\nVorgänger  [___]  4000  [___]  Nachfolger",
+          "answer_text": "3099 | 3100 | 3101\n7778 | 7779 | 7780\n3999 | 4000 | 4001",
+          "answer_steps": [],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.stellenwerte",
+            "mathe.klasse4.zahlen1000000.vorgaenger_nachfolger"
+          ]
+        },
+        {
+          "id": 2,
+          "question_number": 2,
+          "question_type": "Zahlenvergleich",
+          "question_text": "Setze ein: >, < oder =\n1305 ___ 1350\n4149 ___ 4419\n9998 ___ 9989\n2438 ___ 2438",
+          "answer_text": "< | < | > | =",
+          "answer_steps": [],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.vergleichen"
+          ]
+        },
+        {
+          "id": 3,
+          "question_number": 3,
+          "question_type": "Zahlenfolge",
+          "question_text": "Setze die Zahlenfolgen fort!\n3750  3810  3870  3930  ___  ___  ___\n8690  8660  8620  8570  ___  ___  ___",
+          "answer_text": "3990  4050  4110  (Differenz jeweils +60)\n8510  8440  8360  (Differenz wächst: −30, −40, −50, −60, −70, −80)",
+          "answer_steps": [
+            "Reihe 1: Differenz = +60 → 3930+60=3990, 3990+60=4050, 4050+60=4110",
+            "Reihe 2: Differenzen nehmen um 10 zu: −30,−40,−50,−60,−70,−80 → 8570−60=8510, 8510−70=8440, 8440−80=8360"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.zahlenfolgen"
+          ]
+        },
+        {
+          "id": 4,
+          "question_number": 4,
+          "question_type": "Schriftliche Addition und Subtraktion",
+          "question_text": "Rechne schriftlich!\n  2498 + 3098 =\n  4065 + 5783 =\n  8764 − 5578 =\n  6908 − 5086 =",
+          "answer_text": "5596 | 9848 | 3186 | 1822",
+          "answer_steps": [
+            "2498 + 3098 = 5596",
+            "4065 + 5783 = 9848",
+            "8764 − 5578 = 3186",
+            "6908 − 5086 = 1822"
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.addition",
+            "mathe.klasse4.schriftlich.subtraktion"
+          ]
+        },
+        {
+          "id": 5,
+          "question_number": 5,
+          "question_type": "Sachaufgabe (Subtraktion)",
+          "question_text": "Familie Schmidt fährt mit ihrem neuen Auto in den Urlaub. Vor der Abfahrt zeigt der Tachometerstand 4769 km. Als sie wieder zu Hause sind, zeigt der Tachometerstand 6045 km.\nWie viel Kilometer ist Familie Schmidt gefahren?",
+          "answer_text": "Sie sind 1276 km gefahren.",
+          "answer_steps": [
+            "Rechnung: 6045 km − 4769 km = 1276 km",
+            "Antwort: Sie sind 1276 km gefahren."
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.subtraktion"
+          ]
+        },
+        {
+          "id": 6,
+          "question_number": 6,
+          "question_type": "Halbschriftliche Division",
+          "question_text": "Rechne halbschriftlich.\n246 : 3 =\n765 : 8 =",
+          "answer_text": "246 : 3 = 82 | 765 : 8 = 95 R 5",
+          "answer_steps": [
+            "246 : 3: 210:3=70, 36:3=12 → 70+12=82",
+            "765 : 8: 720:8=90, 45:8=5 R5 → 95 R5"
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division_halbschriftlich"
+          ]
+        },
+        {
+          "id": 7,
+          "question_number": 7,
+          "question_type": "Schriftliche Multiplikation",
+          "question_text": "Multipliziere schriftlich. Vergiss den Überschlag nicht!\n467 · 5  Ü: ___\n273 · 22  Ü: ___",
+          "answer_text": "467 · 5 = 2335 (Ü: 500·5=2500) | 273 · 22 = 6006 (Ü: 300·20=6000)",
+          "answer_steps": [
+            "467 · 5: Überschlag 500·5=2500 → Ergebnis 2335",
+            "273 · 22: 273·2=546, 273·20=5460 → 546+5460=6006; Überschlag 300·20=6000"
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 8,
+          "question_number": 8,
+          "question_type": "Umkehraufgabe",
+          "question_text": "Ich teile meine Zahl durch 12 und zähle dann 48 hinzu. Das Ergebnis lautet 670.\nWie heißt meine Zahl?",
+          "answer_text": "Die Zahl heißt 7464.",
+          "answer_steps": [
+            "670 − 48 = 622",
+            "622 · 12 = 7464",
+            "Antwort: Die Zahl heißt 7464."
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.umkehraufgaben",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 9,
+          "question_number": 9,
+          "question_type": "Umkehraufgabe",
+          "question_text": "Wenn ich von meiner Zahl 378 abziehe und das Ergebnis durch 9 teile, erhalte ich 8.\nWie heißt die Zahl?",
+          "answer_text": "Die Zahl heißt 450.",
+          "answer_steps": [
+            "8 · 9 = 72",
+            "378 + 72 = 450",
+            "Antwort: Die Zahl heißt 450."
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.umkehraufgaben",
+            "mathe.klasse4.schriftlich.division_halbschriftlich"
+          ]
+        },
+        {
+          "id": 10,
+          "question_number": 10,
+          "question_type": "Sachaufgabe (Multiplikation)",
+          "question_text": "Eine Geschirrspülmaschine der Marke „SuperX“ verbraucht bei einem Spülgang 23 Liter Wasser.\nWie viel Liter Wasser verbraucht ein Haushalt in einem Jahr, wenn die Maschine jeden Tag läuft?",
+          "answer_text": "Ein Haushalt verbraucht im Jahr 8395 Liter.",
+          "answer_steps": [
+            "365 Tage · 23 L = 8395 L",
+            "Antwort: Ein Haushalt verbraucht im Jahr 8395 Liter."
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 11,
+          "question_number": 11,
+          "question_type": "Multiplikation (Vielfaches)",
+          "question_text": "Berechne das Siebenfache von 345!",
+          "answer_text": "2415",
+          "answer_steps": [
+            "345 · 7 = 2415"
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 12,
+          "question_number": 12,
+          "question_type": "Zahlenstrahl",
+          "question_text": "Trage die fehlenden Zahlen ein und verbinde die Zahlen unten mit dem Zahlenstrahl!\n(Zahlenstrahl von 6600 bis 7200; gegeben: 6650, 7040, 7170)",
+          "answer_text": "Fehlende Zahlen: 6700, 6860, 7220",
+          "answer_steps": [
+            "Die leeren Kästchen oben am Zahlenstrahl zeigen: 6700, 6860, 7220",
+            "Unten vorgegeben: 6650 → Pfeil auf 6650; 7040 → Pfeil auf 7040; 7170 → Pfeil auf 7170"
+          ],
+          "max_points": 3.0,
+          "has_image": true,
+          "image_path": "0021_q12_zahlenstrahl.png",
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.zahlenstrahl"
+          ]
+        },
+        {
+          "id": 13,
+          "question_number": 13,
+          "question_type": "Zahlenrätsel",
+          "question_text": "Zahlenrätsel: Addiere zur größtmöglichen vierstelligen Zahl aus den Ziffern 4, 6, 5 und 2 die kleinstmögliche vierstellige Zahl aus den Ziffern 9, 2, 7 und 3. Wie heißt die Summe?",
+          "answer_text": "Die Zahl heißt 8921.",
+          "answer_steps": [
+            "Größte Zahl aus 4,6,5,2: 6542",
+            "Kleinste Zahl aus 9,2,7,3: 2379",
+            "6542 + 2379 = 8921"
+          ],
+          "max_points": 1.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
+            "mathe.klasse4.schriftlich.addition",
+            "mathe.klasse4.zahlen1000000.stellenwerte"
+          ]
+        },
+        {
+          "id": 14,
+          "question_number": 14,
+          "question_type": "Mehrstufige Sachaufgabe",
+          "question_text": "Familie Meier kauft Weihnachtsgeschenke für die ganze Familie! Der 18-jährige Sohn bekommt einen Fernseher für 859 €, die 16-jährige Schwester wünscht sich eine neue Stereoanlage für 974 €. Außerdem kaufen sie 6 neue Videokassetten zu je 6 €. Mutter braucht dringend einen Wäschetrockner, der 1720 € kostet. Sie können den Preis etwas herunterhandeln, weil ein kleiner Lackschaden daran ist und bezahlen deshalb 140 € weniger. Sie zahlen 1449 € an und möchten den Rest in 20 gleichen Raten abzahlen.\nWie viel beträgt eine Rate?",
+          "answer_text": "Eine Rate beträgt 100 €.",
+          "answer_steps": [
+            "Wäschetrockner nach Rabatt: 1720 − 140 = 1580 €",
+            "Gesamtbetrag: 859 + 974 + 6·6 + 1580 = 859 + 974 + 36 + 1580 = 3449 €",
+            "Restbetrag: 3449 − 1449 = 2000 €",
+            "Rate: 2000 ÷ 20 = 100 €",
+            "Antwort: Eine Rate beträgt 100 €."
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.addition",
+            "mathe.klasse4.schriftlich.division",
+            "mathe.klasse4.schriftlich.multiplikation",
+            "mathe.klasse4.schriftlich.subtraktion"
+          ]
+        }
+      ]
+    }
+  ]
+}
