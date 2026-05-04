@@ -347,15 +347,22 @@
             "name": "Zahlen bis 1 000 000",
             "children": [
               { "id": "mathe.klasse4.zahlen1000000.stellenwerte", "name": "Stellenwerte bis Millionen", "children": [] },
-              { "id": "mathe.klasse4.zahlen1000000.runden", "name": "Runden (Zehner, Hunderter, Tausender)", "children": [] }
+              { "id": "mathe.klasse4.zahlen1000000.runden", "name": "Runden (Zehner, Hunderter, Tausender)", "children": [] },
+              { "id": "mathe.klasse4.zahlen1000000.vorgaenger_nachfolger", "name": "Vorgänger und Nachfolger", "children": [] },
+              { "id": "mathe.klasse4.zahlen1000000.vergleichen", "name": "Zahlen vergleichen (>, <, =)", "children": [] },
+              { "id": "mathe.klasse4.zahlen1000000.zahlenfolgen", "name": "Zahlenfolgen und Muster fortsetzen", "children": [] },
+              { "id": "mathe.klasse4.zahlen1000000.zahlenstrahl", "name": "Zahlenstrahl (Zahlen einordnen und ablesen)", "children": [] }
             ]
           },
           {
             "id": "mathe.klasse4.schriftlich",
             "name": "Schriftliche Rechenverfahren",
             "children": [
+              { "id": "mathe.klasse4.schriftlich.addition", "name": "Schriftliche Addition (Wiederholung und Erweiterung)", "children": [] },
+              { "id": "mathe.klasse4.schriftlich.subtraktion", "name": "Schriftliche Subtraktion (Wiederholung und Erweiterung)", "children": [] },
               { "id": "mathe.klasse4.schriftlich.multiplikation", "name": "Schriftliche Multiplikation (mehrstellig)", "children": [] },
-              { "id": "mathe.klasse4.schriftlich.division", "name": "Schriftliche Division", "children": [] }
+              { "id": "mathe.klasse4.schriftlich.division", "name": "Schriftliche Division", "children": [] },
+              { "id": "mathe.klasse4.schriftlich.division_halbschriftlich", "name": "Halbschriftliche Division (mit Rest)", "children": [] }
             ]
           },
           {
@@ -390,7 +397,9 @@
             "name": "Sachaufgaben und Problemlösen",
             "children": [
               { "id": "mathe.klasse4.sachaufgaben.mehrstufig", "name": "Mehrstufige Textaufgaben", "children": [] },
-              { "id": "mathe.klasse4.sachaufgaben.tabellen", "name": "Diagramme und Tabellen auswerten", "children": [] }
+              { "id": "mathe.klasse4.sachaufgaben.tabellen", "name": "Diagramme und Tabellen auswerten", "children": [] },
+              { "id": "mathe.klasse4.sachaufgaben.umkehraufgaben", "name": "Umkehraufgaben und Rückwärtsrechnen", "children": [] },
+              { "id": "mathe.klasse4.sachaufgaben.zahlenraetsel", "name": "Zahlenrätsel und kombinatorische Aufgaben", "children": [] }
             ]
           }
         ]
