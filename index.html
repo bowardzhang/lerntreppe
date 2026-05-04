@@ -1,106 +1,490 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LernTreppe | 题库知识点索引</title>
+    <title>LernTreppe – Wissensbaum</title>
     <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
       :root {
+        --bg: #f0f4f9;
+        --card: #ffffff;
+        --border: #dde3ed;
+        --text: #1e2533;
+        --muted: #6b7280;
+        --radius: 10px;
+
+        --deutsch: #2563eb;
+        --deutsch-light: #eff6ff;
+        --deutsch-border: #bfdbfe;
+
+        --mathe: #16a34a;
+        --mathe-light: #f0fdf4;
+        --mathe-border: #bbf7d0;
+
+        --hsu: #d97706;
+        --hsu-light: #fffbeb;
+        --hsu-border: #fde68a;
+
+        --id-color: #7c3aed;
         font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-        color-scheme: light;
       }
-      body { margin: 0; background: #f6f8fb; color: #1f2937; }
-      .wrap { max-width: 980px; margin: 0 auto; padding: 28px 16px 56px; }
-      .card { background: #fff; border-radius: 12px; padding: 18px; box-shadow: 0 8px 24px rgba(0,0,0,.08); }
-      .muted { color: #6b7280; }
-      .node-id { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: #4338ca; font-size: 12px; }
-      ul { list-style: none; padding-left: 14px; }
-      li { margin: 8px 0; }
-      .node { padding: 8px 10px; border-radius: 8px; background: #f8fafc; border: 1px solid #e5e7eb; }
-      .error { color: #b91c1c; }
+
+      body { background: var(--bg); color: var(--text); min-height: 100vh; }
+
+      /* ── Header ── */
+      header {
+        background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%);
+        color: #fff;
+        padding: 36px 24px 28px;
+        text-align: center;
+      }
+      header h1 { font-size: 2.2rem; font-weight: 800; letter-spacing: -0.5px; }
+      header p  { margin-top: 8px; font-size: 1rem; opacity: .85; }
+
+      /* ── Layout ── */
+      .container { max-width: 1060px; margin: 0 auto; padding: 32px 16px 64px; }
+
+      /* ── Stats bar ── */
+      .stats-bar {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin-bottom: 28px;
+      }
+      .stat-chip {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        padding: 6px 16px;
+        font-size: .85rem;
+        color: var(--muted);
+      }
+      .stat-chip strong { color: var(--text); }
+
+      /* ── Controls ── */
+      .controls {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-bottom: 24px;
+        align-items: center;
+      }
+      .controls input {
+        flex: 1 1 220px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 8px 14px;
+        font-size: .9rem;
+        outline: none;
+        background: var(--card);
+        color: var(--text);
+      }
+      .controls input:focus { border-color: var(--deutsch); box-shadow: 0 0 0 3px rgba(37,99,235,.15); }
+      .btn {
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 8px 16px;
+        font-size: .85rem;
+        cursor: pointer;
+        background: var(--card);
+        color: var(--text);
+        transition: background .15s, border-color .15s;
+        white-space: nowrap;
+      }
+      .btn:hover { background: var(--bg); border-color: #aab; }
+
+      /* ── Subject cards ── */
+      .subjects { display: grid; gap: 24px; }
+
+      .subject-card {
+        background: var(--card);
+        border-radius: 14px;
+        border: 1px solid var(--border);
+        box-shadow: 0 2px 12px rgba(0,0,0,.06);
+        overflow: hidden;
+      }
+
+      .subject-header {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        padding: 18px 22px;
+        cursor: pointer;
+        user-select: none;
+        border-bottom: 1px solid transparent;
+        transition: background .15s;
+      }
+      .subject-header:hover { background: #f8fafc; }
+
+      .subject-badge {
+        width: 42px; height: 42px;
+        border-radius: 10px;
+        display: flex; align-items: center; justify-content: center;
+        font-size: 1.3rem;
+        font-weight: 800;
+        flex-shrink: 0;
+      }
+      .subject-badge.deutsch { background: var(--deutsch-light); color: var(--deutsch); border: 1px solid var(--deutsch-border); }
+      .subject-badge.mathe   { background: var(--mathe-light);   color: var(--mathe);   border: 1px solid var(--mathe-border);   }
+      .subject-badge.hsu     { background: var(--hsu-light);     color: var(--hsu);     border: 1px solid var(--hsu-border);     }
+
+      .subject-info { flex: 1; }
+      .subject-info h2 { font-size: 1.15rem; font-weight: 700; }
+      .subject-info p  { font-size: .83rem; color: var(--muted); margin-top: 2px; }
+
+      .toggle-icon {
+        font-size: 1.1rem;
+        color: var(--muted);
+        transition: transform .25s;
+      }
+      .subject-card.open .toggle-icon { transform: rotate(90deg); }
+
+      .subject-body { padding: 0 22px 18px; display: none; }
+      .subject-card.open .subject-body { display: block; }
+
+      /* ── Tree ── */
+      ul.tree { list-style: none; padding-left: 0; }
+      ul.tree ul { padding-left: 22px; border-left: 2px solid var(--border); margin-left: 10px; }
+
+      .node-row {
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+        padding: 5px 0;
+      }
+
+      .node-toggle {
+        width: 20px; height: 20px;
+        border-radius: 5px;
+        border: 1px solid var(--border);
+        background: var(--bg);
+        display: flex; align-items: center; justify-content: center;
+        cursor: pointer;
+        font-size: .75rem;
+        flex-shrink: 0;
+        margin-top: 2px;
+        transition: background .15s;
+      }
+      .node-toggle:hover { background: #e2e8f0; }
+      .node-toggle.leaf { visibility: hidden; }
+
+      .node-content { flex: 1; min-width: 0; }
+      .node-name {
+        font-size: .92rem;
+        font-weight: 500;
+        cursor: default;
+      }
+      .node-name.highlight { background: #fef08a; border-radius: 3px; padding: 0 2px; }
+      .node-id-badge {
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: .72rem;
+        color: var(--id-color);
+        background: #f5f3ff;
+        border: 1px solid #ede9fe;
+        border-radius: 4px;
+        padding: 1px 6px;
+        display: inline-block;
+        margin-top: 1px;
+      }
+
+      .node-children { display: none; }
+      .node-children.open { display: block; }
+
+      /* ── Grade label ── */
+      .grade-label {
+        font-size: .78rem;
+        font-weight: 700;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+        padding: 2px 10px;
+        border-radius: 999px;
+        margin-bottom: 6px;
+        display: inline-block;
+        margin-top: 14px;
+      }
+      .deutsch .grade-label { background: var(--deutsch-light); color: var(--deutsch); border: 1px solid var(--deutsch-border); }
+      .mathe   .grade-label { background: var(--mathe-light);   color: var(--mathe);   border: 1px solid var(--mathe-border);   }
+      .hsu     .grade-label { background: var(--hsu-light);     color: var(--hsu);     border: 1px solid var(--hsu-border);     }
+
+      /* ── Error ── */
+      .error-box { color: #b91c1c; background: #fef2f2; border: 1px solid #fecaca; border-radius: var(--radius); padding: 16px; }
+
+      /* ── Loading ── */
+      .loading { text-align: center; padding: 48px; color: var(--muted); font-size: .95rem; }
     </style>
   </head>
   <body>
-    <main class="wrap">
-      <h1>LernTreppe 题库知识点索引</h1>
-      <p class="muted">主页从 <code>knowledge-index.json</code> 读取并展示完整树结构（Deutsch / Mathe / HSU）。</p>
-      <section class="card">
-        <h2>知识点树</h2>
-        <p id="stats" class="muted">加载中...</p>
-        <div id="tree-root"></div>
-      </section>
+    <header>
+      <h1>LernTreppe</h1>
+      <p>Wissensbaum – Übersicht aller Lernbereiche für Klasse 1–4</p>
+    </header>
+
+    <main class="container">
+      <div id="stats-bar" class="stats-bar" aria-live="polite"></div>
+
+      <div class="controls">
+        <input type="search" id="search" placeholder="Wissensbereich suchen …" aria-label="Suche" />
+        <button class="btn" id="btn-expand-all">Alle aufklappen</button>
+        <button class="btn" id="btn-collapse-all">Alle zuklappen</button>
+      </div>
+
+      <div id="app"><div class="loading">Wissensdaten werden geladen …</div></div>
     </main>
 
     <script>
-      const treeRoot = document.getElementById('tree-root');
-      const stats = document.getElementById('stats');
+      /* ─── globals ─── */
+      const SUBJECT_META = {
+        Deutsch: { cls: 'deutsch', icon: 'D', emoji: '📖' },
+        Mathe:   { cls: 'mathe',   icon: 'M', emoji: '🔢' },
+        HSU:     { cls: 'hsu',     icon: 'H', emoji: '🌍' },
+      };
 
-      function countNodes(node) {
-        if (!node) return 0;
-        const children = Array.isArray(node.children) ? node.children : [];
-        return 1 + children.reduce((sum, child) => sum + countNodes(child), 0);
+      let treeData = null;
+      let searchTerm = '';
+
+      /* ─── count helpers ─── */
+      function countAll(node) {
+        const kids = node.children || [];
+        return 1 + kids.reduce((s, c) => s + countAll(c), 0);
       }
 
-      function renderNode(node) {
-        const li = document.createElement('li');
-        const box = document.createElement('div');
-        box.className = 'node';
+      function countLeaves(node) {
+        const kids = node.children || [];
+        if (kids.length === 0) return 1;
+        return kids.reduce((s, c) => s + countLeaves(c), 0);
+      }
 
-        const title = document.createElement('div');
-        title.textContent = node.name || '(未命名节点)';
+      /* ─── DOM helpers ─── */
+      function el(tag, cls, text) {
+        const e = document.createElement(tag);
+        if (cls) e.className = cls;
+        if (text !== undefined) e.textContent = text;
+        return e;
+      }
 
-        const id = document.createElement('div');
-        id.className = 'node-id';
-        id.textContent = node.id || 'missing-id';
+      /* ─── highlight search match ─── */
+      function highlighted(text, term) {
+        if (!term) return document.createTextNode(text);
+        const idx = text.toLowerCase().indexOf(term.toLowerCase());
+        if (idx === -1) return document.createTextNode(text);
+        const span = document.createDocumentFragment();
+        span.appendChild(document.createTextNode(text.slice(0, idx)));
+        const mark = el('mark', 'highlight', text.slice(idx, idx + term.length));
+        span.appendChild(mark);
+        span.appendChild(document.createTextNode(text.slice(idx + term.length)));
+        return span;
+      }
 
-        box.appendChild(title);
-        box.appendChild(id);
+      /* ─── node matches search ─── */
+      function nodeMatches(node, term) {
+        if (!term) return true;
+        const t = term.toLowerCase();
+        return node.name.toLowerCase().includes(t) || node.id.toLowerCase().includes(t);
+      }
 
-        if (node.description) {
-          const desc = document.createElement('div');
-          desc.className = 'muted';
-          desc.textContent = node.description;
-          box.appendChild(desc);
-        }
+      function subtreeMatches(node, term) {
+        if (nodeMatches(node, term)) return true;
+        return (node.children || []).some(c => subtreeMatches(c, term));
+      }
 
-        li.appendChild(box);
+      /* ─── render a generic tree node ─── */
+      function renderNode(node, subjectCls, depth) {
+        const kids = (node.children || []).filter(c => subtreeMatches(c, searchTerm));
+        const hasKids = kids.length > 0;
+        const matches = nodeMatches(node, searchTerm);
 
-        if (Array.isArray(node.children) && node.children.length > 0) {
-          const ul = document.createElement('ul');
-          node.children.forEach(child => ul.appendChild(renderNode(child)));
-          li.appendChild(ul);
+        const li = el('li');
+        const row = el('div', 'node-row');
+
+        // toggle button
+        const toggle = el('button', 'node-toggle' + (hasKids ? '' : ' leaf'), hasKids ? '▶' : '');
+        toggle.setAttribute('aria-label', hasKids ? 'Aufklappen' : '');
+        row.appendChild(toggle);
+
+        // content
+        const content = el('div', 'node-content');
+        const nameSpan = el('span', 'node-name');
+        nameSpan.appendChild(highlighted(node.name, searchTerm));
+        content.appendChild(nameSpan);
+
+        const idBadge = el('div', 'node-id-badge', node.id);
+        content.appendChild(idBadge);
+        row.appendChild(content);
+        li.appendChild(row);
+
+        // children list
+        if (hasKids) {
+          const childUl = el('ul', 'tree');
+          kids.forEach(c => childUl.appendChild(renderNode(c, subjectCls, depth + 1)));
+
+          const childWrap = el('div', 'node-children' + (searchTerm ? ' open' : ''));
+          childWrap.appendChild(childUl);
+          li.appendChild(childWrap);
+
+          toggle.addEventListener('click', () => {
+            const open = childWrap.classList.toggle('open');
+            toggle.textContent = open ? '▼' : '▶';
+          });
+
+          // auto-open when searching
+          if (searchTerm) {
+            toggle.textContent = '▼';
+          }
         }
 
         return li;
       }
 
-      function renderTree(data) {
-        const order = ['Deutsch', 'Mathe', 'HSU'];
-        const ul = document.createElement('ul');
+      /* ─── render grade section ─── */
+      function renderGrade(gradeNode, subjectCls) {
+        const wrap = el('div');
 
-        let total = 0;
-        order.forEach((key) => {
-          const node = data[key];
-          if (node) {
-            total += countNodes(node);
-            ul.appendChild(renderNode(node));
-          }
-        });
+        const label = el('div', 'grade-label', gradeNode.name);
+        wrap.appendChild(label);
 
-        treeRoot.innerHTML = '';
-        treeRoot.appendChild(ul);
-        stats.textContent = `已加载 ${total} 个知识点节点。`;
+        const topics = (gradeNode.children || []).filter(c => subtreeMatches(c, searchTerm));
+        if (topics.length === 0) return wrap;
+
+        const ul = el('ul', 'tree');
+        topics.forEach(t => ul.appendChild(renderNode(t, subjectCls, 1)));
+        wrap.appendChild(ul);
+        return wrap;
       }
 
+      /* ─── render one subject card ─── */
+      function renderSubjectCard(key, node) {
+        const meta = SUBJECT_META[key] || { cls: 'deutsch', icon: key[0], emoji: '📚' };
+
+        const card = el('div', `subject-card ${meta.cls}`);
+        card.id = 'card-' + key;
+
+        // header (clickable)
+        const header = el('div', 'subject-header');
+        header.setAttribute('role', 'button');
+        header.setAttribute('aria-expanded', 'false');
+
+        const badge = el('div', `subject-badge ${meta.cls}`, meta.emoji);
+        header.appendChild(badge);
+
+        const info = el('div', 'subject-info');
+        const h2 = el('h2', '', node.name);
+        info.appendChild(h2);
+        if (node.description) info.appendChild(el('p', '', node.description));
+        header.appendChild(info);
+
+        const toggleIcon = el('span', 'toggle-icon', '▶');
+        header.appendChild(toggleIcon);
+        card.appendChild(header);
+
+        // body
+        const body = el('div', 'subject-body');
+
+        const grades = (node.children || []).filter(g => subtreeMatches(g, searchTerm));
+        grades.forEach(g => body.appendChild(renderGrade(g, meta.cls)));
+        card.appendChild(body);
+
+        // toggle logic
+        function openCard() {
+          card.classList.add('open');
+          header.setAttribute('aria-expanded', 'true');
+        }
+        function closeCard() {
+          card.classList.remove('open');
+          header.setAttribute('aria-expanded', 'false');
+        }
+
+        header.addEventListener('click', () => {
+          card.classList.contains('open') ? closeCard() : openCard();
+        });
+
+        if (searchTerm) openCard();
+
+        return card;
+      }
+
+      /* ─── render everything ─── */
+      function render() {
+        const app = document.getElementById('app');
+        app.innerHTML = '';
+
+        if (!treeData) return;
+
+        const subjects = el('div', 'subjects');
+        const order = ['Deutsch', 'Mathe', 'HSU'];
+        let totalNodes = 0, totalLeaves = 0;
+        const subjectCounts = [];
+
+        order.forEach(key => {
+          const node = treeData[key];
+          if (!node) return;
+          const card = renderSubjectCard(key, node);
+          subjects.appendChild(card);
+
+          const n = countAll(node);
+          const l = countLeaves(node);
+          totalNodes += n;
+          totalLeaves += l;
+          subjectCounts.push({ key, n, l });
+        });
+
+        app.appendChild(subjects);
+
+        // stats bar
+        const bar = document.getElementById('stats-bar');
+        bar.innerHTML = '';
+        const chips = [
+          `<strong>${totalNodes}</strong> Knoten gesamt`,
+          `<strong>${totalLeaves}</strong> Wissensbereich${totalLeaves !== 1 ? 'e' : ''}`,
+          ...subjectCounts.map(s => `<strong>${s.key}</strong>: ${s.l} Bereiche`),
+        ];
+        chips.forEach(c => {
+          const chip = el('div', 'stat-chip');
+          chip.innerHTML = c;
+          bar.appendChild(chip);
+        });
+      }
+
+      /* ─── expand / collapse all ─── */
+      document.getElementById('btn-expand-all').addEventListener('click', () => {
+        document.querySelectorAll('.subject-card').forEach(c => {
+          c.classList.add('open');
+          c.querySelector('.subject-header').setAttribute('aria-expanded', 'true');
+        });
+        document.querySelectorAll('.node-children').forEach(n => n.classList.add('open'));
+        document.querySelectorAll('.node-toggle:not(.leaf)').forEach(b => b.textContent = '▼');
+      });
+
+      document.getElementById('btn-collapse-all').addEventListener('click', () => {
+        document.querySelectorAll('.subject-card').forEach(c => {
+          c.classList.remove('open');
+          c.querySelector('.subject-header').setAttribute('aria-expanded', 'false');
+        });
+        document.querySelectorAll('.node-children').forEach(n => n.classList.remove('open'));
+        document.querySelectorAll('.node-toggle:not(.leaf)').forEach(b => b.textContent = '▶');
+      });
+
+      /* ─── search ─── */
+      let searchTimer;
+      document.getElementById('search').addEventListener('input', e => {
+        clearTimeout(searchTimer);
+        searchTimer = setTimeout(() => {
+          searchTerm = e.target.value.trim();
+          render();
+        }, 200);
+      });
+
+      /* ─── fetch & init ─── */
       async function init() {
         try {
-          const response = await fetch('./knowledge-index.json');
-          if (!response.ok) throw new Error(`HTTP ${response.status}`);
-          const data = await response.json();
-          renderTree(data);
+          const res = await fetch('./knowledge-index.json');
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          treeData = await res.json();
+          render();
         } catch (err) {
-          stats.textContent = '加载失败';
-          treeRoot.innerHTML = `<p class="error">无法读取 knowledge-index.json：${err.message}</p>`;
+          document.getElementById('app').innerHTML =
+            `<div class="error-box"><strong>Fehler:</strong> knowledge-index.json konnte nicht geladen werden – ${err.message}</div>`;
         }
       }
 

@@ -1,82 +1,594 @@
 {
   "Deutsch": {
-    "id": "subject.deutsch",
+    "id": "deutsch",
     "name": "Deutsch",
-    "description": "Deutsch für Grundschule Klasse 1-4 in Deutschland.",
+    "description": "Deutsch für die Grundschule, Klasse 1–4",
     "children": [
       {
-        "id": "subject.deutsch.klasse1",
+        "id": "deutsch.klasse1",
         "name": "Klasse 1",
-        "children": []
+        "children": [
+          {
+            "id": "deutsch.klasse1.buchstaben",
+            "name": "Buchstaben und Laute",
+            "children": [
+              { "id": "deutsch.klasse1.buchstaben.vokale", "name": "Vokale (a, e, i, o, u)", "children": [] },
+              { "id": "deutsch.klasse1.buchstaben.konsonanten", "name": "Konsonanten", "children": [] },
+              { "id": "deutsch.klasse1.buchstaben.umlaute", "name": "Umlaute (ä, ö, ü)", "children": [] },
+              { "id": "deutsch.klasse1.buchstaben.alphabet", "name": "Das Alphabet", "children": [] }
+            ]
+          },
+          {
+            "id": "deutsch.klasse1.lesen",
+            "name": "Lesen",
+            "children": [
+              { "id": "deutsch.klasse1.lesen.silben", "name": "Silben lesen", "children": [] },
+              { "id": "deutsch.klasse1.lesen.woerter", "name": "Wörter lesen", "children": [] },
+              { "id": "deutsch.klasse1.lesen.saetze", "name": "Einfache Sätze lesen", "children": [] }
+            ]
+          },
+          {
+            "id": "deutsch.klasse1.schreiben",
+            "name": "Schreiben",
+            "children": [
+              { "id": "deutsch.klasse1.schreiben.druckschrift", "name": "Druckschrift", "children": [] },
+              { "id": "deutsch.klasse1.schreiben.abschreiben", "name": "Wörter und Sätze abschreiben", "children": [] }
+            ]
+          },
+          {
+            "id": "deutsch.klasse1.woerter",
+            "name": "Wörter und Bedeutung",
+            "children": [
+              { "id": "deutsch.klasse1.woerter.nomen", "name": "Nomen erkennen (mit Artikel)", "children": [] },
+              { "id": "deutsch.klasse1.woerter.wortfelder", "name": "Wortfelder (Schule, Familie, Tiere)", "children": [] }
+            ]
+          }
+        ]
       },
       {
-        "id": "subject.deutsch.klasse2",
+        "id": "deutsch.klasse2",
         "name": "Klasse 2",
-        "children": []
+        "children": [
+          {
+            "id": "deutsch.klasse2.rechtschreibung",
+            "name": "Rechtschreibung",
+            "children": [
+              { "id": "deutsch.klasse2.rechtschreibung.grossschreibung", "name": "Großschreibung von Nomen und Satzanfängen", "children": [] },
+              { "id": "deutsch.klasse2.rechtschreibung.doppelkonsonanten", "name": "Doppelkonsonanten (ll, mm, ss …)", "children": [] },
+              { "id": "deutsch.klasse2.rechtschreibung.ie", "name": "ie-Schreibung", "children": [] },
+              { "id": "deutsch.klasse2.rechtschreibung.silbentrennung", "name": "Silbentrennung", "children": [] }
+            ]
+          },
+          {
+            "id": "deutsch.klasse2.grammatik",
+            "name": "Grammatik",
+            "children": [
+              { "id": "deutsch.klasse2.grammatik.nomen", "name": "Nomen: Artikel und Plural", "children": [] },
+              { "id": "deutsch.klasse2.grammatik.verben", "name": "Verben: Grundform und konjugierte Form", "children": [] },
+              { "id": "deutsch.klasse2.grammatik.adjektive", "name": "Adjektive", "children": [] }
+            ]
+          },
+          {
+            "id": "deutsch.klasse2.saetze",
+            "name": "Sätze",
+            "children": [
+              { "id": "deutsch.klasse2.saetze.aussage", "name": "Aussagesatz", "children": [] },
+              { "id": "deutsch.klasse2.saetze.frage", "name": "Fragesatz", "children": [] },
+              { "id": "deutsch.klasse2.saetze.ausruf", "name": "Ausrufesatz", "children": [] },
+              { "id": "deutsch.klasse2.saetze.satzzeichen", "name": "Satzzeichen (Punkt, Fragezeichen, Ausrufezeichen)", "children": [] }
+            ]
+          },
+          {
+            "id": "deutsch.klasse2.texte",
+            "name": "Texte",
+            "children": [
+              { "id": "deutsch.klasse2.texte.leseverstehen", "name": "Leseverstehen", "children": [] },
+              { "id": "deutsch.klasse2.texte.schreiben", "name": "Einfache Texte schreiben", "children": [] }
+            ]
+          }
+        ]
       },
       {
-        "id": "subject.deutsch.klasse3",
+        "id": "deutsch.klasse3",
         "name": "Klasse 3",
-        "children": []
+        "children": [
+          {
+            "id": "deutsch.klasse3.rechtschreibung",
+            "name": "Rechtschreibung",
+            "children": [
+              { "id": "deutsch.klasse3.rechtschreibung.s_ss_sz", "name": "s / ss / ß", "children": [] },
+              { "id": "deutsch.klasse3.rechtschreibung.v_f", "name": "v und f", "children": [] },
+              { "id": "deutsch.klasse3.rechtschreibung.wortfamilien", "name": "Wortfamilien und Wortstamm", "children": [] },
+              { "id": "deutsch.klasse3.rechtschreibung.silbentrennung", "name": "Silbentrennung (Regeln)", "children": [] },
+              { "id": "deutsch.klasse3.rechtschreibung.komma", "name": "Komma bei Aufzählungen", "children": [] }
+            ]
+          },
+          {
+            "id": "deutsch.klasse3.grammatik",
+            "name": "Grammatik",
+            "children": [
+              { "id": "deutsch.klasse3.grammatik.wortarten", "name": "Wortarten im Überblick", "children": [] },
+              { "id": "deutsch.klasse3.grammatik.singular_plural", "name": "Singular und Plural", "children": [] },
+              { "id": "deutsch.klasse3.grammatik.zeitformen", "name": "Zeitformen: Präsens, Präteritum, Perfekt", "children": [] },
+              { "id": "deutsch.klasse3.grammatik.pronomen", "name": "Personalpronomen", "children": [] }
+            ]
+          },
+          {
+            "id": "deutsch.klasse3.texte",
+            "name": "Texte",
+            "children": [
+              { "id": "deutsch.klasse3.texte.nacherzaehlung", "name": "Nacherzählung", "children": [] },
+              { "id": "deutsch.klasse3.texte.beschreibung", "name": "Beschreibung (Tier, Person)", "children": [] },
+              { "id": "deutsch.klasse3.texte.leseverstehen", "name": "Leseverstehen (längere Texte)", "children": [] }
+            ]
+          }
+        ]
       },
       {
-        "id": "subject.deutsch.klasse4",
+        "id": "deutsch.klasse4",
         "name": "Klasse 4",
-        "children": []
+        "children": [
+          {
+            "id": "deutsch.klasse4.rechtschreibung",
+            "name": "Rechtschreibung",
+            "children": [
+              { "id": "deutsch.klasse4.rechtschreibung.gross_klein", "name": "Groß- und Kleinschreibung (erweitert)", "children": [] },
+              { "id": "deutsch.klasse4.rechtschreibung.zusammensetzungen", "name": "Zusammengesetzte Wörter", "children": [] },
+              { "id": "deutsch.klasse4.rechtschreibung.fremdwoerter", "name": "Häufige Fremdwörter", "children": [] }
+            ]
+          },
+          {
+            "id": "deutsch.klasse4.grammatik",
+            "name": "Grammatik",
+            "children": [
+              { "id": "deutsch.klasse4.grammatik.kasus", "name": "Kasus: Nominativ, Akkusativ, Dativ, Genitiv", "children": [] },
+              { "id": "deutsch.klasse4.grammatik.satzglieder", "name": "Satzglieder: Subjekt, Prädikat, Objekt, Adverbiale", "children": [] },
+              { "id": "deutsch.klasse4.grammatik.haupt_nebensatz", "name": "Haupt- und Nebensatz", "children": [] },
+              { "id": "deutsch.klasse4.grammatik.steigerung", "name": "Steigerung von Adjektiven", "children": [] }
+            ]
+          },
+          {
+            "id": "deutsch.klasse4.texte",
+            "name": "Texte schreiben",
+            "children": [
+              { "id": "deutsch.klasse4.texte.aufsatz", "name": "Aufsatz (Erlebnis, Geschichte)", "children": [] },
+              { "id": "deutsch.klasse4.texte.brief", "name": "Brief und E-Mail", "children": [] },
+              { "id": "deutsch.klasse4.texte.bericht", "name": "Bericht und Zusammenfassung", "children": [] },
+              { "id": "deutsch.klasse4.texte.leseverstehen", "name": "Leseverstehen (Sach- und Erzähltexte)", "children": [] }
+            ]
+          }
+        ]
       }
     ]
   },
   "Mathe": {
-    "id": "subject.mathe",
+    "id": "mathe",
     "name": "Mathe",
-    "description": "Mathematik für Grundschule Klasse 1-4 in Deutschland.",
+    "description": "Mathematik für die Grundschule, Klasse 1–4",
     "children": [
       {
-        "id": "subject.mathe.klasse1",
+        "id": "mathe.klasse1",
         "name": "Klasse 1",
-        "children": []
+        "children": [
+          {
+            "id": "mathe.klasse1.zahlen20",
+            "name": "Zahlen bis 20",
+            "children": [
+              { "id": "mathe.klasse1.zahlen20.erkennen", "name": "Zahlen erkennen und schreiben", "children": [] },
+              { "id": "mathe.klasse1.zahlen20.zahlzerlegung", "name": "Zahlzerlegung", "children": [] },
+              { "id": "mathe.klasse1.zahlen20.zahlenstrahl", "name": "Zahlenstrahl bis 20", "children": [] },
+              { "id": "mathe.klasse1.zahlen20.vergleichen", "name": "Zahlen vergleichen (>, <, =)", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse1.addition20",
+            "name": "Addition bis 20",
+            "children": [
+              { "id": "mathe.klasse1.addition20.grundaufgaben", "name": "Grundaufgaben (Plusaufgaben)", "children": [] },
+              { "id": "mathe.klasse1.addition20.tauschaufgaben", "name": "Tauschaufgaben", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse1.subtraktion20",
+            "name": "Subtraktion bis 20",
+            "children": [
+              { "id": "mathe.klasse1.subtraktion20.grundaufgaben", "name": "Grundaufgaben (Minusaufgaben)", "children": [] },
+              { "id": "mathe.klasse1.subtraktion20.umkehraufgaben", "name": "Umkehraufgaben", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse1.geometrie",
+            "name": "Geometrie",
+            "children": [
+              { "id": "mathe.klasse1.geometrie.formen", "name": "Grundformen: Kreis, Dreieck, Viereck", "children": [] },
+              { "id": "mathe.klasse1.geometrie.koerper", "name": "Körper: Würfel, Quader, Kugel, Zylinder", "children": [] },
+              { "id": "mathe.klasse1.geometrie.muster", "name": "Muster legen und fortsetzen", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse1.groessen",
+            "name": "Größen und Messen",
+            "children": [
+              { "id": "mathe.klasse1.groessen.laenge", "name": "Längen: cm und m", "children": [] },
+              { "id": "mathe.klasse1.groessen.uhr", "name": "Uhrzeit (volle und halbe Stunden)", "children": [] }
+            ]
+          }
+        ]
       },
       {
-        "id": "subject.mathe.klasse2",
+        "id": "mathe.klasse2",
         "name": "Klasse 2",
-        "children": []
+        "children": [
+          {
+            "id": "mathe.klasse2.zahlen100",
+            "name": "Zahlen bis 100",
+            "children": [
+              { "id": "mathe.klasse2.zahlen100.stellenwerte", "name": "Stellenwerte: Einer und Zehner", "children": [] },
+              { "id": "mathe.klasse2.zahlen100.zahlenstrahl", "name": "Zahlenstrahl bis 100", "children": [] },
+              { "id": "mathe.klasse2.zahlen100.runden", "name": "Runden auf Zehner", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse2.rechnen100",
+            "name": "Rechnen bis 100",
+            "children": [
+              { "id": "mathe.klasse2.rechnen100.addition", "name": "Addition bis 100", "children": [] },
+              { "id": "mathe.klasse2.rechnen100.subtraktion", "name": "Subtraktion bis 100", "children": [] },
+              { "id": "mathe.klasse2.rechnen100.kopfrechnen", "name": "Kopfrechnen (Verdoppeln, Halbieren)", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse2.einmaleins",
+            "name": "Einmaleins (1×1)",
+            "children": [
+              { "id": "mathe.klasse2.einmaleins.reihen", "name": "Malreihen 1–10", "children": [] },
+              { "id": "mathe.klasse2.einmaleins.umkehrung", "name": "Umkehraufgaben (Division)", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse2.geometrie",
+            "name": "Geometrie",
+            "children": [
+              { "id": "mathe.klasse2.geometrie.symmetrie", "name": "Symmetrie", "children": [] },
+              { "id": "mathe.klasse2.geometrie.umfang", "name": "Umfang von Figuren", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse2.groessen",
+            "name": "Größen",
+            "children": [
+              { "id": "mathe.klasse2.groessen.uhr", "name": "Uhrzeit (Viertelstunden)", "children": [] },
+              { "id": "mathe.klasse2.groessen.geld", "name": "Geld: Euro und Cent", "children": [] },
+              { "id": "mathe.klasse2.groessen.laenge", "name": "Längen: mm, cm, m, km", "children": [] },
+              { "id": "mathe.klasse2.groessen.gewicht", "name": "Gewicht: g und kg", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse2.sachaufgaben",
+            "name": "Sachaufgaben",
+            "children": [
+              { "id": "mathe.klasse2.sachaufgaben.lesen", "name": "Textaufgaben lesen und lösen", "children": [] }
+            ]
+          }
+        ]
       },
       {
-        "id": "subject.mathe.klasse3",
+        "id": "mathe.klasse3",
         "name": "Klasse 3",
-        "children": []
+        "children": [
+          {
+            "id": "mathe.klasse3.zahlen1000",
+            "name": "Zahlen bis 1 000",
+            "children": [
+              { "id": "mathe.klasse3.zahlen1000.stellenwerte", "name": "Stellenwerte: Einer, Zehner, Hunderter", "children": [] },
+              { "id": "mathe.klasse3.zahlen1000.runden", "name": "Runden auf Zehner und Hunderter", "children": [] },
+              { "id": "mathe.klasse3.zahlen1000.zahlenstrahl", "name": "Zahlenstrahl bis 1 000", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse3.schriftlich",
+            "name": "Schriftliche Rechenverfahren",
+            "children": [
+              { "id": "mathe.klasse3.schriftlich.addition", "name": "Schriftliche Addition", "children": [] },
+              { "id": "mathe.klasse3.schriftlich.subtraktion", "name": "Schriftliche Subtraktion", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse3.multiplikation",
+            "name": "Multiplikation",
+            "children": [
+              { "id": "mathe.klasse3.multiplikation.einmaleins", "name": "Einmaleins (Wiederholung und Festigung)", "children": [] },
+              { "id": "mathe.klasse3.multiplikation.schriftlich", "name": "Schriftliche Multiplikation (einstelliger Multiplikator)", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse3.division",
+            "name": "Division",
+            "children": [
+              { "id": "mathe.klasse3.division.grundlagen", "name": "Division als Umkehrung der Multiplikation", "children": [] },
+              { "id": "mathe.klasse3.division.rest", "name": "Division mit Rest", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse3.brueche",
+            "name": "Brüche (Einführung)",
+            "children": [
+              { "id": "mathe.klasse3.brueche.haelfte", "name": "Hälfte, Viertel, Drittel", "children": [] },
+              { "id": "mathe.klasse3.brueche.darstellen", "name": "Brüche darstellen und lesen", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse3.geometrie",
+            "name": "Geometrie",
+            "children": [
+              { "id": "mathe.klasse3.geometrie.umfang", "name": "Umfang von Rechteck und Quadrat", "children": [] },
+              { "id": "mathe.klasse3.geometrie.flaeche", "name": "Flächeninhalt (Zählen und Berechnen)", "children": [] },
+              { "id": "mathe.klasse3.geometrie.winkel", "name": "Winkel: rechter Winkel, spitz, stumpf", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse3.groessen",
+            "name": "Größen",
+            "children": [
+              { "id": "mathe.klasse3.groessen.laenge", "name": "Längen: mm, cm, m, km", "children": [] },
+              { "id": "mathe.klasse3.groessen.gewicht", "name": "Gewicht: g, kg, t", "children": [] },
+              { "id": "mathe.klasse3.groessen.volumen", "name": "Flüssigkeiten: ml und l", "children": [] },
+              { "id": "mathe.klasse3.groessen.zeit", "name": "Zeit: Sekunde, Minute, Stunde, Tag, Woche, Monat, Jahr", "children": [] }
+            ]
+          }
+        ]
       },
       {
-        "id": "subject.mathe.klasse4",
+        "id": "mathe.klasse4",
         "name": "Klasse 4",
-        "children": []
+        "children": [
+          {
+            "id": "mathe.klasse4.zahlen1000000",
+            "name": "Zahlen bis 1 000 000",
+            "children": [
+              { "id": "mathe.klasse4.zahlen1000000.stellenwerte", "name": "Stellenwerte bis Millionen", "children": [] },
+              { "id": "mathe.klasse4.zahlen1000000.runden", "name": "Runden (Zehner, Hunderter, Tausender)", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse4.schriftlich",
+            "name": "Schriftliche Rechenverfahren",
+            "children": [
+              { "id": "mathe.klasse4.schriftlich.multiplikation", "name": "Schriftliche Multiplikation (mehrstellig)", "children": [] },
+              { "id": "mathe.klasse4.schriftlich.division", "name": "Schriftliche Division", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse4.brueche",
+            "name": "Brüche",
+            "children": [
+              { "id": "mathe.klasse4.brueche.vergleichen", "name": "Brüche vergleichen und ordnen", "children": [] },
+              { "id": "mathe.klasse4.brueche.addieren", "name": "Brüche addieren und subtrahieren (gleicher Nenner)", "children": [] },
+              { "id": "mathe.klasse4.brueche.gemischt", "name": "Gemischte Zahlen", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse4.dezimalzahlen",
+            "name": "Dezimalzahlen",
+            "children": [
+              { "id": "mathe.klasse4.dezimalzahlen.grundlagen", "name": "Dezimalzahlen lesen und schreiben", "children": [] },
+              { "id": "mathe.klasse4.dezimalzahlen.rechnen", "name": "Rechnen mit Dezimalzahlen", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse4.geometrie",
+            "name": "Geometrie",
+            "children": [
+              { "id": "mathe.klasse4.geometrie.dreiecke", "name": "Dreiecke (Arten und Eigenschaften)", "children": [] },
+              { "id": "mathe.klasse4.geometrie.vierecke", "name": "Vierecke (Quadrat, Rechteck, Parallelogramm, Trapez)", "children": [] },
+              { "id": "mathe.klasse4.geometrie.flaeche", "name": "Flächeninhalt berechnen", "children": [] },
+              { "id": "mathe.klasse4.geometrie.koerper", "name": "Körper: Würfel und Quader (Volumen und Oberfläche)", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse4.sachaufgaben",
+            "name": "Sachaufgaben und Problemlösen",
+            "children": [
+              { "id": "mathe.klasse4.sachaufgaben.mehrstufig", "name": "Mehrstufige Textaufgaben", "children": [] },
+              { "id": "mathe.klasse4.sachaufgaben.tabellen", "name": "Diagramme und Tabellen auswerten", "children": [] }
+            ]
+          }
+        ]
       }
     ]
   },
   "HSU": {
-    "id": "subject.hsu",
+    "id": "hsu",
     "name": "HSU",
-    "description": "Heimat- und Sachunterricht für Grundschule Klasse 1-4 in Deutschland.",
+    "description": "Heimat- und Sachunterricht für die Grundschule, Klasse 1–4",
     "children": [
       {
-        "id": "subject.hsu.klasse1",
+        "id": "hsu.klasse1",
         "name": "Klasse 1",
-        "children": []
+        "children": [
+          {
+            "id": "hsu.klasse1.schule",
+            "name": "Schule und Schulweg",
+            "children": [
+              { "id": "hsu.klasse1.schule.schulgemeinschaft", "name": "Schulgemeinschaft und Regeln", "children": [] },
+              { "id": "hsu.klasse1.schule.schulweg", "name": "Sicherer Schulweg", "children": [] },
+              { "id": "hsu.klasse1.schule.verkehr", "name": "Verkehrssicherheit (Ampel, Zebrastreifen)", "children": [] }
+            ]
+          },
+          {
+            "id": "hsu.klasse1.familie",
+            "name": "Familie und Freunde",
+            "children": [
+              { "id": "hsu.klasse1.familie.struktur", "name": "Familienstrukturen", "children": [] },
+              { "id": "hsu.klasse1.familie.freundschaft", "name": "Freundschaft und Zusammenleben", "children": [] }
+            ]
+          },
+          {
+            "id": "hsu.klasse1.tiere",
+            "name": "Tiere",
+            "children": [
+              { "id": "hsu.klasse1.tiere.haustiere", "name": "Haustiere (Katze, Hund, Hamster …)", "children": [] },
+              { "id": "hsu.klasse1.tiere.wildtiere", "name": "Wildtiere in der Umgebung", "children": [] }
+            ]
+          },
+          {
+            "id": "hsu.klasse1.jahreszeiten",
+            "name": "Jahreszeiten und Wetter",
+            "children": [
+              { "id": "hsu.klasse1.jahreszeiten.frühling", "name": "Frühling", "children": [] },
+              { "id": "hsu.klasse1.jahreszeiten.sommer", "name": "Sommer", "children": [] },
+              { "id": "hsu.klasse1.jahreszeiten.herbst", "name": "Herbst", "children": [] },
+              { "id": "hsu.klasse1.jahreszeiten.winter", "name": "Winter", "children": [] },
+              { "id": "hsu.klasse1.jahreszeiten.wetter", "name": "Wetterphänomene beobachten", "children": [] }
+            ]
+          },
+          {
+            "id": "hsu.klasse1.koerper",
+            "name": "Mein Körper",
+            "children": [
+              { "id": "hsu.klasse1.koerper.teile", "name": "Körperteile benennen", "children": [] },
+              { "id": "hsu.klasse1.koerper.sinne", "name": "Die fünf Sinne", "children": [] }
+            ]
+          }
+        ]
       },
       {
-        "id": "subject.hsu.klasse2",
+        "id": "hsu.klasse2",
         "name": "Klasse 2",
-        "children": []
+        "children": [
+          {
+            "id": "hsu.klasse2.tiere_pflanzen",
+            "name": "Tiere und Pflanzen",
+            "children": [
+              { "id": "hsu.klasse2.tiere_pflanzen.jahresverlauf", "name": "Tiere im Jahresverlauf (Zugvögel, Winterschlaf)", "children": [] },
+              { "id": "hsu.klasse2.tiere_pflanzen.pflanzen", "name": "Pflanzen und ihr Wachstum", "children": [] },
+              { "id": "hsu.klasse2.tiere_pflanzen.tierhaltung", "name": "Tierhaltung und Tierpflege", "children": [] }
+            ]
+          },
+          {
+            "id": "hsu.klasse2.gesundheit",
+            "name": "Gesundheit",
+            "children": [
+              { "id": "hsu.klasse2.gesundheit.ernaehrung", "name": "Gesunde Ernährung", "children": [] },
+              { "id": "hsu.klasse2.gesundheit.koerperpflege", "name": "Körperpflege und Hygiene", "children": [] },
+              { "id": "hsu.klasse2.gesundheit.zahnarzt", "name": "Zahngesundheit", "children": [] }
+            ]
+          },
+          {
+            "id": "hsu.klasse2.berufe",
+            "name": "Berufe",
+            "children": [
+              { "id": "hsu.klasse2.berufe.ueberblick", "name": "Berufsbilder kennenlernen", "children": [] },
+              { "id": "hsu.klasse2.berufe.frueher_heute", "name": "Arbeit früher und heute", "children": [] }
+            ]
+          },
+          {
+            "id": "hsu.klasse2.verkehr",
+            "name": "Verkehr und Mobilität",
+            "children": [
+              { "id": "hsu.klasse2.verkehr.verkehrsmittel", "name": "Verkehrsmittel (zu Land, Wasser, Luft)", "children": [] },
+              { "id": "hsu.klasse2.verkehr.regeln", "name": "Verkehrsregeln für Fußgänger und Radfahrer", "children": [] }
+            ]
+          }
+        ]
       },
       {
-        "id": "subject.hsu.klasse3",
+        "id": "hsu.klasse3",
         "name": "Klasse 3",
-        "children": []
+        "children": [
+          {
+            "id": "hsu.klasse3.gemeinde",
+            "name": "Unsere Gemeinde",
+            "children": [
+              { "id": "hsu.klasse3.gemeinde.ortskunde", "name": "Ortskunde und öffentliche Einrichtungen", "children": [] },
+              { "id": "hsu.klasse3.gemeinde.karten", "name": "Karten lesen und Orientierung", "children": [] },
+              { "id": "hsu.klasse3.gemeinde.himmelsrichtungen", "name": "Himmelsrichtungen", "children": [] }
+            ]
+          },
+          {
+            "id": "hsu.klasse3.wasser",
+            "name": "Wasser",
+            "children": [
+              { "id": "hsu.klasse3.wasser.kreislauf", "name": "Wasserkreislauf", "children": [] },
+              { "id": "hsu.klasse3.wasser.gewaesser", "name": "Gewässer (Fluss, See, Meer)", "children": [] },
+              { "id": "hsu.klasse3.wasser.lebensraum", "name": "Wasser als Lebensraum", "children": [] }
+            ]
+          },
+          {
+            "id": "hsu.klasse3.luft_wetter",
+            "name": "Luft und Wetter",
+            "children": [
+              { "id": "hsu.klasse3.luft_wetter.phaenomene", "name": "Wetterphänomene (Wind, Regen, Schnee)", "children": [] },
+              { "id": "hsu.klasse3.luft_wetter.klimazonen", "name": "Klimazonen der Erde", "children": [] }
+            ]
+          },
+          {
+            "id": "hsu.klasse3.elektrizitaet",
+            "name": "Elektrizität",
+            "children": [
+              { "id": "hsu.klasse3.elektrizitaet.stromkreis", "name": "Einfacher Stromkreis", "children": [] },
+              { "id": "hsu.klasse3.elektrizitaet.energie", "name": "Energiequellen (erneuerbar und fossil)", "children": [] },
+              { "id": "hsu.klasse3.elektrizitaet.sicherheit", "name": "Elektrische Sicherheit", "children": [] }
+            ]
+          },
+          {
+            "id": "hsu.klasse3.geschichte",
+            "name": "Geschichte: Früher und heute",
+            "children": [
+              { "id": "hsu.klasse3.geschichte.alltag", "name": "Alltagsleben früher und heute", "children": [] },
+              { "id": "hsu.klasse3.geschichte.gebaeude", "name": "Historische Gebäude und Orte", "children": [] }
+            ]
+          }
+        ]
       },
       {
-        "id": "subject.hsu.klasse4",
+        "id": "hsu.klasse4",
         "name": "Klasse 4",
-        "children": []
+        "children": [
+          {
+            "id": "hsu.klasse4.deutschland",
+            "name": "Deutschland",
+            "children": [
+              { "id": "hsu.klasse4.deutschland.bundeslaender", "name": "Bundesländer und ihre Hauptstädte", "children": [] },
+              { "id": "hsu.klasse4.deutschland.geografie", "name": "Geografie (Gebirge, Flüsse, Meere)", "children": [] },
+              { "id": "hsu.klasse4.deutschland.politik", "name": "Demokratie und politische Grundbegriffe", "children": [] }
+            ]
+          },
+          {
+            "id": "hsu.klasse4.europa",
+            "name": "Europa",
+            "children": [
+              { "id": "hsu.klasse4.europa.nachbarlaender", "name": "Nachbarländer Deutschlands", "children": [] },
+              { "id": "hsu.klasse4.europa.eu", "name": "Europäische Union (Grundlagen)", "children": [] }
+            ]
+          },
+          {
+            "id": "hsu.klasse4.umwelt",
+            "name": "Umwelt und Ökologie",
+            "children": [
+              { "id": "hsu.klasse4.umwelt.oekosysteme", "name": "Ökosysteme (Wald, Wiese, Teich)", "children": [] },
+              { "id": "hsu.klasse4.umwelt.naturschutz", "name": "Naturschutz und Nachhaltigkeit", "children": [] },
+              { "id": "hsu.klasse4.umwelt.muell", "name": "Müll und Recycling", "children": [] }
+            ]
+          },
+          {
+            "id": "hsu.klasse4.medien",
+            "name": "Medien",
+            "children": [
+              { "id": "hsu.klasse4.medien.nutzung", "name": "Mediennutzung im Alltag", "children": [] },
+              { "id": "hsu.klasse4.medien.internet", "name": "Internet und Sicherheit im Netz", "children": [] }
+            ]
+          },
+          {
+            "id": "hsu.klasse4.naturwissenschaften",
+            "name": "Naturwissenschaften",
+            "children": [
+              { "id": "hsu.klasse4.naturwissenschaften.experimente", "name": "Einfache physikalische Experimente", "children": [] },
+              { "id": "hsu.klasse4.naturwissenschaften.materialien", "name": "Materialien und ihre Eigenschaften", "children": [] },
+              { "id": "hsu.klasse4.naturwissenschaften.licht", "name": "Licht und Schatten", "children": [] }
+            ]
+          }
+        ]
       }
     ]
   }
