@@ -1,0 +1,83 @@
+{
+  "Deutsch": {
+    "id": "subject.deutsch",
+    "name": "Deutsch",
+    "description": "Deutsch für Grundschule Klasse 1-4 in Deutschland.",
+    "children": [
+      {
+        "id": "subject.deutsch.klasse1",
+        "name": "Klasse 1",
+        "children": []
+      },
+      {
+        "id": "subject.deutsch.klasse2",
+        "name": "Klasse 2",
+        "children": []
+      },
+      {
+        "id": "subject.deutsch.klasse3",
+        "name": "Klasse 3",
+        "children": []
+      },
+      {
+        "id": "subject.deutsch.klasse4",
+        "name": "Klasse 4",
+        "children": []
+      }
+    ]
+  },
+  "Mathe": {
+    "id": "subject.mathe",
+    "name": "Mathe",
+    "description": "Mathematik für Grundschule Klasse 1-4 in Deutschland.",
+    "children": [
+      {
+        "id": "subject.mathe.klasse1",
+        "name": "Klasse 1",
+        "children": []
+      },
+      {
+        "id": "subject.mathe.klasse2",
+        "name": "Klasse 2",
+        "children": []
+      },
+      {
+        "id": "subject.mathe.klasse3",
+        "name": "Klasse 3",
+        "children": []
+      },
+      {
+        "id": "subject.mathe.klasse4",
+        "name": "Klasse 4",
+        "children": []
+      }
+    ]
+  },
+  "HSU": {
+    "id": "subject.hsu",
+    "name": "HSU",
+    "description": "Heimat- und Sachunterricht für Grundschule Klasse 1-4 in Deutschland.",
+    "children": [
+      {
+        "id": "subject.hsu.klasse1",
+        "name": "Klasse 1",
+        "children": []
+      },
+      {
+        "id": "subject.hsu.klasse2",
+        "name": "Klasse 2",
+        "children": []
+      },
+      {
+        "id": "subject.hsu.klasse3",
+        "name": "Klasse 3",
+        "children": []
+      },
+      {
+        "id": "subject.hsu.klasse4",
+        "name": "Klasse 4",
+        "children": []
+      }
+    ]
+  }
+}
