@@ -1,494 +1,395 @@
 <!doctype html>
 <html lang="de">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LernTreppe – Wissensbaum</title>
-    <style>
-      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-      :root {
-        --bg: #f0f4f9;
-        --card: #ffffff;
-        --border: #dde3ed;
-        --text: #1e2533;
-        --muted: #6b7280;
-        --radius: 10px;
-
-        --deutsch: #2563eb;
-        --deutsch-light: #eff6ff;
-        --deutsch-border: #bfdbfe;
-
-        --mathe: #16a34a;
-        --mathe-light: #f0fdf4;
-        --mathe-border: #bbf7d0;
-
-        --hsu: #d97706;
-        --hsu-light: #fffbeb;
-        --hsu-border: #fde68a;
-
-        --id-color: #7c3aed;
-        font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-      }
-
-      body { background: var(--bg); color: var(--text); min-height: 100vh; }
-
-      /* ── Header ── */
-      header {
-        background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%);
-        color: #fff;
-        padding: 36px 24px 28px;
-        text-align: center;
-      }
-      header h1 { font-size: 2.2rem; font-weight: 800; letter-spacing: -0.5px; }
-      header p  { margin-top: 8px; font-size: 1rem; opacity: .85; }
-
-      /* ── Layout ── */
-      .container { max-width: 1060px; margin: 0 auto; padding: 32px 16px 64px; }
-
-      /* ── Stats bar ── */
-      .stats-bar {
-        display: flex;
-        gap: 16px;
-        flex-wrap: wrap;
-        margin-bottom: 28px;
-      }
-      .stat-chip {
-        background: var(--card);
-        border: 1px solid var(--border);
-        border-radius: 999px;
-        padding: 6px 16px;
-        font-size: .85rem;
-        color: var(--muted);
-      }
-      .stat-chip strong { color: var(--text); }
-
-      /* ── Controls ── */
-      .controls {
-        display: flex;
-        gap: 10px;
-        flex-wrap: wrap;
-        margin-bottom: 24px;
-        align-items: center;
-      }
-      .controls input {
-        flex: 1 1 220px;
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        padding: 8px 14px;
-        font-size: .9rem;
-        outline: none;
-        background: var(--card);
-        color: var(--text);
-      }
-      .controls input:focus { border-color: var(--deutsch); box-shadow: 0 0 0 3px rgba(37,99,235,.15); }
-      .btn {
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        padding: 8px 16px;
-        font-size: .85rem;
-        cursor: pointer;
-        background: var(--card);
-        color: var(--text);
-        transition: background .15s, border-color .15s;
-        white-space: nowrap;
-      }
-      .btn:hover { background: var(--bg); border-color: #aab; }
-
-      /* ── Subject cards ── */
-      .subjects { display: grid; gap: 24px; }
-
-      .subject-card {
-        background: var(--card);
-        border-radius: 14px;
-        border: 1px solid var(--border);
-        box-shadow: 0 2px 12px rgba(0,0,0,.06);
-        overflow: hidden;
-      }
-
-      .subject-header {
-        display: flex;
-        align-items: center;
-        gap: 14px;
-        padding: 18px 22px;
-        cursor: pointer;
-        user-select: none;
-        border-bottom: 1px solid transparent;
-        transition: background .15s;
-      }
-      .subject-header:hover { background: #f8fafc; }
-
-      .subject-badge {
-        width: 42px; height: 42px;
-        border-radius: 10px;
-        display: flex; align-items: center; justify-content: center;
-        font-size: 1.3rem;
-        font-weight: 800;
-        flex-shrink: 0;
-      }
-      .subject-badge.deutsch { background: var(--deutsch-light); color: var(--deutsch); border: 1px solid var(--deutsch-border); }
-      .subject-badge.mathe   { background: var(--mathe-light);   color: var(--mathe);   border: 1px solid var(--mathe-border);   }
-      .subject-badge.hsu     { background: var(--hsu-light);     color: var(--hsu);     border: 1px solid var(--hsu-border);     }
-
-      .subject-info { flex: 1; }
-      .subject-info h2 { font-size: 1.15rem; font-weight: 700; }
-      .subject-info p  { font-size: .83rem; color: var(--muted); margin-top: 2px; }
-
-      .toggle-icon {
-        font-size: 1.1rem;
-        color: var(--muted);
-        transition: transform .25s;
-      }
-      .subject-card.open .toggle-icon { transform: rotate(90deg); }
-
-      .subject-body { padding: 0 22px 18px; display: none; }
-      .subject-card.open .subject-body { display: block; }
-
-      /* ── Tree ── */
-      ul.tree { list-style: none; padding-left: 0; }
-      ul.tree ul { padding-left: 22px; border-left: 2px solid var(--border); margin-left: 10px; }
-
-      .node-row {
-        display: flex;
-        align-items: flex-start;
-        gap: 8px;
-        padding: 5px 0;
-      }
-
-      .node-toggle {
-        width: 20px; height: 20px;
-        border-radius: 5px;
-        border: 1px solid var(--border);
-        background: var(--bg);
-        display: flex; align-items: center; justify-content: center;
-        cursor: pointer;
-        font-size: .75rem;
-        flex-shrink: 0;
-        margin-top: 2px;
-        transition: background .15s;
-      }
-      .node-toggle:hover { background: #e2e8f0; }
-      .node-toggle.leaf { visibility: hidden; }
-
-      .node-content { flex: 1; min-width: 0; }
-      .node-name {
-        font-size: .92rem;
-        font-weight: 500;
-        cursor: default;
-      }
-      .node-name.highlight { background: #fef08a; border-radius: 3px; padding: 0 2px; }
-      .node-id-badge {
-        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-        font-size: .72rem;
-        color: var(--id-color);
-        background: #f5f3ff;
-        border: 1px solid #ede9fe;
-        border-radius: 4px;
-        padding: 1px 6px;
-        display: inline-block;
-        margin-top: 1px;
-      }
-
-      .node-children { display: none; }
-      .node-children.open { display: block; }
-
-      /* ── Grade label ── */
-      .grade-label {
-        font-size: .78rem;
-        font-weight: 700;
-        letter-spacing: .5px;
-        text-transform: uppercase;
-        padding: 2px 10px;
-        border-radius: 999px;
-        margin-bottom: 6px;
-        display: inline-block;
-        margin-top: 14px;
-      }
-      .deutsch .grade-label { background: var(--deutsch-light); color: var(--deutsch); border: 1px solid var(--deutsch-border); }
-      .mathe   .grade-label { background: var(--mathe-light);   color: var(--mathe);   border: 1px solid var(--mathe-border);   }
-      .hsu     .grade-label { background: var(--hsu-light);     color: var(--hsu);     border: 1px solid var(--hsu-border);     }
-
-      /* ── Error ── */
-      .error-box { color: #b91c1c; background: #fef2f2; border: 1px solid #fecaca; border-radius: var(--radius); padding: 16px; }
-
-      /* ── Loading ── */
-      .loading { text-align: center; padding: 48px; color: var(--muted); font-size: .95rem; }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>LernTreppe</h1>
-      <p>Wissensbaum – Übersicht aller Lernbereiche für Klasse 1–4</p>
-    </header>
-
-    <main class="container">
-      <div id="stats-bar" class="stats-bar" aria-live="polite"></div>
-
-      <div class="controls">
-        <input type="search" id="search" placeholder="Wissensbereich suchen …" aria-label="Suche" />
-        <button class="btn" id="btn-expand-all">Alle aufklappen</button>
-        <button class="btn" id="btn-collapse-all">Alle zuklappen</button>
-      </div>
-
-      <div id="app"><div class="loading">Wissensdaten werden geladen …</div></div>
-    </main>
-
-    <script>
-      /* ─── globals ─── */
-      const SUBJECT_META = {
-        Deutsch: { cls: 'deutsch', icon: 'D', emoji: '📖' },
-        Mathe:   { cls: 'mathe',   icon: 'M', emoji: '🔢' },
-        HSU:     { cls: 'hsu',     icon: 'H', emoji: '🌍' },
-      };
-
-      let treeData = null;
-      let searchTerm = '';
-
-      /* ─── count helpers ─── */
-      function countAll(node) {
-        const kids = node.children || [];
-        return 1 + kids.reduce((s, c) => s + countAll(c), 0);
-      }
-
-      function countLeaves(node) {
-        const kids = node.children || [];
-        if (kids.length === 0) return 1;
-        return kids.reduce((s, c) => s + countLeaves(c), 0);
-      }
-
-      /* ─── DOM helpers ─── */
-      function el(tag, cls, text) {
-        const e = document.createElement(tag);
-        if (cls) e.className = cls;
-        if (text !== undefined) e.textContent = text;
-        return e;
-      }
-
-      /* ─── highlight search match ─── */
-      function highlighted(text, term) {
-        if (!term) return document.createTextNode(text);
-        const idx = text.toLowerCase().indexOf(term.toLowerCase());
-        if (idx === -1) return document.createTextNode(text);
-        const span = document.createDocumentFragment();
-        span.appendChild(document.createTextNode(text.slice(0, idx)));
-        const mark = el('mark', 'highlight', text.slice(idx, idx + term.length));
-        span.appendChild(mark);
-        span.appendChild(document.createTextNode(text.slice(idx + term.length)));
-        return span;
-      }
-
-      /* ─── node matches search ─── */
-      function nodeMatches(node, term) {
-        if (!term) return true;
-        const t = term.toLowerCase();
-        return node.name.toLowerCase().includes(t) || node.id.toLowerCase().includes(t);
-      }
-
-      function subtreeMatches(node, term) {
-        if (nodeMatches(node, term)) return true;
-        return (node.children || []).some(c => subtreeMatches(c, term));
-      }
-
-      /* ─── render a generic tree node ─── */
-      function renderNode(node, subjectCls, depth) {
-        const kids = (node.children || []).filter(c => subtreeMatches(c, searchTerm));
-        const hasKids = kids.length > 0;
-        const matches = nodeMatches(node, searchTerm);
-
-        const li = el('li');
-        const row = el('div', 'node-row');
-
-        // toggle button
-        const toggle = el('button', 'node-toggle' + (hasKids ? '' : ' leaf'), hasKids ? '▶' : '');
-        toggle.setAttribute('aria-label', hasKids ? 'Aufklappen' : '');
-        row.appendChild(toggle);
-
-        // content
-        const content = el('div', 'node-content');
-        const nameSpan = el('span', 'node-name');
-        nameSpan.appendChild(highlighted(node.name, searchTerm));
-        content.appendChild(nameSpan);
-
-        const idBadge = el('div', 'node-id-badge', node.id);
-        content.appendChild(idBadge);
-        row.appendChild(content);
-        li.appendChild(row);
-
-        // children list
-        if (hasKids) {
-          const childUl = el('ul', 'tree');
-          kids.forEach(c => childUl.appendChild(renderNode(c, subjectCls, depth + 1)));
-
-          const childWrap = el('div', 'node-children' + (searchTerm ? ' open' : ''));
-          childWrap.appendChild(childUl);
-          li.appendChild(childWrap);
-
-          toggle.addEventListener('click', () => {
-            const open = childWrap.classList.toggle('open');
-            toggle.textContent = open ? '▼' : '▶';
-          });
-
-          // auto-open when searching
-          if (searchTerm) {
-            toggle.textContent = '▼';
-          }
-        }
-
-        return li;
-      }
-
-      /* ─── render grade section ─── */
-      function renderGrade(gradeNode, subjectCls) {
-        const wrap = el('div');
-
-        const label = el('div', 'grade-label', gradeNode.name);
-        wrap.appendChild(label);
-
-        const topics = (gradeNode.children || []).filter(c => subtreeMatches(c, searchTerm));
-        if (topics.length === 0) return wrap;
-
-        const ul = el('ul', 'tree');
-        topics.forEach(t => ul.appendChild(renderNode(t, subjectCls, 1)));
-        wrap.appendChild(ul);
-        return wrap;
-      }
-
-      /* ─── render one subject card ─── */
-      function renderSubjectCard(key, node) {
-        const meta = SUBJECT_META[key] || { cls: 'deutsch', icon: key[0], emoji: '📚' };
-
-        const card = el('div', `subject-card ${meta.cls}`);
-        card.id = 'card-' + key;
-
-        // header (clickable)
-        const header = el('div', 'subject-header');
-        header.setAttribute('role', 'button');
-        header.setAttribute('aria-expanded', 'false');
-
-        const badge = el('div', `subject-badge ${meta.cls}`, meta.emoji);
-        header.appendChild(badge);
-
-        const info = el('div', 'subject-info');
-        const h2 = el('h2', '', node.name);
-        info.appendChild(h2);
-        if (node.description) info.appendChild(el('p', '', node.description));
-        header.appendChild(info);
-
-        const toggleIcon = el('span', 'toggle-icon', '▶');
-        header.appendChild(toggleIcon);
-        card.appendChild(header);
-
-        // body
-        const body = el('div', 'subject-body');
-
-        const grades = (node.children || []).filter(g => subtreeMatches(g, searchTerm));
-        grades.forEach(g => body.appendChild(renderGrade(g, meta.cls)));
-        card.appendChild(body);
-
-        // toggle logic
-        function openCard() {
-          card.classList.add('open');
-          header.setAttribute('aria-expanded', 'true');
-        }
-        function closeCard() {
-          card.classList.remove('open');
-          header.setAttribute('aria-expanded', 'false');
-        }
-
-        header.addEventListener('click', () => {
-          card.classList.contains('open') ? closeCard() : openCard();
-        });
-
-        if (searchTerm) openCard();
-
-        return card;
-      }
-
-      /* ─── render everything ─── */
-      function render() {
-        const app = document.getElementById('app');
-        app.innerHTML = '';
-
-        if (!treeData) return;
-
-        const subjects = el('div', 'subjects');
-        const order = ['Deutsch', 'Mathe', 'HSU'];
-        let totalNodes = 0, totalLeaves = 0;
-        const subjectCounts = [];
-
-        order.forEach(key => {
-          const node = treeData[key];
-          if (!node) return;
-          const card = renderSubjectCard(key, node);
-          subjects.appendChild(card);
-
-          const n = countAll(node);
-          const l = countLeaves(node);
-          totalNodes += n;
-          totalLeaves += l;
-          subjectCounts.push({ key, n, l });
-        });
-
-        app.appendChild(subjects);
-
-        // stats bar
-        const bar = document.getElementById('stats-bar');
-        bar.innerHTML = '';
-        const chips = [
-          `<strong>${totalNodes}</strong> Knoten gesamt`,
-          `<strong>${totalLeaves}</strong> Wissensbereich${totalLeaves !== 1 ? 'e' : ''}`,
-          ...subjectCounts.map(s => `<strong>${s.key}</strong>: ${s.l} Bereiche`),
-        ];
-        chips.forEach(c => {
-          const chip = el('div', 'stat-chip');
-          chip.innerHTML = c;
-          bar.appendChild(chip);
-        });
-      }
-
-      /* ─── expand / collapse all ─── */
-      document.getElementById('btn-expand-all').addEventListener('click', () => {
-        document.querySelectorAll('.subject-card').forEach(c => {
-          c.classList.add('open');
-          c.querySelector('.subject-header').setAttribute('aria-expanded', 'true');
-        });
-        document.querySelectorAll('.node-children').forEach(n => n.classList.add('open'));
-        document.querySelectorAll('.node-toggle:not(.leaf)').forEach(b => b.textContent = '▼');
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>LernTreppe – Wissensbaum</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #f0f4f9; --card: #fff; --border: #dde3ed; --text: #1e2533; --muted: #6b7280;
+      --radius: 10px;
+      --deutsch: #2563eb; --deutsch-light: #eff6ff; --deutsch-border: #bfdbfe;
+      --mathe:   #16a34a; --mathe-light:   #f0fdf4; --mathe-border:   #bbf7d0;
+      --hsu:     #d97706; --hsu-light:     #fffbeb; --hsu-border:     #fde68a;
+      --id-color: #7c3aed;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    }
+    body { background: var(--bg); color: var(--text); min-height: 100vh; }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg,#1e3a5f 0%,#2563eb 100%);
+      color: #fff; padding: 36px 24px 28px; text-align: center;
+    }
+    header h1 { font-size: 2.2rem; font-weight: 800; letter-spacing: -.5px; }
+    header p  { margin-top: 8px; font-size: 1rem; opacity: .85; }
+
+    /* ── Layout ── */
+    .container { max-width: 1200px; margin: 0 auto; padding: 32px 16px 64px; }
+
+    /* ── Stats / controls ── */
+    .stats-bar { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 20px; }
+    .stat-chip {
+      background: var(--card); border: 1px solid var(--border); border-radius: 999px;
+      padding: 5px 14px; font-size: .83rem; color: var(--muted);
+    }
+    .stat-chip strong { color: var(--text); }
+    .controls { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 22px; align-items: center; }
+    .controls input {
+      flex: 1 1 220px; border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 8px 14px; font-size: .9rem; outline: none; background: var(--card); color: var(--text);
+    }
+    .controls input:focus { border-color: var(--deutsch); box-shadow: 0 0 0 3px rgba(37,99,235,.15); }
+    .btn {
+      border: 1px solid var(--border); border-radius: var(--radius); padding: 8px 14px;
+      font-size: .83rem; cursor: pointer; background: var(--card); color: var(--text);
+      white-space: nowrap; transition: background .15s;
+    }
+    .btn:hover { background: var(--bg); }
+
+    /* ── Subject cards ── */
+    .subjects { display: grid; gap: 22px; }
+    .subject-card {
+      background: var(--card); border-radius: 14px; border: 1px solid var(--border);
+      box-shadow: 0 2px 12px rgba(0,0,0,.06); overflow: hidden;
+    }
+    .subject-header {
+      display: flex; align-items: center; gap: 14px; padding: 18px 22px;
+      cursor: pointer; user-select: none; transition: background .15s;
+    }
+    .subject-header:hover { background: #f8fafc; }
+    .subject-badge {
+      width: 42px; height: 42px; border-radius: 10px; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.3rem; font-weight: 800;
+    }
+    .subject-badge.deutsch { background: var(--deutsch-light); color: var(--deutsch); border: 1px solid var(--deutsch-border); }
+    .subject-badge.mathe   { background: var(--mathe-light);   color: var(--mathe);   border: 1px solid var(--mathe-border);   }
+    .subject-badge.hsu     { background: var(--hsu-light);     color: var(--hsu);     border: 1px solid var(--hsu-border);     }
+    .subject-info { flex: 1; }
+    .subject-info h2 { font-size: 1.1rem; font-weight: 700; }
+    .subject-info p  { font-size: .82rem; color: var(--muted); margin-top: 2px; }
+    .toggle-icon { font-size: 1rem; color: var(--muted); transition: transform .25s; }
+    .subject-card.open .toggle-icon { transform: rotate(90deg); }
+    .subject-body { display: none; border-top: 1px solid var(--border); }
+    .subject-card.open .subject-body { display: block; }
+
+    /* ── Two-column body ── */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 0;
+      min-height: 200px;
+    }
+    .col-knowledge {
+      padding: 20px 22px;
+      border-right: 1px solid var(--border);
+      overflow-x: auto;
+    }
+    .col-exercises {
+      padding: 20px 18px;
+      background: #fafbfc;
+    }
+    .col-title {
+      font-size: .72rem; font-weight: 700; letter-spacing: .8px;
+      text-transform: uppercase; color: var(--muted); margin-bottom: 14px;
+    }
+
+    /* ── Knowledge tree ── */
+    .grade-label {
+      font-size: .75rem; font-weight: 700; letter-spacing: .5px; text-transform: uppercase;
+      padding: 2px 10px; border-radius: 999px; display: inline-block; margin: 14px 0 6px;
+    }
+    .deutsch .grade-label { background: var(--deutsch-light); color: var(--deutsch); border: 1px solid var(--deutsch-border); }
+    .mathe   .grade-label { background: var(--mathe-light);   color: var(--mathe);   border: 1px solid var(--mathe-border);   }
+    .hsu     .grade-label { background: var(--hsu-light);     color: var(--hsu);     border: 1px solid var(--hsu-border);     }
+    ul.tree { list-style: none; padding-left: 0; }
+    ul.tree ul { padding-left: 20px; border-left: 2px solid var(--border); margin-left: 8px; }
+    .node-row { display: flex; align-items: flex-start; gap: 7px; padding: 4px 0; }
+    .node-toggle {
+      width: 18px; height: 18px; border-radius: 4px; border: 1px solid var(--border);
+      background: var(--bg); display: flex; align-items: center; justify-content: center;
+      cursor: pointer; font-size: .68rem; flex-shrink: 0; margin-top: 2px; transition: background .15s;
+    }
+    .node-toggle:hover { background: #e2e8f0; }
+    .node-toggle.leaf { visibility: hidden; }
+    .node-content { flex: 1; min-width: 0; }
+    .node-name { font-size: .88rem; font-weight: 500; }
+    .node-name mark { background: #fef08a; border-radius: 3px; padding: 0 2px; }
+    .node-id-badge {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: .68rem; color: var(--id-color); background: #f5f3ff;
+      border: 1px solid #ede9fe; border-radius: 4px; padding: 1px 5px; display: inline-block; margin-top: 1px;
+    }
+    .node-children { display: none; }
+    .node-children.open { display: block; }
+
+    /* ── Exercise cards ── */
+    .exercise-empty { font-size: .85rem; color: var(--muted); font-style: italic; }
+    .ex-card {
+      display: block; text-decoration: none; color: inherit;
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 12px 14px; margin-bottom: 10px;
+      transition: border-color .15s, box-shadow .15s;
+    }
+    .ex-card:hover { border-color: #93c5fd; box-shadow: 0 2px 8px rgba(37,99,235,.12); }
+    .ex-card-id {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: .72rem; color: var(--id-color); margin-bottom: 4px;
+    }
+    .ex-card-title { font-size: .88rem; font-weight: 600; margin-bottom: 4px; }
+    .ex-card-topic { font-size: .78rem; color: var(--muted); margin-bottom: 8px; line-height: 1.4; }
+    .ex-card-meta { display: flex; gap: 8px; flex-wrap: wrap; }
+    .ex-pill {
+      font-size: .72rem; padding: 2px 8px; border-radius: 999px;
+      background: var(--bg); border: 1px solid var(--border); color: var(--muted);
+    }
+
+    /* ── Error ── */
+    .error-box {
+      color: #b91c1c; background: #fef2f2; border: 1px solid #fecaca;
+      border-radius: var(--radius); padding: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LernTreppe</h1>
+    <p>Wissensbaum und Übungsaufgaben für Klasse 1–4</p>
+  </header>
+
+  <main class="container">
+    <div id="stats-bar" class="stats-bar"></div>
+    <div class="controls">
+      <input type="search" id="search" placeholder="Wissensbereich suchen …" aria-label="Suche"/>
+      <button class="btn" id="btn-expand">Alle aufklappen</button>
+      <button class="btn" id="btn-collapse">Alle zuklappen</button>
+    </div>
+    <div id="app"></div>
+  </main>
+
+  <script>
+  const SUBJECT_META = {
+    Deutsch: { cls: 'deutsch', emoji: '📖' },
+    Mathe:   { cls: 'mathe',   emoji: '🔢' },
+    HSU:     { cls: 'hsu',     emoji: '🌍' },
+  };
+  const ORDER = ['Deutsch', 'Mathe', 'HSU'];
+
+  let treeData = null;
+  let dbData   = null;
+  let searchTerm = '';
+
+  /* ── utils ── */
+  function el(tag, cls, text) {
+    const e = document.createElement(tag);
+    if (cls)  e.className = cls;
+    if (text !== undefined) e.textContent = text;
+    return e;
+  }
+  function countAll(n)    { return 1 + (n.children||[]).reduce((s,c)=>s+countAll(c),0); }
+  function countLeaves(n) { return (n.children||[]).length ? (n.children||[]).reduce((s,c)=>s+countLeaves(c),0) : 1; }
+  function nodeMatches(n, t) {
+    return !t || n.name.toLowerCase().includes(t) || n.id.toLowerCase().includes(t);
+  }
+  function subtreeMatches(n, t) {
+    return nodeMatches(n,t) || (n.children||[]).some(c=>subtreeMatches(c,t));
+  }
+
+  /* ── highlight ── */
+  function highlighted(text, term) {
+    if (!term) return document.createTextNode(text);
+    const idx = text.toLowerCase().indexOf(term);
+    if (idx === -1) return document.createTextNode(text);
+    const frag = document.createDocumentFragment();
+    frag.appendChild(document.createTextNode(text.slice(0, idx)));
+    const mark = document.createElement('mark');
+    mark.textContent = text.slice(idx, idx + term.length);
+    frag.appendChild(mark);
+    frag.appendChild(document.createTextNode(text.slice(idx + term.length)));
+    return frag;
+  }
+
+  /* ── render tree node ── */
+  function renderNode(node) {
+    const kids = (node.children||[]).filter(c=>subtreeMatches(c,searchTerm));
+    const hasKids = kids.length > 0;
+    const li = el('li');
+    const row = el('div','node-row');
+    const toggle = el('button','node-toggle'+(hasKids?'':' leaf'), hasKids?'▶':'');
+    row.appendChild(toggle);
+    const content = el('div','node-content');
+    const nameSpan = el('span','node-name');
+    nameSpan.appendChild(highlighted(node.name, searchTerm));
+    content.appendChild(nameSpan);
+    content.appendChild(el('div','node-id-badge', node.id));
+    row.appendChild(content);
+    li.appendChild(row);
+    if (hasKids) {
+      const childUl = el('ul','tree');
+      kids.forEach(c=>childUl.appendChild(renderNode(c)));
+      const wrap = el('div','node-children'+(searchTerm?' open':''));
+      wrap.appendChild(childUl);
+      li.appendChild(wrap);
+      toggle.addEventListener('click',()=>{
+        const open = wrap.classList.toggle('open');
+        toggle.textContent = open ? '▼' : '▶';
       });
+      if (searchTerm) toggle.textContent = '▼';
+    }
+    return li;
+  }
 
-      document.getElementById('btn-collapse-all').addEventListener('click', () => {
-        document.querySelectorAll('.subject-card').forEach(c => {
-          c.classList.remove('open');
-          c.querySelector('.subject-header').setAttribute('aria-expanded', 'false');
-        });
-        document.querySelectorAll('.node-children').forEach(n => n.classList.remove('open'));
-        document.querySelectorAll('.node-toggle:not(.leaf)').forEach(b => b.textContent = '▶');
-      });
+  /* ── render grade section ── */
+  function renderGrade(grade, subjectCls) {
+    const wrap = el('div');
+    const label = el('div','grade-label', grade.name);
+    wrap.appendChild(label);
+    const topics = (grade.children||[]).filter(c=>subtreeMatches(c,searchTerm));
+    if (!topics.length) return wrap;
+    const ul = el('ul','tree');
+    topics.forEach(t=>ul.appendChild(renderNode(t)));
+    wrap.appendChild(ul);
+    return wrap;
+  }
 
-      /* ─── search ─── */
-      let searchTimer;
-      document.getElementById('search').addEventListener('input', e => {
-        clearTimeout(searchTimer);
-        searchTimer = setTimeout(() => {
-          searchTerm = e.target.value.trim();
-          render();
-        }, 200);
-      });
+  /* ── render exercise list ── */
+  function renderExercises(subject) {
+    const col = el('div','col-exercises');
+    col.appendChild(el('div','col-title','Übungsblätter'));
+    const list = (dbData?.exercises||[]).filter(e=>e.subject===subject);
+    if (!list.length) {
+      col.appendChild(el('p','exercise-empty','Noch keine Übungsblätter vorhanden.'));
+      return col;
+    }
+    list.forEach(ex => {
+      const a = document.createElement('a');
+      a.className = 'ex-card';
+      a.href = `exercise.html?id=${encodeURIComponent(ex.id)}`;
+      a.innerHTML = `
+        <div class="ex-card-id">${ex.publisher || ''} · ${ex.id}</div>
+        <div class="ex-card-title">Klasse ${ex.grade}</div>
+        <div class="ex-card-topic">${ex.topic || ex.title || ''}</div>
+        <div class="ex-card-meta">
+          <span class="ex-pill">${ex.questions.length} Aufgaben</span>
+          <span class="ex-pill">${ex.total_points} Punkte</span>
+        </div>`;
+      col.appendChild(a);
+    });
+    return col;
+  }
 
-      /* ─── fetch & init ─── */
-      async function init() {
-        try {
-          const res = await fetch('./knowledge-index.json');
-          if (!res.ok) throw new Error(`HTTP ${res.status}`);
-          treeData = await res.json();
-          render();
-        } catch (err) {
-          document.getElementById('app').innerHTML =
-            `<div class="error-box"><strong>Fehler:</strong> knowledge-index.json konnte nicht geladen werden – ${err.message}</div>`;
-        }
-      }
+  /* ── render subject card ── */
+  function renderSubjectCard(key, node) {
+    const meta = SUBJECT_META[key] || { cls:'deutsch', emoji:'📚' };
+    const card = el('div',`subject-card ${meta.cls}`);
+    const header = el('div','subject-header');
+    header.setAttribute('role','button');
+    header.setAttribute('aria-expanded','false');
+    const badge = el('div',`subject-badge ${meta.cls}`, meta.emoji);
+    header.appendChild(badge);
+    const info = el('div','subject-info');
+    info.appendChild(el('h2','',node.name));
+    if (node.description) info.appendChild(el('p','',node.description));
+    header.appendChild(info);
+    const toggleIcon = el('span','toggle-icon','▶');
+    header.appendChild(toggleIcon);
+    card.appendChild(header);
 
-      init();
-    </script>
-  </body>
+    const body = el('div','subject-body');
+    const twoCol = el('div','two-col');
+
+    // Left: knowledge tree
+    const colLeft = el('div','col-knowledge');
+    colLeft.appendChild(el('div','col-title','Wissensbereiche'));
+    const grades = (node.children||[]).filter(g=>subtreeMatches(g,searchTerm));
+    grades.forEach(g=>colLeft.appendChild(renderGrade(g, meta.cls)));
+    twoCol.appendChild(colLeft);
+
+    // Right: exercises
+    twoCol.appendChild(renderExercises(key));
+
+    body.appendChild(twoCol);
+    card.appendChild(body);
+
+    header.addEventListener('click',()=>{
+      const open = card.classList.toggle('open');
+      header.setAttribute('aria-expanded', String(open));
+    });
+    if (searchTerm) {
+      card.classList.add('open');
+      header.setAttribute('aria-expanded','true');
+    }
+    return card;
+  }
+
+  /* ── full render ── */
+  function render() {
+    const app = document.getElementById('app');
+    app.innerHTML = '';
+    if (!treeData) return;
+    const subjects = el('div','subjects');
+    let totalNodes = 0, totalLeaves = 0;
+    const chips = [];
+    ORDER.forEach(key => {
+      const node = treeData[key];
+      if (!node) return;
+      subjects.appendChild(renderSubjectCard(key, node));
+      const n = countAll(node), l = countLeaves(node);
+      totalNodes += n; totalLeaves += l;
+      chips.push(`<strong>${key}</strong>: ${l} Bereiche`);
+    });
+    app.appendChild(subjects);
+    const bar = document.getElementById('stats-bar');
+    bar.innerHTML = '';
+    [`<strong>${totalNodes}</strong> Knoten`, `<strong>${totalLeaves}</strong> Wissensbereiche`, ...chips]
+      .forEach(c => { const ch = el('div','stat-chip'); ch.innerHTML = c; bar.appendChild(ch); });
+  }
+
+  /* ── expand / collapse ── */
+  document.getElementById('btn-expand').addEventListener('click', ()=>{
+    document.querySelectorAll('.subject-card').forEach(c=>{
+      c.classList.add('open');
+      c.querySelector('.subject-header').setAttribute('aria-expanded','true');
+    });
+    document.querySelectorAll('.node-children').forEach(n=>n.classList.add('open'));
+    document.querySelectorAll('.node-toggle:not(.leaf)').forEach(b=>b.textContent='▼');
+  });
+  document.getElementById('btn-collapse').addEventListener('click', ()=>{
+    document.querySelectorAll('.subject-card').forEach(c=>{
+      c.classList.remove('open');
+      c.querySelector('.subject-header').setAttribute('aria-expanded','false');
+    });
+    document.querySelectorAll('.node-children').forEach(n=>n.classList.remove('open'));
+    document.querySelectorAll('.node-toggle:not(.leaf)').forEach(b=>b.textContent='▶');
+  });
+
+  /* ── search ── */
+  let searchTimer;
+  document.getElementById('search').addEventListener('input', e=>{
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(()=>{ searchTerm = e.target.value.trim().toLowerCase(); render(); }, 200);
+  });
+
+  /* ── init ── */
+  async function init() {
+    try {
+      const [treeRes, dbRes] = await Promise.all([
+        fetch('./knowledge-index.json'),
+        fetch('./data/db.json'),
+      ]);
+      if (!treeRes.ok) throw new Error(`knowledge-index.json: HTTP ${treeRes.status}`);
+      if (!dbRes.ok)   throw new Error(`data/db.json: HTTP ${dbRes.status}`);
+      treeData = await treeRes.json();
+      dbData   = await dbRes.json();
+      render();
+    } catch(err) {
+      document.getElementById('app').innerHTML =
+        `<div class="error-box"><strong>Fehler:</strong> ${err.message}</div>`;
+    }
+  }
+  init();
+  </script>
+</body>
 </html>
