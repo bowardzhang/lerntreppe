@@ -262,6 +262,3037 @@
           ]
         }
       ]
+    },
+    {
+      "id": "0025",
+      "subject": "Mathe",
+      "grade": 4,
+      "title": "1/2. Übungslernzielkontrolle",
+      "topic": "Zahlenraum bis 1000; Sachaufgaben",
+      "publisher": "CATLUX",
+      "source_pdf": "0025.pdf",
+      "total_points": 59.0,
+      "questions": [
+        {
+          "id": 15,
+          "question_number": 1,
+          "question_type": "Sachaufgabe (F-R-A)",
+          "question_text": "Löse die Aufgabe in der Form (F – R – A)!\nPeter bekommt vom Nikolaus einen 2 kg schweren Sack. Er enthält 225 g Nüsse, 620 g Äpfel, 329 g Mandarinen und ein Buch.",
+          "answer_text": "Das Buch wiegt 826 g.",
+          "answer_steps": [
+            "F: Wie schwer ist das Buch?",
+            "225 g + 620 g + 329 g = 1174 g",
+            "2 kg = 2000 g",
+            "2000 g – 1174 g = 826 g",
+            "A: Das Buch wiegt 826 g."
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.addition",
+            "mathe.klasse4.schriftlich.subtraktion"
+          ]
+        },
+        {
+          "id": 16,
+          "question_number": 2,
+          "question_type": "Sachaufgabe",
+          "question_text": "Drei Äpfel wiegen zusammen 620 g. Der erste Apfel wiegt 260 g, der zweite doppelt soviel wie der dritte. Wie viel wiegt jeder der beiden Äpfel?",
+          "answer_text": "Ein Apfel wiegt 120 g, der andere 240 g.",
+          "answer_steps": [
+            "Apfel 1 + Apfel 2 + Apfel 3 = 620 g",
+            "260 g + Apfel 2 + Apfel 3 = 620 g",
+            "620 g – 260 g = 360 g (Summe von Apfel 2 und Apfel 3)",
+            "Apfel 2 = 2 × Apfel 3  →  Apfel 3 + 2 × Apfel 3 = 3 × Apfel 3 = 360 g",
+            "360 g : 3 = 120 g (Apfel 3)",
+            "120 g × 2 = 240 g (Apfel 2)",
+            "Probe: 120 + 240 + 260 = 620 ✓",
+            "A: Ein Apfel wiegt 120 g, der andere 240 g."
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.division"
+          ]
+        },
+        {
+          "id": 17,
+          "question_number": 3,
+          "question_type": "Sachaufgabe",
+          "question_text": "Der Nikolaus füllt auf seinen Schlitten 4 Säcke Nüsse zu 50 kg, 5 Säcke Mandarinen zu 25 kg und 198 kg Äpfel. Wie viele Rentiere braucht er für seinen Schlitten, wenn ein Rentier 100 kg ziehen kann?",
+          "answer_text": "Er braucht 6 Rentiere.",
+          "answer_steps": [
+            "4 × 50 kg = 200 kg (Nüsse)",
+            "5 × 25 kg = 125 kg (Mandarinen)",
+            "200 + 125 + 198 = 523 kg (Gesamtlast)",
+            "523 kg ÷ 100 kg = 5 Rentiere tragen 500 kg, aber es bleiben 23 kg übrig",
+            "Also werden 6 Rentiere benötigt.",
+            "A: Er braucht 6 Rentiere."
+          ],
+          "max_points": 5.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 18,
+          "question_number": 4,
+          "question_type": "Teiler bestimmen",
+          "question_text": "Suche die Teiler!\n18 hat Teiler: ___________________\n23 hat Teiler: ___________________\n42 hat Teiler: ___________________",
+          "answer_text": "18: 2, 3, 6, 9 | 23: Primzahl | 42: 2, 3, 6, 7, 14, 21",
+          "answer_steps": [
+            "18: 18 ÷ 2 = 9, 18 ÷ 3 = 6, 18 ÷ 6 = 3, 18 ÷ 9 = 2 → Teiler: 1, 2, 3, 6, 9, 18 (außer 1 und 18 gesucht: 2, 3, 6, 9)",
+            "23: 23 ist durch keine Zahl außer 1 und 23 teilbar → Primzahl",
+            "42: 42 ÷ 2 = 21, 42 ÷ 3 = 14, 42 ÷ 6 = 7, 42 ÷ 7 = 6, 42 ÷ 14 = 3, 42 ÷ 21 = 2 → Teiler: 2, 3, 6, 7, 14, 21"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.zahlenraetsel"
+          ]
+        },
+        {
+          "id": 19,
+          "question_number": 5,
+          "question_type": "Sachaufgabe",
+          "question_text": "Der Erfinder der Glühbirne, Thomas Edison hat in 25 Jahren etwa 1000 wichtige Erfindungen gemacht.\nWie viel Erfindungen machte er dann in zwei Jahren?",
+          "answer_text": "In zwei Jahren hat Edison 80 Erfindungen gemacht.",
+          "answer_steps": [
+            "25 Jahre → 1000 Erfindungen",
+            "1 Jahr → 1000 ÷ 25 = 40 Erfindungen",
+            "2 Jahre → 2 × 40 = 80 Erfindungen",
+            "A: In zwei Jahren hat Edison 80 Erfindungen gemacht."
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 20,
+          "question_number": 6,
+          "question_type": "Sachaufgabe",
+          "question_text": "Alle 5 Minuten fährt das Karussell mit 7 Kindern los. Wie viele Kinder sind\na) in 20 Minuten\nb) in einer Stunde mit dem Karussell gefahren?",
+          "answer_text": "a) 28 Kinder in 20 Minuten; b) 84 Kinder in einer Stunde.",
+          "answer_steps": [
+            "5 min → 7 Kinder",
+            "10 min → 14 Kinder",
+            "20 min → 28 Kinder (4 Fahrten × 7 Kinder)",
+            "60 Minuten = 3 × 20 Minuten",
+            "3 × 28 = 84 Kinder in einer Stunde",
+            "A: In 20 Minuten sind es 28 Kinder, in einer Stunde 84 Kinder."
+          ],
+          "max_points": 5.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 21,
+          "question_number": 7,
+          "question_type": "Sachaufgabe",
+          "question_text": "Ein Schifahrer braucht für eine 720 Meter lange Abfahrt 1 Minute und 30 Sekunden. Wie viele Meter legt er in einer Sekunde zurück?",
+          "answer_text": "Der Schifahrer legt in der Sekunde 8 m zurück.",
+          "answer_steps": [
+            "1 Minute 30 Sekunden = 60 s + 30 s = 90 s",
+            "720 m ÷ 90 s = 8 m/s",
+            "A: Der Schifahrer legt in der Sekunde 8 m zurück."
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.division"
+          ]
+        },
+        {
+          "id": 22,
+          "question_number": 8,
+          "question_type": "Stellenwerte",
+          "question_text": "Wie heißt die Zahl?\n1 T + 5 H + 4 Z + 2 E = _________\n3 T + 8 Z = _________\n4 H + 7 Z + 1 E = _________\n2 T + 9 H + 4 E = _________",
+          "answer_text": "1542; 3080; 471; 2904",
+          "answer_steps": [
+            "1 T + 5 H + 4 Z + 2 E = 1000 + 500 + 40 + 2 = 1542",
+            "3 T + 8 Z = 3000 + 80 = 3080",
+            "4 H + 7 Z + 1 E = 400 + 70 + 1 = 471",
+            "2 T + 9 H + 4 E = 2000 + 900 + 4 = 2904"
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.stellenwerte"
+          ]
+        },
+        {
+          "id": 23,
+          "question_number": 9,
+          "question_type": "Zahlenstrahl",
+          "question_text": "Wie heißen die Zahlen?\n600\n_______|__________________|_________|_______________|_______|__1000\n_I_._._._._i_._._._._I_._._._._i_._._._._I_._._._._i_._._._._I_._._._._i_._._._._I",
+          "answer_text": "640, 760, 820, 920, 970",
+          "answer_steps": [
+            "Der Zahlenstrahl geht von 600 bis 1000 (Abstand 400).",
+            "Die Markierungen teilen den Strahl in Abschnitte zu je 40.",
+            "Abgelesene Zahlen: 640, 760, 820, 920, 970"
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.zahlenstrahl"
+          ]
+        },
+        {
+          "id": 24,
+          "question_number": 10,
+          "question_type": "Kopfrechnen Multiplikation",
+          "question_text": "Rechne aus!\n400 • 6 = _____\n402 • 6 = _____\n405 • 6 = _____\n_____ • 5 = 3000\n_____ • 5 = 3015\n_____ • 5 = 3030\n200 • 9 = _____\n_____ • 9 = 1854\n204 • 9 = _____",
+          "answer_text": "2400; 2412; 2430 | 600; 603; 606 | 1800; 206; 1836",
+          "answer_steps": [
+            "400 × 6 = 2400",
+            "402 × 6 = 2412",
+            "405 × 6 = 2430",
+            "600 × 5 = 3000",
+            "603 × 5 = 3015",
+            "606 × 5 = 3030",
+            "200 × 9 = 1800",
+            "206 × 9 = 1854",
+            "204 × 9 = 1836"
+          ],
+          "max_points": 9.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.multiplikation",
+            "mathe.klasse4.zahlen1000000.stellenwerte"
+          ]
+        },
+        {
+          "id": 25,
+          "question_number": 11,
+          "question_type": "Kopfrechnen Addition/Subtraktion",
+          "question_text": "Rechne aus!\n2 371 + 50 = _______\n3 000 – 480 = _______\n1 649 + 80 = _______\n1 707 – 190 = _______",
+          "answer_text": "2421; 2520; 1729; 1517",
+          "answer_steps": [
+            "2371 + 50 = 2421",
+            "3000 – 480 = 2520",
+            "1649 + 80 = 1729",
+            "1707 – 190 = 1517"
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.addition",
+            "mathe.klasse4.schriftlich.subtraktion"
+          ]
+        },
+        {
+          "id": 26,
+          "question_number": 12,
+          "question_type": "Größen: Volumen/Liter",
+          "question_text": "Wie viel Liter sind es?\n1/2 l: 5 Flaschen Milch = ____ l\n1/4 l: 6 Dosen Cola = _____ l\n0,2 l: 7 Tassen Kaffee = ____ l",
+          "answer_text": "5 Flaschen Milch = 2 1/2 l; 6 Dosen Cola = 1 1/2 l; 7 Tassen Kaffee = 1,4 l",
+          "answer_steps": [
+            "5 × 1/2 l = 2,5 l = 2 1/2 l",
+            "6 × 1/4 l = 1,5 l = 1 1/2 l",
+            "7 × 0,2 l = 1,4 l"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.dezimalzahlen.grundlagen",
+            "mathe.klasse4.sachaufgaben.mehrstufig"
+          ]
+        },
+        {
+          "id": 27,
+          "question_number": 13,
+          "question_type": "Sachaufgabe",
+          "question_text": "Rechne aus!\nTatjana holt auf ihrem Schulweg immer ihre Freundin Ilona ab. Bis zu Ilona sind es 300 Meter und von Ilonas Haus bis zur Schule noch einmal 200 Meter.\nWie viel Meter legt Tatjana jeden Tag auf ihrem Schulweg zurück? (Bitte Hin- und Rückweg berücksichtigen!)",
+          "answer_text": "Tatjana legt jeden Tag 1000 m zurück.",
+          "answer_steps": [
+            "Hinweg: 300 m (zu Ilona) + 200 m (zur Schule) = 500 m",
+            "Rückweg: ebenfalls 500 m",
+            "500 × 2 = 1000 m pro Tag",
+            "A: Tatjana legt jeden Tag 1000 m zurück."
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 28,
+          "question_number": 14,
+          "question_type": "Zeitrechnung",
+          "question_text": "Bestimme die fehlenden Zeitangaben!\nBeginn:  8.35  |  11.45  |  ___   |  20.03  |  ___\nEnde:    ___   |  13.05  |  12.50 |  ___    |  15.15\nDauer:   2h 20 min | ___ | 1h 30 min | 2h 14 min | 50 min",
+          "answer_text": "Beginn 8.35 → Ende 10.55 (Dauer 2h 20min); Beginn 11.45 → Ende 13.05 (Dauer 1h 20min); Beginn 11.20 → Ende 12.50 (Dauer 1h 30min); Beginn 20.03 → Ende 22.17 (Dauer 2h 14min); Beginn 14.25 → Ende 15.15 (Dauer 50min)",
+          "answer_steps": [
+            "8.35 + 2h 20min = 10.55 → Ende: 10.55",
+            "13.05 – 11.45 = 1h 20min → Dauer: 1h 20min",
+            "12.50 – 1h 30min = 11.20 → Beginn: 11.20",
+            "20.03 + 2h 14min = 22.17 → Ende: 22.17",
+            "15.15 – 50min = 14.25 → Beginn: 14.25"
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse3.groessen.zeit"
+          ]
+        },
+        {
+          "id": 29,
+          "question_number": 15,
+          "question_type": "Größen ergänzen (Zeit)",
+          "question_text": "Ergänze!\n4 h = ____ min\n7 h = ____ min\n3 Tage = ____ h\n8 Tage = ____ h\n4 Wochen = ____ Tage\n11 Wochen = ____ Tage\n5 min = ____ s\n9 min = ____ s",
+          "answer_text": "240 min; 420 min; 72 h; 192 h; 28 Tage; 77 Tage; 300 s; 540 s",
+          "answer_steps": [
+            "4 h = 4 × 60 = 240 min",
+            "7 h = 7 × 60 = 420 min",
+            "3 Tage = 3 × 24 = 72 h",
+            "8 Tage = 8 × 24 = 192 h",
+            "4 Wochen = 4 × 7 = 28 Tage",
+            "11 Wochen = 11 × 7 = 77 Tage",
+            "5 min = 5 × 60 = 300 s",
+            "9 min = 9 × 60 = 540 s"
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse3.groessen.zeit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0038",
+      "subject": "Mathe",
+      "grade": 4,
+      "title": "2. Lernzielkontrolle",
+      "topic": "Zahlenraum bis 10000",
+      "publisher": "CATLUX",
+      "source_pdf": "0038.pdf",
+      "total_points": 62.0,
+      "questions": [
+        {
+          "id": 30,
+          "question_number": 1,
+          "question_type": "Runden",
+          "question_text": "Runde auf Tausender!\n8501 ______________\n4120 ______________\nRunde auf Hunderter!\n3490 ______________\n7449 ______________\nRunde auf Zehner!\n4827 ______________\n8787 ______________",
+          "answer_text": "8501→9000; 4120→4000 | 3490→3500; 7449→7400 | 4827→4830; 8787→8790",
+          "answer_steps": [
+            "Auf Tausender runden: Hunderterstelle entscheidet (≥5 aufrunden, <5 abrunden)",
+            "8501 → Hunderterstelle=5 → aufrunden → 9000",
+            "4120 → Hunderterstelle=1 → abrunden → 4000",
+            "Auf Hunderter runden: Zehnerstelle entscheidet",
+            "3490 → Zehnerstelle=9 → aufrunden → 3500",
+            "7449 → Zehnerstelle=4 → abrunden → 7400",
+            "Auf Zehner runden: Einerstelle entscheidet",
+            "4827 → Einerstelle=7 → aufrunden → 4830",
+            "8787 → Einerstelle=7 → aufrunden → 8790"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.runden"
+          ]
+        },
+        {
+          "id": 31,
+          "question_number": 2,
+          "question_type": "Stellenwerte",
+          "question_text": "Wie heißt die Zahl?\n3H 4T 9E = ___________\n3E 5T = ___________\n20H 2Z = ___________",
+          "answer_text": "3H 4T 9E = 4309; 3E 5T = 5003; 20H 2Z = 2020",
+          "answer_steps": [
+            "3H 4T 9E: T=Tausender, H=Hunderter, E=Einer → 4 × 1000 + 3 × 100 + 0 × 10 + 9 = 4309",
+            "3E 5T: 5 × 1000 + 0 × 100 + 0 × 10 + 3 = 5003",
+            "20H 2Z: 20 × 100 + 2 × 10 = 2000 + 20 = 2020"
+          ],
+          "max_points": 1.5,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.stellenwerte"
+          ]
+        },
+        {
+          "id": 32,
+          "question_number": 3,
+          "question_type": "Schriftliche Addition und Subtraktion",
+          "question_text": "Rechne schriftlich bzw. ergänze!\na) 3485 + 2674 + 305\nb) 406 + 5928 + 84 + 2949\nc) 9237 – 5694\nd) 7040 – 2798\nErgänze die fehlenden Ziffern:\n  3□47\n+ 2 4□8\n-------\n□7 0 5\n\n  9 6 5□\n– 3□9 5\n-------\n□3□5",
+          "answer_text": "a) 6464; b) 9367; c) 3543; d) 4242; 3247 + 2458 = 5705; 9650 – 3295 = 6355",
+          "answer_steps": [
+            "a) 3485 + 2674 + 305 = 6464",
+            "b) 406 + 5928 + 84 + 2949 = 9367",
+            "c) 9237 – 5694 = 3543",
+            "d) 7040 – 2798 = 4242",
+            "Ergänzung: 3247 + 2458 = 5705 (fehlende Ziffern: 2, 4, 5)",
+            "Ergänzung: 9650 – 3295 = 6355 (fehlende Ziffern: 0, 2, 6, 5)"
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.addition",
+            "mathe.klasse4.schriftlich.subtraktion"
+          ]
+        },
+        {
+          "id": 33,
+          "question_number": 4,
+          "question_type": "Terme mit Rechenreihenfolge",
+          "question_text": "Hier musst du überlegen!\na) 3 • 7 + 48 – 17 = _____\nb) 55 – 15 : 3 = _____\nc) 90 : 9 – 2 • 4 = _____",
+          "answer_text": "a) 52; b) 50; c) 2",
+          "answer_steps": [
+            "a) Punkt vor Strich: 3 × 7 = 21; dann 21 + 48 – 17 = 69 – 17 = 52",
+            "b) Punkt vor Strich: 15 : 3 = 5; dann 55 – 5 = 50",
+            "c) Punkt vor Strich: 90 : 9 = 10 und 2 × 4 = 8; dann 10 – 8 = 2"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 34,
+          "question_number": 5,
+          "question_type": "Einmaleins und Kopfrechnen",
+          "question_text": "Kannst du das Einmaleins?\n6 • 30 = ____________\n900 • 6 = ____________\n4 • 400 = ____________\n40 • 80 = ____________\n8 • 320 = ____________\n870 • 3 = ____________",
+          "answer_text": "180; 5400; 1600; 3200; 2560; 2610",
+          "answer_steps": [
+            "6 × 30 = 6 × 3 × 10 = 180",
+            "900 × 6 = 9 × 6 × 100 = 5400",
+            "4 × 400 = 4 × 4 × 100 = 1600",
+            "40 × 80 = 4 × 8 × 100 = 3200",
+            "8 × 320 = 8 × 32 × 10 = 256 × 10 = 2560",
+            "870 × 3 = 87 × 3 × 10 = 261 × 10 = 2610"
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse2.einmaleins.reihen",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 35,
+          "question_number": 6,
+          "question_type": "Faktorenpaare zu 10000",
+          "question_text": "10000 = ___________ • 500\n10000 = 5 • ___________\n10000 = ___________ • 2500\n10000 = 200 • ___________",
+          "answer_text": "20 × 500; 5 × 2000; 4 × 2500; 200 × 50",
+          "answer_steps": [
+            "10000 ÷ 500 = 20 → 10000 = 20 × 500",
+            "10000 ÷ 5 = 2000 → 10000 = 5 × 2000",
+            "10000 ÷ 2500 = 4 → 10000 = 4 × 2500",
+            "10000 ÷ 200 = 50 → 10000 = 200 × 50"
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division",
+            "mathe.klasse4.zahlen1000000.stellenwerte"
+          ]
+        },
+        {
+          "id": 36,
+          "question_number": 7,
+          "question_type": "Zahlen dazwischen",
+          "question_text": "Welche Zahl liegt genau dazwischen?\n5000 ___________ 10000\n4560 ___________ 5000\n1000 ___________ 5000\n2000 ___________ 3000",
+          "answer_text": "7500; 4780; 3000; 2500",
+          "answer_steps": [
+            "(5000 + 10000) ÷ 2 = 15000 ÷ 2 = 7500",
+            "(4560 + 5000) ÷ 2 = 9560 ÷ 2 = 4780",
+            "(1000 + 5000) ÷ 2 = 6000 ÷ 2 = 3000",
+            "(2000 + 3000) ÷ 2 = 5000 ÷ 2 = 2500"
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.vergleichen",
+            "mathe.klasse4.zahlen1000000.zahlenstrahl"
+          ]
+        },
+        {
+          "id": 37,
+          "question_number": 8,
+          "question_type": "Division mit und ohne Rest",
+          "question_text": "Teile mit und ohne Rest!\n420 : 50 = ……………\n5600 : 70 = ……………\n2440 : 40 = ……………\n810 : 90 = ……………\n………. : 30 = 10 R 7\n…………: 70 = 30 R 40",
+          "answer_text": "8 R 20; 80; 61; 9; 307; 2140",
+          "answer_steps": [
+            "420 : 50 = 8 R 20 (8 × 50 = 400, Rest 20)",
+            "5600 : 70 = 80 (80 × 70 = 5600)",
+            "2440 : 40 = 61 (61 × 40 = 2440)",
+            "810 : 90 = 9 (9 × 90 = 810)",
+            "? : 30 = 10 R 7 → ? = 10 × 30 + 7 = 307",
+            "? : 70 = 30 R 40 → ? = 30 × 70 + 40 = 2140"
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse3.division.rest",
+            "mathe.klasse4.schriftlich.division"
+          ]
+        },
+        {
+          "id": 38,
+          "question_number": 9,
+          "question_type": "Magische Zeichen (Gleichungssystem)",
+          "question_text": "Magische Zeichen\nAchtung gleiche Zeichen = gleiche Zahl!\n[Tomate] + 5400 + [Paprika] = 10000\n[Tomate] – 2800 = 1000\n[Tomate] = _________  [Paprika] = _________",
+          "answer_text": "Tomate = 3800; Paprika = 800",
+          "answer_steps": [
+            "[Tomate] – 2800 = 1000 → [Tomate] = 1000 + 2800 = 3800",
+            "[Tomate] + 5400 + [Paprika] = 10000 → 3800 + 5400 + [Paprika] = 10000",
+            "9200 + [Paprika] = 10000 → [Paprika] = 10000 – 9200 = 800"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
+            "mathe.klasse4.schriftlich.subtraktion"
+          ]
+        },
+        {
+          "id": 39,
+          "question_number": 10,
+          "question_type": "Halbschriftliches Rechnen",
+          "question_text": "Rechne halbschriftlich!\n365 • 4 =\n7 • 418 =\n810 • 6 =\n1784 : 4 =",
+          "answer_text": "1460; 2926; 4860; 446",
+          "answer_steps": [
+            "365 × 4: 300×4=1200, 60×4=240, 5×4=20 → 1200+240+20=1460",
+            "7 × 418: 7×400=2800, 7×10=70, 7×8=56 → 2800+70+56=2926",
+            "810 × 6: 800×6=4800, 10×6=60 → 4800+60=4860",
+            "1784 ÷ 4: 1600÷4=400, 160÷4=40, 24÷4=6 → 400+40+6=446"
+          ],
+          "max_points": 8.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division_halbschriftlich",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 40,
+          "question_number": 11,
+          "question_type": "Zahlenstrahl ablesen",
+          "question_text": "Wie heißen die Zahlen auf dem Zahlenstrahl?\nA: ____________ B: ____________ C: ____________ D: ____________\nE: ____________ F: ____________ G: ____________",
+          "answer_text": "A: 5400, B: 6000, C: 6800, D: 7200, E: 5140, F: 5190, G: 5240",
+          "answer_steps": [
+            "Erster Zahlenstrahl: Markierungen bei 5000, 5800, 6400 (Abstände je 200)",
+            "A liegt 2 Schritte nach 5000: 5000 + 2×200 = 5400",
+            "B liegt auf 5800 + 1 Großschritt: 6000",
+            "C liegt auf 6400 + 2 Schritte: 6800",
+            "D liegt auf 6400 + 4 Schritte: 7200",
+            "Zweiter Zahlenstrahl: Markierungen bei 5200, 5250 (Abstände je 10)",
+            "E: 5140, F: 5190, G: 5240"
+          ],
+          "max_points": 3.5,
+          "has_image": true,
+          "image_path": "0038_q11_zahlenstrahl_ad.png",
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.zahlenstrahl"
+          ]
+        },
+        {
+          "id": 41,
+          "question_number": 12,
+          "question_type": "Streifenbild (Zerlegung)",
+          "question_text": "Setze in das Streifenbild die richtigen Zahlen ein!\n[Tabelle mit vorgegebenen Werten: 5000 oben, 2000 und 9000 eingetragen]",
+          "answer_text": "Zeile 1 (Gesamt oben): 4000 | 5000\nZeile 2: 2000 | 1000 | 1000 | 2500 | 2500\nZeile 3 (Mitte): 9000\nZeile 4: 1000 | 4000 | 4000",
+          "answer_steps": [
+            "Gesamtsumme = 9000, obere Hälfte = 4000 + 5000 = 9000",
+            "2000 + 1000 + 1000 + 2500 + 2500 = 9000",
+            "Untere Zeile: 1000 + 4000 + 4000 = 9000"
+          ],
+          "max_points": 4.0,
+          "has_image": true,
+          "image_path": "0038_q12_streifenbild.png",
+          "knowledge": [
+            "mathe.klasse4.schriftlich.addition",
+            "mathe.klasse4.zahlen1000000.stellenwerte"
+          ]
+        },
+        {
+          "id": 42,
+          "question_number": 13,
+          "question_type": "Sachaufgabe (Tabelle/Gewicht)",
+          "question_text": "Der Großbauer Huber aus Kleinostheim beliefert ein Unternehmen in München das Tomatenketchup herstellt. Er besitzt drei LKWs mit unterschiedlichem Leergewicht. Der erste LKW wiegt 7200 kg, der zweite LKW 3500 kg und der dritte LKW 6,5 t.\nDer erste LKW hat eine Ladung von 2,5 t. Der zweite und der dritte LKW teilen sich die Ladung von 7 t. Auf dem Weg nach München müssen die LKWs die nebenstehende Brücke überqueren. (Gewichtsbeschränkung: 8 t)\nTrage zuerst alle Informationen in die Tabelle ein und rechne dann mit Hilfe der Tabelle.\nFrage: Wer darf über die Brücke fahren?\nAntwort: _______________________________________________________",
+          "answer_text": "Es darf der 2. LKW fahren (Gesamtgewicht 7000 kg = 7 t ≤ 8 t).",
+          "answer_steps": [
+            "Einheiten umrechnen: 6,5 t = 6500 kg; 2,5 t = 2500 kg; 7 t = 7000 kg",
+            "7 t Ladung wird geteilt: 7000 kg ÷ 2 = 3500 kg pro LKW (2. und 3.)",
+            "1. LKW: Leergewicht 7200 kg + Ladung 2500 kg = 9700 kg → 9,7 t > 8 t → darf nicht",
+            "2. LKW: Leergewicht 3500 kg + Ladung 3500 kg = 7000 kg → 7 t ≤ 8 t → darf",
+            "3. LKW: Leergewicht 6500 kg + Ladung 3500 kg = 10000 kg → 10 t > 8 t → darf nicht",
+            "A: Es darf der 2. LKW fahren."
+          ],
+          "max_points": 10.0,
+          "has_image": true,
+          "image_path": "0038_q13_bruecke.png",
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.sachaufgaben.tabellen"
+          ]
+        },
+        {
+          "id": 43,
+          "question_number": 14,
+          "question_type": "Sachaufgabe (mehrstufig)",
+          "question_text": "Bei einem Schulfest werden insgesamt 968 Euro eingenommen. 308 Euro werden für Musikinstrumente ausgegeben. Für die Schulbücherei werden 8 Bücher gekauft. Ein Buch kostet 13 Euro. Wie viel Geld bleibt übrig?",
+          "answer_text": "Es bleiben noch 556 Euro übrig.",
+          "answer_steps": [
+            "Kosten für Bücher: 8 × 13 € = 104 €",
+            "Einnahmen – Musikinstrumente – Bücher: 968 € – 308 € – 104 € = 556 €",
+            "A: Es bleiben noch 556 Euro übrig."
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.subtraktion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0044",
+      "subject": "Mathe",
+      "grade": 4,
+      "title": "Vorbereitung Probeunterricht – Geometrie",
+      "topic": "Geometrie",
+      "publisher": "CATLUX",
+      "source_pdf": "0044.pdf",
+      "total_points": 36.0,
+      "questions": [
+        {
+          "id": 44,
+          "question_number": 1,
+          "question_type": "Körper analysieren",
+          "question_text": "Betrachte die Körper A und B.\nBeantworte für jeden Körper:\n– Aus wie vielen Würfeln bestehen die Körper?\n– Wie viele Würfel fehlen zum Würfel?\n– Wie viele Würfel musst du mindestens hinzufügen, damit ein Quader entsteht?\nZeichne außerdem die Baupläne zu den Körpern A und B!",
+          "answer_text": "A: 10 Würfel, 17 fehlen zum Würfel, 8 hinzufügen für Quader.\nB: 10 Würfel, 17 fehlen zum Würfel, 8 hinzufügen für Quader.\nBauplan A: 3 Ebenen (oben: 1-1-1, mitte: 2-1-1, unten: 3-2-1).\nBauplan B: 3 Ebenen (oben: 1-1-1-1, mitte: 1-2-1, unten: 1-1-1-1).",
+          "answer_steps": [
+            "Würfel abzählen: A = 10, B = 10",
+            "Zum Würfel fehlen: A = 3×3×3 – 10 = 27 – 10 = 17, B = 17",
+            "Für Quader mindestens hinzufügen: kleinste Quaderform bestimmen; A und B je 8",
+            "Bauplan: Draufsicht mit Zahl der gestapelten Würfel pro Position eintragen"
+          ],
+          "max_points": 1.0,
+          "has_image": true,
+          "image_path": "0044_q1_koerper_AB.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 45,
+          "question_number": 2,
+          "question_type": "Quader ergänzen",
+          "question_text": "Wie viele Würfel musst du hinzufügen, bis ein Quader entsteht?\nAus wie vielen Würfeln besteht dann der Quader?\nBeantworte für alle drei abgebildeten Körper (je a und b).",
+          "answer_text": "Körper 1: a) 80 hinzufügen, b) 100 Würfel gesamt.\nKörper 2: a) 35 hinzufügen, b) 45 Würfel gesamt.\nKörper 3: a) 52 hinzufügen, b) 80 Würfel gesamt.",
+          "answer_steps": [
+            "Vorhandene Würfel zählen",
+            "Kleinste Quaderform bestimmen, die den Körper umschließt",
+            "Fehlende Würfel = Quadervolumen – vorhandene Würfel"
+          ],
+          "max_points": 1.0,
+          "has_image": true,
+          "image_path": "0044_q2_quader_ergaenzen.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 46,
+          "question_number": 3,
+          "question_type": "Würfel mit Farbe bemalt",
+          "question_text": "Der nebenstehende Körper besteht aus lauter kleinen Würfeln und ist außen\nkomplett mit Farbe bemalt worden.\nAus wie vielen Würfeln besteht der Körper?\nWie viele Würfel sind auf nur einer Seite bemalt?\nWie viele Würfel sind auf 3 Seiten bemalt?\nWie viele Würfel sind gar nicht bemalt?",
+          "answer_text": "Aus wie vielen Würfeln: 9 + 12 + 3 = 24\nAuf nur einer Seite bemalt: 4\nAuf 3 Seiten bemalt: 8\nGar nicht bemalt: 1",
+          "answer_steps": [
+            "Annahme: unten 3 Würfel verbaut (sichtbare Schichten auszählen)",
+            "Gesamtzahl: 9 + 12 + 3 = 24",
+            "1 Seite bemalt: oben 1, Vorderseite 1, Rückseite 1, mittlere Ebene 3. Reihe mittlerer Stein = 4",
+            "3 Seiten bemalt: alle Eckwürfel = 8",
+            "Gar nicht bemalt: innenliegender Würfel = 1"
+          ],
+          "max_points": 3.0,
+          "has_image": true,
+          "image_path": "0044_q3_wuerfel_bemalt.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 47,
+          "question_number": 4,
+          "question_type": "Ansichten zuordnen",
+          "question_text": "Wer sieht welche Ansicht? Trage den richtigen Buchstaben ein!\nEin Quader wird von den Seiten A (links), B (oben), C (rechts), D (unten) betrachtet.\nSechs Ansichten (1–6) sind abgebildet. Ordne jeder Ansicht den richtigen\nBuchstaben zu!",
+          "answer_text": "Ansicht 1 → A\nAnsicht 2 → B\nAnsicht 3 → A\nAnsicht 4 → (Lösung siehe Ansichtsbild)\nAnsicht 5 → D\nAnsicht 6 → C",
+          "answer_steps": [
+            "Betrachte die Anordnung der Figuren (Rechteck, Dreieck, Kreis) in der Ansicht",
+            "Vergleiche mit der Perspektive je nach Blickrichtung A, B, C, D",
+            "Trage den passenden Buchstaben ein"
+          ],
+          "max_points": 1.0,
+          "has_image": true,
+          "image_path": "0044_q4_ansichten.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 48,
+          "question_number": 5,
+          "question_type": "Quader-Flächen benennen",
+          "question_text": "Trage in die Flächen des Quaders ein, welche oben (o), unten (u), vorne (v),\nhinten (h), rechts (r) oder links (l) liegen!\nDrei verschiedene Quadernetz-Entfaltungen sind abgebildet.",
+          "answer_text": "Netz 1: h oben, r rechts, o Mitte, v unten, l links, u ganz unten\nNetz 2: u oben, h rechts, v links, o Mitte, r rechts unten\nNetz 3: l oben, v links, o Mitte, h rechts, u rechts, r außen",
+          "answer_steps": [
+            "Quadernetz im Geiste zusammenfalten",
+            "Lage jeder Fläche relativ zur Standardposition bestimmen",
+            "Buchstaben eintragen: o/u/v/h/r/l"
+          ],
+          "max_points": 2.0,
+          "has_image": true,
+          "image_path": "0044_q5_quader_flaechen.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 49,
+          "question_number": 6,
+          "question_type": "Symmetrieachsen finden",
+          "question_text": "Finde die möglichen Symmetrieachsen, zeichne sie ein und schreibe die Anzahl auf!\nDrei Figuren sind abgebildet (Pfeilform, Kreuzform, Zackenform).",
+          "answer_text": "Pfeilform: Anzahl = 1\nKreuzform: Anzahl = 0\nZackenform: Anzahl = 0",
+          "answer_steps": [
+            "Jede Figur auf mögliche Spiegelachsen prüfen (vertikal, horizontal, diagonal)",
+            "Symmetrieachse einzeichnen, wenn Figur auf beiden Seiten identisch",
+            "Anzahl notieren"
+          ],
+          "max_points": 2.0,
+          "has_image": true,
+          "image_path": "0044_q6_symmetrie.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.vierecke"
+          ]
+        },
+        {
+          "id": 50,
+          "question_number": 7,
+          "question_type": "Parallele zeichnen",
+          "question_text": "Zeichne eine Parallele zur Geraden g, die durch den Punkt C verläuft!",
+          "answer_text": "Eine Gerade parallel zu g durch Punkt C gezeichnet.",
+          "answer_steps": [
+            "Geodreieck anlegen: eine Kante an g ausrichten",
+            "Geodreieck verschieben bis es durch C verläuft",
+            "Parallele einzeichnen"
+          ],
+          "max_points": 1.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.geometrie.dreiecke"
+          ]
+        },
+        {
+          "id": 51,
+          "question_number": 8,
+          "question_type": "Senkrechte zeichnen",
+          "question_text": "Zeichne eine Senkrechte zu Gerade a, die durch Punkt B verläuft!",
+          "answer_text": "Eine Gerade senkrecht zu a durch Punkt B gezeichnet.",
+          "answer_steps": [
+            "Geodreieck anlegen: rechten Winkel an Gerade a ausrichten",
+            "Senkrechte durch B einzeichnen"
+          ],
+          "max_points": 1.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.geometrie.dreiecke"
+          ]
+        },
+        {
+          "id": 52,
+          "question_number": 9,
+          "question_type": "Quadrat konstruieren",
+          "question_text": "a) Zeichne auf der Geraden g die Strecke AB = 3 cm ein.\nb) Zeichne vom Punkt A aus eine senkrechte Strecke mit der Länge 3 cm. Der zweite Endpunkt erhält die Bezeichnung C.\nc) Zeichne durch den Punkt C eine parallele Gerade zur Geraden g.\nd) Zeichne durch den Punkt B eine parallele Gerade zu AC. Der Schnittpunkt mit der Geraden, auf welcher der Punkt C liegt, heißt D.\nDie Strecke BD hat die Länge ________ cm.\ne) Die Figur, die du gezeichnet hast, ist _______________________________.",
+          "answer_text": "Die Strecke BD hat die Länge 3 cm.\nDie Figur, die du gezeichnet hast, ist ein Quadrat (Viereck).",
+          "answer_steps": [
+            "AB = 3 cm auf g einzeichnen",
+            "Senkrechte AC = 3 cm in A errichten",
+            "Parallele zu g durch C ziehen",
+            "Parallele zu AC durch B ziehen → Schnittpunkt D",
+            "BD messen: 3 cm (da Quadrat mit Seitenlänge 3 cm entsteht)",
+            "Figur benennen: Quadrat"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.geometrie.dreiecke",
+            "mathe.klasse4.geometrie.vierecke"
+          ]
+        },
+        {
+          "id": 53,
+          "question_number": 10,
+          "question_type": "Würfelnetz falten",
+          "question_text": "Falte im Gedanken das Würfelnetz zu einem Würfel.\nWelche der abgebildeten Würfel entstehen? Kreuze an!",
+          "answer_text": "Die Würfel 2 und 4 (mit X markiert) entstehen aus dem Netz.",
+          "answer_steps": [
+            "Würfelnetz im Geiste zusammenfalten",
+            "Position der Symbole (★, ○, □) auf den Seitenflächen bestimmen",
+            "Mit den abgebildeten Würfeln vergleichen"
+          ],
+          "max_points": 1.0,
+          "has_image": true,
+          "image_path": "0044_q10_wuerfelnetz.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 54,
+          "question_number": 11,
+          "question_type": "Spielwürfel-Netz ergänzen",
+          "question_text": "Beim Spielwürfel haben die gegenüberliegenden Flächen zusammen sieben Punkte.\nTrage die fehlenden Punkte richtig ins Würfelnetz ein!",
+          "answer_text": "Die fehlenden Flächen erhalten: 6 gegenüber 1, 5 gegenüber 2, 4 gegenüber 3 – entsprechend eingetragen.",
+          "answer_steps": [
+            "Regel: Gegenüberliegende Flächen ergeben zusammen 7",
+            "1 ↔ 6, 2 ↔ 5, 3 ↔ 4",
+            "Im Netz die Lage der gegebenen Zahlen bestimmen",
+            "Fehlende Augenzahlen auf den gegenüberliegenden Flächen eintragen"
+          ],
+          "max_points": 1.0,
+          "has_image": true,
+          "image_path": "0044_q11_spielwuerfel.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 55,
+          "question_number": 12,
+          "question_type": "Quadernetze prüfen",
+          "question_text": "Trage unten ein!\nFolgende Netze ergeben einen Quader: ______________________\nKeinen Quader gibt es bei _____ und _____, weil\n______________ / ______________\nVier Netze (a, b, c, d) sind abgebildet.",
+          "answer_text": "Folgende Netze ergeben einen Quader: a, c\nKeinen Quader gibt es bei b und d, weil b) Fläche zu klein; d) Fläche zu viel.",
+          "answer_steps": [
+            "Netz a: im Geiste falten → ergibt Quader ✓",
+            "Netz b: eine Fläche hat die falsche Größe → kein Quader ✗",
+            "Netz c: im Geiste falten → ergibt Quader ✓",
+            "Netz d: eine Fläche zu viel / falsch positioniert → kein Quader ✗"
+          ],
+          "max_points": 1.0,
+          "has_image": true,
+          "image_path": "0044_q12_quadernetze.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 56,
+          "question_number": 13,
+          "question_type": "Würfelnetz einfärben",
+          "question_text": "Der abgebildete Würfel wurde bis zur Hälfte seiner Höhe in einen Farbeimer getaucht.\nMale entsprechende Flächen des unten gezeichneten Würfelnetzes so an, dass beim\nZusammenfalten der abgebildete Würfel entsteht. Eine Seitenfläche ist bereits\nrichtig eingefärbt.",
+          "answer_text": "Die untere Hälfte aller vier Seitenflächen sowie die Bodenfläche werden eingefärbt. Die obere Hälfte und die Deckfläche bleiben weiß.",
+          "answer_steps": [
+            "Würfelnetz im Geiste zusammenfalten",
+            "Boden → komplett eingefärbt",
+            "Vier Seitenflächen → untere Hälfte eingefärbt",
+            "Decke → weiß"
+          ],
+          "max_points": 2.0,
+          "has_image": true,
+          "image_path": "0044_q13_wuerfel_farbe.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 57,
+          "question_number": 14,
+          "question_type": "Quader-Netze einfärben",
+          "question_text": "3 Quader wurden zur Hälfte in Farbe getaucht. Färbe die Netze ein!",
+          "answer_text": "Für jeden Quader: die Bodenfläche und die unteren Hälften der Seitenflächen werden eingefärbt.",
+          "answer_steps": [
+            "Für jeden der 3 Quader das Netz zusammenfalten (gedanklich)",
+            "Untere Hälfte des Körpers bestimmen",
+            "Entsprechende Netz-Flächen einfärben (Boden + untere Seitenhälften)"
+          ],
+          "max_points": 2.0,
+          "has_image": true,
+          "image_path": "0044_q14_quader_farbe.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 58,
+          "question_number": 15,
+          "question_type": "Parallele und Senkrechte zeichnen",
+          "question_text": "a) Zeichne durch die Kreuze Linien, die parallel zu der Linie sind!\nb) Zeichne durch die Kreuze Linien, die senkrecht durch die Linie gehen!",
+          "answer_text": "a) Durch jedes Kreuz eine zur gegebenen Linie parallele Gerade einzeichnen.\nb) Durch jedes Kreuz eine zur gegebenen Linie senkrechte Gerade einzeichnen.",
+          "answer_steps": [
+            "a) Geodreieck an gegebene Linie anlegen, dann parallel verschieben und durch Kreuz ziehen",
+            "b) Geodreieck so anlegen, dass der 90°-Winkel zur Linie steht; Senkrechte durch Kreuz ziehen"
+          ],
+          "max_points": 1.0,
+          "has_image": true,
+          "image_path": "0044_q15_parallelen.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.dreiecke"
+          ]
+        },
+        {
+          "id": 59,
+          "question_number": 16,
+          "question_type": "Quadernetz korrigieren",
+          "question_text": "Die Zeichnung soll ein Quadernetz darstellen. Verbessere den Fehler und ergänze\ndie fehlende Fläche. Zeichne mit dem Geodreieck ganz genau!",
+          "answer_text": "Die fehlerhafte Fläche wird korrigiert (auf richtige Größe gebracht) und die fehlende sechste Fläche ergänzt.",
+          "answer_steps": [
+            "Vorhandene Flächen analysieren und Fehler identifizieren",
+            "Falsche Fläche korrigieren (Größe/Lage)",
+            "Fehlende Fläche mit Geodreieck ergänzen"
+          ],
+          "max_points": 1.0,
+          "has_image": true,
+          "image_path": "0044_q16_quadernetz_fehler.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 60,
+          "question_number": 17,
+          "question_type": "Figur verschieben",
+          "question_text": "Verschiebe nach der angegebenen Vorschrift!\nFigur 1: 9 nach rechts, 3 nach oben\nFigur 2: 6 nach links, 3 nach unten",
+          "answer_text": "Figur 1 um 9 Kästchen nach rechts und 3 nach oben verschoben eingezeichnet.\nFigur 2 um 6 Kästchen nach links und 3 nach unten verschoben eingezeichnet.",
+          "answer_steps": [
+            "Jeden Punkt der Figur um die angegebene Anzahl Kästchen verschieben",
+            "Figur 1: alle Punkte +9 in x-Richtung, +3 in y-Richtung",
+            "Figur 2: alle Punkte –6 in x-Richtung, –3 in y-Richtung",
+            "Verschobene Figur einzeichnen"
+          ],
+          "max_points": 1.0,
+          "has_image": true,
+          "image_path": "0044_q17_verschieben.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.vierecke"
+          ]
+        },
+        {
+          "id": 61,
+          "question_number": 18,
+          "question_type": "Spiegelbild zeichnen",
+          "question_text": "Ergänze die folgende Figur zu einer spiegelbildlichen Figur! Benutze das Geodreieck!",
+          "answer_text": "Die Figur wird an der eingezeichneten Achse gespiegelt und die fehlende Hälfte ergänzt.",
+          "answer_steps": [
+            "Achse identifizieren (diagonal)",
+            "Für jeden Punkt der Figur den Spiegelpunkt auf der anderen Seite der Achse bestimmen",
+            "Gespiegelte Figur einzeichnen"
+          ],
+          "max_points": 2.0,
+          "has_image": true,
+          "image_path": "0044_q18_spiegel.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.vierecke"
+          ]
+        },
+        {
+          "id": 62,
+          "question_number": 19,
+          "question_type": "Ameise auf Würfel",
+          "question_text": "Eine Ameise sitzt auf einem Würfel und krabbelt darauf rum. Sie bewegt sich\nvon A über Punkte B, C, D und E auf den Punkt F.\na) Zeichne ein Netz des Würfels, wenn die Seitenlänge 3 cm beträgt!\nb) Zeichne den Weg der Ameise im Netz ein!\nc) Wie weit ist die Ameise gekrabbelt?\nd) Auf welchem Weg wäre die Ameise am schnellsten gewesen? (Zeichne diesen Weg in den Würfel mit grün ein!)",
+          "answer_text": "a) Würfelnetz mit Seitenlänge 3 cm gezeichnet.\nb) Weg A→B→C→D→E→F im Netz eingezeichnet.\nc) 2,8 cm + 2,2 cm + 2 cm + 2 cm + 2 cm = 11 cm\nd) Der kürzeste Weg ist die gerade Linie von A nach F auf dem abgerollten Netz.",
+          "answer_steps": [
+            "Würfelnetz zeichnen: 6 Quadrate à 3 cm",
+            "Weg der Ameise über die Flächen im Netz einzeichnen",
+            "Einzelne Teilstrecken messen: 2,8 + 2,2 + 2 + 2 + 2 = 11 cm",
+            "Kürzester Weg: direkte Gerade von A nach F auf dem aufgeklappten Netz"
+          ],
+          "max_points": 3.0,
+          "has_image": true,
+          "image_path": "0044_q19_ameise.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.flaeche",
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 63,
+          "question_number": 20,
+          "question_type": "Sachaufgabe Patchwork-Decke",
+          "question_text": "Lisa möchte für ihren Puppenwagen eine sogenannte Patchwork-Decke in Form eines\nQuadrates nähen. Dafür benötigt sie verschieden farbige gleichgroße Stoffquadrate\nmit einer Seitenlänge von 8 cm.\nJetzt hat Lisa genau 48 Quadrate zugeschnitten. Dies soll der äußere Rand der Decke sein.\na) Aus wie viel Stoffquadraten besteht jede Seite der Decke?\nb) Wie viel Stoffquadrate muss Lisa noch zuschneiden, um eine fertige Decke zu erhalten?\nc) Wie breit ist die fertige Decke?",
+          "answer_text": "a) Jede Seite besteht aus 13 Quadraten.\nb) Lisa muss noch 121 Quadrate zuschneiden.\nc) Die fertige Decke ist 104 cm breit.",
+          "answer_steps": [
+            "Randquadrate: 48 Stück = 4 Seiten × (n–2) Ecken zählen nur einmal",
+            "48 – 4 = 44 (ohne Eckquadrate), 44 ÷ 4 = 11 pro Seite (ohne Ecken), +2 Ecken = 13",
+            "Innenfläche: 11 × 11 = 121 Quadrate",
+            "Breite: 13 × 8 cm = 104 cm"
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.geometrie.flaeche",
+            "mathe.klasse4.sachaufgaben.mehrstufig"
+          ]
+        },
+        {
+          "id": 64,
+          "question_number": 21,
+          "question_type": "Rechtecke zeichnen",
+          "question_text": "Zeichne zwei Rechtecke, die genau einen gemeinsamen Punkt haben. Verwende ein Lineal!",
+          "answer_text": "Zwei Rechtecke gezeichnet, die sich nur in einem Eckpunkt berühren.",
+          "answer_steps": [
+            "Erstes Rechteck zeichnen",
+            "Zweites Rechteck so zeichnen, dass eine Ecke des zweiten mit einer Ecke des ersten übereinstimmt"
+          ],
+          "max_points": 1.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.geometrie.vierecke"
+          ]
+        },
+        {
+          "id": 65,
+          "question_number": 22,
+          "question_type": "Spiegelbilder erstellen",
+          "question_text": "Erstelle 3 Spiegelbilder zur Figur!",
+          "answer_text": "Die Figur wird an der vertikalen und horizontalen Achse gespiegelt (insgesamt 4 Quadranten ausgefüllt).",
+          "answer_steps": [
+            "Figur an vertikaler Achse spiegeln",
+            "Figur an horizontaler Achse spiegeln",
+            "Figur an beiden Achsen spiegeln (Quadrant 3)"
+          ],
+          "max_points": 2.0,
+          "has_image": true,
+          "image_path": "0044_q22_spiegelbilder.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.vierecke"
+          ]
+        },
+        {
+          "id": 66,
+          "question_number": 23,
+          "question_type": "Verschiebevorschrift bestimmen",
+          "question_text": "Wie heißt die Verschiebevorschrift?\n(Eine Figur und ihre verschobene Version sind im Gitter abgebildet.)",
+          "answer_text": "7 nach rechts, 2 nach oben (7r 2o)",
+          "answer_steps": [
+            "Einen markanten Punkt der Ausgangsfigur wählen",
+            "Denselben Punkt in der verschobenen Figur finden",
+            "Differenz in x-Richtung (rechts) und y-Richtung (oben) ablesen"
+          ],
+          "max_points": 1.0,
+          "has_image": true,
+          "image_path": "0044_q23_verschiebevorschrift.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.vierecke"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0058",
+      "subject": "Mathe",
+      "grade": 4,
+      "title": "4. Lernzielkontrolle – Zahlenreihen, Verteilungsaufgaben, Zahlenrätsel",
+      "topic": "Zahlenreihen, Verteilungsaufgaben, Zahlenrätsel",
+      "publisher": "CATLUX",
+      "source_pdf": "0058.pdf",
+      "total_points": 38.0,
+      "questions": [
+        {
+          "id": 67,
+          "question_number": 1,
+          "question_type": "Zahlenreihe fortsetzen",
+          "question_text": "Führe jede Zahlenreihe um zwei Glieder fort!\na) 3; 5; 8; 12; 17; 23; 30; _________ _________\nb) 70; 68; 64; 62; 58; 56; 52; _________ _________\nc) 1; 2; 6; 12; 36; 72; 216; _________ _________",
+          "answer_text": "a) 38; 47\nb) 50; 46\nc) 432; 1296",
+          "answer_steps": [
+            "a) Differenzen: +2, +3, +4, +5, +6, +7 → Muster: jeweils +1 mehr; 30+8=38, 38+9=47",
+            "b) Muster: –2, –4 abwechselnd; 52–2=50, 50–4=46",
+            "c) Muster: ×2, ×3 abwechselnd; 216×2=432, 432×3=1296"
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.zahlenfolgen"
+          ]
+        },
+        {
+          "id": 68,
+          "question_number": 2,
+          "question_type": "Sachaufgabe Gewicht",
+          "question_text": "Florian ist um 8 kg leichter als Felix. Max und Sabine wiegen jeweils genauso viel\nwie Felix. Wie schwer ist jeder, wenn alle zusammen 152 kg wiegen?",
+          "answer_text": "Felix, Max und Sabine wiegen je 40 kg, Florian wiegt 32 kg.",
+          "answer_steps": [
+            "Florian = Felix – 8 kg; Max = Felix; Sabine = Felix",
+            "Gesamt: Felix + Felix + Felix + (Felix – 8) = 152",
+            "4 × Felix – 8 = 152 → 4 × Felix = 160 → Felix = 40 kg",
+            "Florian = 40 – 8 = 32 kg",
+            "Antwort: Felix, Max, Sabine je 40 kg; Florian 32 kg"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel"
+          ]
+        },
+        {
+          "id": 69,
+          "question_number": 3,
+          "question_type": "Rechenausdruck berechnen",
+          "question_text": "Zähle zu der Zahl 2736 den 8. Teil von 36728 und vervielfache das Ergebnis mit 18!",
+          "answer_text": "131886",
+          "answer_steps": [
+            "36728 ÷ 8 = 4591",
+            "2736 + 4591 = 7327",
+            "7327 × 18 = 131886"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 70,
+          "question_number": 4,
+          "question_type": "Verteilungsaufgabe",
+          "question_text": "In einer Packung sind 146 Bonbons. Sie werden auf die vier Kinder Richard, Marlon,\nAmadeus und Eleni verteilt. Dabei erhalten die Jungen jeweils gleich viele, während\nEleni 10 Bonbons weniger als jeder Junge bekommt.\nWie viele Bonbons bekommt jeder?",
+          "answer_text": "Jeder Junge erhält 39 Bonbons, Eleni erhält 29 Bonbons.",
+          "answer_steps": [
+            "Elenis Anteil angleichen: 146 + 10 = 156 (als ob alle gleich viel hätten)",
+            "156 ÷ 4 = 39 Bonbons pro Junge",
+            "Eleni: 39 – 10 = 29 Bonbons",
+            "Probe: 3 × 39 + 29 = 117 + 29 = 146 ✓"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.division"
+          ]
+        },
+        {
+          "id": 71,
+          "question_number": 5,
+          "question_type": "Geldaufteilung",
+          "question_text": "Die beiden Freunde Sabrina und Florian haben zusammen 160 € gespart. Nun wollen\nsie ihr Sparbuch auflösen und das Geld aufteilen. Dabei erhält Sabrina dreimal so\nviel wie Florian. Wie viel Geld bekommt jeder?",
+          "answer_text": "Sabrina erhält 120 €, Florian erhält 40 €.",
+          "answer_steps": [
+            "Teile: Sabrina = 3 Teile, Florian = 1 Teil → gesamt 4 Teile",
+            "1 Teil = 160 € ÷ 4 = 40 €",
+            "Florian: 1 × 40 € = 40 €",
+            "Sabrina: 3 × 40 € = 120 €",
+            "Probe: 120 + 40 = 160 € ✓"
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel"
+          ]
+        },
+        {
+          "id": 72,
+          "question_number": 6,
+          "question_type": "Division mit Rest",
+          "question_text": "Teilt man eine Zahl durch 13, so erhält man 7 und den Rest 9.\nWie heißt die Zahl?",
+          "answer_text": "Die Zahl ist 100.",
+          "answer_steps": [
+            "13 × 7 = 91",
+            "91 + 9 = 100",
+            "Probe: 100 ÷ 13 = 7 Rest 9 ✓"
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.umkehraufgaben",
+            "mathe.klasse4.schriftlich.division"
+          ]
+        },
+        {
+          "id": 73,
+          "question_number": 7,
+          "question_type": "Zahlenrätsel drei Zahlen",
+          "question_text": "Drei Zahlen ergeben zusammen 100000. Eine Zahl heißt 27396. Sie ist genau\ndreimal so groß wie die kleinste Zahl. Wie heißen die drei Zahlen?",
+          "answer_text": "1. Zahl: 27396\nKleinste Zahl: 9132\n3. Zahl: 63472",
+          "answer_steps": [
+            "1. Zahl (gegeben): 27396",
+            "Kleinste Zahl: 27396 ÷ 3 = 9132",
+            "Zwischensumme: 27396 + 9132 = 36528",
+            "3. Zahl: 100000 – 36528 = 63472",
+            "Probe: 27396 + 9132 + 63472 = 100000 ✓"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
+            "mathe.klasse4.schriftlich.division"
+          ]
+        },
+        {
+          "id": 74,
+          "question_number": 8,
+          "question_type": "Sachaufgabe Alter",
+          "question_text": "Familie Huber hat zwei Kinder, Luisa und Peter. Peter ist doppelt so alt wie Luisa,\naber nur halb so alt wie Vater. Die Mutter ist fünf Jahre jünger als der Vater.\nZusammen sind sie 105 Jahre alt. Peter feiert gerade seinen zwanzigsten Geburtstag.\nWie alt sind die Familienmitglieder?",
+          "answer_text": "Peter: 20 Jahre\nLuisa: 10 Jahre\nVater: 40 Jahre\nMutter: 35 Jahre",
+          "answer_steps": [
+            "Peter = 20 (gegeben)",
+            "Luisa = Peter ÷ 2 = 20 ÷ 2 = 10",
+            "Vater = Peter × 2 = 20 × 2 = 40",
+            "Mutter = Vater – 5 = 40 – 5 = 35",
+            "Probe: 20 + 10 + 40 + 35 = 105 ✓"
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel"
+          ]
+        },
+        {
+          "id": 75,
+          "question_number": 9,
+          "question_type": "Schaubild erstellen",
+          "question_text": "Stelle als Schaubild dar: 850 g Brot, 500 g Müsli, 350 g Wurst, 250 g Butter,\n1000 g Zucker! Vergiss die Beschriftung nicht!",
+          "answer_text": "Balkendiagramm mit y-Achse (Gramm, bis mind. 1000 g) und x-Achse (Lebensmittel).\nBalken: Brot 850 g, Müsli 500 g, Wurst 350 g, Butter 250 g, Zucker 1000 g.\nAchsen beschriftet.",
+          "answer_steps": [
+            "Achsen einzeichnen: y-Achse = Gramm (Skalierung z.B. 0–1200 in 200er-Schritten), x-Achse = Lebensmittel",
+            "Für jedes Lebensmittel einen Balken bis zur entsprechenden Grammzahl zeichnen",
+            "Balken und Achsen beschriften"
+          ],
+          "max_points": 10.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.tabellen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0401",
+      "subject": "Mathe",
+      "grade": 4,
+      "title": "3. Lernzielkontrolle",
+      "topic": "Zahlenraum bis 100000, Multiplizieren und Dividieren, halbschriftlich dividieren, Maßeinheiten, Liter",
+      "publisher": "CATLUX",
+      "source_pdf": "0401.pdf",
+      "total_points": 56.0,
+      "questions": [
+        {
+          "id": 76,
+          "question_number": 1,
+          "question_type": "Rechnen",
+          "question_text": "Berechne:\n72391 • 6 = ___\n4706 • 9 = ___\n258 • 70 = ___\n6,99 € • 3 = ___\n13,85 € • 5 = ___\n89,42 € • 2 = ___",
+          "answer_text": "72391 • 6 = 434346\n4706 • 9 = 42354\n258 • 70 = 18060\n6,99 € • 3 = 20,97 €\n13,85 € • 5 = 69,25 €\n89,42 € • 2 = 178,84 €",
+          "answer_steps": [
+            "Schriftliche Multiplikation: einstellige Zahl oder Zehner mit mehrstelliger Zahl multiplizieren",
+            "Bei Geldbeträgen: Ergebnis auf zwei Dezimalstellen runden"
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 77,
+          "question_number": 2,
+          "question_type": "Rechnen",
+          "question_text": "a) 82 899 + 9 300 = ___\n   36 607 + 450 = ___\n   43 296 + 7 400 = ___\nb) 24 132 – 5 200 = ___\n   67 514 – 860 = ___\n   50 669 – 6 800 = ___",
+          "answer_text": "a) 82 899 + 9 300 = 92199\n   36 607 + 450 = 37057\n   43 296 + 7 400 = 50696\nb) 24 132 – 5 200 = 18932\n   67 514 – 860 = 66654\n   50 669 – 6 800 = 43869",
+          "answer_steps": [
+            "Halbschriftliche Addition und Subtraktion im Zahlenraum bis 100000",
+            "Ziffern stellenweise addieren bzw. subtrahieren"
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.addition",
+            "mathe.klasse4.schriftlich.subtraktion"
+          ]
+        },
+        {
+          "id": 78,
+          "question_number": 3,
+          "question_type": "Rechnen",
+          "question_text": "125 : 25 = ___\n275 : 25 = ___\n72 : 12 = ___\n84 : 12 = ___",
+          "answer_text": "125 : 25 = 5\n275 : 25 = 11\n72 : 12 = 6\n84 : 12 = 7",
+          "answer_steps": [
+            "Division durch zweistellige Divisoren (25 und 12) auswendig oder durch Umkehren der Multiplikation"
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division"
+          ]
+        },
+        {
+          "id": 79,
+          "question_number": 4,
+          "question_type": "Umrechnen",
+          "question_text": "Wandle um in Milliliter (ml)!\n6 l = ___ ml\n1,3 l = ___ ml\n0,7 l = ___ ml\n0,02 l = ___ ml\n¼ l = ___ ml\n1/8 l = ___ ml\n¾ l = ___ ml\n½ l = ___ ml",
+          "answer_text": "6 l = 6000 ml\n1,3 l = 1300 ml\n0,7 l = 700 ml\n0,02 l = 20 ml\n¼ l = 250 ml\n1/8 l = 125 ml\n¾ l = 750 ml\n½ l = 500 ml",
+          "answer_steps": [
+            "1 l = 1000 ml",
+            "Dezimalzahlen und Brüche in ml umrechnen: Zahl mit 1000 multiplizieren",
+            "¼ l = 250 ml, ½ l = 500 ml, ¾ l = 750 ml, 1/8 l = 125 ml"
+          ],
+          "max_points": 8.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.dezimalzahlen.grundlagen",
+            "mathe.klasse4.groessen.volumen"
+          ]
+        },
+        {
+          "id": 80,
+          "question_number": 5,
+          "question_type": "Umrechnen",
+          "question_text": "Wandle um in Liter (l)! Benutze die Kommaschreibweise!\n250 ml = ___ l\n1400 ml = ___ l\n125 ml = ___ l\n2050 ml = ___ l\n50 ml = ___ l\n25 ml = ___ l",
+          "answer_text": "250 ml = 0,25 l\n1400 ml = 1,4 l\n125 ml = 0,125 l\n2050 ml = 2,05 l\n50 ml = 0,05 l\n25 ml = 0,025 l",
+          "answer_steps": [
+            "ml in l umrechnen: durch 1000 dividieren",
+            "Ergebnis als Dezimalzahl (Kommaschreibweise) angeben"
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.dezimalzahlen.grundlagen",
+            "mathe.klasse4.groessen.volumen"
+          ]
+        },
+        {
+          "id": 81,
+          "question_number": 6,
+          "question_type": "Ordnen",
+          "question_text": "Ordne nach der Größe! Beginne mit der kleinsten Menge!\n200 ml   0,3 l   ¾ l   0,125 l   ½ l   800 ml   1 l",
+          "answer_text": "0,125 l < 200 ml < 0,3 l < ½ l < ¾ l < 800 ml < 1 l",
+          "answer_steps": [
+            "Alle Mengen in dieselbe Einheit umrechnen (z. B. ml): 0,125 l = 125 ml, 0,3 l = 300 ml, ½ l = 500 ml, ¾ l = 750 ml, 1 l = 1000 ml",
+            "Aufsteigend sortieren: 125 < 200 < 300 < 500 < 750 < 800 < 1000"
+          ],
+          "max_points": 7.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.dezimalzahlen.grundlagen",
+            "mathe.klasse4.groessen.volumen",
+            "mathe.klasse4.zahlen1000000.vergleichen"
+          ]
+        },
+        {
+          "id": 82,
+          "question_number": 7,
+          "question_type": "Rechnen",
+          "question_text": "Rechne aus!\na) 3 600 : 6 = ___\n   45 000 : 9 = ___\n   6 400 : 8 = ___\n   56 000 : 7 = ___\nb) 180 000 : 30 = ___\n   300 000 : 600 = ___\n   320 000 : 40 = ___\n   540 000 : 900 = ___",
+          "answer_text": "a) 3 600 : 6 = 600\n   45 000 : 9 = 5000\n   6 400 : 8 = 800\n   56 000 : 7 = 8000\nb) 180 000 : 30 = 6000\n   300 000 : 600 = 500\n   320 000 : 40 = 8000\n   540 000 : 900 = 600",
+          "answer_steps": [
+            "Nullen kürzen: z. B. 3600 : 6 = 36 Hunderter : 6 = 6 Hunderter = 600",
+            "Bei mehrstufigen Divisoren: z. B. 300 000 : 600 = 3000 : 6 = 500"
+          ],
+          "max_points": 8.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division",
+            "mathe.klasse4.schriftlich.division_halbschriftlich"
+          ]
+        },
+        {
+          "id": 83,
+          "question_number": 8,
+          "question_type": "Rechnen",
+          "question_text": "Rechne halbschriftlich!\na) 28 200 : 2\nb) 1592 : 8\nc) 39 824 : 4\nd) 3061 : 3",
+          "answer_text": "a) 28200 : 2 = 14100\nb) 1592 : 8 = 199\nc) 39824 : 4 = 9956\nd) 3061 : 3 = 1020 R1",
+          "answer_steps": [
+            "a) 20000 : 2 = 10000; 8000 : 2 = 4000; 200 : 2 = 100 → 14100",
+            "b) 800 : 8 = 100; 720 : 8 = 90; 72 : 8 = 9 → 199",
+            "c) 36000 : 4 = 9000; 3600 : 4 = 900; 200 : 4 = 50; 24 : 4 = 6 → 9956",
+            "d) 3000 : 3 = 1000; 30 : 3 = 10; 30 : 3 = 10; 1 : 3 = Rest 1 → 1020 R1"
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division_halbschriftlich"
+          ]
+        },
+        {
+          "id": 84,
+          "question_number": 9,
+          "question_type": "Sachaufgabe",
+          "question_text": "Löse die Sachaufgaben! Schreibe Rechnung (R:) und Antwort (A:) auf!\n\na) Das Ehepaar Schulz hat drei Kinder. Bei jedem Duschen werden 60 l Wasser verbraucht. Jeder duscht einmal am Tag. Wie viel Liter Wasser verbraucht die Familie am Tag beim Duschen?\n\nb) Frau Meiers Klasse will Cornflakes zum Frühstück machen. Dafür benötigen sie 1875 g Flakes und 7,5 l Milch. Wie viel Euro müssen sie bezahlen? (Preise laut Abbildung: Milch 1 l = 0,69 €, 0,5 l = 0,45 €; Cornflakes 750 g = 2,75 €, 375 g = 1,45 €)",
+          "answer_text": "a) R: 5 • 60 l = 300 l\n   A: Die Familie verbraucht am Tag beim Duschen 300 l.\n\nb) Milch: 0,69 € • 7 = 4,83 €; 4,83 € + 0,45 € = 5,28 €\n   Flakes: 2,75 € • 2 = 5,50 €; 5,50 € + 1,45 € = 6,95 €\n   Gesamt: 5,28 € + 6,95 € = 12,23 €\n   A: Sie müssen 12,23 € bezahlen.",
+          "answer_steps": [
+            "a) Familie = 2 Erwachsene + 3 Kinder = 5 Personen; 5 • 60 l = 300 l",
+            "b) Milch: 7,5 l = 7 × 1 l + 1 × 0,5 l → 7 • 0,69 € + 0,45 € = 4,83 € + 0,45 € = 5,28 €",
+            "b) Flakes: 1875 g = 2 × 750 g + 1 × 375 g → 2 • 2,75 € + 1,45 € = 5,50 € + 1,45 € = 6,95 €",
+            "b) Gesamt: 5,28 € + 6,95 € = 12,23 €"
+          ],
+          "max_points": 7.0,
+          "has_image": true,
+          "image_path": "0401_q9b_xref30_273x400.png",
+          "knowledge": [
+            "mathe.klasse4.groessen.volumen",
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0431",
+      "subject": "Mathe",
+      "grade": 4,
+      "title": "2. Lernzielkontrolle",
+      "topic": "Zahlenraum bis 10000",
+      "publisher": "CATLUX",
+      "source_pdf": "0431.pdf",
+      "total_points": 63.0,
+      "questions": [
+        {
+          "id": 85,
+          "question_number": 1,
+          "question_type": "Zahlenstrahl",
+          "question_text": "Lies die Zahlen vom Zahlenstrahl ab! Trage ein!\n\nZahlenstrahl 1 (7600–8300):\nA: ___ B: ___ C: ___ D: ___\n\nZahlenstrahl 2 (5700–6000):\nE: ___ F: ___ G: ___ H: ___\n\nZahlenstrahl 3 (9680–9710):\nJ: ___ K: ___ L: ___ M: ___",
+          "answer_text": "A: 7650   B: 7860   C: 8080   D: 8240\nE: 5760   F: 5800   G: 5880   H: 5950\nJ: 9681   K: 9690   L: 9695   M: 9708",
+          "answer_steps": [
+            "Zahlenstrahl 1: Abschnitt 7600–8300 (700 Einheiten), Pfeile ablesen",
+            "Zahlenstrahl 2: Abschnitt 5700–6000 (300 Einheiten), Pfeile ablesen",
+            "Zahlenstrahl 3: Abschnitt 9680–9710 (30 Einheiten), Pfeile ablesen"
+          ],
+          "max_points": 6.0,
+          "has_image": true,
+          "image_path": "0431_q1_xref24_596x73.png",
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.zahlenstrahl"
+          ]
+        },
+        {
+          "id": 86,
+          "question_number": 2,
+          "question_type": "Tabelle",
+          "question_text": "Schreibe die Nachbarzahlen auf!\n\nFülle die Tabelle aus (Nachbar-Tausender, Nachbar-Hunderter, Nachbar-Zehner, Vorgänger, Zahl, Nachfolger, Nachbar-Zehner, Nachbar-Hunderter, Nachbar-Tausender):\nZeile 1: Zahl = 7898\nZeile 2: Nachbar-Zehner links = 3580",
+          "answer_text": "7898: Nachbar-Tausender: 7000 | 8000, Nachbar-Hunderter: 7800 | 7900, Nachbar-Zehner: 7890 | 7900, Vorgänger: 7897, Nachfolger: 7899\n3580: Nachbar-Tausender: 3000 | 4000, Nachbar-Hunderter: 3500 | 3600, Nachbar-Zehner: 3580 | 3590, Vorgänger: 3581, Nachfolger: 3583\n\nVollständige Tabellenzeilen:\n7000 | 7800 | 7890 | 7897 | 7898 | 7899 | 7900 | 7900 | 8000\n3000 | 3500 | 3580 | 3581 | 3582 | 3583 | 3590 | 3600 | 4000",
+          "answer_steps": [
+            "Nachbar-Tausender: nächste kleinere und größere durch 1000 teilbare Zahl",
+            "Nachbar-Hunderter: nächste kleinere und größere durch 100 teilbare Zahl",
+            "Nachbar-Zehner: nächste kleinere und größere durch 10 teilbare Zahl",
+            "Vorgänger = Zahl – 1, Nachfolger = Zahl + 1"
+          ],
+          "max_points": 5.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.stellenwerte",
+            "mathe.klasse4.zahlen1000000.vorgaenger_nachfolger"
+          ]
+        },
+        {
+          "id": 87,
+          "question_number": 3,
+          "question_type": "Lückentext",
+          "question_text": "Finde die Nachbarzahlen!\n\nZehnernachbarn:    ___ < 4123 < ___\nHunderternachbarn: ___ < 3567 < ___\nTausendernachbarn: ___ < 9435 < ___",
+          "answer_text": "Zehnernachbarn:    4120 < 4123 < 4130\nHunderternachbarn: 3500 < 3567 < 3600\nTausendernachbarn: 9000 < 9435 < 10000",
+          "answer_steps": [
+            "Zehnernachbarn von 4123: abrunden auf 4120, aufrunden auf 4130",
+            "Hunderternachbarn von 3567: abrunden auf 3500, aufrunden auf 3600",
+            "Tausendernachbarn von 9435: abrunden auf 9000, aufrunden auf 10000"
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.runden",
+            "mathe.klasse4.zahlen1000000.vorgaenger_nachfolger"
+          ]
+        },
+        {
+          "id": 88,
+          "question_number": 4,
+          "question_type": "Vergleichen",
+          "question_text": "Setze ein: <, >, =\n\n5960 ○ 5T 9H 6Z\n3085 ○ 3055 + 300\n7527 – 300 ○ 7527 – 50\n8T 7H 8E ○ 8T 8Z 7E",
+          "answer_text": "5960 = 5T 9H 6Z\n3085 < 3055 + 300\n7527 – 300 < 7527 – 50\n8T 7H 8E > 8T 8Z 7E",
+          "answer_steps": [
+            "5T 9H 6Z = 5000 + 900 + 60 = 5960 → =",
+            "3055 + 300 = 3355 > 3085 → <",
+            "7527 – 300 = 7227; 7527 – 50 = 7477 → 7227 < 7477",
+            "8T 7H 8E = 8708; 8T 8Z 7E = 8087 → 8708 > 8087"
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.stellenwerte",
+            "mathe.klasse4.zahlen1000000.vergleichen"
+          ]
+        },
+        {
+          "id": 89,
+          "question_number": 5,
+          "question_type": "Zahlenfolgen",
+          "question_text": "Schreibe die fehlenden Zahlen in die Reihen!\n\n8840, 8480, 8120, ___\n___, 3734, 3781, ___\n3717, 3711, 3705, ___, ___, 3687",
+          "answer_text": "8840, 8480, 8120, 7760  (–360)\n3687, 3734, 3781, 3828  (+47)\n3717, 3711, 3705, 3699, 3693, 3687  (–6)",
+          "answer_steps": [
+            "Reihe 1: Differenz 8840 – 8480 = 360; nächste Zahl: 8120 – 360 = 7760",
+            "Reihe 2: Differenz 3781 – 3734 = 47; fehlende Zahl vorne: 3734 – 47 = 3687; hinten: 3781 + 47 = 3828",
+            "Reihe 3: Differenz 3717 – 3711 = 6; fehlende Zahlen: 3705 – 6 = 3699, 3699 – 6 = 3693"
+          ],
+          "max_points": 5.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.zahlenfolgen"
+          ]
+        },
+        {
+          "id": 90,
+          "question_number": 6,
+          "question_type": "Tabelle",
+          "question_text": "Zehntausendertafel. Schreibe die Zahlen der Sterne auf!\n\nDie Tafel hat die Achsen 100–1000 (waagerecht) und Tausenderwerte (senkrecht).\n*A befindet sich in Zeile 2, Spalte 3\n*B befindet sich in Zeile 5100, Spalte Mitte (zwischen 5100 und 6000)\n*C befindet sich in Zeile 7900, Spalte 9 (nahe 1000)\n*D befindet sich in Zeile 8200, Spalte 2\n\n*A = ___   *B = ___   *C = ___   *D = ___",
+          "answer_text": "*A = 1300   *B = 5600   *C = 7900   *D = 8200",
+          "answer_steps": [
+            "Zehntausendertafel: waagerechte Achse = Hunderterwerte (100–1000), senkrechte Achse = Tausenderwerte",
+            "Position ablesen: Zeilenwert (Tausender) + Spaltenwert (Hunderter)",
+            "*A: Zeile 1000, Spalte 300 → 1300",
+            "*B: Zeile 5000, Spalte 600 → 5600",
+            "*C: Zeile 7000, Spalte 900 → 7900",
+            "*D: Zeile 8000, Spalte 200 → 8200"
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.stellenwerte"
+          ]
+        },
+        {
+          "id": 91,
+          "question_number": 7,
+          "question_type": "Rechnen",
+          "question_text": "Rechne aus!\n60 • 9 = ___\n4 • 210 = ___\n80 • 20 = ___\n80 • ___ = 7200\n___ • 80 = 7200\n3600 : 6 = ___\n1800 : 90 = ___\n4500 : 500 = ___",
+          "answer_text": "60 • 9 = 540\n4 • 210 = 840\n80 • 20 = 1600\n80 • 90 = 7200\n90 • 80 = 7200\n3600 : 6 = 600\n1800 : 90 = 20\n4500 : 500 = 9",
+          "answer_steps": [
+            "Multiplikation mit Zehnern: Kernergebnis • Zehner-Nullen anhängen",
+            "Lücken füllen: 7200 : 80 = 90",
+            "Division mit Zehnern: Nullen kürzen"
+          ],
+          "max_points": 8.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 92,
+          "question_number": 8,
+          "question_type": "Zahlenrätsel",
+          "question_text": "Zahlenrätsel\n\nRätsel 1: Meine Zahl liegt zwischen 3200 und 4200. Sie hat doppelt so viele Hunderter wie Tausender. Wie heißt die Zahl?\n\nRätsel 2: Ich denke mir eine Zahl. Sie ist größer als 8000 und sie hat einen Hunderter weniger als Tausender und einen Zehner weniger als Hunderter. Welche Zahl denke ich mir? Schreibe drei mögliche Zahlen!",
+          "answer_text": "Rätsel 1: 3600\nRätsel 2: z. B. 9870, 8760, 9876",
+          "answer_steps": [
+            "Rätsel 1: Tausender = 3, doppelt so viele Hunderter = 6 → 3600 (liegt zwischen 3200 und 4200)",
+            "Rätsel 2: Tausender = T, Hunderter = T–1, Zehner = T–2; z. B. T=9: 9870; T=8: 8760; gemischt: 9876"
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
+            "mathe.klasse4.zahlen1000000.stellenwerte"
+          ]
+        },
+        {
+          "id": 93,
+          "question_number": 9,
+          "question_type": "Rechnen",
+          "question_text": "a) Berechne die Quersumme der Zahlen!\n194 > ___   830 > ___   357 > ___\n\nb) Schreibe drei Zahlen auf mit der Quersumme:\n8 < ___________________________",
+          "answer_text": "a) 194 > 14   830 > 11   357 > 15\nb) z. B. 53; 152; 31121",
+          "answer_steps": [
+            "Quersumme: alle Ziffern einer Zahl addieren",
+            "194: 1 + 9 + 4 = 14",
+            "830: 8 + 3 + 0 = 11",
+            "357: 3 + 5 + 7 = 15",
+            "Zahlen mit Quersumme 8: z. B. 53 (5+3=8), 152 (1+5+2=8), 31121 (3+1+1+2+1=8)"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.stellenwerte"
+          ]
+        },
+        {
+          "id": 94,
+          "question_number": 10,
+          "question_type": "Sachaufgabe",
+          "question_text": "Florian ist ein fleißiger Zeichner. Ein Stapel mit 600 Blatt Zeichenpapier ist 6 cm hoch. Wie hoch ist ein Stapel von 10 000 Blatt?",
+          "answer_text": "100 cm = 1 m",
+          "answer_steps": [
+            "600 Blatt = 6 cm → 1 Blatt = 6 cm : 600 = 0,01 cm",
+            "10 000 Blatt = 10 000 • 0,01 cm = 100 cm = 1 m",
+            "Alternativ: 10 000 : 600 • 6 cm = 100 cm"
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.division"
+          ]
+        },
+        {
+          "id": 95,
+          "question_number": 11,
+          "question_type": "Sachaufgabe",
+          "question_text": "In der Glasfabrik werden pro Stunde 10 000 Gläser hergestellt. Der fünfte Teil davon sind Sektgläser. Der Rest besteht zur Hälfte aus Biergläsern und Weingläsern. Zeichne ein passendes Streifenbild. Frage, rechne und antworte!",
+          "answer_text": "F: Wie viel Sekt-, Wein- und Biergläser sind es jeweils?\nSektgläser: 10 000 : 5 = 2000\nRest: 10 000 – 2000 = 8000\nBiergläser = Weingläser: 8000 : 2 = 4000\nA: Es sind 2000 Sektgläser und je 4000 Bier- und Weingläser.",
+          "answer_steps": [
+            "Sektgläser: 1/5 von 10 000 = 2000",
+            "Restliche Gläser: 10 000 – 2000 = 8000",
+            "Biergläser und Weingläser je zur Hälfte: 8000 : 2 = 4000"
+          ],
+          "max_points": 5.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.brueche.gemischt",
+            "mathe.klasse4.sachaufgaben.mehrstufig"
+          ]
+        },
+        {
+          "id": 96,
+          "question_number": 12,
+          "question_type": "Sachaufgabe",
+          "question_text": "Um wie viel ist der Unterschied zwischen 5378 und 8413 größer als die kleinstmögliche vierstellige Zahl, in der die Ziffer 9 zweimal vorkommt?\nA: ___",
+          "answer_text": "A: Der Unterschied ist um 1936 größer.",
+          "answer_steps": [
+            "Unterschied: 8413 – 5378 = 3035",
+            "Kleinstmögliche vierstellige Zahl mit 9 zweimal: 1099",
+            "3035 – 1099 = 1936"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
+            "mathe.klasse4.schriftlich.subtraktion"
+          ]
+        },
+        {
+          "id": 97,
+          "question_number": 13,
+          "question_type": "Rechnen",
+          "question_text": "Rechne schriftlich! Wandle zuerst um!\n2,08 t + 4965 kg + 0,009 t + 70 kg =",
+          "answer_text": "7124 kg",
+          "answer_steps": [
+            "2,08 t = 2080 kg",
+            "0,009 t = 9 kg",
+            "2080 kg + 4965 kg + 9 kg + 70 kg = 7124 kg"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.dezimalzahlen.rechnen",
+            "mathe.klasse4.schriftlich.addition"
+          ]
+        },
+        {
+          "id": 98,
+          "question_number": 14,
+          "question_type": "Sachaufgabe",
+          "question_text": "Der Gebrauchtwagenhändler \"Schrotti\" verkauft in seiner Aktionswoche \"Ungerade Preise\". Einen Ford für 6432 €, einen alten Golf für 2471 € und 8 Winterreifen zu je 90 €. Am selben Tag kauft er für sein Büro neue Computer für 4780 € und neue Möbel für 3478 €. Muss der Händler noch zusätzlich Geld von seinem Konto abheben?",
+          "answer_text": "Nein, er muss kein Geld abheben, da er mehr einnimmt als ausgibt.\nEinnahmen: 6432 € + 2471 € + 720 € = 9623 €\nAusgaben: 4780 € + 3478 € = 8258 €",
+          "answer_steps": [
+            "Einnahmen: 8 • 90 € = 720 €; 6432 € + 2471 € + 720 € = 9623 €",
+            "Ausgaben: 4780 € + 3478 € = 8258 €",
+            "Vergleich: 9623 € > 8258 € → kein Geld abheben nötig"
+          ],
+          "max_points": 5.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.addition",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0438",
+      "subject": "Mathe",
+      "grade": 4,
+      "title": "1. Lernzielkontrolle – Zahlenraum bis 1000",
+      "topic": "Zahlenraum bis 1000",
+      "publisher": "CATLUX",
+      "source_pdf": "0438.pdf",
+      "total_points": 36.0,
+      "questions": [
+        {
+          "id": 99,
+          "question_number": 1,
+          "question_type": "Rechenaufgabe",
+          "question_text": "Rechne schriftlich untereinander:\na) 310 + 259 + 89\nb) 378 + 402 + 45 + 123\nc) 564 + 4 + 267 + 12\nd) 2000 – 345\ne) 789 – 297\nf) 602 – 385",
+          "answer_text": "a) 658  b) 948  c) 847  d) 1655  e) 492  f) 217",
+          "answer_steps": [
+            "a) 310 + 259 + 89 = 658",
+            "b) 378 + 402 + 45 + 123 = 948",
+            "c) 564 + 4 + 267 + 12 = 847",
+            "d) 2000 – 345 = 1655",
+            "e) 789 – 297 = 492",
+            "f) 602 – 385 = 217"
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.addition",
+            "mathe.klasse4.schriftlich.subtraktion"
+          ]
+        },
+        {
+          "id": 100,
+          "question_number": 2,
+          "question_type": "Rechenaufgabe",
+          "question_text": "Überschlage zunächst und multipliziere dann halbschriftlich:\na) 98 · 7\nb) 284 · 4\nc) 125 · 6\nd) 487 · 2",
+          "answer_text": "a) 686  b) 1136  c) 750  d) 974",
+          "answer_steps": [
+            "a) Überschlag: 100 · 7 = 700; 90 · 7 = 630, 8 · 7 = 56 → 686",
+            "b) Überschlag: 300 · 4 = 1200; 200 · 4 = 800, 80 · 4 = 320, 4 · 4 = 16 → 1136",
+            "c) Überschlag: 100 · 6 = 600; 100 · 6 = 600, 20 · 6 = 120, 5 · 6 = 30 → 750",
+            "d) Überschlag: 500 · 2 = 1000; 400 · 2 = 800, 80 · 2 = 160, 7 · 2 = 14 → 974"
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division_halbschriftlich",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 101,
+          "question_number": 3,
+          "question_type": "Rechenaufgabe",
+          "question_text": "Rechne halbschriftlich:\na) 594 : 6\nb) 483€ : 7\nc) 680cm : 8\nd) 653 : 5\ne) 584 : 3\nf) 782 : 4",
+          "answer_text": "a) 99  b) 69€  c) 85cm  d) 130 R 3  e) 194 R 2  f) 195 R 2",
+          "answer_steps": [
+            "a) 594 : 6 = 99 (540 : 6 = 90, 54 : 6 = 9)",
+            "b) 483€ : 7 = 69€ (420€ : 7 = 60€, 63€ : 7 = 9€)",
+            "c) 680cm : 8 = 85cm (640cm : 8 = 80cm, 40cm : 8 = 5cm)",
+            "d) 653 : 5 = 130 R 3 (500 : 5 = 100, 150 : 5 = 30 R 3)",
+            "e) 584 : 3 = 194 R 2 (300 : 3 = 100, 270 : 3 = 90, 14 : 3 = 4 R 2)",
+            "f) 782 : 4 = 195 R 2 (400 : 4 = 100, 360 : 4 = 90, 20 : 4 = 5 R 2)"
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division",
+            "mathe.klasse4.schriftlich.division_halbschriftlich"
+          ]
+        },
+        {
+          "id": 102,
+          "question_number": 4,
+          "question_type": "Rechenaufgabe",
+          "question_text": "Dividiere halbschriftlich und mache anschließend die Probe:\na) 476 : 7\nb) 772 : 4",
+          "answer_text": "a) 68  b) 193",
+          "answer_steps": [
+            "a) 476 : 7 = 68 (420 : 7 = 60, 56 : 7 = 8); Probe: 68 · 7 = 476 (60 · 7 = 420, 8 · 7 = 56)",
+            "b) 772 : 4 = 193 (400 : 4 = 100, 360 : 4 = 90, 12 : 4 = 3); Probe: 193 · 4 = 772 (400 + 360 + 12)"
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division",
+            "mathe.klasse4.schriftlich.division_halbschriftlich"
+          ]
+        },
+        {
+          "id": 103,
+          "question_number": 5,
+          "question_type": "Zahlenrätsel",
+          "question_text": "Löse die Zahlenrätsel und denke an eine Antwort:\n\nRätsel 1: Du findest meine Zahl, wenn du den dritten Teil von 705 von der Zahl 500 subtrahierst.\n\nRätsel 2: Wenn ich meine Zahl durch 8 dividiere und dann zum Ergebnis das Doppelte von 125 addiere, erhalte ich 450.",
+          "answer_text": "Rätsel 1: Die Zahl heißt 265.  Rätsel 2: Die Zahl heißt 1600.",
+          "answer_steps": [
+            "Rätsel 1: 705 : 3 = 235 (660 : 3 = 220, 45 : 3 = 15); 500 – 235 = 265",
+            "Rätsel 2: 125 · 2 = 250; 450 – 250 = 200; 200 · 8 = 1600"
+          ],
+          "max_points": 5.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
+            "mathe.klasse4.schriftlich.division"
+          ]
+        },
+        {
+          "id": 104,
+          "question_number": 6,
+          "question_type": "Sachaufgabe",
+          "question_text": "Bianca malt auf ihren Block eine Musterzeile. Dafür zeichnet sie eine Reihe gleichmäßig breiter Kästchen mit je 7mm. Sie beginnt und endet mit einem roten Kästchen. Zwischen den Kästchen lässt sie aber immer einen Abstand von 5mm. Wie viele Zentimeter ist Biancas Musterreihe lang, wenn sie insgesamt 16 rote Kästchen malt?",
+          "answer_text": "Die Musterreihe ist 18,7cm lang.",
+          "answer_steps": [
+            "16 · 7mm = 112mm (Gesamtbreite der Kästchen)",
+            "15 · 5mm = 75mm (Abstände zwischen 16 Kästchen = 15 Lücken)",
+            "112mm + 75mm = 187mm",
+            "187mm = 18,7cm"
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 105,
+          "question_number": 7,
+          "question_type": "Sachaufgabe",
+          "question_text": "Stolz hält der Schulrektor Hr. Dickbier die Spende von 457€ für Pausenspiele in der Hand. Er will diese an die sechs Klassenlehrer der 4. Klassen verteilen. Kannst du ihm helfen? (F, R, genaue A)",
+          "answer_text": "Jeder Klassenlehrer bekommt 76 Euro. Ein Euro bleibt Hr. Dickbier übrig.",
+          "answer_steps": [
+            "F: Wie viel bekommt jeder Klassenlehrer?",
+            "457€ : 6 = 76€ R 1€ (420€ : 6 = 70€, 37€ : 6 = 6€ R 1€)",
+            "A: Jeder Klassenlehrer bekommt 76 Euro. Ein Euro bleibt Hr. Dickbier übrig."
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.division_halbschriftlich"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0905",
+      "subject": "Mathe",
+      "grade": 4,
+      "title": "Übungsaufgaben – Geometrie: Quader",
+      "topic": "Geometrie: Quader",
+      "publisher": "CATLUX",
+      "source_pdf": "0905.pdf",
+      "total_points": 12.0,
+      "questions": [
+        {
+          "id": 106,
+          "question_number": 1,
+          "question_type": "Kreuze an",
+          "question_text": "Kreuze an! (ja / nein)\n1. An jeder Quaderkante stoßen drei Flächen zusammen.\n2. Ein Quader hat sechs gleich lange Kanten.\n3. Beim Quader sind gegenüberliegende Flächen gleich.\n4. Jeder Quader ist zugleich ein Würfel.\n5. Ein Quader hat 8 Flächen.\n6. Der Würfel hat zwölf Kanten und acht Ecken.\n7. Ein Prisma hat manchmal zehn Kanten.",
+          "answer_text": "1. nein  2. nein  3. ja  4. nein  5. nein  6. ja  7. nein",
+          "answer_steps": [
+            "1. nein – An jeder Quaderkante stoßen zwei (nicht drei) Flächen zusammen.",
+            "2. nein – Ein Quader hat drei Gruppen je vier gleich langer Kanten, aber nicht alle 12 gleich lang.",
+            "3. ja – Gegenüberliegende Flächen sind kongruent.",
+            "4. nein – Nur ein Würfel (Sonderfall Quader) hat alle gleich langen Kanten.",
+            "5. nein – Ein Quader hat 6 Flächen, nicht 8.",
+            "6. ja – Ein Würfel hat 12 Kanten und 8 Ecken.",
+            "7. nein – Ein Prisma hat je nach Grundfläche eine feste Kantenzahl; ein Dreiecksprisma hat 9 Kanten."
+          ],
+          "max_points": 0.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 107,
+          "question_number": 2,
+          "question_type": "Würfelbauwerk analysieren",
+          "question_text": "Betrachte die Körper A und B (aus Würfeln aufgebaut).\n\nFülle die Tabelle aus:\n- Aus wie vielen Würfeln bestehen die Körper?\n- Wie viele Würfel fehlen zum Würfel?\n- Wie viele Würfel musst du mindestens hinzufügen, damit ein Quader entsteht?\n\nZeichne die Baupläne zu den Körpern A und B!",
+          "answer_text": "A: 10 Würfel, fehlen zum Würfel: 17, mindestens hinzufügen für Quader: 8\nB: 10 Würfel, fehlen zum Würfel: 17, mindestens hinzufügen für Quader: 8",
+          "answer_steps": [
+            "Körper A: besteht aus 10 Würfeln",
+            "Körper B: besteht aus 10 Würfeln",
+            "Für einen Würfel (3×3×3 = 27) fehlen jeweils 17 Würfel",
+            "Für einen Quader genügen mindestens 8 zusätzliche Würfel (ergibt 2×3×3 = 18)",
+            "Bauplan A: 3. Reihe: 3-2-1; 2. Reihe: 2-1-1 (von vorn gesehen)",
+            "Bauplan B: 3×3-Raster mit Höhen 1-1-1 / 1-2-1 / 1-1-1"
+          ],
+          "max_points": 0.0,
+          "has_image": true,
+          "image_path": "0905_q2_koerper_AB.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 108,
+          "question_number": 3,
+          "question_type": "Würfelergänzung",
+          "question_text": "Wie viele Würfel musst du hinzufügen, bis ein Quader entsteht? Aus wie vielen Würfel besteht dann der Quader?\n\nBestimme dies für drei abgebildete Körper (je a und b angeben).",
+          "answer_text": "Körper 1: a) 80 hinzufügen, b) Quader hat 100 Würfel\nKörper 2: a) 35 hinzufügen, b) Quader hat 45 Würfel\nKörper 3: a) 52 hinzufügen, b) Quader hat 80 Würfel",
+          "answer_steps": [
+            "Körper 1: a) 80 Würfel hinzufügen, b) Quader: 100 Würfel",
+            "Körper 2: a) 35 Würfel hinzufügen, b) Quader: 45 Würfel",
+            "Körper 3: a) 52 Würfel hinzufügen, b) Quader: 80 Würfel"
+          ],
+          "max_points": 0.0,
+          "has_image": true,
+          "image_path": "0905_q3_koerper_ergaenzung.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 109,
+          "question_number": 4,
+          "question_type": "Bauplan ergänzen / Sachaufgabe",
+          "question_text": "Florian hat den nebenstehenden Körper aus Holzwürfeln aufgestellt.\n\na) Ergänze den Bauplan so, dass er zum Würfelbauwerk passt! Gegeben ist ein teilweise ausgefüllter Bauplan mit den Werten: 4 (oben Mitte), 1 (links Mitte), 1 (Mitte), 2 (rechts Mitte), 1 (rechts unten).\nWie viele Würfel hat das Bauwerk insgesamt?\n\nb) Florians Würfelbauwerk soll zu einer Treppe ergänzt werden (siehe Skizze). Wie viele Holzwürfel braucht er noch? Füge eine Rechnung hinzu!",
+          "answer_text": "a) Bauplan: Zeile 1: _, 3, 4, 4; Zeile 2: 1, 2, 1, 3; Zeile 3: _, 1, _, 2; Zeile 4: _, _, _, 1. Anzahl der Würfel: 22\nb) Florian braucht noch 18 Würfel.",
+          "answer_steps": [
+            "Bauplan vollständig: Zeile 1 (oben): [_, 3, 4, 4]; Zeile 2: [1, 2, 1, 3]; Zeile 3: [_, 1, _, 2]; Zeile 4: [_, _, _, 1]",
+            "Anzahl der Würfel: 22",
+            "Treppe: 16 + 12 + 8 + 4 = 40 Würfel gesamt",
+            "40 – 22 = 18 Würfel fehlen noch",
+            "A: Florian braucht noch 18 Würfel."
+          ],
+          "max_points": 4.0,
+          "has_image": true,
+          "image_path": "0905_q4_florian_bauwerk.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper",
+            "mathe.klasse4.sachaufgaben.mehrstufig"
+          ]
+        },
+        {
+          "id": 110,
+          "question_number": 5,
+          "question_type": "Würfelkörper analysieren",
+          "question_text": "Der nebenstehende Körper besteht aus lauter kleinen Würfeln und ist außen komplett mit Farbe bemalt worden.\n\n- Aus wie vielen Würfeln besteht der Körper?\n- Wie viele Würfel sind auf nur einer Seite bemalt?\n- Wie viele Würfel sind auf 3 Seiten bemalt?\n- Wie viele Würfel sind gar nicht bemalt?",
+          "answer_text": "Körper: 9 + 12 + 3 = 24 Würfel. Nur eine Seite bemalt: 4. 3 Seiten bemalt: 8. Gar nicht bemalt: 1.",
+          "answer_steps": [
+            "Annahme: unten sind 3 Würfel verbaut",
+            "Anzahl Würfel: 9 + 12 + 3 = 24",
+            "Nur eine Seite bemalt: 4 (oben 1, Vorderseite 1, Rückseite 1, mittlere Ebene 3. Reihe von links mittlerer Stein)",
+            "3 Seiten bemalt: 8 (Ecken)",
+            "Gar nicht bemalt: 1"
+          ],
+          "max_points": 0.0,
+          "has_image": true,
+          "image_path": "0905_q5_farbwuerfel.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 111,
+          "question_number": 6,
+          "question_type": "Quader beschriften",
+          "question_text": "Trage in die Flächen des Quaders ein, welche oben (o), unten (u), vorne (v), hinten (h), rechts (r) oder links (l) liegen!",
+          "answer_text": "Quader 1 (Schrägbild links): h oben, r rechts, o/l links, v unten, u ganz unten\nQuader 2 (Draufsicht): u oben, l/h rechts, v/o mitte\nQuader 3 (Frontalansicht): l links, v/o/h/u von links nach rechts",
+          "answer_steps": [
+            "Quader 1: h (hinten oben), r (rechts), o (oben links), l (links), v (vorne), u (unten)",
+            "Quader 2: u (unten), l (links), h (hinten), v (vorne), o (oben)",
+            "Quader 3: l (links), v (vorne), o (oben), h (hinten), u (unten)"
+          ],
+          "max_points": 0.0,
+          "has_image": true,
+          "image_path": "0905_q6_quader_beschriften.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 112,
+          "question_number": 7,
+          "question_type": "Zeichenaufgabe",
+          "question_text": "Zeichne zwei Rechtecke, die genau einen gemeinsamen Punkt haben. Verwende ein Lineal!",
+          "answer_text": "Verschiedene Möglichkeiten: zwei Rechtecke, die sich an genau einer Ecke berühren (z. B. eine Ecke des einen liegt auf einer Ecke des anderen).",
+          "answer_steps": [
+            "Zeichne ein erstes Rechteck mit dem Lineal.",
+            "Zeichne ein zweites Rechteck so, dass eine Ecke des zweiten genau auf einer Ecke des ersten liegt.",
+            "Die Rechtecke dürfen sich nur in diesem einen Punkt berühren, nicht überlappen."
+          ],
+          "max_points": 0.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.geometrie.vierecke"
+          ]
+        },
+        {
+          "id": 113,
+          "question_number": 8,
+          "question_type": "Quadernetz bestimmen",
+          "question_text": "Trage unten ein!\nVier Netze (a, b, c, d) sind abgebildet. Folgende Netze ergeben einen Quader: ______. Keinen Quader gibt es bei ___ und ___, weil ________________________.",
+          "answer_text": "Folgende Netze ergeben einen Quader: a, c. Keinen Quader gibt es bei b und d, weil b) Fläche zu klein; d) Fläche zu viel.",
+          "answer_steps": [
+            "Netz a: ergibt einen Quader (korrekte Anordnung der 6 Flächen)",
+            "Netz b: ergibt keinen Quader – eine Fläche ist zu klein",
+            "Netz c: ergibt einen Quader",
+            "Netz d: ergibt keinen Quader – eine Fläche zu viel (7 Flächen statt 6)"
+          ],
+          "max_points": 0.0,
+          "has_image": true,
+          "image_path": "0905_q8_quadernetz.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 114,
+          "question_number": 9,
+          "question_type": "Quadernetz einfärben",
+          "question_text": "3 Quader wurden zur Hälfte in Farbe getaucht. Färbe die Netze ein!",
+          "answer_text": "Jeweils die unteren drei Flächen des Netzes werden eingefärbt (die Flächen, die beim Eintauchen zur Hälfte in Farbe lagen).",
+          "answer_steps": [
+            "Bestimme, welche Hälfte des Quaders eingetaucht wurde.",
+            "Übertrage die entsprechenden Flächen auf das Netz und färbe sie ein."
+          ],
+          "max_points": 0.0,
+          "has_image": true,
+          "image_path": "0905_q9_quader_faerben.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 115,
+          "question_number": 10,
+          "question_type": "Quadernetz korrigieren",
+          "question_text": "Die Zeichnung soll ein Quadernetz darstellen. Verbessere den Fehler und ergänze die fehlende Fläche. Zeichne mit dem Geodreieck ganz genau!",
+          "answer_text": "Eine falsch platzierte Fläche (im Netz mit X markiert) wird entfernt/korrigiert und die fehlende sechste Fläche an der richtigen Stelle ergänzt.",
+          "answer_steps": [
+            "Identifiziere die falsche Fläche im abgebildeten Netz.",
+            "Zeichne die fehlende sechste Fläche an der korrekten Position.",
+            "Überprüfe: Das korrigierte Netz muss beim Falten einen Quader ergeben."
+          ],
+          "max_points": 0.0,
+          "has_image": true,
+          "image_path": "0905_q10_quadernetz_korrektur.png",
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper"
+          ]
+        },
+        {
+          "id": 116,
+          "question_number": 11,
+          "question_type": "Sachaufgabe",
+          "question_text": "Florian baut aus Draht einen Würfel und einen Quader. Beide haben dieselbe Länge von 10cm. Der Quader ist 4cm breit. Insgesamt braucht Florian für beide Körper 200cm Draht. Wie hoch ist der Quader? (Schreibe alle Rechnungen auf!)",
+          "answer_text": "Der Quader ist 6cm hoch.",
+          "answer_steps": [
+            "Würfel: 12 Kanten × 10cm = 120cm Draht",
+            "Draht für Quader: 200cm – 120cm = 80cm",
+            "Quader hat 4 Längen + 4 Breiten + 4 Höhen",
+            "4 × 10cm = 40cm (Längen), 4 × 4cm = 16cm (Breiten) → 40cm + 16cm = 56cm",
+            "Draht für Höhen: 80cm – 56cm = 24cm",
+            "Höhe: 24cm : 4 = 6cm",
+            "A: Der Quader ist 6cm hoch."
+          ],
+          "max_points": 8.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.geometrie.koerper",
+            "mathe.klasse4.sachaufgaben.mehrstufig"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0906",
+      "subject": "Mathe",
+      "grade": 4,
+      "title": "3. Probe – Sachaufgaben",
+      "topic": "Sachaufgaben",
+      "publisher": "CATLUX",
+      "source_pdf": "0906.pdf",
+      "total_points": 26.0,
+      "questions": [
+        {
+          "id": 117,
+          "question_number": 1,
+          "question_type": "Kreuze an",
+          "question_text": "Welche Fragen kannst du durch Rechnen beantworten? Kreuze an!\n\nGegeben ist eine Werbeanzeige des Radl-Markts mit folgenden Preisen:\n  Puky 300 (3-Gang-Schaltung): 195,50€\n  Speedy 50 (Alufelgen + 5-Gang): 229,–€\n  Fahrradhelm: 42€\n  Beleuchtungsset: 25,50€\n  Fahrradmantel: 10€/Stück\n  Werkzeugset: 12,75€\n  Flasche: 3,25€\n\nFragen:\na) Wie viel muss Florian für das Rad Puky und eine Fahrradflasche bezahlen?\nb) Florian hat 300€. Reicht sein Geld für das Rad Puky und einen Fahrradkorb?\nc) Kosten das Fahrrad Puky und ein Fahrradhelm mehr als das Rad Speedy?\nd) Wie lange hat der Radl-Markt geöffnet, wenn Florian das Speedy 50 kaufen möchte?",
+          "answer_text": "Durch Rechnen beantwortbar: a) und c).\nNicht beantwortbar: b) (kein Fahrradkorb-Preis angegeben), d) (Öffnungszeiten nicht angegeben).",
+          "answer_steps": [
+            "a) Ja – Puky 195,50€ + Flasche 3,25€ = 198,75€ → durch Rechnen beantwortbar",
+            "b) Nein – kein Preis für Fahrradkorb in der Anzeige angegeben",
+            "c) Ja – Puky 195,50€ + Helm 42€ = 237,50€ > Speedy 229€ → durch Rechnen beantwortbar",
+            "d) Nein – Öffnungszeiten des Radl-Markts sind nicht angegeben"
+          ],
+          "max_points": 2.0,
+          "has_image": true,
+          "image_path": "0906_q1_radlmarkt.png",
+          "knowledge": [
+            "mathe.klasse4.groessen.geld",
+            "mathe.klasse4.sachaufgaben.mehrstufig"
+          ]
+        },
+        {
+          "id": 118,
+          "question_number": 2,
+          "question_type": "Tabelle ausfüllen",
+          "question_text": "Diese Tabellen kannst du ausfüllen!\n\nTabelle 1 (Geschwindigkeit 120km/h):\n  1h → 120km\n  30min → ?\n  10min → ?\n  1min → ?\n  11min → ?\n\nTabelle 2 (Geschwindigkeit 140km/h):\n  1h → 140km\n  ? → 280km\n  ? → 70km\n  ? → 35km\n  ? → 245km",
+          "answer_text": "Tabelle 1: 30min→60km, 10min→20km, 1min→2km, 11min→22km\nTabelle 2: 2h→280km, 30min→70km, 15min→35km, 1h45min→245km",
+          "answer_steps": [
+            "Tabelle 1: 120km/h → 120 : 2 = 60km (30min); 120 : 6 = 20km (10min); 120 : 60 = 2km (1min); 2 × 11 = 22km (11min)",
+            "Tabelle 2: 140 × 2 = 280km → 2h; 140 : 2 = 70km → 30min; 70 : 2 = 35km → 15min; 245 : 140 × 60 = 105min = 1h45min → 245km"
+          ],
+          "max_points": 8.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.groessen.zeit",
+            "mathe.klasse4.sachaufgaben.tabellen"
+          ]
+        },
+        {
+          "id": 119,
+          "question_number": 3,
+          "question_type": "Textaufgabe",
+          "question_text": "Löse die Textaufgabe mit Skizze, Rechnungen und Antworten!\n\nFamilie Meier macht einen Ausflug. Mit ihren Rädern fahren sie um 8.15 Uhr von zu Hause weg. Nach 1 Stunde 25 Minuten machen sie 35 Minuten am Fischteich eine Pause. Danach fahren sie noch 40 Minuten zu einer Burg. Die Burgbesichtigung dauert 1 Stunde 30 Minuten. Für den Rückweg brauchen sie 2 Stunden 30 Minuten.\n\na) Zeichne eine Skizze mit allen Angaben aus der Geschichte!\nb) Was musst du ausrechnen? Kreuze an! (Abfahrt / Dauer des Ausflugs / Länge der Strecke / Ankunft)\nc) Rechne nun aus!\nF: Wie viele Stunden und Minuten dauert der Ausflug?\nF: Um wie viel Uhr sind sie wieder zu Hause?",
+          "answer_text": "b) Dauer des Ausflugs und Ankunft.\nc) Der Ausflug dauert 6 Stunden und 40 Minuten. Die Familie ist um 14.55 Uhr wieder zu Hause.",
+          "answer_steps": [
+            "Abschnitte: 1h 25min + 35min + 40min + 1h 30min + 2h 30min",
+            "Summe: 1h 25min + 35min = 2h; + 40min = 2h 40min; + 1h 30min = 4h 10min; + 2h 30min = 6h 40min",
+            "Ankunft: 8.15 Uhr + 6h 40min = 14.55 Uhr",
+            "A: Der Ausflug dauert 6 Stunden und 40 Minuten.",
+            "A: Die Familie ist um 14.55 Uhr wieder zu Hause."
+          ],
+          "max_points": 9.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.groessen.zeit",
+            "mathe.klasse4.sachaufgaben.mehrstufig"
+          ]
+        },
+        {
+          "id": 120,
+          "question_number": 4,
+          "question_type": "Textaufgabe",
+          "question_text": "Die Freunde Florian und Tim wollen zu einem Fußballspiel nach München fahren, das um 14.00 Uhr beginnt.\n\nFlorian fährt mit dem Rad. Bis nach München sind es 35km. Er schafft 14km in der Stunde. Für eine Pause plant er 20 Minuten ein. Tim fährt die gleiche Strecke mit dem Auto. Dafür braucht er 30 Minuten. Beim Tanken braucht er zusätzlich 10 Minuten.\n\na) Trage wichtige Angaben ein:\n   Abfahrt von Florian | Abfahrt von Tim\n   Geschwindigkeit von Florian | Fahrzeit von Tim\n   Pause von Florian | Tanken\n   Gesamtstrecke\n\nb) Wie lange ist Florian insgesamt unterwegs?\nc) Wie lange ist Tim unterwegs?\nd) Wann muss Florian losradeln, wenn er 30 Minuten vor dem Spiel in München sein möchte?\nd) Wie lange stand Tim im Stau, wenn er um 13.00 Uhr losfuhr, aber erst um 14.10 Uhr in München ankam?",
+          "answer_text": "a) Florian: Abfahrt 11.10 Uhr, 14km/h, Pause 20min, Strecke 35km; Tim: Abfahrt 13.20 Uhr, Fahrzeit 30min, Tanken 10min\nb) Florian ist 2h 50min unterwegs.\nc) Tim ist 40min unterwegs.\nd1) Florian muss um 10.40 Uhr losradeln.\nd2) Tim stand 30 Minuten im Stau.",
+          "answer_steps": [
+            "a) Florian: 14km/h, Pause 20min, Strecke 35km; Tim: Fahrzeit 30min, Tanken 10min",
+            "b) 1h→14km, 2h→28km, 30min→7km → 2h 30min für 35km; + 20min Pause = 2h 50min",
+            "   Abfahrt Florian: 14.00 Uhr – 30min (vor Spiel) – 2h 50min = 11.10 Uhr (für d1)",
+            "c) Tim: 30min Fahrt + 10min Tanken = 40min; Abfahrt Tim: 14.00 – 40min = 13.20 Uhr",
+            "d1) Florian möchte 30min vor 14.00 = 13.30 Uhr ankommen; 13.30 Uhr – 2h 50min = 10.40 Uhr",
+            "d2) Tim losfuhr 13.00 Uhr, ankam 14.10 Uhr → Gesamtzeit 1h 10min; normal 40min → Stau: 1h 10min – 40min = 30min"
+          ],
+          "max_points": 0.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.groessen.zeit",
+            "mathe.klasse4.sachaufgaben.mehrstufig"
+          ]
+        },
+        {
+          "id": 121,
+          "question_number": 5,
+          "question_type": "Sachaufgabe",
+          "question_text": "Anna und Leon sollen für das Sportfest 3 Reihen Hütchen am Sportplatz aufstellen. Die Hütchen in jeder Reihe müssen 3m Abstand voneinander haben. Jede Reihe ist 27m lang.\n\nF: Wie viele Hütchen brauchen die Kinder, wenn auch am Anfang von jeder Reihe ein Hütchen stehen muss.",
+          "answer_text": "Anna und Leon sollen 30 Hütchen für das Sportfest aufstellen. In jede Reihe kommen 10 Hütchen.",
+          "answer_steps": [
+            "Hütchen pro Reihe: 27m : 3m = 9 Abstände → 9 + 1 = 10 Hütchen pro Reihe",
+            "3 Reihen: 10 × 3 = 30 Hütchen gesamt",
+            "A: Anna und Leon sollen 30 Hütchen für das Sportfest aufstellen."
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.division"
+          ]
+        },
+        {
+          "id": 122,
+          "question_number": 6,
+          "question_type": "Sachaufgabe",
+          "question_text": "Florian ist 1,41m groß. Uli ist 15cm größer als Florian. Florian ist 7cm kleiner als Sarah, aber 24cm größer als Sabine.\nWie groß sind die Kinder?\nFlorian: _______ Uli: _______ Sarah: _______ Sabine: _______",
+          "answer_text": "Florian: 1,41m  Uli: 1,56m  Sarah: 1,48m  Sabine: 1,17m",
+          "answer_steps": [
+            "Florian: 1,41m (gegeben)",
+            "Uli: 1,41m + 15cm = 1,41m + 0,15m = 1,56m",
+            "Sarah: 1,41m + 7cm = 1,41m + 0,07m = 1,48m",
+            "Sabine: 1,41m – 24cm = 1,41m – 0,24m = 1,17m"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.groessen.laenge",
+            "mathe.klasse4.sachaufgaben.mehrstufig"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2119",
+      "subject": "Mathe",
+      "grade": 4,
+      "title": "6. Lernzielkontrolle – schriftlich dividieren",
+      "topic": "schriftlich dividieren",
+      "publisher": "CATLUX",
+      "source_pdf": "2119.pdf",
+      "total_points": 18.0,
+      "questions": [
+        {
+          "id": 123,
+          "question_number": 1,
+          "question_type": "Rechenaufgabe",
+          "question_text": "Dividiere schriftlich!\na) 5 859 : 9 =\nb) 40 014 : 6 =\nc) 234 063 : 3 =",
+          "answer_text": "a) 651\nb) 6 669\nc) 78 021",
+          "answer_steps": [
+            "a) 5 859 : 9: 54↓ Rest 45 → 45↓ Rest 09 → 9↓ Rest 0 → 651",
+            "b) 40 014 : 6: 36↓ Rest 40 → 36↓ Rest 41 → 36↓ Rest 54 → 54↓ Rest 0 → 6 669",
+            "c) 234 063 : 3: 21↓ Rest 24 → 24↓ Rest 00 → 0↓ Rest 06 → 6↓ Rest 03 → 3↓ Rest 0 → 78 021"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division"
+          ]
+        },
+        {
+          "id": 124,
+          "question_number": 2,
+          "question_type": "Sachaufgabe",
+          "question_text": "Eine 34,40 m lange Schnur wird in vier gleich lange Stücke geteilt.\nFrage: Wieviel Meter ist ein Stück lang?\nAntwort: ___",
+          "answer_text": "Ein Stück ist 8,60 Meter lang.",
+          "answer_steps": [
+            "34,40 m : 4 = 8,60 m (schriftliche Division)"
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.division"
+          ]
+        },
+        {
+          "id": 125,
+          "question_number": 3,
+          "question_type": "Rechenaufgabe",
+          "question_text": "Dividiere 380 952 durch 8. Multipliziere das Ergebnis mit 7!",
+          "answer_text": "380 952 : 8 = 47 619; 47 619 • 7 = 333 333",
+          "answer_steps": [
+            "380 952 : 8 = 47 619",
+            "47 619 • 7 = 333 333"
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 126,
+          "question_number": 4,
+          "question_type": "Lückenaufgabe",
+          "question_text": "Welche Ziffern fehlen?\na) 3_6_ : 4 = _6_\nb) 3_6_ : 6 = 5__",
+          "answer_text": "a) 3 468 : 4 = 867\nb) 3 168 : 6 = 528",
+          "answer_steps": [
+            "a) Dividend: 3468, Divisor: 4, Quotient: 867",
+            "b) Dividend: 3168, Divisor: 6, Quotient: 528"
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division"
+          ]
+        },
+        {
+          "id": 127,
+          "question_number": 5,
+          "question_type": "Kopfrechenaufgabe",
+          "question_text": "Wenn du diese Zahlen durch 5 dividierst, bleibt immer ein Rest. Gib den Rest an, ohne zu rechnen!\na) 28 397\nb) 35 786\nc) 70 019\nd) 196 204\ne) 26 383\nRest: ___ Rest: ___ Rest: ___ Rest: ___ Rest: ___",
+          "answer_text": "a) Rest: 2\nb) Rest: 1\nc) Rest: 4\nd) Rest: 4\ne) Rest: 3",
+          "answer_steps": [
+            "Der Rest bei Division durch 5 entspricht der letzten Ziffer modulo 5.",
+            "a) 7 mod 5 = 2",
+            "b) 6 mod 5 = 1",
+            "c) 9 mod 5 = 4",
+            "d) 4 mod 5 = 4",
+            "e) 3 mod 5 = 3"
+          ],
+          "max_points": 2.5,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division"
+          ]
+        },
+        {
+          "id": 128,
+          "question_number": 6,
+          "question_type": "Rechenaufgabe",
+          "question_text": "Rechne schriftlich! Hier bleibt ein Rest.\na) 683 : 5 =\nb) 1 803 : 4 =",
+          "answer_text": "a) 683 : 5 = 136 R 3\nb) 1 803 : 4 = 450 R 3",
+          "answer_steps": [
+            "a) 683 : 5: 5↓ Rest 18 → 15↓ Rest 33 → 30↓ Rest 3 → 136 R 3",
+            "b) 1803 : 4: 16↓ Rest 20 → 20↓ Rest 03 → 0↓ Rest 3 → 450 R 3"
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division"
+          ]
+        },
+        {
+          "id": 129,
+          "question_number": 7,
+          "question_type": "Sachaufgabe",
+          "question_text": "Herr Meier kauft ein neues Auto für 20 520 €.\nFür sein altes Auto bekommt er noch 2 550 €.\nEr bezahlt das neue Auto in sechs gleichen Teilbeträgen.\nF: Wie hoch ist der Teilbetrag?",
+          "answer_text": "Ein Teilbetrag ist 2 995,00 € hoch.",
+          "answer_steps": [
+            "20 520 € - 2 550 € = 17 970 €",
+            "17 970 € : 6 = 2 995 €"
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.division"
+          ]
+        },
+        {
+          "id": 130,
+          "question_number": 8,
+          "question_type": "Teilbarkeitsaufgabe",
+          "question_text": "Welche Zahlen sind durch 6 teilbar? Kreuze an!\na) 16 524\nb) 23 456\nc) 34 578\nd) 44 868\ne) 56 354",
+          "answer_text": "Durch 6 teilbar: a) 16 524, c) 34 578, d) 44 868",
+          "answer_steps": [
+            "Eine Zahl ist durch 6 teilbar, wenn sie durch 2 und durch 3 teilbar ist.",
+            "a) 16 524: Quersumme 18 → durch 3, gerade → durch 6 ✓",
+            "b) 23 456: Quersumme 20 → nicht durch 3 ✗",
+            "c) 34 578: Quersumme 27 → durch 3, gerade → durch 6 ✓",
+            "d) 44 868: Quersumme 30 → durch 3, gerade → durch 6 ✓",
+            "e) 56 354: Quersumme 23 → nicht durch 3 ✗"
+          ],
+          "max_points": 2.5,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2134",
+      "subject": "Mathe",
+      "grade": 4,
+      "title": "2. Lernzielkontrolle – Zahlenraum bis 10 000",
+      "topic": "Zahlenraum bis 10 000",
+      "publisher": "CATLUX",
+      "source_pdf": "2134.pdf",
+      "total_points": 54.0,
+      "questions": [
+        {
+          "id": 131,
+          "question_number": 1,
+          "question_type": "Stellenwertaufgabe",
+          "question_text": "Wie heißen die Zahlen? Schreibe auf!\n4 T, 3 H, 2 Z, 5 E = ___\n9 T, 9 H, 7 Z, 9 E = ___\n3 H, 6 T, 7 Z, 4 E = ___\n6 E, 2 Z, 6 T, 9 H = ___\n4 T, 3 E, 5 H = ___\n5 T, 13 H, 1 Z = ___",
+          "answer_text": "4325\n9979\n6374\n6926\n4503\n6310",
+          "answer_steps": [
+            "4 T + 3 H + 2 Z + 5 E = 4000 + 300 + 20 + 5 = 4325",
+            "9 T + 9 H + 7 Z + 9 E = 9000 + 900 + 70 + 9 = 9979",
+            "6 T + 3 H + 7 Z + 4 E = 6000 + 300 + 70 + 4 = 6374",
+            "6 T + 9 H + 2 Z + 6 E = 6000 + 900 + 20 + 6 = 6926",
+            "4 T + 5 H + 3 E = 4000 + 500 + 3 = 4503",
+            "5 T + 13 H + 1 Z = 5000 + 1300 + 10 = 6310"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.stellenwerte"
+          ]
+        },
+        {
+          "id": 132,
+          "question_number": 2,
+          "question_type": "Zahlenstrahlaufgabe",
+          "question_text": "Du siehst einen Ausschnitt aus dem Zahlenstrahl! Vervollständige!\n(Zahlenstrahl mit Markierungen bei 5 880, 6 100, 6 200, 6 460, 6 510 und leeren Feldern)",
+          "answer_text": "5 900 (links von 6 100), 6 250 (zwischen 6 200 und 6 510), 6 130 (zwischen 5 880 und 6 200), 6 390 (zwischen 6 200 und 6 460), 6 700 (rechts von 6 510)",
+          "answer_steps": [
+            "Schrittweite ablesen: je 200 (obere Linie) und je 130 (untere Linie)",
+            "Fehlende Werte: 5900, 6130, 6250, 6390, 6700"
+          ],
+          "max_points": 4.0,
+          "has_image": true,
+          "image_path": "2134_q2_zahlenstrahl.png",
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.zahlenstrahl"
+          ]
+        },
+        {
+          "id": 133,
+          "question_number": 3,
+          "question_type": "Zahlenbildungsaufgabe",
+          "question_text": "Bilde aus den Ziffern 2, 6, 8, 5 sechs verschiedene Zahlen und ordne sie der Größe nach!\nBeginne mit der kleinsten Zahl!\n_______ _______ _______ _______ _______ _______",
+          "answer_text": "2568  2685  5268  5826  6582  8562",
+          "answer_steps": [
+            "Kleinste Zahl: 2568 (kleinste Ziffer vorne)",
+            "Größte Zahl: 8562 (größte Ziffer vorne)",
+            "Alle sechs in aufsteigender Reihenfolge: 2568, 2685, 5268, 5826, 6582, 8562"
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.vergleichen"
+          ]
+        },
+        {
+          "id": 134,
+          "question_number": 4,
+          "question_type": "Zahlenreihenaufgabe",
+          "question_text": "Setze die Zahlenreihen fort!\n8270  8310  8350  [___] [___] [___] [___] [___] [___]  8630\n6013  6009  6005  [___] [___] [___] [___] [___] [___]  5977",
+          "answer_text": "8270 8310 8350 8390 8430 8470 8510 8550 8590 8630\n6013 6009 6005 6001 5997 5993 5989 5985 5981 5977",
+          "answer_steps": [
+            "Reihe 1: +40 je Schritt",
+            "Reihe 2: −4 je Schritt"
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.zahlenfolgen"
+          ]
+        },
+        {
+          "id": 135,
+          "question_number": 5,
+          "question_type": "Nachbarzahlenaufgabe",
+          "question_text": "Suche die Nachbarzahlen!\nNT | NH | NZ | VG | Zahl | NF | NZ | NH | NT\n___ | ___ | ___ | ___ | 4783 | ___ | ___ | ___ | ___\n___ | ___ | ___ | ___ | 3021 | ___ | ___ | ___ | ___",
+          "answer_text": "4783: NT=4000, NH=4700, NZ=4780, VG=4782, NF=4784, NZ=4790, NH=4800, NT=5000\n3021: NT=3000, NH=3000, NZ=3020, VG=3020, NF=3022, NZ=3030, NH=3100, NT=4000",
+          "answer_steps": [],
+          "max_points": 8.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.vorgaenger_nachfolger"
+          ]
+        },
+        {
+          "id": 136,
+          "question_number": 6,
+          "question_type": "Rechenaufgabe",
+          "question_text": "Löse folgende Aufgaben! Rechne schriftlich!\n2571 + 4769 = ___\n5612 – 2047 = ___\n3578 + 278 = ___\n9053 – 4384 = ___\n3468 + 1533 + 2456 = ___\n7876 – 1433 – 2724 = ___",
+          "answer_text": "2571 + 4769 = 7340\n5612 – 2047 = 3565\n3578 + 278 = 3856\n9053 – 4384 = 4669\n3468 + 1533 + 2456 = 7457\n7876 – 1433 – 2724 = 3719",
+          "answer_steps": [],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.addition",
+            "mathe.klasse4.schriftlich.subtraktion"
+          ]
+        },
+        {
+          "id": 137,
+          "question_number": 7,
+          "question_type": "Sachaufgabe",
+          "question_text": "Die erste von drei Zahlen ist 2225. Die zweite ist um 375 größer. Alle drei Zahlen ergeben zusammen 4899. Wie lautet die zweite und dritte Zahl!",
+          "answer_text": "Die zweite Zahl lautet: 2600\nDie dritte Zahl lautet: 74",
+          "answer_steps": [
+            "Zweite Zahl: 2225 + 375 = 2600",
+            "Summe der ersten zwei: 2225 + 2600 = 4825",
+            "Dritte Zahl: 4899 – 4825 = 74"
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig"
+          ]
+        },
+        {
+          "id": 138,
+          "question_number": 8,
+          "question_type": "Knobelaufgabe",
+          "question_text": "Rebecas Zahl hat die Ziffern 3, 5, 8, 6. Sie liegt zwischen 4000 und 7000. Es ist eine ungerade Zahl. Sie besitzt 5 Hunderter. Wie heißt die Zahl?",
+          "answer_text": "6583",
+          "answer_steps": [
+            "Zwischen 4000 und 7000 → erste Ziffer ist 5 oder 6",
+            "5 Hunderter → zweite Stelle ist 5",
+            "Ungerade → letzte Ziffer ist 3",
+            "Übrig: 6 vorne, also 6583"
+          ],
+          "max_points": 1.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
+            "mathe.klasse4.zahlen1000000.stellenwerte"
+          ]
+        },
+        {
+          "id": 139,
+          "question_number": 9,
+          "question_type": "Rundeaufgabe",
+          "question_text": "Runde folgende Zahlen!\nAuf Zehner: 76 ___ 299 ___ 9909 ___\nAuf Hunderter: 123 ___ 2756 ___ 3466 ___\nAuf Tausender: 3479 ___ 1188 ___ 876 ___",
+          "answer_text": "Auf Zehner: 80 / 300 / 9910\nAuf Hunderter: 100 / 2800 / 3500\nAuf Tausender: 3000 / 1000 / 1000",
+          "answer_steps": [],
+          "max_points": 4.5,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.runden"
+          ]
+        },
+        {
+          "id": 140,
+          "question_number": 10,
+          "question_type": "Rundeaufgabe",
+          "question_text": "Runde folgende Zahl auf Zehner, Hunderter und Tausender!\n8527\n≈ ___ ___ ___",
+          "answer_text": "8530  8500  9000",
+          "answer_steps": [
+            "Auf Zehner: 8530",
+            "Auf Hunderter: 8500",
+            "Auf Tausender: 9000"
+          ],
+          "max_points": 1.5,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.runden"
+          ]
+        },
+        {
+          "id": 141,
+          "question_number": 11,
+          "question_type": "Knobelaufgabe",
+          "question_text": "Tom hat eine Zahl auf Zehner gerundet. Jetzt heißt seine Zahl 1570. Nenne zwei mögliche Zahlen, die er gerundet haben könnte!",
+          "answer_text": "z. B. 1574 und 1568",
+          "answer_steps": [
+            "Zahlen zwischen 1565 und 1574 runden auf 1570"
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.runden"
+          ]
+        },
+        {
+          "id": 142,
+          "question_number": 12,
+          "question_type": "Rechenaufgabe",
+          "question_text": "Jetzt geht es zum Schluss noch um das Malnehmen und Teilen von großen Zahlen. Denke an die „Nullertricks“!\n500 • 2 = ___\n300 • 5 = ___\n7 • 600 = ___\n70 • 70 = ___\n4500 : 5 = ___\n2100 : 7 = ___\n4800 : 600 = ___\n3200 : 400 = ___\n7200 : 800 = ___\n2400 : 80 = ___",
+          "answer_text": "500 • 2 = 1000\n300 • 5 = 1500\n7 • 600 = 4200\n70 • 70 = 4900\n4500 : 5 = 900\n2100 : 7 = 300\n4800 : 600 = 8\n3200 : 400 = 8\n7200 : 800 = 9\n2400 : 80 = 30",
+          "answer_steps": [],
+          "max_points": 10.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2136",
+      "subject": "Mathe",
+      "grade": 4,
+      "title": "2. Lernzielkontrolle – Zahlenraum bis 10 000",
+      "topic": "Zahlenraum bis 10 000",
+      "publisher": "CATLUX",
+      "source_pdf": "2136.pdf",
+      "total_points": 45.0,
+      "questions": [
+        {
+          "id": 143,
+          "question_number": 1,
+          "question_type": "Vergleichsaufgabe",
+          "question_text": "Ordne die Zahlen. Beginne mit der Kleinsten!\n5 338, 5 234, 5 324, 5 248, 5 238",
+          "answer_text": "5234, 5238, 5248, 5324, 5338",
+          "answer_steps": [],
+          "max_points": 1.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.vergleichen"
+          ]
+        },
+        {
+          "id": 144,
+          "question_number": 2,
+          "question_type": "Zahlenwörter",
+          "question_text": "Schreibe folgende Zahlenwörter als Zahlen!\nFünftausendsiebenundfünfzig ___\ndreitausendsechshundertsieben ___",
+          "answer_text": "5057\n3607",
+          "answer_steps": [],
+          "max_points": 1.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.stellenwerte"
+          ]
+        },
+        {
+          "id": 145,
+          "question_number": 3,
+          "question_type": "Zahlenstrahlaufgabe",
+          "question_text": "Ergänze die Zahlen an den Zahlenstrahlen!\nZahlenstrahl 1: ... 2 430 ... 2 440 ... 2 450 ...\nA = ___ B = ___\nZahlenstrahl 2: ... 5 000 ... 6 000 ... 7 000 ...\nA = ___ B = ___",
+          "answer_text": "Zahlenstrahl 1: A = 2431, B = 2446\nZahlenstrahl 2: A = 4700, B = 6300",
+          "answer_steps": [
+            "Zahlenstrahl 1: Schrittweite 10; A liegt knapp nach 2430 → 2431, B liegt zwischen 2440 und 2450 → 2446",
+            "Zahlenstrahl 2: Schrittweite 1000; A liegt vor 5000 → 4700, B liegt zwischen 6000 und 7000 → 6300"
+          ],
+          "max_points": 4.0,
+          "has_image": true,
+          "image_path": "2136_q3_zahlenstrahl.png",
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.zahlenstrahl"
+          ]
+        },
+        {
+          "id": 146,
+          "question_number": 4,
+          "question_type": "Stellenwertaufgabe",
+          "question_text": "a) Wie heißen die Zahlen?\n3E 7H 6 T = ___\n4 T 16 H 2 Z 36 E = ___\nb) Tausche!\n6 T + 7 Z = ___ Z\n3 T + 8 H + 10 Z = ___ H",
+          "answer_text": "a) 6703\n   5656\nb) 607 Z\n   39 H",
+          "answer_steps": [
+            "a) 6 T + 7 H + 3 E = 6703",
+            "   4 T + 16 H + 2 Z + 36 E = 4000 + 1600 + 20 + 36 = 5656",
+            "b) 6 T + 7 Z = 6000 + 70 = 6070; 6070 : 10 = 607 Z",
+            "   3 T + 8 H + 10 Z = 3000 + 800 + 100 = 3900; 3900 : 100 = 39 H"
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.stellenwerte"
+          ]
+        },
+        {
+          "id": 147,
+          "question_number": 5,
+          "question_type": "Nachbarzahlenaufgabe",
+          "question_text": "Suche Vorgänger (V) und Nachfolger (N), Nachbarzehner (NZ), Nachbarhunderter (NH) und Nachbartausender (NT)!\nNT | NH | NZ | V | Zahl | N | NZ | NH | NT\n___ | ___ | ___ | ___ | 4376 | ___ | ___ | ___ | ___",
+          "answer_text": "NT=4000, NH=4300, NZ=4370, V=4375, Zahl=4376, N=4377, NZ=4380, NH=4400, NT=5000",
+          "answer_steps": [],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.vorgaenger_nachfolger"
+          ]
+        },
+        {
+          "id": 148,
+          "question_number": 6,
+          "question_type": "Nachbarzahlenaufgabe",
+          "question_text": "Finde die Nachbarzahlen!\nVorgänger | Zahl | Nachfolger | NH | NT\n___ | 8751 | ___ | ___ | ___\n4999 | ___ | ___ | ___ | ___",
+          "answer_text": "8750 | 8751 | 8752 | 8800 | 9000\n4999 | 5000 | 5001 | 5100 | 6000",
+          "answer_steps": [],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.vorgaenger_nachfolger"
+          ]
+        },
+        {
+          "id": 149,
+          "question_number": 7,
+          "question_type": "Zahlenbildungsaufgabe",
+          "question_text": "Bilde aus den Ziffern 5, 7, 1, 8 die größte und die kleinste Zahl!\n___ (größte Zahl)  ___ (kleinste Zahl)",
+          "answer_text": "8751 (größte Zahl)  1578 (kleinste Zahl)",
+          "answer_steps": [
+            "Größte Zahl: Ziffern absteigend → 8751",
+            "Kleinste Zahl: Ziffern aufsteigend → 1578"
+          ],
+          "max_points": 1.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.vergleichen"
+          ]
+        },
+        {
+          "id": 150,
+          "question_number": 8,
+          "question_type": "Zahlenreihenaufgabe",
+          "question_text": "Setze die Zahlenreihe fort!\n5 004 | 5007 | 4998 | 5001 | ___ | ___\n8170 | 8090 | 8010 | ___ | ___ | ___\n1230 | 1140 | 2140 | 2050 | ___ | ___",
+          "answer_text": "Reihe 1: 4992, 4995\nReihe 2: 7930, 7850, 7770\nReihe 3: 3050, 2960",
+          "answer_steps": [
+            "Reihe 1: abwechselnd +3 und −9",
+            "Reihe 2: −80 je Schritt",
+            "Reihe 3: abwechselnd −90 und +1000"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.zahlenfolgen"
+          ]
+        },
+        {
+          "id": 151,
+          "question_number": 9,
+          "question_type": "Ergänzungsaufgabe",
+          "question_text": "Ergänze\na) Zum nächsten vollen Tausender!\n2460 + ___ = ___\n4732 + ___ = ___\nb) auf Zehntausend!\n4330 + ___ = 10 000\n825 + ___ = 10 000",
+          "answer_text": "a) 2460 + 540 = 3000\n   4732 + 268 = 5000\nb) 4330 + 5670 = 10 000\n   825 + 9175 = 10 000",
+          "answer_steps": [],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.addition",
+            "mathe.klasse4.zahlen1000000.stellenwerte"
+          ]
+        },
+        {
+          "id": 152,
+          "question_number": 10,
+          "question_type": "Knobelaufgabe",
+          "question_text": "Zieht man von 9742 eine Zahl ab, so erhält man die Hälfte von 1368. Wie heißt die Zahl?\nAntwort: ___",
+          "answer_text": "Die Zahl heißt 9058.",
+          "answer_steps": [
+            "1368 : 2 = 684",
+            "9742 − 684 = 9058"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
+            "mathe.klasse4.schriftlich.subtraktion"
+          ]
+        },
+        {
+          "id": 153,
+          "question_number": 11,
+          "question_type": "Rechenaufgabe",
+          "question_text": "a) 10000 = ___ • 500\n   10000 = ___ • 50\n   10000 = ___ • 5\nb) 10000 = ___ • 2000\n   10000 = ___ • 20\n   10000 = ___ • 2",
+          "answer_text": "a) 10000 = 20 • 500\n   10000 = 200 • 50\n   10000 = 2000 • 5\nb) 10000 = 5 • 2000\n   10000 = 500 • 20\n   10000 = 5000 • 2",
+          "answer_steps": [],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 154,
+          "question_number": 12,
+          "question_type": "Sachaufgabe",
+          "question_text": "Ein Paket mit 500 Blatt Kopierpapier ist 5 cm hoch.\nWie hoch ist ein Stapel mit 10 000 Blatt?\nAntwort: ___",
+          "answer_text": "Der Stapel ist 100 cm hoch.",
+          "answer_steps": [
+            "500 Blatt = 5 cm → 1000 Blatt = 10 cm",
+            "10 000 Blatt = 100 cm"
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig"
+          ]
+        },
+        {
+          "id": 155,
+          "question_number": 13,
+          "question_type": "Sachaufgabe",
+          "question_text": "Löse die Sachaufgaben. Schreibe alle Rechenschritte auf. Denke an die richtige Einheit.\nFahrstrecken:\nMünchen – Zagreb: 570 km\nZagreb – Istanbul: 1 320 km\nIstanbul – Ankara: 440 km\nMünchen – Madrid: 1 998 km\nMünchen – Istanbul: 2 004 km\n\nEin LKW hat bereits 555 km zurückgelegt, als er in München ankommt. Er fährt weiter nach Zagreb und anschließend nach Istanbul.\na) Wie lang war die gesamte Fahrstrecke?\nb) Innerhalb einer Woche fährt er auf direktem Weg zurück nach München. Welche Fahrstrecke hat der LKW nun insgesamt zurückgelegt?\nc) Runde das Ergebnis aus b) auf volle Tausender.\nd) Berechne den Unterschied zwischen der Strecke München – Madrid und der Strecke Istanbul – Ankara.",
+          "answer_text": "a) Die gesamte Fahrstrecke waren 2445 km.\nb) Er hat insgesamt 4449 km zurückgelegt.\nc) Es sind gerundet 4000 km.\nd) Der Unterschied ist 1558 km.",
+          "answer_steps": [
+            "a) 555 + 570 + 1320 = 2445 km",
+            "b) 2445 + 2004 = 4449 km",
+            "c) 4449 ≈ 4000 km",
+            "d) 1998 − 440 = 1558 km"
+          ],
+          "max_points": 5.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.addition",
+            "mathe.klasse4.zahlen1000000.runden"
+          ]
+        },
+        {
+          "id": 156,
+          "question_number": 14,
+          "question_type": "Sachaufgabe",
+          "question_text": "Löse die Textaufgabe!\nFamilie Meier kauft Weihnachtsgeschenke für die ganze Familie!\nDer 18-jährige Sohn bekommt einen Fernseher für 859 €, die 16-jährige Schwester wünscht sich eine neue Stereoanlage für 974 €. Außerdem kaufen sie 6 neue Videokassetten zu je 6 €. Mutter braucht dringend einen Wäschetrockner, der 1720 € kostet. Sie können den Preis etwas herunterhandeln, weil ein kleiner Lackschaden daran ist und bezahlen deshalb 140 € weniger. Sie zahlen 1449 € an und möchten den Rest in 20 gleichen Raten abzahlen.\nFrage: Wie viel beträgt eine Rate?",
+          "answer_text": "Eine Rate beträgt 100 €.",
+          "answer_steps": [
+            "Wäschetrockner: 1720 − 140 = 1580 €",
+            "6 Videokassetten: 6 × 6 = 36 €",
+            "Gesamtkosten: 859 + 974 + 1580 + 36 = 3449 €",
+            "Restbetrag: 3449 − 1449 = 2000 €",
+            "Rate: 2000 : 20 = 100 €"
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.division"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2221",
+      "subject": "Mathe",
+      "grade": 4,
+      "title": "Lernzielkontrolle – schriftlich multiplizieren (einfach)",
+      "topic": "schriftlich multiplizieren (einfach)",
+      "publisher": "CATLUX",
+      "source_pdf": "2221.pdf",
+      "total_points": 49.0,
+      "questions": [
+        {
+          "id": 157,
+          "question_number": 1,
+          "question_type": "Rechenaufgabe",
+          "question_text": "Dividiere halbschriftlich!\n32 428 : 4 =\n42 077 : 7 =",
+          "answer_text": "32 428 : 4 = 8 107\n42 077 : 7 = 6 011",
+          "answer_steps": [
+            "32 428 : 4: 32000 : 4 = 8000; 400 : 4 = 100; 28 : 4 = 7 → 8107",
+            "42 077 : 7: 42000 : 7 = 6000; 77 : 7 = 11 → 6011"
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division_halbschriftlich"
+          ]
+        },
+        {
+          "id": 158,
+          "question_number": 2,
+          "question_type": "Kopfrechenaufgabe",
+          "question_text": "Rechne aus! Denke an den Nullentrick! (Achte auf das Rechenzeichen!)\n8 000 : 10 = ___\n120 000 : 300 = ___\n7 200 : 9 = ___\n40 • 700 = ___\n9 000 • 800 = ___\n60 000 • 4 = ___",
+          "answer_text": "8 000 : 10 = 800\n120 000 : 300 = 400\n7 200 : 9 = 800\n40 • 700 = 28 000\n9 000 • 800 = 7 200 000\n60 000 • 4 = 240 000",
+          "answer_steps": [],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 159,
+          "question_number": 3,
+          "question_type": "Überschlagsaufgabe",
+          "question_text": "Rechne nur den Überschlag! (Achte auf das Rechenzeichen!)\n31 790 : 60  Ü: ___\n2 781 : 5    Ü: ___\n8 051 • 70   Ü: ___\n1 134 • 800  Ü: ___",
+          "answer_text": "31 790 : 60  Ü: 30 000 : 60 = 500\n2 781 : 5    Ü: 3 000 : 5 = 600\n8 051 • 70   Ü: 8 000 • 70 = 560 000\n1 134 • 800  Ü: 1 000 • 800 = 800 000",
+          "answer_steps": [],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 160,
+          "question_number": 4,
+          "question_type": "Rechenaufgabe",
+          "question_text": "Rechne aus! Rechne schriftlich und untereinander!\na) 194 • 5\nb) 190 • 3\nc) 982 • 9\nd) 6 140 • 6\ne) 85 041 • 7\nf) 45 678 • 4",
+          "answer_text": "a) 970\nb) 570\nc) 8 838\nd) 36 840\ne) 595 287\nf) 182 712",
+          "answer_steps": [
+            "a) 194 × 5 = 970",
+            "b) 190 × 3 = 570",
+            "c) 982 × 9 = 8838",
+            "d) 6140 × 6 = 36840",
+            "e) 85041 × 7 = 595287",
+            "f) 45678 × 4 = 182712"
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 161,
+          "question_number": 5,
+          "question_type": "Lückenaufgabe",
+          "question_text": "Ergänze die Lücken!\n_33 • 4 = 37_2\n44_ • 8 = _576\n5_0_ • 7 = _0642\n36_ • 3 = 1_01\n3_5_ • 7 = _566",
+          "answer_text": "933 • 4 = 3732\n447 • 8 = 3576\n5806 • 7 = 40642\n367 • 3 = 1101\n3658 • 7 = 25606",
+          "answer_steps": [
+            "933 × 4 = 3732",
+            "447 × 8 = 3576",
+            "5806 × 7 = 40642",
+            "367 × 3 = 1101",
+            "3658 × 7 = 25606"
+          ],
+          "max_points": 7.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 162,
+          "question_number": 6,
+          "question_type": "Knobelaufgabe",
+          "question_text": "Nimm das Fünffache von 7 546 und subtrahiere 37 670. Wenn du das Ergebnis mit 7 multiplizierst, erhältst du meine Zahl. Umkreise die gesuchte Zahl mit einem grünen Stift!",
+          "answer_text": "420",
+          "answer_steps": [
+            "7546 × 5 = 37730",
+            "37730 − 37670 = 60",
+            "60 × 7 = 420"
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 163,
+          "question_number": 7,
+          "question_type": "Rechenaufgabe",
+          "question_text": "Wie lautet der Überschlag? Rechne aus!\n782 € • 9\nU: ___\n5 782 € • 8\nU: ___\n52 915 € • 3\nU: ___",
+          "answer_text": "782 € • 9: Ü: 800 € • 9 = 7200 €; Ergebnis: 7038 €\n5 782 € • 8: Ü: 6000 € • 8 = 48000 €; Ergebnis: 46256 €\n52 915 € • 3: Ü: 50000 € • 3 = 150000 €; Ergebnis: 158745 €",
+          "answer_steps": [
+            "782 × 9 = 7038",
+            "5782 × 8 = 46256",
+            "52915 × 3 = 158745"
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 164,
+          "question_number": 8,
+          "question_type": "Sachaufgabe",
+          "question_text": "Florian fährt viermal in der Woche mit seinem Fahrrad zur Schule. Seine Schule liegt genau 4 230 m (4,230 km) von zuhause entfernt.\nWie viele m beziehungsweise km fährt er in einer Woche?",
+          "answer_text": "In einer Woche fährt er 33 840 m = 33,840 km.",
+          "answer_steps": [
+            "Hin- und Rückfahrt: 4230 m × 2 = 8460 m pro Tag",
+            "Pro Woche (4 Tage): 8460 × 4 = 33840 m = 33,840 km"
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 165,
+          "question_number": 9,
+          "question_type": "Sachaufgabe",
+          "question_text": "Florian kauft vier Stück Seife zu je 1,39 € und zwei Flaschen Shampoo zu je 2,34 €. Seine Mutter hat ihm einen 20 €-Schein mitgegeben. Wie viel € erhält er zurück? (Rechnung und Antwort)",
+          "answer_text": "Er erhält 9,76 € zurück.",
+          "answer_steps": [
+            "4 × 1,39 € = 4 × 139 ct = 556 ct = 5,56 €",
+            "2 × 2,34 € = 2 × 234 ct = 468 ct = 4,68 €",
+            "Gesamtkosten: 5,56 € + 4,68 € = 10,24 €",
+            "Rückgeld: 20,00 € − 10,24 € = 9,76 €"
+          ],
+          "max_points": 5.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 166,
+          "question_number": 10,
+          "question_type": "Knobelaufgabe",
+          "question_text": "Wenn ich zu meiner Zahl 78 addiere und die Hälfte abziehe, erhalte ich 50. Wie heißt meine Zahl?",
+          "answer_text": "22",
+          "answer_steps": [
+            "50 × 2 = 100",
+            "100 − 78 = 22"
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.zahlenraetsel"
+          ]
+        }
+      ]
     }
   ]
 }
