@@ -351,7 +351,8 @@
               { "id": "mathe.klasse4.zahlen1000000.vorgaenger_nachfolger", "name": "Vorgänger und Nachfolger", "children": [] },
               { "id": "mathe.klasse4.zahlen1000000.vergleichen", "name": "Zahlen vergleichen (>, <, =)", "children": [] },
               { "id": "mathe.klasse4.zahlen1000000.zahlenfolgen", "name": "Zahlenfolgen und Muster fortsetzen", "children": [] },
-              { "id": "mathe.klasse4.zahlen1000000.zahlenstrahl", "name": "Zahlenstrahl (Zahlen einordnen und ablesen)", "children": [] }
+              { "id": "mathe.klasse4.zahlen1000000.zahlenstrahl", "name": "Zahlenstrahl (Zahlen einordnen und ablesen)", "children": [] },
+              { "id": "mathe.klasse4.zahlen1000000.teiler", "name": "Teiler und Primzahlen", "children": [] }
             ]
           },
           {
@@ -390,6 +391,17 @@
               { "id": "mathe.klasse4.geometrie.vierecke", "name": "Vierecke (Quadrat, Rechteck, Parallelogramm, Trapez)", "children": [] },
               { "id": "mathe.klasse4.geometrie.flaeche", "name": "Flächeninhalt berechnen", "children": [] },
               { "id": "mathe.klasse4.geometrie.koerper", "name": "Körper: Würfel und Quader (Volumen und Oberfläche)", "children": [] }
+            ]
+          },
+          {
+            "id": "mathe.klasse4.groessen",
+            "name": "Größen und Maßeinheiten",
+            "children": [
+              { "id": "mathe.klasse4.groessen.volumen", "name": "Volumen und Hohlmaße (Liter, Milliliter)", "children": [] },
+              { "id": "mathe.klasse4.groessen.gewicht", "name": "Gewicht (Gramm, Kilogramm, Tonne)", "children": [] },
+              { "id": "mathe.klasse4.groessen.laenge", "name": "Längen (mm, cm, m, km)", "children": [] },
+              { "id": "mathe.klasse4.groessen.zeit", "name": "Zeit (Sekunde bis Jahr)", "children": [] },
+              { "id": "mathe.klasse4.groessen.geld", "name": "Geld (Euro, Cent)", "children": [] }
             ]
           },
           {
