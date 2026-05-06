@@ -257,8 +257,8 @@
   /* ── render exercise list ── */
   function renderExercises(subject) {
     const col = el('div','col-exercises');
-    col.appendChild(el('div','col-title','Übungsblätter'));
     const list = (dbData?.exercises||[]).filter(e=>e.subject===subject);
+    col.appendChild(el('div','col-title',`Übungsblätter (${list.length})`));
     if (!list.length) {
       col.appendChild(el('p','exercise-empty','Noch keine Übungsblätter vorhanden.'));
       return col;
