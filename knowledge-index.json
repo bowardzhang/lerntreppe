@@ -415,6 +415,15 @@
               { "id": "mathe.klasse4.sachaufgaben.umkehraufgaben", "name": "Umkehraufgaben und Rückwärtsrechnen", "children": [] },
               { "id": "mathe.klasse4.sachaufgaben.zahlenraetsel", "name": "Zahlenrätsel und kombinatorische Aufgaben", "children": [] }
             ]
+          },
+          {
+            "id": "mathe.klasse4.wahrscheinlichkeit",
+            "name": "Wahrscheinlichkeit und Kombinatorik",
+            "children": [
+              { "id": "mathe.klasse4.wahrscheinlichkeit.chancen", "name": "Chancen einschätzen (sicher, wahrscheinlich, unmöglich)", "children": [] },
+              { "id": "mathe.klasse4.wahrscheinlichkeit.haeufigkeit", "name": "Häufigkeit und Diagramme", "children": [] },
+              { "id": "mathe.klasse4.wahrscheinlichkeit.kombinatorik", "name": "Kombinatorik (Anzahl der Möglichkeiten)", "children": [] }
+            ]
           }
         ]
       }
