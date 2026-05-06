@@ -11,7 +11,7 @@
       "total_points": 50.0,
       "questions": [
         {
-          "id": 654,
+          "id": 912,
           "question_number": 1,
           "question_type": "Zeitentabelle",
           "question_text": "Fülle die Tabelle aus.\n\nGrundform | Gegenwart (er/sie) | 1. Vergangenheit (er/sie) | 2. Vergangenheit (er/sie) | vollendete Gegenwart (er/sie) | Zukunft (er/sie)\nlaufen    | ___                | ___                       | ___                       | ___                          | ___\nsuchen    | ___                | ___                       | ___                       | ___                          | ___\nwinken    | ___                | ___                       | ___                       | ___                          | ___\nlügen     | ___                | ___                       | ___                       | ___                          | ___\nessen     | ___                | ___                       | ___                       | ___                          | ___\nbacken    | ___                | ___                       | ___                       | ___                          | ___",
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "id": 655,
+          "id": 913,
           "question_number": 2,
           "question_type": "Satz in Zeiten umschreiben",
           "question_text": "Schreibe den Satz in die angegebenen Zeiten um.\nEs hört auf zu regnen.\n2. Vergangenheit: ___\nZukunft: ___\n1. Vergangenheit: ___",
@@ -50,7 +50,7 @@
           ]
         },
         {
-          "id": 656,
+          "id": 914,
           "question_number": 3,
           "question_type": "Zeitstufen bestimmen",
           "question_text": "Bestimme die Zeitstufe der unterstrichenen Verben.\n1. Morgen werden wir ins Kino gehen. → ___\n2. Wir lachen und singen. → ___\n3. Gestern spielten wir Fußball. → ___",
@@ -68,7 +68,7 @@
           ]
         },
         {
-          "id": 657,
+          "id": 915,
           "question_number": 4,
           "question_type": "Wortarten bestimmen",
           "question_text": "Bestimme die Wortart der unterstrichenen Wörter.\n1. Der Hund bellt laut. → Der: ___\n2. Das Mädchen liest ein Buch. → Mädchen: ___\n3. Die Kinder spielen draußen. → spielen: ___\n4. Der alte Mann geht langsam. → alte: ___\n5. Sie hilft ihrer Freundin. → Sie: ___\n6. Wir müssen die Aufgabe lösen. → lösen: ___",
@@ -89,7 +89,7 @@
           ]
         },
         {
-          "id": 658,
+          "id": 916,
           "question_number": 5,
           "question_type": "Wortfelder",
           "question_text": "Schreibe je vier Wörter zum Wortfeld auf.\nWortfeld 'gehen': ___, ___, ___, ___\nWortfeld 'sprechen': ___, ___, ___, ___",
@@ -106,7 +106,7 @@
           ]
         },
         {
-          "id": 659,
+          "id": 917,
           "question_number": 6,
           "question_type": "Fälle im Text bestimmen",
           "question_text": "Lies den Text und bestimme die Fälle der unterstrichenen Wörter.\n\nEin Wolf und ein Reiher begegneten sich an einem Teich. Der Wolf hatte einen Knochen im Hals stecken. Er bat den Reiher um seine Hilfe. Der Reiher steckte seinen langen Schnabel in den Rachen des Wolfes und zog den Knochen heraus.\n\nBestimme Fall und Nomen:\n1. Ein Wolf → ___. Fall: ___\n2. einem Teich → ___. Fall: ___\n3. einen Knochen → ___. Fall: ___\n4. den Reiher → ___. Fall: ___\n5. seinen langen Schnabel → ___. Fall: ___\n6. des Wolfes → ___. Fall: ___\n7. dem Reiher → ___. Fall: ___\n8. den Knochen → ___. Fall: ___",
@@ -129,7 +129,7 @@
           ]
         },
         {
-          "id": 660,
+          "id": 918,
           "question_number": 7,
           "question_type": "Verben in 1. Vergangenheit im Lückentext",
           "question_text": "Setze die Verben in Klammern in die 1. Vergangenheit ein.\n\nEines Abends ___ (heimgehen) ein Jäger durch den Wald. Plötzlich ___ (sehen) er zwei junge Rehe am Boden liegen. Ein Fuchs ___ (sich nähern) ihnen vorsichtig. Die Rehe ___ (liegen) still und ___ (bluten) aus einer Wunde. Die Alten ___ (sich kümmern) nicht mehr um sie. Bald ___ (kommen) Tierpfleger des Jagdverbands. Sie ___ (versorgen) die Wunden der Rehe. Dann ___ (laden) sie die Tiere auf ihr Fahrzeug. Der Jäger ___ (rasen) mit ihnen zum Tierarzt. Dieser ___ (lesen) sofort das Blutbild. Er ___ (tun) alles, um die Rehe zu retten.",
@@ -168,7 +168,7 @@
       "total_points": 38.0,
       "questions": [
         {
-          "id": 661,
+          "id": 919,
           "question_number": 1,
           "question_type": "Fälle der unterstrichenen Wörter bestimmen",
           "question_text": "Bestimme den Fall der unterstrichenen Wörter.\n1. Wir bauen ein Haus. → Haus: ___. Fall\n2. Ich helfe meiner Mutter. → Mutter: ___. Fall\n3. Es regnet heute. → es: ___. Fall\n4. Das ist die Tasche meiner Schwester. → Tasche meiner Schwester: Tasche: ___. Fall, Schwester: ___. Fall\n5. Erwin geht in die Schule. → Erwin: ___. Fall\n6. Das ist das Teilstück des Weges. → Teilstück: ___. Fall",
@@ -189,7 +189,7 @@
           ]
         },
         {
-          "id": 662,
+          "id": 920,
           "question_number": 2,
           "question_type": "Fälle in Sätzen unterstreichen und bestimmen",
           "question_text": "a) Unterstreiche die Wörter im angegebenen Fall.\n1. (1. Fall) Der fleißige Schüler löst die schwere Aufgabe.\n2. (4. Fall) Mama kauft einen roten Pullover.\n3. (3. Fall) Der Lehrer gibt dem guten Schüler ein Lob.\n4. (2. Fall) Das Fahrrad meines Freundes ist kaputt.\n\nb) Unterstreiche die Endungen und bestimme den Fall.\n1. Das ist ihrer Mutter Hut. → Fall: ___\n2. Er kauft einen feinen Anzug. → Fall: ___\n3. Sie sieht einige Freundinnen. → Fall: ___\n4. Sie hilft dem alten Mann. → Fall: ___\n5. Das ist ein tolles Fest. → Fall: ___\n6. Das Haus unserer Nachbarn ist groß. → Fall der unterstrichenen Gruppe: ___",
@@ -214,7 +214,7 @@
           ]
         },
         {
-          "id": 663,
+          "id": 921,
           "question_number": 3,
           "question_type": "Sätze mit 3. Fall bilden",
           "question_text": "Bilde zwei Sätze, in denen ein Nomen im 3. Fall (Dativ) vorkommt.",
@@ -232,7 +232,7 @@
           ]
         },
         {
-          "id": 664,
+          "id": 922,
           "question_number": 4,
           "question_type": "Sätze mit 3. und 4. Fall ankreuzen",
           "question_text": "Kreuze die Sätze an, die sowohl einen 3. Fall als auch einen 4. Fall enthalten.\n1. Der Hund bellt laut.\n2. Mama kauft dem Kind ein Eis.\n3. Das Mädchen liest ein Buch.\n4. Er schenkt seiner Schwester einen Blumenstrauß.\n5. Der Lehrer lobt den fleißigen Schüler.",
@@ -252,7 +252,7 @@
           ]
         },
         {
-          "id": 665,
+          "id": 923,
           "question_number": 5,
           "question_type": "Satz mit vorgegebenen Wörtern bilden",
           "question_text": "Bilde einen Satz mit den Wörtern: Florian – Schuhe – Kinder.\nVerteile die Fälle so: 1. Fall, 3. Fall, 4. Fall.",
@@ -271,7 +271,7 @@
           ]
         },
         {
-          "id": 666,
+          "id": 924,
           "question_number": 6,
           "question_type": "Endungen ergänzen und Fälle unterstreichen",
           "question_text": "Ergänze die Endungen und unterstreiche jeweils den Fall.\n1. das Haus mein___ Nachbarn → ___. Fall\n2. Er hilft sein___ Vater. → ___. Fall\n3. Sie kauft ein___ neuen Rock. → ___. Fall\n4. Ein___ gut___ Schüler arbeitet fleißig. → ___. Fall\n5. Ich sehe d___ kleinen Hund. → ___. Fall\n6. Er dankt d___ Ärztin. → ___. Fall\n7. Das Spielzeug d___ Kindes ist kaputt. → ___. Fall\n8. Er bringt sein___ Freundin Blumen. → ___. Fall",
@@ -296,6 +296,355 @@
       ]
     },
     {
+      "id": "0405",
+      "subject": "Deutsch",
+      "grade": 4,
+      "title": "2. Lernzielkontrolle: 4 Fälle, Satzglieder",
+      "topic": "Kasus (Nominativ, Genitiv, Dativ, Akkusativ), Satzgegenstand und Satzaussage",
+      "publisher": "CATLUX",
+      "source_pdf": "0405.pdf",
+      "total_points": 47.0,
+      "questions": [
+        {
+          "id": 934,
+          "question_number": 1,
+          "question_type": "Lateinische Begriffe der Fälle",
+          "question_text": "Schreibe den lateinischen Begriff für die Fälle auf. Notiere dahinter, wie du genau nach dem Fall fragst!\n1. Fall = ___    Frage: ___\n2. Fall = ___    Frage: ___\n3. Fall = ___    Frage: ___\n4. Fall = ___    Frage: ___",
+          "answer_text": "1. Nominativ (Wer oder was?) ; 2. Genitiv (Wessen?) ; 3. Dativ (Wem?) ; 4. Akkusativ (Wen oder was?)",
+          "answer_steps": [
+            "1. Fall = Nominativ — Frage 'Wer oder was?'",
+            "2. Fall = Genitiv — Frage 'Wessen?'",
+            "3. Fall = Dativ — Frage 'Wem?'",
+            "4. Fall = Akkusativ — Frage 'Wen oder was?'"
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "deutsch.klasse4.grammatik.kasus"
+          ]
+        },
+        {
+          "id": 935,
+          "question_number": 2,
+          "question_type": "Nomen 'der Junge' im richtigen Fall",
+          "question_text": "Setze 'der Junge' in der richtigen Form ein und notiere den Fall.\n___ kommt zu Sandras Geburtstag. (___)\nSandra begrüßt ___ herzlich. (___)\nSie bringt ___ ein Glas Saft. (___)\nDas Geschenk ___ gefällt Sandra gut. (___)",
+          "answer_text": "Der Junge kommt … (1. Fall) ; Sandra begrüßt den Jungen … (4. Fall) ; Sie bringt dem Jungen … (3. Fall) ; Das Geschenk des Jungen gefällt … (2. Fall)",
+          "answer_steps": [
+            "Subjekt → Nominativ (1. Fall): Der Junge.",
+            "Akkusativobjekt nach 'begrüßen' (Wen?) → 4. Fall: den Jungen.",
+            "Dativobjekt nach 'bringen' (Wem?) → 3. Fall: dem Jungen.",
+            "Genitivattribut zu 'Geschenk' (Wessen?) → 2. Fall: des Jungen."
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "deutsch.klasse4.grammatik.kasus"
+          ]
+        },
+        {
+          "id": 936,
+          "question_number": 3,
+          "question_type": "Fall der unterstrichenen Wörter bestimmen",
+          "question_text": "Schreibe den richtigen Fall hinter das Wort.\nDie Schwester (___) meines Klassenkameraden (___) lieh ihrer Freundin (___) das Fahrrad (___) zum Heimfahren.\nDen Eltern (___) des Mädchens (___) gefiel das Mountainbike (___). So riefen sie gleich den Fahrradhändler (___) an.",
+          "answer_text": "Schwester = 1. Fall ; Klassenkameraden = 2. Fall ; Freundin = 3. Fall ; Fahrrad = 4. Fall ; Eltern = 3. Fall ; Mädchens = 2. Fall ; Mountainbike = 1. Fall ; Fahrradhändler = 4. Fall",
+          "answer_steps": [
+            "Schwester = Subjekt → 1. Fall.",
+            "meines Klassenkameraden = Genitivattribut → 2. Fall.",
+            "ihrer Freundin = Dativobjekt von 'leihen' → 3. Fall.",
+            "das Fahrrad = Akkusativobjekt → 4. Fall.",
+            "Den Eltern = Dativobjekt von 'gefallen' → 3. Fall.",
+            "des Mädchens = Genitivattribut → 2. Fall.",
+            "das Mountainbike = Subjekt → 1. Fall.",
+            "den Fahrradhändler = Akkusativobjekt → 4. Fall."
+          ],
+          "max_points": 8.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "deutsch.klasse4.grammatik.kasus"
+          ]
+        },
+        {
+          "id": 937,
+          "question_number": 4,
+          "question_type": "Satzglieder farbig unterstreichen",
+          "question_text": "Unterstreiche im Text richtig (Satzaussage rot, 1. Fall blau, 2. Fall orange, 3. Fall gelb, 4. Fall grün):\n\nDie Klassenfahrt war super. Marias Streiche waren sehr lustig und Karims Grimassen waren einfach herrlich. Aber auch die Ideen der Lehrer waren toll. Die Stimmung der Kinder war prima. Martin hatte einen Fotoapparat dabei. Damit schoss er viele Schnappschüsse von seinen Freunden. Die Kinder versteckten auch einmal die Schuhe der Lehrerin.",
+          "answer_text": "1. Fall (Subjekte): Die Klassenfahrt; Marias Streiche; Karims Grimassen; die Ideen; Die Stimmung; Martin; er; Die Kinder. 2. Fall (Genitiv): der Lehrer; der Kinder; der Lehrerin. 3. Fall (Dativ): von seinen Freunden. 4. Fall (Akkusativ): einen Fotoapparat; viele Schnappschüsse; die Schuhe. Satzaussage: war (super); waren (lustig); waren (herrlich); waren (toll); war (prima); hatte (dabei); schoss; versteckten.",
+          "answer_steps": [
+            "Subjekte (1. Fall) im Nominativ erkennen.",
+            "Genitivattribute (2. Fall) erkennt man durch 'Wessen?'.",
+            "Dativ (3. Fall) durch 'Wem?', Akkusativ (4. Fall) durch 'Wen/was?'.",
+            "Satzaussagen sind die finiten Verben der Sätze."
+          ],
+          "max_points": 12.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "deutsch.klasse4.grammatik.kasus",
+            "deutsch.klasse4.grammatik.satzglieder"
+          ]
+        },
+        {
+          "id": 938,
+          "question_number": 5,
+          "question_type": "Frage stellen und Fall bestimmen",
+          "question_text": "Stelle die passende Frage zum unterstrichenen Satzglied und bestimme den Fall.\n1. Martina hat viele Kinder zu ihrer Geburtstagsfeier eingeladen. (viele Kinder)\n2. Mutter serviert den Gästen einen leckeren Kuchen. (den Gästen)\n3. Martins Jacke liegt auf dem Boden. (Martins)\n4. Allen Jungen und Mädchen gefällt die Geburtstagsfeier sehr. (die Geburtstagsfeier)",
+          "answer_text": "1. 'Wen oder was hat Martina eingeladen?' → 4. Fall (Akkusativ). 2. 'Wem serviert Mutter einen Kuchen?' → 3. Fall (Dativ). 3. 'Wessen Jacke liegt auf dem Boden?' → 2. Fall (Genitiv). 4. 'Wer oder was gefällt allen Jungen und Mädchen?' → 1. Fall (Nominativ).",
+          "answer_steps": [
+            "1. Wen/was? → Akkusativ (4. Fall).",
+            "2. Wem? → Dativ (3. Fall).",
+            "3. Wessen? → Genitiv (2. Fall).",
+            "4. Wer/was? → Nominativ (1. Fall)."
+          ],
+          "max_points": 8.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "deutsch.klasse4.grammatik.kasus",
+            "deutsch.klasse4.grammatik.satzglieder"
+          ]
+        },
+        {
+          "id": 939,
+          "question_number": 6,
+          "question_type": "Wörter im richtigen Fall einsetzen",
+          "question_text": "Setze die Wörter in Klammern im richtigen Fall ein.\nCarolin gibt ___ die Jacke. (Freundin)\nSchnell holt Vater ___. (Staubsauger)\n___ hat sich zum Glück nicht beschwert. (Nachbar)\nFür Carina war das der schönste Tag ___. (Jahr)\nBald ist ___ wieder aufgeräumt. (Kinderzimmer)",
+          "answer_text": "Carolin gibt ihrer Freundin die Jacke. (3. Fall) ; Schnell holt Vater den Staubsauger. (4. Fall) ; Der Nachbar hat sich … nicht beschwert. (1. Fall) ; … der schönste Tag des Jahres. (2. Fall) ; Bald ist das Kinderzimmer wieder aufgeräumt. (1. Fall)",
+          "answer_steps": [
+            "geben + Wem? → Dativ: ihrer Freundin (3. Fall).",
+            "holen + Wen/was? → Akkusativ: den Staubsauger (4. Fall).",
+            "Subjekt → Nominativ: Der Nachbar (1. Fall).",
+            "Wessen? → Genitiv: des Jahres (2. Fall).",
+            "Subjekt → Nominativ: das Kinderzimmer (1. Fall)."
+          ],
+          "max_points": 5.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "deutsch.klasse4.grammatik.kasus"
+          ]
+        },
+        {
+          "id": 940,
+          "question_number": 7,
+          "question_type": "Sätze mit Wort im richtigen Fall bilden",
+          "question_text": "Bilde mit dem Wort im richtigen Fall einen Satz.\nSchullandheim (4. Fall): ___\nSchildkröte (2. Fall): ___\nSternwarte (1. Fall): ___\nOpa (3. Fall): ___",
+          "answer_text": "Beispiele: Die Klasse besucht das Schullandheim. ; Der Panzer der Schildkröte ist hart. ; Die Sternwarte hat heute geöffnet. ; Ich schenke Opa ein Buch.",
+          "answer_steps": [
+            "4. Fall: 'Wen/was besucht die Klasse?' → das Schullandheim.",
+            "2. Fall: 'Wessen Panzer ist hart?' → der Schildkröte.",
+            "1. Fall: Subjekt = Die Sternwarte.",
+            "3. Fall: 'Wem schenke ich ein Buch?' → Opa."
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "deutsch.klasse4.grammatik.kasus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0698",
+      "subject": "Deutsch",
+      "grade": 4,
+      "title": "2. Lernzielkontrolle: Wortarten, Redesätze, Zeiten, Satzglieder, Pronomen, Bindewörter",
+      "topic": "Wortarten bestimmen, wörtliche Rede, Zeitformen, Satzglieder, Pronomen, Konjunktionen",
+      "publisher": "CATLUX",
+      "source_pdf": "0698.pdf",
+      "total_points": 45.0,
+      "questions": [
+        {
+          "id": 962,
+          "question_number": 1,
+          "question_type": "Wortarten bestimmen",
+          "question_text": "Bestimme die Wortarten der unterstrichenen Wörter im Satz:\n'Heute hatte ich ein paar Minuten verschlafen, deshalb brachte mich meine Mutter mit dem Auto schnell zur Grundschule.'\nIch: ___\nMinuten: ___\nbrachte: ___\nmeine: ___\ndem: ___\nschnell: ___\nGrundschule: ___",
+          "answer_text": "Ich = Personalpronomen ; Minuten = abstraktes Nomen ; brachte = Verb ; meine = Possessivpronomen ; dem = bestimmter Artikel ; schnell = Adjektiv ; Grundschule = zusammengesetztes Nomen",
+          "answer_steps": [
+            "Ich → Personalpronomen.",
+            "Minuten → abstraktes Nomen.",
+            "brachte → Verb (Vergangenheit von 'bringen').",
+            "meine → Possessivpronomen.",
+            "dem → bestimmter Artikel (Dativ).",
+            "schnell → Adjektiv.",
+            "Grundschule → zusammengesetztes Nomen (Grund + Schule)."
+          ],
+          "max_points": 6.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "deutsch.klasse4.grammatik.wortarten"
+          ]
+        },
+        {
+          "id": 963,
+          "question_number": 2,
+          "question_type": "Satzzeichen und Redesätze",
+          "question_text": "a) Setze alle fehlenden Satzzeichen ein.\nb) Unterstreiche die Redesätze.\n\nLos mach schnell rief ich ihr zu Doch sie bleibt ganz ruhig und meinte Hast du Angst zu spät zu kommen",
+          "answer_text": "„Los, mach schnell!“, rief ich ihr zu. Doch sie bleibt ganz ruhig und meinte: „Hast du Angst, zu spät zu kommen?“",
+          "answer_steps": [
+            "Erster Redesatz endet mit Ausrufezeichen, danach Begleitsatz.",
+            "Zweiter Redesatz beginnt nach Doppelpunkt und Anführungszeichen.",
+            "Frage am Ende → Fragezeichen."
+          ],
+          "max_points": 5.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "deutsch.klasse4.rechtschreibung.gross_klein"
+          ]
+        },
+        {
+          "id": 964,
+          "question_number": 3,
+          "question_type": "Zeitformen umwandeln",
+          "question_text": "'Ich saß sehr unruhig im Auto, doch schließlich waren wir am Ziel.'\na) Setze diesen Satz in die Gegenwart.\nb) Setze diesen Satz in die 2. Vergangenheit.\nc) Setze diesen Satz in die Zukunft.",
+          "answer_text": "a) Ich sitze sehr unruhig im Auto, doch schließlich sind wir am Ziel. ; b) Ich bin sehr unruhig im Auto gesessen, doch schließlich sind wir am Ziel gewesen. ; c) Ich werde sehr unruhig im Auto sitzen, doch schließlich werden wir am Ziel sein.",
+          "answer_steps": [
+            "Gegenwart: saß → sitze ; waren → sind.",
+            "2. Vergangenheit (Perfekt): saß → bin … gesessen ; waren → sind … gewesen.",
+            "Zukunft (Futur): saß → werde sitzen ; waren → werden sein."
+          ],
+          "max_points": 5.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "deutsch.klasse4.grammatik.zeiten"
+          ]
+        },
+        {
+          "id": 965,
+          "question_number": 4,
+          "question_type": "Satzglieder bestimmen",
+          "question_text": "Bestimme alle Satzglieder im Satz und markiere sie:\n'Nun rangierte meine Mutter das Auto vorsichtig in eine Parklücke.'",
+          "answer_text": "Nun = adverbiale Bestimmung der Zeit ; rangierte = Satzaussage (Prädikat) ; meine Mutter = Satzgegenstand (Subjekt, 1. Fall) ; das Auto = Akkusativobjekt (4. Fall) ; vorsichtig = adverbiale Bestimmung der Art und Weise ; in eine Parklücke = adverbiale Bestimmung des Ortes",
+          "answer_steps": [
+            "'Wann?' → Nun (Zeit).",
+            "Verb 'rangierte' → Satzaussage.",
+            "'Wer?' → meine Mutter (Subjekt).",
+            "'Wen/was rangierte?' → das Auto (Akkusativ).",
+            "'Wie?' → vorsichtig (Art und Weise).",
+            "'Wohin?' → in eine Parklücke (Ort)."
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "deutsch.klasse4.grammatik.satzglieder"
+          ]
+        },
+        {
+          "id": 966,
+          "question_number": 5,
+          "question_type": "Satzgegenstand und Satzaussage",
+          "question_text": "Bestimme in jedem Satz den Satzgegenstand (blau) und die Satzaussage (rot):\n1. Sofort sprang ich aus dem Auto und lief zu meinem Klassenzimmer.\n2. Zum Glück waren Max und Hansi noch in der Garderobe.\n3. Schon ertönte schrill die Schulhausglocke.\n4. Gerade noch rechtzeitig setzten wir uns auf unseren Platz.",
+          "answer_text": "1. Sg: ich ; Sa: sprang … (und) lief. 2. Sg: Max und Hansi ; Sa: waren. 3. Sg: die Schulhausglocke ; Sa: ertönte. 4. Sg: wir ; Sa: setzten (uns).",
+          "answer_steps": [
+            "Frage 'Wer/was?' → Satzgegenstand (Subjekt).",
+            "Frage 'Was tut/tat …?' → Satzaussage (Prädikat).",
+            "Bei mehrteiligem Prädikat alle Teile markieren."
+          ],
+          "max_points": 4.5,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "deutsch.klasse4.grammatik.satzglieder"
+          ]
+        },
+        {
+          "id": 967,
+          "question_number": 6,
+          "question_type": "Zeitentabelle",
+          "question_text": "Vervollständige die Tabelle mit dem richtigen Personalpronomen.\nGegenwart            | 1. Vergangenheit | 2. Vergangenheit | Zukunft\nich laufe            | ___              | ___              | ___\n___                  | ___              | er hat geworfen  | ___\n___                  | du nahmst        | ___              | ___",
+          "answer_text": "ich laufe / ich lief / ich bin gelaufen / ich werde laufen ; er wirft / er warf / er hat geworfen / er wird werfen ; du nimmst / du nahmst / du hast genommen / du wirst nehmen",
+          "answer_steps": [
+            "laufen: laufe – lief – bin gelaufen – werde laufen.",
+            "werfen: wirft – warf – hat geworfen – wird werfen.",
+            "nehmen: nimmst – nahmst – hast genommen – wirst nehmen."
+          ],
+          "max_points": 4.5,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "deutsch.klasse4.grammatik.zeiten"
+          ]
+        },
+        {
+          "id": 968,
+          "question_number": 7,
+          "question_type": "Personal- und Possessivpronomen",
+          "question_text": "Markiere alle Personalpronomen blau und alle Possessivpronomen rot:\neuer  Sie  die  mein\nes    unser  du  sei",
+          "answer_text": "Personalpronomen: Sie, es, du. Possessivpronomen: euer, mein, unser. Keines: die (Artikel/Relativpronomen), sei (Verbform).",
+          "answer_steps": [
+            "Personalpronomen ersetzen Personen/Dinge: Sie, es, du.",
+            "Possessivpronomen zeigen Besitz an: euer, mein, unser.",
+            "'die' = Artikel; 'sei' = Imperativ von 'sein'."
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "deutsch.klasse4.grammatik.wortarten"
+          ]
+        },
+        {
+          "id": 969,
+          "question_number": 8,
+          "question_type": "Konjunktionen erkennen",
+          "question_text": "Kreise nur die Konjunktionen ein:\nwenn  und  das  dann  jetzt\ndass  aber  danach  denn  damit",
+          "answer_text": "Konjunktionen: wenn, und, dass, aber, denn, damit. Keine Konjunktionen: das (Artikel/Pronomen), dann, jetzt, danach (Adverbien).",
+          "answer_steps": [
+            "Konjunktionen verbinden Sätze oder Satzteile.",
+            "wenn, und, dass, aber, denn, damit → ja.",
+            "das = Artikel; dann/jetzt/danach = Adverbien."
+          ],
+          "max_points": 5.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "deutsch.klasse4.grammatik.wortarten"
+          ]
+        },
+        {
+          "id": 970,
+          "question_number": 9,
+          "question_type": "Sätze mit passenden Konjunktionen verbinden",
+          "question_text": "Verbinde die Sätze mit einer passenden Konjunktion.\n1. Sie tranken heißen Kinderpunsch. Ihnen wurde warm.\n2. Die Mädchen wollten noch etwas bleiben. Es war schon 19 Uhr.",
+          "answer_text": "1. Ihnen wurde warm, weil sie heißen Kinderpunsch tranken. ; 2. Es war schon 19 Uhr, aber die Mädchen wollten noch etwas bleiben.",
+          "answer_steps": [
+            "1. Kausalzusammenhang → 'weil'.",
+            "2. Gegensatz → 'aber'."
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "deutsch.klasse4.grammatik.wortarten"
+          ]
+        },
+        {
+          "id": 971,
+          "question_number": 10,
+          "question_type": "Falsche Konjunktionen korrigieren",
+          "question_text": "Streiche die falschen Konjunktionen durch und schreibe den Satz richtig auf.\n1. Schokoriegel schmecken gut, denn sie machen dick.\n2. Kerzen sind gefährlich, denn ich passe gut auf.",
+          "answer_text": "1. Schokoriegel schmecken gut, aber sie machen dick. ; 2. Ich passe gut auf, weil Kerzen gefährlich sind.",
+          "answer_steps": [
+            "1. Gegensatz statt Begründung → 'aber'.",
+            "2. Begründung umkehren und 'weil' verwenden."
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "deutsch.klasse4.grammatik.wortarten"
+          ]
+        }
+      ]
+    },
+    {
       "id": "MQA02",
       "subject": "Mathe",
       "grade": 3,
@@ -306,7 +655,7 @@
       "total_points": 18.0,
       "questions": [
         {
-          "id": 781,
+          "id": 1078,
           "question_number": 1,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ | ___\n___ |  30 | ___\n___ |  33 |  20\nMag. Zahl: 90",
@@ -331,7 +680,7 @@
           ]
         },
         {
-          "id": 782,
+          "id": 1079,
           "question_number": 2,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ |  36\n___ |  20 |   2\n  4 | ___ | ___\nMag. Zahl: 60",
@@ -355,7 +704,7 @@
           ]
         },
         {
-          "id": 783,
+          "id": 1080,
           "question_number": 3,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 19 | ___ | ___\n 62 | ___ |   2\n 15 | ___ | ___\nMag. Zahl: 96",
@@ -378,7 +727,7 @@
           ]
         },
         {
-          "id": 784,
+          "id": 1081,
           "question_number": 4,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 23 | ___ | ___\n___ | ___ | ___\n 20 | ___ |  23\nMag. Zahl: 69",
@@ -402,7 +751,7 @@
           ]
         },
         {
-          "id": 785,
+          "id": 1082,
           "question_number": 5,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ |  38\n___ |  28 | ___\n___ | ___ |  25\nMag. Zahl: 84",
@@ -427,7 +776,7 @@
           ]
         },
         {
-          "id": 786,
+          "id": 1083,
           "question_number": 6,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 10 | ___ | ___\n___ |   7 | ___\n  8 | ___ |   4\nMag. Zahl: 21",
@@ -451,7 +800,7 @@
           ]
         },
         {
-          "id": 787,
+          "id": 1084,
           "question_number": 7,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 41 | ___ | ___\n___ |  22 | ___\n 22 | ___ |   3\nMag. Zahl: 66",
@@ -475,7 +824,7 @@
           ]
         },
         {
-          "id": 788,
+          "id": 1085,
           "question_number": 8,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ | ___\n___ |  25 | ___\n___ |   6 |  29\nMag. Zahl: 75",
@@ -500,7 +849,7 @@
           ]
         },
         {
-          "id": 789,
+          "id": 1086,
           "question_number": 9,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 21 | ___ | ___\n 43 | ___ |  17\n 26 | ___ | ___\nMag. Zahl: 90",
@@ -535,7 +884,7 @@
       "total_points": 18.0,
       "questions": [
         {
-          "id": 790,
+          "id": 1087,
           "question_number": 1,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ | ___\n___ |  30 | ___\n___ |  33 |  15\nMag. Zahl: 90",
@@ -560,7 +909,7 @@
           ]
         },
         {
-          "id": 791,
+          "id": 1088,
           "question_number": 2,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "  3 | ___ | ___\n___ |  18 | ___\n 16 | ___ |  33\nMag. Zahl: 54",
@@ -584,7 +933,7 @@
           ]
         },
         {
-          "id": 792,
+          "id": 1089,
           "question_number": 3,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ |   9\n___ |  29 |  43\n 49 | ___ | ___\nMag. Zahl: 87",
@@ -608,7 +957,7 @@
           ]
         },
         {
-          "id": 793,
+          "id": 1090,
           "question_number": 4,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ |  15\n___ |  23 | ___\n___ | ___ |  24\nMag. Zahl: 69",
@@ -633,7 +982,7 @@
           ]
         },
         {
-          "id": 794,
+          "id": 1091,
           "question_number": 5,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "  7 | ___ | ___\n___ | ___ | ___\n 31 | ___ |  49\nMag. Zahl: 84",
@@ -657,7 +1006,7 @@
           ]
         },
         {
-          "id": 795,
+          "id": 1092,
           "question_number": 6,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 15 | ___ | ___\n 16 | ___ |  18\n 20 | ___ | ___\nMag. Zahl: 51",
@@ -680,7 +1029,7 @@
           ]
         },
         {
-          "id": 796,
+          "id": 1093,
           "question_number": 7,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 21 | ___ | ___\n___ |  16 | ___\n 16 | ___ |  11\nMag. Zahl: 48",
@@ -704,7 +1053,7 @@
           ]
         },
         {
-          "id": 797,
+          "id": 1094,
           "question_number": 8,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ |   7\n___ |  10 | ___\n___ | ___ |  10\nMag. Zahl: 30",
@@ -729,7 +1078,7 @@
           ]
         },
         {
-          "id": 798,
+          "id": 1095,
           "question_number": 9,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 22 | ___ | ___\n  8 | ___ |  40\n 42 | ___ | ___\nMag. Zahl: 72",
@@ -764,7 +1113,7 @@
       "total_points": 18.0,
       "questions": [
         {
-          "id": 799,
+          "id": 1096,
           "question_number": 1,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 13 | ___ | ___\n___ | ___ | ___\n  9 | ___ |   5\nMag. Zahl: 27",
@@ -788,7 +1137,7 @@
           ]
         },
         {
-          "id": 800,
+          "id": 1097,
           "question_number": 2,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ |  10\n___ |  31 |  55\n 52 | ___ | ___\nMag. Zahl: 93",
@@ -812,7 +1161,7 @@
           ]
         },
         {
-          "id": 801,
+          "id": 1098,
           "question_number": 3,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 30 | ___ | ___\n  9 | ___ |  53\n 54 | ___ | ___\nMag. Zahl: 93",
@@ -835,7 +1184,7 @@
           ]
         },
         {
-          "id": 802,
+          "id": 1099,
           "question_number": 4,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ |  27\n___ |  30 | ___\n___ | ___ |  19\nMag. Zahl: 90",
@@ -860,7 +1209,7 @@
           ]
         },
         {
-          "id": 803,
+          "id": 1100,
           "question_number": 5,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 22 | ___ | ___\n___ |  31 | ___\n 18 | ___ |  40\nMag. Zahl: 93",
@@ -884,7 +1233,7 @@
           ]
         },
         {
-          "id": 804,
+          "id": 1101,
           "question_number": 6,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ | ___\n___ |  33 | ___\n___ |  15 |  41\nMag. Zahl: 99",
@@ -909,7 +1258,7 @@
           ]
         },
         {
-          "id": 805,
+          "id": 1102,
           "question_number": 7,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 18 | ___ | ___\n 39 | ___ |  17\n 27 | ___ | ___\nMag. Zahl: 84",
@@ -932,7 +1281,7 @@
           ]
         },
         {
-          "id": 806,
+          "id": 1103,
           "question_number": 8,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 35 | ___ | ___\n___ |  31 | ___\n 28 | ___ |  27\nMag. Zahl: 93",
@@ -956,7 +1305,7 @@
           ]
         },
         {
-          "id": 807,
+          "id": 1104,
           "question_number": 9,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ |  21\n___ |  16 |  12\n 11 | ___ | ___\nMag. Zahl: 48",
@@ -992,7 +1341,7 @@
       "total_points": 18.0,
       "questions": [
         {
-          "id": 808,
+          "id": 1105,
           "question_number": 1,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 33 | ___ | ___\n___ |  23 | ___\n 29 | ___ |  13\nMag. Zahl: 69",
@@ -1016,7 +1365,7 @@
           ]
         },
         {
-          "id": 809,
+          "id": 1106,
           "question_number": 2,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ |   5\n___ |  23 | ___\n___ | ___ |  22\nMag. Zahl: 69",
@@ -1041,7 +1390,7 @@
           ]
         },
         {
-          "id": 810,
+          "id": 1107,
           "question_number": 3,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 28 | ___ | ___\n___ | ___ | ___\n 59 | ___ |  36\nMag. Zahl: 96",
@@ -1065,7 +1414,7 @@
           ]
         },
         {
-          "id": 811,
+          "id": 1108,
           "question_number": 4,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ |   8\n___ |  31 |  52\n 54 | ___ | ___\nMag. Zahl: 93",
@@ -1089,7 +1438,7 @@
           ]
         },
         {
-          "id": 812,
+          "id": 1109,
           "question_number": 5,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ | ___\n___ |  21 | ___\n___ |  22 |  20\nMag. Zahl: 63",
@@ -1114,7 +1463,7 @@
           ]
         },
         {
-          "id": 813,
+          "id": 1110,
           "question_number": 6,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 25 | ___ | ___\n 51 | ___ |  15\n 23 | ___ | ___\nMag. Zahl: 99",
@@ -1137,7 +1486,7 @@
           ]
         },
         {
-          "id": 814,
+          "id": 1111,
           "question_number": 7,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ | ___\n___ |  26 | ___\n___ |  23 |  15\nMag. Zahl: 78",
@@ -1162,7 +1511,7 @@
           ]
         },
         {
-          "id": 815,
+          "id": 1112,
           "question_number": 8,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 28 | ___ | ___\n 11 | ___ |  33\n 27 | ___ | ___\nMag. Zahl: 66",
@@ -1185,7 +1534,7 @@
           ]
         },
         {
-          "id": 816,
+          "id": 1113,
           "question_number": 9,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ |  31\n___ |  26 | ___\n___ | ___ |  29\nMag. Zahl: 78",
@@ -1222,7 +1571,7 @@
       "total_points": 18.0,
       "questions": [
         {
-          "id": 817,
+          "id": 1114,
           "question_number": 1,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ |  49\n___ |  31 | ___\n___ | ___ |  30\nMag. Zahl: 93",
@@ -1247,7 +1596,7 @@
           ]
         },
         {
-          "id": 818,
+          "id": 1115,
           "question_number": 2,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 13 | ___ | ___\n___ | ___ | ___\n 16 | ___ |   9\nMag. Zahl: 33",
@@ -1271,7 +1620,7 @@
           ]
         },
         {
-          "id": 819,
+          "id": 1116,
           "question_number": 3,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ | ___\n___ |  28 | ___\n___ |  26 |  24\nMag. Zahl: 84",
@@ -1296,7 +1645,7 @@
           ]
         },
         {
-          "id": 820,
+          "id": 1117,
           "question_number": 4,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ |  37\n___ |  23 |   2\n  9 | ___ | ___\nMag. Zahl: 69",
@@ -1320,7 +1669,7 @@
           ]
         },
         {
-          "id": 821,
+          "id": 1118,
           "question_number": 5,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 21 | ___ | ___\n 41 | ___ |  11\n 16 | ___ | ___\nMag. Zahl: 78",
@@ -1343,7 +1692,7 @@
           ]
         },
         {
-          "id": 822,
+          "id": 1119,
           "question_number": 6,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": " 10 | ___ | ___\n___ |  30 | ___\n 26 | ___ |  50\nMag. Zahl: 90",
@@ -1367,7 +1716,7 @@
           ]
         },
         {
-          "id": 823,
+          "id": 1120,
           "question_number": 7,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ | ___\n___ |  29 | ___\n___ |  48 |  25\nMag. Zahl: 87",
@@ -1392,7 +1741,7 @@
           ]
         },
         {
-          "id": 824,
+          "id": 1121,
           "question_number": 8,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "  6 | ___ | ___\n___ |  17 | ___\n 20 | ___ |  28\nMag. Zahl: 51",
@@ -1416,7 +1765,7 @@
           ]
         },
         {
-          "id": 825,
+          "id": 1122,
           "question_number": 9,
           "question_type": "Magisches Quadrat (3×3)",
           "question_text": "___ | ___ |  41\n___ |  25 |   2\n  9 | ___ | ___\nMag. Zahl: 75",
@@ -1452,7 +1801,7 @@
       "total_points": 41.0,
       "questions": [
         {
-          "id": 568,
+          "id": 826,
           "question_number": 1,
           "question_type": "Vorgänger und Nachfolger",
           "question_text": "Trage die Nachbarzahlen ein!\nVorgänger | Zahl | Nachfolger\n_____ | 3100 | _____\n_____ | 7779 | _____\n_____ | 4000 | _____",
@@ -1471,7 +1820,7 @@
           ]
         },
         {
-          "id": 569,
+          "id": 827,
           "question_number": 2,
           "question_type": "Zahlen vergleichen",
           "question_text": "Setze ein! >, < oder =\n1305 ___ 1350\n4149 ___ 4419\n9998 ___ 9989\n2438 ___ 2438",
@@ -1487,7 +1836,7 @@
           ]
         },
         {
-          "id": 570,
+          "id": 828,
           "question_number": 3,
           "question_type": "Zahlenfolgen fortsetzen",
           "question_text": "Setze die Zahlenfolgen fort!\n3750  3810  3870  3930  ____  ____  ____\n8690  8660  8620  8570  ____  ____  ____",
@@ -1504,7 +1853,7 @@
           ]
         },
         {
-          "id": 571,
+          "id": 829,
           "question_number": 4,
           "question_type": "Schriftliches Rechnen",
           "question_text": "Rechne schriftlich!\n  2498 + 3098 = ?\n  4065 + 5783 = ?\n  8764 − 5578 = ?\n  6908 − 5086 = ?",
@@ -1524,7 +1873,7 @@
           ]
         },
         {
-          "id": 572,
+          "id": 830,
           "question_number": 5,
           "question_type": "Sachaufgabe (Subtraktion)",
           "question_text": "Familie Schmidt fährt mit ihrem neuen Auto in den Urlaub. Vor der Abfahrt zeigt der Tachometerstand 4769 km. Als sie wieder zu Hause sind, zeigt der Tachometerstand 6045 km.\nWie viel Kilometer ist Familie Schmidt gefahren?",
@@ -1543,7 +1892,7 @@
           ]
         },
         {
-          "id": 573,
+          "id": 831,
           "question_number": 6,
           "question_type": "Halbschriftliche Division",
           "question_text": "Rechne halbschriftlich!\n  246 : 3 = ?\n  765 : 8 = ?",
@@ -1560,7 +1909,7 @@
           ]
         },
         {
-          "id": 574,
+          "id": 832,
           "question_number": 7,
           "question_type": "Schriftliche Multiplikation",
           "question_text": "Multipliziere schriftlich. Vergiss den Überschlag nicht!\n  467 · 5 = ?     Ü: ____\n  273 · 22 = ?    Ü: ____",
@@ -1577,7 +1926,7 @@
           ]
         },
         {
-          "id": 575,
+          "id": 833,
           "question_number": 8,
           "question_type": "Umkehraufgabe / Zahlenrätsel",
           "question_text": "Ich teile meine Zahl durch 12 und zähle dann 48 hinzu. Das Ergebnis lautet 670. Wie heißt meine Zahl?",
@@ -1595,7 +1944,7 @@
           ]
         },
         {
-          "id": 576,
+          "id": 834,
           "question_number": 9,
           "question_type": "Umkehraufgabe / Zahlenrätsel",
           "question_text": "Wenn ich von meiner Zahl 378 abziehe und das Ergebnis durch 9 teile, erhalte ich 8. Wie heißt die Zahl?",
@@ -1613,7 +1962,7 @@
           ]
         },
         {
-          "id": 577,
+          "id": 835,
           "question_number": 10,
           "question_type": "Sachaufgabe (Multiplikation)",
           "question_text": "Eine Geschirrspülmaschine der Marke „Super X“ verbraucht bei einem Spülgang 23 Liter Wasser.\nWie viel Liter Wasser verbraucht ein Haushalt in einem Jahr, wenn die Maschine jeden Tag läuft?",
@@ -1632,7 +1981,7 @@
           ]
         },
         {
-          "id": 578,
+          "id": 836,
           "question_number": 11,
           "question_type": "Vielfache",
           "question_text": "Berechne das Siebenfache von 345!",
@@ -1648,7 +1997,7 @@
           ]
         },
         {
-          "id": 579,
+          "id": 837,
           "question_number": 12,
           "question_type": "Zahlenstrahl",
           "question_text": "Trage die fehlenden Zahlen ein und verbinde die Zahlen unten mit dem Zahlenstrahl! [Aufgabe enthält eine Zahlenstrahl-Abbildung im Original-PDF]",
@@ -1664,7 +2013,7 @@
           ]
         },
         {
-          "id": 580,
+          "id": 838,
           "question_number": 13,
           "question_type": "Zahlenrätsel",
           "question_text": "Addiere zur größtmöglichen vierstelligen Zahl aus den Ziffern 4, 6, 5 und 2 die kleinstmögliche vierstellige Zahl aus den Ziffern 9, 2, 7 und 3. Wie heißt die Summe?",
@@ -1683,7 +2032,7 @@
           ]
         },
         {
-          "id": 581,
+          "id": 839,
           "question_number": 14,
           "question_type": "Sachaufgabe (mehrstufig, Geld)",
           "question_text": "Familie Meier kauft Weihnachtsgeschenke für die ganze Familie!\nDer 18-jährige Sohn bekommt einen Fernseher für 859 €, die 16-jährige Schwester wünscht sich eine neue Stereoanlage für 974 €. Außerdem kaufen sie 6 neue Videokassetten zu je 6 €. Mutter braucht dringend einen Wäschetrockner, der 1720 € kostet. Sie können den Preis etwas herunterhandeln, weil ein kleiner Lackschaden daran ist und bezahlen deshalb 140 € weniger. Sie zahlen 1449 € an und möchten den Rest in 20 gleichen Raten abzahlen.\nWie viel beträgt eine Rate?",
@@ -1720,7 +2069,7 @@
       "total_points": 53.0,
       "questions": [
         {
-          "id": 582,
+          "id": 840,
           "question_number": 1,
           "question_type": "Zahlen in Ziffern schreiben",
           "question_text": "Schreibe folgende Zahlen in Ziffern!\ndreiundsechzigtausendzweiundfünfzig: ______________________\nsiebzigtausendfünfhundert: ______________________",
@@ -1737,7 +2086,7 @@
           ]
         },
         {
-          "id": 583,
+          "id": 841,
           "question_number": 2,
           "question_type": "Runden",
           "question_text": "Runde auf volle Zehner, Hunderter, Tausender und Zehntausender!\n        | Zehner | Hunderter | Tausender | Zehntausender\n51 462  |        |           |           |\n72 356  |        |           |           |\n27 346  |        |           |           |\n36 487  |        |           |           |\n24 916  |        |           |           |\n43 548  |        |           |           |\n64 426  |        |           |           |\n79 573  |        |           |           |",
@@ -1756,7 +2105,7 @@
           ]
         },
         {
-          "id": 584,
+          "id": 842,
           "question_number": 3,
           "question_type": "Sachaufgabe (Runden)",
           "question_text": "Herr Sparsam kauft sich ein gebrauchtes Auto. Seine Frau fragt: „Wie viel hat es denn gekostet?“ Weil er es nicht genau sagen möchte, rundet er auf Tausender und antwortet: „Ich habe rund 16 000 Euro bezahlt.“\nWie viel hat Herr Sparsam mindestens und höchstens bezahlt?\nmindestens: ______________ Euro   höchstens: ______________ Euro",
@@ -1774,7 +2123,7 @@
           ]
         },
         {
-          "id": 585,
+          "id": 843,
           "question_number": 4,
           "question_type": "Zahlen der Größe nach ordnen",
           "question_text": "Ordne die Zahlen der Größe nach!\na) 70 000  69 900  9 999  10 002  66 980\n   _____ > _____ > _____ > _____ > _____\nb) 81 000  81 801  8 420  88 880\n   _____ < _____ < _____ < _____",
@@ -1791,7 +2140,7 @@
           ]
         },
         {
-          "id": 586,
+          "id": 844,
           "question_number": 5,
           "question_type": "Richtige Aussagen ankreuzen",
           "question_text": "Kreuze die richtigen Aussagen an!\n○ Die Zahl 22 000 ist um 2 000 größer als 20 000.\n○ Die Zahl 10 420 hat doppelt so viele Hunderter wie Zehner.\n○ Die Zahl 93 400 hat zweimal so viele ZT wie T.\n○ Die Zahl 7 500 ist halb so groß wie die Zahl 15 000.",
@@ -1811,7 +2160,7 @@
           ]
         },
         {
-          "id": 587,
+          "id": 845,
           "question_number": 6,
           "question_type": "Zahlenrätsel (mehrteilig)",
           "question_text": "Zahlenrätsel\na) Füge ich zum Doppelten meiner Zahl die Zahl 15 000 hinzu, erhalte ich die Hälfte von 70 000. Wie heißt meine Zahl?\nb) Drei Zahlen ergeben zusammen 100 000. Die erste Zahl ist 34 855, die zweite ist um 7 699 kleiner als die erste. Wie heißt die dritte Zahl?\nc) Berechne den Unterschied der größten und der kleinsten 5-stelligen Zahl aus den Ziffern 3, 5, 7 und 9 (jede Ziffer mindestens einmal).\nd) Wenn ich von 16 000 den 40. Teil dazu zähle, erhalte ich um 6 000 mehr als mein Freund. Wie viel hat mein Freund?\ne) Wie heißen die kleinste und die größte sechsstellige Zahl, bei denen keine 9 und keine 0 vorkommen?",
@@ -1834,7 +2183,7 @@
           ]
         },
         {
-          "id": 588,
+          "id": 846,
           "question_number": 7,
           "question_type": "Stellenwertdarstellung → Zahl",
           "question_text": "Schreibe als Zahlen!\n4H 9ZT 4E 8T = ____________________\n4E 8H 4Z 9ZT = ____________________\n3E 9H 4ZT = ____________________",
@@ -1852,7 +2201,7 @@
           ]
         },
         {
-          "id": 589,
+          "id": 847,
           "question_number": 8,
           "question_type": "Nachbarzahlen ergänzen",
           "question_text": "Ergänze die Nachbarzahlen (Einer-, Zehner-, Hunderter-, Tausender-Nachbar)!\n... | ... | ... | ... | 14 306 | ... | ... | ... | ...\n... | ... | ... | ... | 79 619 | ... | ... | ... | ...",
@@ -1870,7 +2219,7 @@
           ]
         },
         {
-          "id": 590,
+          "id": 848,
           "question_number": 9,
           "question_type": "Sachaufgabe (Aliens auf dem Mars)",
           "question_text": "Auf dem Mars landen 3 Raumschiffe. Aus einem steigen 28 763 Aliens aus, aus einem anderen 35 633 und aus einem dritten 32 998. 11 799 Aliens steigen gleich in ein anderes Raumschiff um, da sie weiter zum Planeten Xgenius fliegen.\nWie viele Aliens bleiben auf dem Mars?",
@@ -1890,7 +2239,7 @@
           ]
         },
         {
-          "id": 591,
+          "id": 849,
           "question_number": 10,
           "question_type": "Sachaufgabe (Kilometerzähler)",
           "question_text": "Herr Meier musste geschäftlich nach Hamburg fahren. Die Fahrstrecke dorthin betrug 463 km. Die Rückfahrt war um 47 km länger. Als er wieder zu Hause war, zeigte der Kilometerzähler genau 52 015 km an.\nBei welchem Kilometerstand war Herr Meier abgefahren?",
@@ -1910,7 +2259,7 @@
           ]
         },
         {
-          "id": 592,
+          "id": 850,
           "question_number": 11,
           "question_type": "Sachaufgabe (Lastwagen, Gewicht)",
           "question_text": "Ein Lastwagen wird beladen: 7 Kisten à 40 kg, 10 Kisten ohne Gewichtsangabe, eine Kiste Sand mit 0,620 t und 4 Paletten Holz à ½ Tonne.\nWie viele kg wiegt jede Kiste ohne Gewichtsangabe, wenn der Lastwagen vorher 3 t 900 kg wog und nach der Beladung 7 t wiegt?",
@@ -1947,7 +2296,7 @@
       "total_points": 59.0,
       "questions": [
         {
-          "id": 593,
+          "id": 851,
           "question_number": 1,
           "question_type": "Sachaufgabe (F-R-A)",
           "question_text": "Löse die Aufgabe in der Form (F – R – A)!\nPeter bekommt vom Nikolaus einen 2 kg schweren Sack. Er enthält 225 g Nüsse, 620 g Äpfel, 329 g Mandarinen und ein Buch.",
@@ -1969,7 +2318,7 @@
           ]
         },
         {
-          "id": 594,
+          "id": 852,
           "question_number": 2,
           "question_type": "Sachaufgabe",
           "question_text": "Drei Äpfel wiegen zusammen 620 g. Der erste Apfel wiegt 260 g, der zweite doppelt soviel wie der dritte. Wie viel wiegt jeder der beiden Äpfel?",
@@ -1993,7 +2342,7 @@
           ]
         },
         {
-          "id": 595,
+          "id": 853,
           "question_number": 3,
           "question_type": "Sachaufgabe",
           "question_text": "Der Nikolaus füllt auf seinen Schlitten 4 Säcke Nüsse zu 50 kg, 5 Säcke Mandarinen zu 25 kg und 198 kg Äpfel. Wie viele Rentiere braucht er für seinen Schlitten, wenn ein Rentier 100 kg ziehen kann?",
@@ -2015,7 +2364,7 @@
           ]
         },
         {
-          "id": 596,
+          "id": 854,
           "question_number": 4,
           "question_type": "Teiler bestimmen",
           "question_text": "Suche die Teiler!\n18 hat Teiler: ___________________\n23 hat Teiler: ___________________\n42 hat Teiler: ___________________",
@@ -2033,7 +2382,7 @@
           ]
         },
         {
-          "id": 597,
+          "id": 855,
           "question_number": 5,
           "question_type": "Sachaufgabe",
           "question_text": "Der Erfinder der Glühbirne, Thomas Edison hat in 25 Jahren etwa 1000 wichtige Erfindungen gemacht.\nWie viel Erfindungen machte er dann in zwei Jahren?",
@@ -2053,7 +2402,7 @@
           ]
         },
         {
-          "id": 598,
+          "id": 856,
           "question_number": 6,
           "question_type": "Sachaufgabe",
           "question_text": "Alle 5 Minuten fährt das Karussell mit 7 Kindern los. Wie viele Kinder sind\na) in 20 Minuten\nb) in einer Stunde mit dem Karussell gefahren?",
@@ -2075,7 +2424,7 @@
           ]
         },
         {
-          "id": 599,
+          "id": 857,
           "question_number": 7,
           "question_type": "Sachaufgabe",
           "question_text": "Ein Schifahrer braucht für eine 720 Meter lange Abfahrt 1 Minute und 30 Sekunden. Wie viele Meter legt er in einer Sekunde zurück?",
@@ -2094,7 +2443,7 @@
           ]
         },
         {
-          "id": 600,
+          "id": 858,
           "question_number": 8,
           "question_type": "Stellenwerte",
           "question_text": "Wie heißt die Zahl?\n1 T + 5 H + 4 Z + 2 E = _________\n3 T + 8 Z = _________\n4 H + 7 Z + 1 E = _________\n2 T + 9 H + 4 E = _________",
@@ -2113,7 +2462,7 @@
           ]
         },
         {
-          "id": 601,
+          "id": 859,
           "question_number": 9,
           "question_type": "Zahlenstrahl",
           "question_text": "Wie heißen die Zahlen?\n600\n_______|__________________|_________|_______________|_______|__1000\n_I_._._._._i_._._._._I_._._._._i_._._._._I_._._._._i_._._._._I_._._._._i_._._._._I",
@@ -2131,7 +2480,7 @@
           ]
         },
         {
-          "id": 602,
+          "id": 860,
           "question_number": 10,
           "question_type": "Kopfrechnen Multiplikation",
           "question_text": "Rechne aus!\n400 • 6 = _____\n402 • 6 = _____\n405 • 6 = _____\n_____ • 5 = 3000\n_____ • 5 = 3015\n_____ • 5 = 3030\n200 • 9 = _____\n_____ • 9 = 1854\n204 • 9 = _____",
@@ -2156,7 +2505,7 @@
           ]
         },
         {
-          "id": 603,
+          "id": 861,
           "question_number": 11,
           "question_type": "Kopfrechnen Addition/Subtraktion",
           "question_text": "Rechne aus!\n2 371 + 50 = _______\n3 000 – 480 = _______\n1 649 + 80 = _______\n1 707 – 190 = _______",
@@ -2176,7 +2525,7 @@
           ]
         },
         {
-          "id": 604,
+          "id": 862,
           "question_number": 12,
           "question_type": "Größen: Volumen/Liter",
           "question_text": "Wie viel Liter sind es?\n1/2 l: 5 Flaschen Milch = ____ l\n1/4 l: 6 Dosen Cola = _____ l\n0,2 l: 7 Tassen Kaffee = ____ l",
@@ -2195,7 +2544,7 @@
           ]
         },
         {
-          "id": 605,
+          "id": 863,
           "question_number": 13,
           "question_type": "Sachaufgabe",
           "question_text": "Rechne aus!\nTatjana holt auf ihrem Schulweg immer ihre Freundin Ilona ab. Bis zu Ilona sind es 300 Meter und von Ilonas Haus bis zur Schule noch einmal 200 Meter.\nWie viel Meter legt Tatjana jeden Tag auf ihrem Schulweg zurück? (Bitte Hin- und Rückweg berücksichtigen!)",
@@ -2215,7 +2564,7 @@
           ]
         },
         {
-          "id": 606,
+          "id": 864,
           "question_number": 14,
           "question_type": "Zeitrechnung",
           "question_text": "Bestimme die fehlenden Zeitangaben!\nBeginn:  8.35  |  11.45  |  ___   |  20.03  |  ___\nEnde:    ___   |  13.05  |  12.50 |  ___    |  15.15\nDauer:   2h 20 min | ___ | 1h 30 min | 2h 14 min | 50 min",
@@ -2235,7 +2584,7 @@
           ]
         },
         {
-          "id": 607,
+          "id": 865,
           "question_number": 15,
           "question_type": "Größen ergänzen (Zeit)",
           "question_text": "Ergänze!\n4 h = ____ min\n7 h = ____ min\n3 Tage = ____ h\n8 Tage = ____ h\n4 Wochen = ____ Tage\n11 Wochen = ____ Tage\n5 min = ____ s\n9 min = ____ s",
@@ -2270,7 +2619,7 @@
       "total_points": 62.0,
       "questions": [
         {
-          "id": 608,
+          "id": 866,
           "question_number": 1,
           "question_type": "Runden",
           "question_text": "Runde auf Tausender!\n8501 ______________\n4120 ______________\nRunde auf Hunderter!\n3490 ______________\n7449 ______________\nRunde auf Zehner!\n4827 ______________\n8787 ______________",
@@ -2294,7 +2643,7 @@
           ]
         },
         {
-          "id": 609,
+          "id": 867,
           "question_number": 2,
           "question_type": "Stellenwerte",
           "question_text": "Wie heißt die Zahl?\n3H 4T 9E = ___________\n3E 5T = ___________\n20H 2Z = ___________",
@@ -2312,7 +2661,7 @@
           ]
         },
         {
-          "id": 610,
+          "id": 868,
           "question_number": 3,
           "question_type": "Schriftliche Addition und Subtraktion",
           "question_text": "Rechne schriftlich bzw. ergänze!\na) 3485 + 2674 + 305\nb) 406 + 5928 + 84 + 2949\nc) 9237 – 5694\nd) 7040 – 2798\nErgänze die fehlenden Ziffern:\n  3□47\n+ 2 4□8\n-------\n□7 0 5\n\n  9 6 5□\n– 3□9 5\n-------\n□3□5",
@@ -2334,7 +2683,7 @@
           ]
         },
         {
-          "id": 611,
+          "id": 869,
           "question_number": 4,
           "question_type": "Terme mit Rechenreihenfolge",
           "question_text": "Hier musst du überlegen!\na) 3 • 7 + 48 – 17 = _____\nb) 55 – 15 : 3 = _____\nc) 90 : 9 – 2 • 4 = _____",
@@ -2353,7 +2702,7 @@
           ]
         },
         {
-          "id": 612,
+          "id": 870,
           "question_number": 5,
           "question_type": "Einmaleins und Kopfrechnen",
           "question_text": "Kannst du das Einmaleins?\n6 • 30 = ____________\n900 • 6 = ____________\n4 • 400 = ____________\n40 • 80 = ____________\n8 • 320 = ____________\n870 • 3 = ____________",
@@ -2375,7 +2724,7 @@
           ]
         },
         {
-          "id": 613,
+          "id": 871,
           "question_number": 6,
           "question_type": "Faktorenpaare zu 10000",
           "question_text": "10000 = ___________ • 500\n10000 = 5 • ___________\n10000 = ___________ • 2500\n10000 = 200 • ___________",
@@ -2395,7 +2744,7 @@
           ]
         },
         {
-          "id": 614,
+          "id": 872,
           "question_number": 7,
           "question_type": "Zahlen dazwischen",
           "question_text": "Welche Zahl liegt genau dazwischen?\n5000 ___________ 10000\n4560 ___________ 5000\n1000 ___________ 5000\n2000 ___________ 3000",
@@ -2415,7 +2764,7 @@
           ]
         },
         {
-          "id": 615,
+          "id": 873,
           "question_number": 8,
           "question_type": "Division mit und ohne Rest",
           "question_text": "Teile mit und ohne Rest!\n420 : 50 = ……………\n5600 : 70 = ……………\n2440 : 40 = ……………\n810 : 90 = ……………\n………. : 30 = 10 R 7\n…………: 70 = 30 R 40",
@@ -2437,7 +2786,7 @@
           ]
         },
         {
-          "id": 616,
+          "id": 874,
           "question_number": 9,
           "question_type": "Magische Zeichen (Gleichungssystem)",
           "question_text": "Magische Zeichen\nAchtung gleiche Zeichen = gleiche Zahl!\n[Tomate] + 5400 + [Paprika] = 10000\n[Tomate] – 2800 = 1000\n[Tomate] = _________  [Paprika] = _________",
@@ -2456,7 +2805,7 @@
           ]
         },
         {
-          "id": 617,
+          "id": 875,
           "question_number": 10,
           "question_type": "Halbschriftliches Rechnen",
           "question_text": "Rechne halbschriftlich!\n365 • 4 =\n7 • 418 =\n810 • 6 =\n1784 : 4 =",
@@ -2476,7 +2825,7 @@
           ]
         },
         {
-          "id": 618,
+          "id": 876,
           "question_number": 11,
           "question_type": "Zahlenstrahl ablesen",
           "question_text": "Wie heißen die Zahlen auf dem Zahlenstrahl?\nA: ____________ B: ____________ C: ____________ D: ____________\nE: ____________ F: ____________ G: ____________",
@@ -2498,7 +2847,7 @@
           ]
         },
         {
-          "id": 619,
+          "id": 877,
           "question_number": 12,
           "question_type": "Streifenbild (Zerlegung)",
           "question_text": "Setze in das Streifenbild die richtigen Zahlen ein!\n[Tabelle mit vorgegebenen Werten: 5000 oben, 2000 und 9000 eingetragen]",
@@ -2517,7 +2866,7 @@
           ]
         },
         {
-          "id": 620,
+          "id": 878,
           "question_number": 13,
           "question_type": "Sachaufgabe (Tabelle/Gewicht)",
           "question_text": "Der Großbauer Huber aus Kleinostheim beliefert ein Unternehmen in München das Tomatenketchup herstellt. Er besitzt drei LKWs mit unterschiedlichem Leergewicht. Der erste LKW wiegt 7200 kg, der zweite LKW 3500 kg und der dritte LKW 6,5 t.\nDer erste LKW hat eine Ladung von 2,5 t. Der zweite und der dritte LKW teilen sich die Ladung von 7 t. Auf dem Weg nach München müssen die LKWs die nebenstehende Brücke überqueren. (Gewichtsbeschränkung: 8 t)\nTrage zuerst alle Informationen in die Tabelle ein und rechne dann mit Hilfe der Tabelle.\nFrage: Wer darf über die Brücke fahren?\nAntwort: _______________________________________________________",
@@ -2539,7 +2888,7 @@
           ]
         },
         {
-          "id": 621,
+          "id": 879,
           "question_number": 14,
           "question_type": "Sachaufgabe (mehrstufig)",
           "question_text": "Bei einem Schulfest werden insgesamt 968 Euro eingenommen. 308 Euro werden für Musikinstrumente ausgegeben. Für die Schulbücherei werden 8 Bücher gekauft. Ein Buch kostet 13 Euro. Wie viel Geld bleibt übrig?",
@@ -2570,7 +2919,7 @@
       "total_points": 36.0,
       "questions": [
         {
-          "id": 622,
+          "id": 880,
           "question_number": 1,
           "question_type": "Körper analysieren",
           "question_text": "Betrachte die Körper A und B.\nBeantworte für jeden Körper:\n– Aus wie vielen Würfeln bestehen die Körper?\n– Wie viele Würfel fehlen zum Würfel?\n– Wie viele Würfel musst du mindestens hinzufügen, damit ein Quader entsteht?\nZeichne außerdem die Baupläne zu den Körpern A und B!",
@@ -2589,7 +2938,7 @@
           ]
         },
         {
-          "id": 623,
+          "id": 881,
           "question_number": 2,
           "question_type": "Quader ergänzen",
           "question_text": "Wie viele Würfel musst du hinzufügen, bis ein Quader entsteht?\nAus wie vielen Würfeln besteht dann der Quader?\nBeantworte für alle drei abgebildeten Körper (je a und b).",
@@ -2607,7 +2956,7 @@
           ]
         },
         {
-          "id": 624,
+          "id": 882,
           "question_number": 3,
           "question_type": "Würfel mit Farbe bemalt",
           "question_text": "Der nebenstehende Körper besteht aus lauter kleinen Würfeln und ist außen\nkomplett mit Farbe bemalt worden.\nAus wie vielen Würfeln besteht der Körper?\nWie viele Würfel sind auf nur einer Seite bemalt?\nWie viele Würfel sind auf 3 Seiten bemalt?\nWie viele Würfel sind gar nicht bemalt?",
@@ -2627,7 +2976,7 @@
           ]
         },
         {
-          "id": 625,
+          "id": 883,
           "question_number": 4,
           "question_type": "Ansichten zuordnen",
           "question_text": "Wer sieht welche Ansicht? Trage den richtigen Buchstaben ein!\nEin Quader wird von den Seiten A (links), B (oben), C (rechts), D (unten) betrachtet.\nSechs Ansichten (1–6) sind abgebildet. Ordne jeder Ansicht den richtigen\nBuchstaben zu!",
@@ -2645,7 +2994,7 @@
           ]
         },
         {
-          "id": 626,
+          "id": 884,
           "question_number": 5,
           "question_type": "Quader-Flächen benennen",
           "question_text": "Trage in die Flächen des Quaders ein, welche oben (o), unten (u), vorne (v),\nhinten (h), rechts (r) oder links (l) liegen!\nDrei verschiedene Quadernetz-Entfaltungen sind abgebildet.",
@@ -2663,7 +3012,7 @@
           ]
         },
         {
-          "id": 627,
+          "id": 885,
           "question_number": 6,
           "question_type": "Symmetrieachsen finden",
           "question_text": "Finde die möglichen Symmetrieachsen, zeichne sie ein und schreibe die Anzahl auf!\nDrei Figuren sind abgebildet (Pfeilform, Kreuzform, Zackenform).",
@@ -2681,7 +3030,7 @@
           ]
         },
         {
-          "id": 628,
+          "id": 886,
           "question_number": 7,
           "question_type": "Parallele zeichnen",
           "question_text": "Zeichne eine Parallele zur Geraden g, die durch den Punkt C verläuft!",
@@ -2699,7 +3048,7 @@
           ]
         },
         {
-          "id": 629,
+          "id": 887,
           "question_number": 8,
           "question_type": "Senkrechte zeichnen",
           "question_text": "Zeichne eine Senkrechte zu Gerade a, die durch Punkt B verläuft!",
@@ -2716,7 +3065,7 @@
           ]
         },
         {
-          "id": 630,
+          "id": 888,
           "question_number": 9,
           "question_type": "Quadrat konstruieren",
           "question_text": "a) Zeichne auf der Geraden g die Strecke AB = 3 cm ein.\nb) Zeichne vom Punkt A aus eine senkrechte Strecke mit der Länge 3 cm. Der zweite Endpunkt erhält die Bezeichnung C.\nc) Zeichne durch den Punkt C eine parallele Gerade zur Geraden g.\nd) Zeichne durch den Punkt B eine parallele Gerade zu AC. Der Schnittpunkt mit der Geraden, auf welcher der Punkt C liegt, heißt D.\nDie Strecke BD hat die Länge ________ cm.\ne) Die Figur, die du gezeichnet hast, ist _______________________________.",
@@ -2738,7 +3087,7 @@
           ]
         },
         {
-          "id": 631,
+          "id": 889,
           "question_number": 10,
           "question_type": "Würfelnetz falten",
           "question_text": "Falte im Gedanken das Würfelnetz zu einem Würfel.\nWelche der abgebildeten Würfel entstehen? Kreuze an!",
@@ -2756,7 +3105,7 @@
           ]
         },
         {
-          "id": 632,
+          "id": 890,
           "question_number": 11,
           "question_type": "Spielwürfel-Netz ergänzen",
           "question_text": "Beim Spielwürfel haben die gegenüberliegenden Flächen zusammen sieben Punkte.\nTrage die fehlenden Punkte richtig ins Würfelnetz ein!",
@@ -2775,7 +3124,7 @@
           ]
         },
         {
-          "id": 633,
+          "id": 891,
           "question_number": 12,
           "question_type": "Quadernetze prüfen",
           "question_text": "Trage unten ein!\nFolgende Netze ergeben einen Quader: ______________________\nKeinen Quader gibt es bei _____ und _____, weil\n______________ / ______________\nVier Netze (a, b, c, d) sind abgebildet.",
@@ -2794,7 +3143,7 @@
           ]
         },
         {
-          "id": 634,
+          "id": 892,
           "question_number": 13,
           "question_type": "Würfelnetz einfärben",
           "question_text": "Der abgebildete Würfel wurde bis zur Hälfte seiner Höhe in einen Farbeimer getaucht.\nMale entsprechende Flächen des unten gezeichneten Würfelnetzes so an, dass beim\nZusammenfalten der abgebildete Würfel entsteht. Eine Seitenfläche ist bereits\nrichtig eingefärbt.",
@@ -2813,7 +3162,7 @@
           ]
         },
         {
-          "id": 635,
+          "id": 893,
           "question_number": 14,
           "question_type": "Quader-Netze einfärben",
           "question_text": "3 Quader wurden zur Hälfte in Farbe getaucht. Färbe die Netze ein!",
@@ -2831,7 +3180,7 @@
           ]
         },
         {
-          "id": 636,
+          "id": 894,
           "question_number": 15,
           "question_type": "Parallele und Senkrechte zeichnen",
           "question_text": "a) Zeichne durch die Kreuze Linien, die parallel zu der Linie sind!\nb) Zeichne durch die Kreuze Linien, die senkrecht durch die Linie gehen!",
@@ -2848,7 +3197,7 @@
           ]
         },
         {
-          "id": 637,
+          "id": 895,
           "question_number": 16,
           "question_type": "Quadernetz korrigieren",
           "question_text": "Die Zeichnung soll ein Quadernetz darstellen. Verbessere den Fehler und ergänze\ndie fehlende Fläche. Zeichne mit dem Geodreieck ganz genau!",
@@ -2866,7 +3215,7 @@
           ]
         },
         {
-          "id": 638,
+          "id": 896,
           "question_number": 17,
           "question_type": "Figur verschieben",
           "question_text": "Verschiebe nach der angegebenen Vorschrift!\nFigur 1: 9 nach rechts, 3 nach oben\nFigur 2: 6 nach links, 3 nach unten",
@@ -2885,7 +3234,7 @@
           ]
         },
         {
-          "id": 639,
+          "id": 897,
           "question_number": 18,
           "question_type": "Spiegelbild zeichnen",
           "question_text": "Ergänze die folgende Figur zu einer spiegelbildlichen Figur! Benutze das Geodreieck!",
@@ -2903,7 +3252,7 @@
           ]
         },
         {
-          "id": 640,
+          "id": 898,
           "question_number": 19,
           "question_type": "Ameise auf Würfel",
           "question_text": "Eine Ameise sitzt auf einem Würfel und krabbelt darauf rum. Sie bewegt sich\nvon A über Punkte B, C, D und E auf den Punkt F.\na) Zeichne ein Netz des Würfels, wenn die Seitenlänge 3 cm beträgt!\nb) Zeichne den Weg der Ameise im Netz ein!\nc) Wie weit ist die Ameise gekrabbelt?\nd) Auf welchem Weg wäre die Ameise am schnellsten gewesen? (Zeichne diesen Weg in den Würfel mit grün ein!)",
@@ -2923,7 +3272,7 @@
           ]
         },
         {
-          "id": 641,
+          "id": 899,
           "question_number": 20,
           "question_type": "Sachaufgabe Patchwork-Decke",
           "question_text": "Lisa möchte für ihren Puppenwagen eine sogenannte Patchwork-Decke in Form eines\nQuadrates nähen. Dafür benötigt sie verschieden farbige gleichgroße Stoffquadrate\nmit einer Seitenlänge von 8 cm.\nJetzt hat Lisa genau 48 Quadrate zugeschnitten. Dies soll der äußere Rand der Decke sein.\na) Aus wie viel Stoffquadraten besteht jede Seite der Decke?\nb) Wie viel Stoffquadrate muss Lisa noch zuschneiden, um eine fertige Decke zu erhalten?\nc) Wie breit ist die fertige Decke?",
@@ -2943,7 +3292,7 @@
           ]
         },
         {
-          "id": 642,
+          "id": 900,
           "question_number": 21,
           "question_type": "Rechtecke zeichnen",
           "question_text": "Zeichne zwei Rechtecke, die genau einen gemeinsamen Punkt haben. Verwende ein Lineal!",
@@ -2960,7 +3309,7 @@
           ]
         },
         {
-          "id": 643,
+          "id": 901,
           "question_number": 22,
           "question_type": "Spiegelbilder erstellen",
           "question_text": "Erstelle 3 Spiegelbilder zur Figur!",
@@ -2978,7 +3327,7 @@
           ]
         },
         {
-          "id": 644,
+          "id": 902,
           "question_number": 23,
           "question_type": "Verschiebevorschrift bestimmen",
           "question_text": "Wie heißt die Verschiebevorschrift?\n(Eine Figur und ihre verschobene Version sind im Gitter abgebildet.)",
@@ -3008,7 +3357,7 @@
       "total_points": 38.0,
       "questions": [
         {
-          "id": 645,
+          "id": 903,
           "question_number": 1,
           "question_type": "Zahlenreihe fortsetzen",
           "question_text": "Führe jede Zahlenreihe um zwei Glieder fort!\na) 3; 5; 8; 12; 17; 23; 30; _________ _________\nb) 70; 68; 64; 62; 58; 56; 52; _________ _________\nc) 1; 2; 6; 12; 36; 72; 216; _________ _________",
@@ -3026,7 +3375,7 @@
           ]
         },
         {
-          "id": 646,
+          "id": 904,
           "question_number": 2,
           "question_type": "Sachaufgabe Gewicht",
           "question_text": "Florian ist um 8 kg leichter als Felix. Max und Sabine wiegen jeweils genauso viel\nwie Felix. Wie schwer ist jeder, wenn alle zusammen 152 kg wiegen?",
@@ -3047,7 +3396,7 @@
           ]
         },
         {
-          "id": 647,
+          "id": 905,
           "question_number": 3,
           "question_type": "Rechenausdruck berechnen",
           "question_text": "Zähle zu der Zahl 2736 den 8. Teil von 36728 und vervielfache das Ergebnis mit 18!",
@@ -3066,7 +3415,7 @@
           ]
         },
         {
-          "id": 648,
+          "id": 906,
           "question_number": 4,
           "question_type": "Verteilungsaufgabe",
           "question_text": "In einer Packung sind 146 Bonbons. Sie werden auf die vier Kinder Richard, Marlon,\nAmadeus und Eleni verteilt. Dabei erhalten die Jungen jeweils gleich viele, während\nEleni 10 Bonbons weniger als jeder Junge bekommt.\nWie viele Bonbons bekommt jeder?",
@@ -3086,7 +3435,7 @@
           ]
         },
         {
-          "id": 649,
+          "id": 907,
           "question_number": 5,
           "question_type": "Geldaufteilung",
           "question_text": "Die beiden Freunde Sabrina und Florian haben zusammen 160 € gespart. Nun wollen\nsie ihr Sparbuch auflösen und das Geld aufteilen. Dabei erhält Sabrina dreimal so\nviel wie Florian. Wie viel Geld bekommt jeder?",
@@ -3107,7 +3456,7 @@
           ]
         },
         {
-          "id": 650,
+          "id": 908,
           "question_number": 6,
           "question_type": "Division mit Rest",
           "question_text": "Teilt man eine Zahl durch 13, so erhält man 7 und den Rest 9.\nWie heißt die Zahl?",
@@ -3126,7 +3475,7 @@
           ]
         },
         {
-          "id": 651,
+          "id": 909,
           "question_number": 7,
           "question_type": "Zahlenrätsel drei Zahlen",
           "question_text": "Drei Zahlen ergeben zusammen 100000. Eine Zahl heißt 27396. Sie ist genau\ndreimal so groß wie die kleinste Zahl. Wie heißen die drei Zahlen?",
@@ -3147,7 +3496,7 @@
           ]
         },
         {
-          "id": 652,
+          "id": 910,
           "question_number": 8,
           "question_type": "Sachaufgabe Alter",
           "question_text": "Familie Huber hat zwei Kinder, Luisa und Peter. Peter ist doppelt so alt wie Luisa,\naber nur halb so alt wie Vater. Die Mutter ist fünf Jahre jünger als der Vater.\nZusammen sind sie 105 Jahre alt. Peter feiert gerade seinen zwanzigsten Geburtstag.\nWie alt sind die Familienmitglieder?",
@@ -3168,7 +3517,7 @@
           ]
         },
         {
-          "id": 653,
+          "id": 911,
           "question_number": 9,
           "question_type": "Schaubild erstellen",
           "question_text": "Stelle als Schaubild dar: 850 g Brot, 500 g Müsli, 350 g Wurst, 250 g Butter,\n1000 g Zucker! Vergiss die Beschriftung nicht!",
@@ -3198,7 +3547,7 @@
       "total_points": 56.0,
       "questions": [
         {
-          "id": 667,
+          "id": 925,
           "question_number": 1,
           "question_type": "Rechnen",
           "question_text": "Berechne:\n72391 • 6 = ___\n4706 • 9 = ___\n258 • 70 = ___\n6,99 € • 3 = ___\n13,85 € • 5 = ___\n89,42 € • 2 = ___",
@@ -3215,7 +3564,7 @@
           ]
         },
         {
-          "id": 668,
+          "id": 926,
           "question_number": 2,
           "question_type": "Rechnen",
           "question_text": "a) 82 899 + 9 300 = ___\n   36 607 + 450 = ___\n   43 296 + 7 400 = ___\nb) 24 132 – 5 200 = ___\n   67 514 – 860 = ___\n   50 669 – 6 800 = ___",
@@ -3233,7 +3582,7 @@
           ]
         },
         {
-          "id": 669,
+          "id": 927,
           "question_number": 3,
           "question_type": "Rechnen",
           "question_text": "125 : 25 = ___\n275 : 25 = ___\n72 : 12 = ___\n84 : 12 = ___",
@@ -3249,7 +3598,7 @@
           ]
         },
         {
-          "id": 670,
+          "id": 928,
           "question_number": 4,
           "question_type": "Umrechnen",
           "question_text": "Wandle um in Milliliter (ml)!\n6 l = ___ ml\n1,3 l = ___ ml\n0,7 l = ___ ml\n0,02 l = ___ ml\n¼ l = ___ ml\n1/8 l = ___ ml\n¾ l = ___ ml\n½ l = ___ ml",
@@ -3268,7 +3617,7 @@
           ]
         },
         {
-          "id": 671,
+          "id": 929,
           "question_number": 5,
           "question_type": "Umrechnen",
           "question_text": "Wandle um in Liter (l)! Benutze die Kommaschreibweise!\n250 ml = ___ l\n1400 ml = ___ l\n125 ml = ___ l\n2050 ml = ___ l\n50 ml = ___ l\n25 ml = ___ l",
@@ -3286,7 +3635,7 @@
           ]
         },
         {
-          "id": 672,
+          "id": 930,
           "question_number": 6,
           "question_type": "Ordnen",
           "question_text": "Ordne nach der Größe! Beginne mit der kleinsten Menge!\n200 ml   0,3 l   ¾ l   0,125 l   ½ l   800 ml   1 l",
@@ -3305,7 +3654,7 @@
           ]
         },
         {
-          "id": 673,
+          "id": 931,
           "question_number": 7,
           "question_type": "Rechnen",
           "question_text": "Rechne aus!\na) 3 600 : 6 = ___\n   45 000 : 9 = ___\n   6 400 : 8 = ___\n   56 000 : 7 = ___\nb) 180 000 : 30 = ___\n   300 000 : 600 = ___\n   320 000 : 40 = ___\n   540 000 : 900 = ___",
@@ -3323,7 +3672,7 @@
           ]
         },
         {
-          "id": 674,
+          "id": 932,
           "question_number": 8,
           "question_type": "Rechnen",
           "question_text": "Rechne halbschriftlich!\na) 28 200 : 2\nb) 1592 : 8\nc) 39 824 : 4\nd) 3061 : 3",
@@ -3342,7 +3691,7 @@
           ]
         },
         {
-          "id": 675,
+          "id": 933,
           "question_number": 9,
           "question_type": "Sachaufgabe",
           "question_text": "Löse die Sachaufgaben! Schreibe Rechnung (R:) und Antwort (A:) auf!\n\na) Das Ehepaar Schulz hat drei Kinder. Bei jedem Duschen werden 60 l Wasser verbraucht. Jeder duscht einmal am Tag. Wie viel Liter Wasser verbraucht die Familie am Tag beim Duschen?\n\nb) Frau Meiers Klasse will Cornflakes zum Frühstück machen. Dafür benötigen sie 1875 g Flakes und 7,5 l Milch. Wie viel Euro müssen sie bezahlen? (Preise laut Abbildung: Milch 1 l = 0,69 €, 0,5 l = 0,45 €; Cornflakes 750 g = 2,75 €, 375 g = 1,45 €)",
@@ -3375,7 +3724,7 @@
       "total_points": 63.0,
       "questions": [
         {
-          "id": 676,
+          "id": 941,
           "question_number": 1,
           "question_type": "Zahlenstrahl",
           "question_text": "Lies die Zahlen vom Zahlenstrahl ab! Trage ein!\n\nZahlenstrahl 1 (7600–8300):\nA: ___ B: ___ C: ___ D: ___\n\nZahlenstrahl 2 (5700–6000):\nE: ___ F: ___ G: ___ H: ___\n\nZahlenstrahl 3 (9680–9710):\nJ: ___ K: ___ L: ___ M: ___",
@@ -3393,7 +3742,7 @@
           ]
         },
         {
-          "id": 677,
+          "id": 942,
           "question_number": 2,
           "question_type": "Tabelle",
           "question_text": "Schreibe die Nachbarzahlen auf!\n\nFülle die Tabelle aus (Nachbar-Tausender, Nachbar-Hunderter, Nachbar-Zehner, Vorgänger, Zahl, Nachfolger, Nachbar-Zehner, Nachbar-Hunderter, Nachbar-Tausender):\nZeile 1: Zahl = 7898\nZeile 2: Nachbar-Zehner links = 3580",
@@ -3413,7 +3762,7 @@
           ]
         },
         {
-          "id": 678,
+          "id": 943,
           "question_number": 3,
           "question_type": "Lückentext",
           "question_text": "Finde die Nachbarzahlen!\n\nZehnernachbarn:    ___ < 4123 < ___\nHunderternachbarn: ___ < 3567 < ___\nTausendernachbarn: ___ < 9435 < ___",
@@ -3432,7 +3781,7 @@
           ]
         },
         {
-          "id": 679,
+          "id": 944,
           "question_number": 4,
           "question_type": "Vergleichen",
           "question_text": "Setze ein: <, >, =\n\n5960 ○ 5T 9H 6Z\n3085 ○ 3055 + 300\n7527 – 300 ○ 7527 – 50\n8T 7H 8E ○ 8T 8Z 7E",
@@ -3452,7 +3801,7 @@
           ]
         },
         {
-          "id": 680,
+          "id": 945,
           "question_number": 5,
           "question_type": "Zahlenfolgen",
           "question_text": "Schreibe die fehlenden Zahlen in die Reihen!\n\n8840, 8480, 8120, ___\n___, 3734, 3781, ___\n3717, 3711, 3705, ___, ___, 3687",
@@ -3470,7 +3819,7 @@
           ]
         },
         {
-          "id": 681,
+          "id": 946,
           "question_number": 6,
           "question_type": "Tabelle",
           "question_text": "Zehntausendertafel. Schreibe die Zahlen der Sterne auf!\n\nDie Tafel hat die Achsen 100–1000 (waagerecht) und Tausenderwerte (senkrecht).\n*A befindet sich in Zeile 2, Spalte 3\n*B befindet sich in Zeile 5100, Spalte Mitte (zwischen 5100 und 6000)\n*C befindet sich in Zeile 7900, Spalte 9 (nahe 1000)\n*D befindet sich in Zeile 8200, Spalte 2\n\n*A = ___   *B = ___   *C = ___   *D = ___",
@@ -3491,7 +3840,7 @@
           ]
         },
         {
-          "id": 682,
+          "id": 947,
           "question_number": 7,
           "question_type": "Rechnen",
           "question_text": "Rechne aus!\n60 • 9 = ___\n4 • 210 = ___\n80 • 20 = ___\n80 • ___ = 7200\n___ • 80 = 7200\n3600 : 6 = ___\n1800 : 90 = ___\n4500 : 500 = ___",
@@ -3510,7 +3859,7 @@
           ]
         },
         {
-          "id": 683,
+          "id": 948,
           "question_number": 8,
           "question_type": "Zahlenrätsel",
           "question_text": "Zahlenrätsel\n\nRätsel 1: Meine Zahl liegt zwischen 3200 und 4200. Sie hat doppelt so viele Hunderter wie Tausender. Wie heißt die Zahl?\n\nRätsel 2: Ich denke mir eine Zahl. Sie ist größer als 8000 und sie hat einen Hunderter weniger als Tausender und einen Zehner weniger als Hunderter. Welche Zahl denke ich mir? Schreibe drei mögliche Zahlen!",
@@ -3528,7 +3877,7 @@
           ]
         },
         {
-          "id": 684,
+          "id": 949,
           "question_number": 9,
           "question_type": "Rechnen",
           "question_text": "a) Berechne die Quersumme der Zahlen!\n194 > ___   830 > ___   357 > ___\n\nb) Schreibe drei Zahlen auf mit der Quersumme:\n8 < ___________________________",
@@ -3548,7 +3897,7 @@
           ]
         },
         {
-          "id": 685,
+          "id": 950,
           "question_number": 10,
           "question_type": "Sachaufgabe",
           "question_text": "Florian ist ein fleißiger Zeichner. Ein Stapel mit 600 Blatt Zeichenpapier ist 6 cm hoch. Wie hoch ist ein Stapel von 10 000 Blatt?",
@@ -3567,7 +3916,7 @@
           ]
         },
         {
-          "id": 686,
+          "id": 951,
           "question_number": 11,
           "question_type": "Sachaufgabe",
           "question_text": "In der Glasfabrik werden pro Stunde 10 000 Gläser hergestellt. Der fünfte Teil davon sind Sektgläser. Der Rest besteht zur Hälfte aus Biergläsern und Weingläsern. Zeichne ein passendes Streifenbild. Frage, rechne und antworte!",
@@ -3586,7 +3935,7 @@
           ]
         },
         {
-          "id": 687,
+          "id": 952,
           "question_number": 12,
           "question_type": "Sachaufgabe",
           "question_text": "Um wie viel ist der Unterschied zwischen 5378 und 8413 größer als die kleinstmögliche vierstellige Zahl, in der die Ziffer 9 zweimal vorkommt?\nA: ___",
@@ -3605,7 +3954,7 @@
           ]
         },
         {
-          "id": 688,
+          "id": 953,
           "question_number": 13,
           "question_type": "Rechnen",
           "question_text": "Rechne schriftlich! Wandle zuerst um!\n2,08 t + 4965 kg + 0,009 t + 70 kg =",
@@ -3624,7 +3973,7 @@
           ]
         },
         {
-          "id": 689,
+          "id": 954,
           "question_number": 14,
           "question_type": "Sachaufgabe",
           "question_text": "Der Gebrauchtwagenhändler \"Schrotti\" verkauft in seiner Aktionswoche \"Ungerade Preise\". Einen Ford für 6432 €, einen alten Golf für 2471 € und 8 Winterreifen zu je 90 €. Am selben Tag kauft er für sein Büro neue Computer für 4780 € und neue Möbel für 3478 €. Muss der Händler noch zusätzlich Geld von seinem Konto abheben?",
@@ -3656,7 +4005,7 @@
       "total_points": 36.0,
       "questions": [
         {
-          "id": 690,
+          "id": 955,
           "question_number": 1,
           "question_type": "Rechenaufgabe",
           "question_text": "Rechne schriftlich untereinander:\na) 310 + 259 + 89\nb) 378 + 402 + 45 + 123\nc) 564 + 4 + 267 + 12\nd) 2000 – 345\ne) 789 – 297\nf) 602 – 385",
@@ -3678,7 +4027,7 @@
           ]
         },
         {
-          "id": 691,
+          "id": 956,
           "question_number": 2,
           "question_type": "Rechenaufgabe",
           "question_text": "Überschlage zunächst und multipliziere dann halbschriftlich:\na) 98 · 7\nb) 284 · 4\nc) 125 · 6\nd) 487 · 2",
@@ -3698,7 +4047,7 @@
           ]
         },
         {
-          "id": 692,
+          "id": 957,
           "question_number": 3,
           "question_type": "Rechenaufgabe",
           "question_text": "Rechne halbschriftlich:\na) 594 : 6\nb) 483€ : 7\nc) 680cm : 8\nd) 653 : 5\ne) 584 : 3\nf) 782 : 4",
@@ -3720,7 +4069,7 @@
           ]
         },
         {
-          "id": 693,
+          "id": 958,
           "question_number": 4,
           "question_type": "Rechenaufgabe",
           "question_text": "Dividiere halbschriftlich und mache anschließend die Probe:\na) 476 : 7\nb) 772 : 4",
@@ -3738,7 +4087,7 @@
           ]
         },
         {
-          "id": 694,
+          "id": 959,
           "question_number": 5,
           "question_type": "Zahlenrätsel",
           "question_text": "Löse die Zahlenrätsel und denke an eine Antwort:\n\nRätsel 1: Du findest meine Zahl, wenn du den dritten Teil von 705 von der Zahl 500 subtrahierst.\n\nRätsel 2: Wenn ich meine Zahl durch 8 dividiere und dann zum Ergebnis das Doppelte von 125 addiere, erhalte ich 450.",
@@ -3756,7 +4105,7 @@
           ]
         },
         {
-          "id": 695,
+          "id": 960,
           "question_number": 6,
           "question_type": "Sachaufgabe",
           "question_text": "Bianca malt auf ihren Block eine Musterzeile. Dafür zeichnet sie eine Reihe gleichmäßig breiter Kästchen mit je 7mm. Sie beginnt und endet mit einem roten Kästchen. Zwischen den Kästchen lässt sie aber immer einen Abstand von 5mm. Wie viele Zentimeter ist Biancas Musterreihe lang, wenn sie insgesamt 16 rote Kästchen malt?",
@@ -3776,7 +4125,7 @@
           ]
         },
         {
-          "id": 696,
+          "id": 961,
           "question_number": 7,
           "question_type": "Sachaufgabe",
           "question_text": "Stolz hält der Schulrektor Hr. Dickbier die Spende von 457€ für Pausenspiele in der Hand. Er will diese an die sechs Klassenlehrer der 4. Klassen verteilen. Kannst du ihm helfen? (F, R, genaue A)",
@@ -3797,6 +4146,434 @@
       ]
     },
     {
+      "id": "0894",
+      "subject": "Mathe",
+      "grade": 4,
+      "title": "Übungsaufgaben: Wahrscheinlichkeit und Häufigkeit",
+      "topic": "Faires/unfaires Spiel, Glücksräder, Wahrscheinlichkeitsstreifen, Kombinatorik",
+      "publisher": "CATLUX",
+      "source_pdf": "0894.pdf",
+      "total_points": 14.5,
+      "questions": [
+        {
+          "id": 972,
+          "question_number": 1,
+          "question_type": "Begriffe erklären",
+          "question_text": "Versuche, folgende Wörter zu erklären:\nEin Spiel ist fair, wenn …\nEin Spiel ist unfair, wenn …",
+          "answer_text": "Fair: Jeder Spieler hat die gleiche Gewinnchance. Unfair: Ein Spieler hat mehr Gewinnchancen als der andere.",
+          "answer_steps": [
+            "Fair = gleiche Gewinnchancen für alle Beteiligten.",
+            "Unfair = ein Spieler/eine Seite ist im Vorteil."
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.wahrscheinlichkeit.chancen"
+          ]
+        },
+        {
+          "id": 973,
+          "question_number": 2,
+          "question_type": "Glücksräder färben",
+          "question_text": "Ein Glücksrad hat 10 gleich große Felder. Färbe so, dass …\na) Mit den Farben Rot, Grün, Gelb: Rot soll wahrscheinlicher gewinnen.\nb) Mit den Farben Rot, Grün, Gelb, Blau: Blau soll die gleiche Gewinnchance haben wie die anderen Farben.\nc) Mit den Farben Rot, Grün, Blau: alle Farben sollen die gleiche Gewinnchance haben.",
+          "answer_text": "a) Rot bekommt mehr Felder als die anderen Farben (z. B. 6 Rot, 2 Grün, 2 Gelb). b) Geht nicht: 10 Felder lassen sich nicht durch 4 gleichmäßig teilen (10 : 4 ist kein ganzzahliges Ergebnis). c) Geht nicht: 10 Felder lassen sich nicht durch 3 gleichmäßig teilen (10 : 3 ist kein ganzzahliges Ergebnis).",
+          "answer_steps": [
+            "a) Ungleiche Verteilung mit Mehrheit für Rot.",
+            "b) 10 : 4 = 2,5 → keine ganzzahlige gleiche Aufteilung möglich.",
+            "c) 10 : 3 ≈ 3,33 → keine ganzzahlige gleiche Aufteilung möglich."
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.wahrscheinlichkeit.chancen"
+          ]
+        },
+        {
+          "id": 974,
+          "question_number": 3,
+          "question_type": "Sicher/wahrscheinlich/unmöglich",
+          "question_text": "Ordne den Aussagen 'sicher', 'wahrscheinlich' oder 'unmöglich' zu.\na) Wenn ich mich nicht eincreme, bekomme ich einen Sonnenbrand.\nb) Ein Pferd fliegt über die Schule.\nc) Morgen wird es regnen.\nd) Mein Vater ist jünger als ich.\ne) Ich brauche täglich etwas zum Trinken.",
+          "answer_text": "a) wahrscheinlich ; b) unmöglich ; c) wahrscheinlich ; d) unmöglich ; e) sicher",
+          "answer_steps": [
+            "a) je nach Sonne/Hauttyp meist wahrscheinlich.",
+            "b) Pferde können nicht fliegen → unmöglich.",
+            "c) hängt vom Wetter ab → wahrscheinlich (nicht sicher).",
+            "d) ein Vater ist immer älter als sein Kind → unmöglich.",
+            "e) Wasser braucht der Mensch täglich → sicher."
+          ],
+          "max_points": 2.5,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.wahrscheinlichkeit.chancen"
+          ]
+        },
+        {
+          "id": 975,
+          "question_number": 4,
+          "question_type": "Bonbons im Beutel — beste Mischung",
+          "question_text": "Du füllst 10 Bonbons in einen Beutel (rot oder gelb). Tim zieht mit verbundenen Augen zwei Bonbons. Wie musst du den Beutel füllen, damit er möglichst sicher einen roten UND einen gelben Bonbon zieht?",
+          "answer_text": "5 rote und 5 gelbe Bonbons.",
+          "answer_steps": [
+            "Bei 5 Rot und 5 Gelb sind die Chancen für jede Farbe gleich groß.",
+            "Eine ausgewogene Mischung maximiert die Wahrscheinlichkeit, beide Farben zu ziehen."
+          ],
+          "max_points": 1.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.wahrscheinlichkeit.chancen"
+          ]
+        },
+        {
+          "id": 976,
+          "question_number": 5,
+          "question_type": "Bonbons ohne Zurücklegen",
+          "question_text": "Im Beutel sind 5 Bonbons: 4 rote und 1 gelber. Du ziehst zweimal ohne Zurücklegen.\na) Wie wahrscheinlich ist es, dass du den gelben Bonbon ziehst?\nb) Wie kann man die Wahrscheinlichkeit für Gelb erhöhen?\nc) Wie kann man die Wahrscheinlichkeit für Rot senken?",
+          "answer_text": "a) Es gibt 2 Möglichkeiten, den gelben zu ziehen: 1. Zug Gelb, 2. Zug Rot ; oder 1. Zug Rot, 2. Zug Gelb. Bei 2 Zügen ohne Zurücklegen ist die Chance, den gelben zu erwischen, recht hoch (2 von 5 Zügen). b) Mehr gelbe Bonbons in den Beutel füllen. c) Gezogene rote Bonbons nicht zurücklegen ODER mehr gelbe Bonbons hinzufügen.",
+          "answer_steps": [
+            "a) Pfade mit Gelb: GR und RG (2 günstige Folgen).",
+            "b) Anteil Gelb erhöhen → mehr Gelb hinzufügen.",
+            "c) Anteil Rot senken → Rot entfernen oder Gelb hinzufügen."
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.wahrscheinlichkeit.chancen"
+          ]
+        },
+        {
+          "id": 977,
+          "question_number": 6,
+          "question_type": "Häufigkeitsdiagramm interpretieren",
+          "question_text": "Tim und Tom haben über 200-mal je einen Bonbon aus ihrem Beutel gezogen und wieder zurückgelegt. Im Balkendiagramm war Weiß am höchsten, gefolgt von Blau, Rot und Grün. Welche Bonbons-Mischung war wahrscheinlich im Beutel?\na) 3 grüne; 2 blaue; 1 weiße; 2 rote\nb) 2 blaue; 5 weiße; 2 gelbe; 3 rote\nc) 2 grüne; 2 blaue; 2 weiße; 2 rote\nd) 1 grüne; 2 blaue; 4 weiße; 1 rote",
+          "answer_text": "d) 1 grüne; 2 blaue; 4 weiße; 1 rote — weil Weiß am häufigsten gezogen wurde.",
+          "answer_steps": [
+            "Weiß ist im Diagramm am höchsten → muss am meisten im Beutel sein.",
+            "Option d) hat 4 weiße (mehr als alle anderen) → passt zur Beobachtung."
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.wahrscheinlichkeit.haeufigkeit"
+          ]
+        },
+        {
+          "id": 978,
+          "question_number": 7,
+          "question_type": "Kombinatorik (Eis zusammenstellen)",
+          "question_text": "An einem Eisstand gibt es Schokoladen- und Vanilleeis. Dazu kann man rote oder gelbe Zuckerstreusel wählen und das Eis mit Zuckerherzen oder Zuckerperlen garnieren. Wie viele Möglichkeiten hat Tim, sich ein Eis zusammenzustellen?",
+          "answer_text": "8 Möglichkeiten.",
+          "answer_steps": [
+            "2 Sorten · 2 Streusel · 2 Garnierungen = 2 · 2 · 2 = 8."
+          ],
+          "max_points": 1.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
+            "mathe.klasse4.wahrscheinlichkeit.kombinatorik"
+          ]
+        },
+        {
+          "id": 979,
+          "question_number": 8,
+          "question_type": "Kombinatorik (Reihenfolgen)",
+          "question_text": "Tim, Florian und Julia wollen sich nebeneinander aufstellen. Wie viele Möglichkeiten gibt es? Schreibe alle auf (Anfangsbuchstaben T, F, J).",
+          "answer_text": "6 Möglichkeiten: TFJ, TJF, FTJ, FJT, JFT, JTF.",
+          "answer_steps": [
+            "An Position 1: 3 Möglichkeiten; Position 2: 2 Möglichkeiten; Position 3: 1 Möglichkeit.",
+            "Insgesamt 3 · 2 · 1 = 6.",
+            "Liste: TFJ, TJF, FTJ, FJT, JFT, JTF."
+          ],
+          "max_points": 1.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
+            "mathe.klasse4.wahrscheinlichkeit.kombinatorik"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0904",
+      "subject": "Mathe",
+      "grade": 4,
+      "title": "3. Probe: Zahlenraum bis 100 000",
+      "topic": "Stellenwerte, Runden, Vergleichen, Kopfrechnen, Teilbarkeit, Sachaufgaben",
+      "publisher": "CATLUX",
+      "source_pdf": "0904.pdf",
+      "total_points": 50.0,
+      "questions": [
+        {
+          "id": 980,
+          "question_number": 1,
+          "question_type": "Runden und Säulendiagramm",
+          "question_text": "Runde die Besucherzahlen eines Tierparks auf 10 000 und stelle sie in einem Säulendiagramm dar! Denke an die richtige Beschriftung!\nMärz: 12 428    April: 18 369    Mai: 46 616    Juni: 65 379",
+          "answer_text": "März: 10 000 ; April: 20 000 ; Mai: 50 000 ; Juni: 70 000",
+          "answer_steps": [
+            "12 428 → auf 10 000 gerundet = 10 000 (12 < 15).",
+            "18 369 → auf 10 000 gerundet = 20 000 (18 ≥ 15).",
+            "46 616 → auf 10 000 gerundet = 50 000 (46 ≥ 45).",
+            "65 379 → auf 10 000 gerundet = 70 000 (65 ≥ 65)."
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.tabellen",
+            "mathe.klasse4.zahlen1000000.runden"
+          ]
+        },
+        {
+          "id": 981,
+          "question_number": 2,
+          "question_type": "Stellenwertzerlegung",
+          "question_text": "Zerlege in Zehntausender (ZT), Tausender (T), Hunderter (H), Zehner (Z) und Einer (E).\n68 347 = ___\n63 402 = ___\n 6 401 = ___\n78 006 = ___",
+          "answer_text": "68 347 = 6 ZT 8 T 3 H 4 Z 7 E ; 63 402 = 6 ZT 3 T 4 H 2 E ; 6 401 = 6 T 4 H 1 E ; 78 006 = 7 ZT 8 T 6 E",
+          "answer_steps": [
+            "68 347: 6 ZT (60000) + 8 T (8000) + 3 H (300) + 4 Z (40) + 7 E.",
+            "63 402: 6 ZT + 3 T + 4 H + 0 Z + 2 E.",
+            "6 401: 0 ZT + 6 T + 4 H + 0 Z + 1 E.",
+            "78 006: 7 ZT + 8 T + 0 H + 0 Z + 6 E."
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.stellenwerte"
+          ]
+        },
+        {
+          "id": 982,
+          "question_number": 3,
+          "question_type": "Stellenwertdarstellung in Zahl",
+          "question_text": "Wie heißt die Zahl?\n7 ZT 4 T 8 H 5 Z 3 E = ___\n6 ZT 5 H 8 E = ___\n4 ZT 9 T 6 H 8 Z 7 E = ___\n9 ZT 3 T 5 Z = ___",
+          "answer_text": "74 853 ; 60 508 ; 49 687 ; 93 050",
+          "answer_steps": [
+            "7·10000 + 4·1000 + 8·100 + 5·10 + 3 = 74 853.",
+            "6·10000 + 0·1000 + 5·100 + 0·10 + 8 = 60 508.",
+            "4·10000 + 9·1000 + 6·100 + 8·10 + 7 = 49 687.",
+            "9·10000 + 3·1000 + 0·100 + 5·10 + 0 = 93 050."
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.stellenwerte"
+          ]
+        },
+        {
+          "id": 983,
+          "question_number": 4,
+          "question_type": "Zahlen vergleichen",
+          "question_text": "Kleiner oder größer? Trage ein: < >\n63 700 ___ 67 300    73 080 ___ 73 500    72 470 ___ 27 470\n50 620 ___ 50 260    84 540 ___ 85 440    31 860 ___ 38 610",
+          "answer_text": "<, <, > ; >, <, <",
+          "answer_steps": [
+            "63 700 < 67 300 (Tausender 3 < 7).",
+            "73 080 < 73 500 (Hunderter 0 < 5).",
+            "72 470 > 27 470 (Zehntausender 7 > 2).",
+            "50 620 > 50 260 (Hunderter 6 > 2).",
+            "84 540 < 85 440 (Tausender 4 < 5).",
+            "31 860 < 38 610 (Tausender 1 < 8)."
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.vergleichen"
+          ]
+        },
+        {
+          "id": 984,
+          "question_number": 5,
+          "question_type": "Kopfrechnen mit Tausendern",
+          "question_text": "Rechne im Kopf!\n+ 34 000:  54 000 → ___    38 000 → ___    58 000 → ___\n+ 26 000:  66 000 → ___    74 000 → ___    42 000 → ___\n− 35 000:  57 000 → ___    63 000 → ___    94 000 → ___",
+          "answer_text": "54 000+34 000 = 88 000 ; 38 000+34 000 = 72 000 ; 58 000+34 000 = 92 000 ; 66 000+26 000 = 92 000 ; 74 000+26 000 = 100 000 ; 42 000+26 000 = 68 000 ; 57 000−35 000 = 22 000 ; 63 000−35 000 = 28 000 ; 94 000−35 000 = 59 000",
+          "answer_steps": [
+            "Summen +34 000: 88 000, 72 000, 92 000.",
+            "Summen +26 000: 92 000, 100 000, 68 000.",
+            "Differenzen −35 000: 22 000, 28 000, 59 000."
+          ],
+          "max_points": 9.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.addition",
+            "mathe.klasse4.schriftlich.subtraktion"
+          ]
+        },
+        {
+          "id": 985,
+          "question_number": 6,
+          "question_type": "Zahlenfolgen fortsetzen",
+          "question_text": "Setze die Zahlenfolgen fort!\n• 43 660, 53 760, 63 860, ___, ___, ___, ___, ___\n• 15 740, 15 630, 15 520, ___, ___, ___, ___, ___",
+          "answer_text": "Schritt +10 100: 73 960, 84 060, 94 160, 104 260, 114 360 ; Schritt −110: 15 410, 15 300, 15 190, 15 080, 14 970",
+          "answer_steps": [
+            "1. Folge: jede Zahl + 10 100.",
+            "2. Folge: jede Zahl − 110."
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.zahlenfolgen"
+          ]
+        },
+        {
+          "id": 986,
+          "question_number": 7,
+          "question_type": "Größte und kleinste Zahl bilden",
+          "question_text": "Bilde aus den Ziffern 1, 3, 4, 5, 8 die größte und die kleinste 5-stellige Zahl!\nkleinste Zahl: ___    größte Zahl: ___",
+          "answer_text": "kleinste: 13 458 ; größte: 85 431",
+          "answer_steps": [
+            "Kleinste: Ziffern aufsteigend → 1, 3, 4, 5, 8 → 13 458.",
+            "Größte: Ziffern absteigend → 8, 5, 4, 3, 1 → 85 431."
+          ],
+          "max_points": 2.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.stellenwerte"
+          ]
+        },
+        {
+          "id": 987,
+          "question_number": 8,
+          "question_type": "Runden auf verschiedene Stellen",
+          "question_text": "Runde die Zahlen!\nZahl   | ZT     | T      | H      | Z\n24 446 | ___    | ___    | ___    | ___\n86 521 | ___    | ___    | ___    | ___",
+          "answer_text": "24 446: ZT=20 000, T=24 000, H=24 400, Z=24 450 ; 86 521: ZT=90 000, T=87 000, H=86 500, Z=86 520",
+          "answer_steps": [
+            "24 446 → ZT (4<5)=20 000, T (4<5)=24 000, H (4<5)=24 400, Z (6≥5)=24 450.",
+            "86 521 → ZT (6≥5)=90 000, T (5≥5)=87 000, H (2<5)=86 500, Z (1<5)=86 520."
+          ],
+          "max_points": 4.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.runden"
+          ]
+        },
+        {
+          "id": 988,
+          "question_number": 9,
+          "question_type": "Multiplikation und Division mit Vielfachen",
+          "question_text": "Berechne:\n60 · 30 = ___    60 · 400 = ___    7 · 6 000 = ___\n70 · 20 = ___    40 000 : 80 = ___    9 · 5 000 = ___\n80 · 40 = ___    63 000 : 7 000 = ___    4 · 7 000 = ___",
+          "answer_text": "1 800 ; 24 000 ; 42 000 ; 1 400 ; 500 ; 45 000 ; 3 200 ; 9 ; 28 000",
+          "answer_steps": [
+            "60·30=1800 ; 60·400=24 000 ; 7·6000=42 000.",
+            "70·20=1400 ; 40 000:80=500 ; 9·5000=45 000.",
+            "80·40=3200 ; 63 000:7000=9 ; 4·7000=28 000."
+          ],
+          "max_points": 4.5,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.schriftlich.division",
+            "mathe.klasse4.schriftlich.multiplikation"
+          ]
+        },
+        {
+          "id": 989,
+          "question_number": 10,
+          "question_type": "Teilbarkeitsregeln",
+          "question_text": "Teilbarkeitsregeln: Durch welche Zahlen sind diese Zahlen teilbar? Kreuze an (2, 3, 4, 5, 9)!\n56 528 ; 34 952 ; 70 035",
+          "answer_text": "56 528: durch 2 und 4 ; 34 952: durch 2 und 4 ; 70 035: durch 3 und 5 (Quersumme 15, endet auf 5)",
+          "answer_steps": [
+            "56 528: gerade ✓ (2), letzte 2 Ziffern '28' durch 4 ✓ (4); QS=26, nicht durch 3, 9; nicht durch 5.",
+            "34 952: gerade ✓ (2), '52' durch 4 ✓ (4); QS=23, nicht durch 3, 9; nicht durch 5.",
+            "70 035: nicht gerade; QS=15 → durch 3 ✓; endet auf 5 → durch 5 ✓; nicht durch 9 (15÷9)."
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.zahlen1000000.teiler"
+          ]
+        },
+        {
+          "id": 990,
+          "question_number": 11,
+          "question_type": "Sachaufgabe (Dreisatz)",
+          "question_text": "Der Tierpark in Nürnberg braucht für seine 9 Elefanten jeden Tag 27 Brote. Der Tierpark in München hat 3 Elefanten. Wie viele Brote braucht der Tierpark in München?",
+          "answer_text": "Der Tierpark München braucht 9 Brote pro Tag.",
+          "answer_steps": [
+            "1 Elefant: 27 : 9 = 3 Brote.",
+            "3 Elefanten: 3 · 3 = 9 Brote."
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig"
+          ]
+        },
+        {
+          "id": 991,
+          "question_number": 12,
+          "question_type": "Knobelaufgabe (Beine zählen)",
+          "question_text": "Im Tierpark laufen Flamingos und Elche in einem gemeinsamen Gehege. Ein Besucher namens Florian zählt 64 Beine. Florian sagt, er sieht 7 Elche mehr als Flamingos. Wie viele Flamingos und Elche sind im Gehege?",
+          "answer_text": "6 Flamingos und 13 Elche.",
+          "answer_steps": [
+            "Elch hat 4 Beine, Flamingo hat 2 Beine; insgesamt 64 Beine.",
+            "7 Elche mehr als Flamingos → diese 7 Elche bringen 7·4 = 28 Beine.",
+            "Übrig: 64 − 28 = 36 Beine, verteilt auf gleich viele Elch-Flamingo-Paare (1 Paar = 6 Beine).",
+            "Anzahl Paare: 36 : 6 = 6 → 6 Flamingos, 6 Elche-Paar + 7 Extra-Elche = 13 Elche."
+          ],
+          "max_points": 3.5,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.zahlenraetsel"
+          ]
+        },
+        {
+          "id": 992,
+          "question_number": 13,
+          "question_type": "Sachaufgabe (Verhältnis)",
+          "question_text": "Im Tierpark schert Schäfer Heinrich 72 Schafe in 28 Stunden. Bei Bauer Sippel schert er nur 36 Schafe, weil die Schere stumpf ist. Wie lange braucht er bei Bauer Sippel?",
+          "answer_text": "Er braucht 14 Stunden.",
+          "answer_steps": [
+            "36 Schafe sind die Hälfte von 72 Schafen.",
+            "→ Halbe Zeit: 28 : 2 = 14 Stunden."
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.sachaufgaben.mehrstufig"
+          ]
+        },
+        {
+          "id": 993,
+          "question_number": 14,
+          "question_type": "Sachaufgabe (Bewegung aufeinander zu)",
+          "question_text": "Schildkröten Luis und Emma sind 3,6 Meter voneinander entfernt und bewegen sich aufeinander zu. Luis legt in 4 Minuten 16 cm zurück, Emma in 8 Minuten 4 cm. Wie lange brauchen sie, bis sie sich treffen?",
+          "answer_text": "Sie brauchen 80 Minuten.",
+          "answer_steps": [
+            "Strecke: 3,6 m = 360 cm.",
+            "Luis: 16 cm in 4 min → 4 cm pro Minute.",
+            "Emma: 4 cm in 8 min → 0,5 cm pro Minute.",
+            "Gemeinsam pro Minute: 4 + 0,5 = 4,5 cm.",
+            "Zeit: 360 : 4,5 = 80 Minuten."
+          ],
+          "max_points": 3.0,
+          "has_image": false,
+          "image_path": null,
+          "knowledge": [
+            "mathe.klasse4.groessen.laenge",
+            "mathe.klasse4.groessen.zeit",
+            "mathe.klasse4.sachaufgaben.mehrstufig"
+          ]
+        }
+      ]
+    },
+    {
       "id": "0905",
       "subject": "Mathe",
       "grade": 4,
@@ -3807,7 +4584,7 @@
       "total_points": 12.0,
       "questions": [
         {
-          "id": 697,
+          "id": 994,
           "question_number": 1,
           "question_type": "Kreuze an",
           "question_text": "Kreuze an! (ja / nein)\n1. An jeder Quaderkante stoßen drei Flächen zusammen.\n2. Ein Quader hat sechs gleich lange Kanten.\n3. Beim Quader sind gegenüberliegende Flächen gleich.\n4. Jeder Quader ist zugleich ein Würfel.\n5. Ein Quader hat 8 Flächen.\n6. Der Würfel hat zwölf Kanten und acht Ecken.\n7. Ein Prisma hat manchmal zehn Kanten.",
@@ -3829,7 +4606,7 @@
           ]
         },
         {
-          "id": 698,
+          "id": 995,
           "question_number": 2,
           "question_type": "Würfelbauwerk analysieren",
           "question_text": "Betrachte die Körper A und B (aus Würfeln aufgebaut).\n\nFülle die Tabelle aus:\n- Aus wie vielen Würfeln bestehen die Körper?\n- Wie viele Würfel fehlen zum Würfel?\n- Wie viele Würfel musst du mindestens hinzufügen, damit ein Quader entsteht?\n\nZeichne die Baupläne zu den Körpern A und B!",
@@ -3850,7 +4627,7 @@
           ]
         },
         {
-          "id": 699,
+          "id": 996,
           "question_number": 3,
           "question_type": "Würfelergänzung",
           "question_text": "Wie viele Würfel musst du hinzufügen, bis ein Quader entsteht? Aus wie vielen Würfel besteht dann der Quader?\n\nBestimme dies für drei abgebildete Körper (je a und b angeben).",
@@ -3868,7 +4645,7 @@
           ]
         },
         {
-          "id": 700,
+          "id": 997,
           "question_number": 4,
           "question_type": "Bauplan ergänzen / Sachaufgabe",
           "question_text": "Florian hat den nebenstehenden Körper aus Holzwürfeln aufgestellt.\n\na) Ergänze den Bauplan so, dass er zum Würfelbauwerk passt! Gegeben ist ein teilweise ausgefüllter Bauplan mit den Werten: 4 (oben Mitte), 1 (links Mitte), 1 (Mitte), 2 (rechts Mitte), 1 (rechts unten).\nWie viele Würfel hat das Bauwerk insgesamt?\n\nb) Florians Würfelbauwerk soll zu einer Treppe ergänzt werden (siehe Skizze). Wie viele Holzwürfel braucht er noch? Füge eine Rechnung hinzu!",
@@ -3889,7 +4666,7 @@
           ]
         },
         {
-          "id": 701,
+          "id": 998,
           "question_number": 5,
           "question_type": "Würfelkörper analysieren",
           "question_text": "Der nebenstehende Körper besteht aus lauter kleinen Würfeln und ist außen komplett mit Farbe bemalt worden.\n\n- Aus wie vielen Würfeln besteht der Körper?\n- Wie viele Würfel sind auf nur einer Seite bemalt?\n- Wie viele Würfel sind auf 3 Seiten bemalt?\n- Wie viele Würfel sind gar nicht bemalt?",
@@ -3909,7 +4686,7 @@
           ]
         },
         {
-          "id": 702,
+          "id": 999,
           "question_number": 6,
           "question_type": "Quader beschriften",
           "question_text": "Trage in die Flächen des Quaders ein, welche oben (o), unten (u), vorne (v), hinten (h), rechts (r) oder links (l) liegen!",
@@ -3927,7 +4704,7 @@
           ]
         },
         {
-          "id": 703,
+          "id": 1000,
           "question_number": 7,
           "question_type": "Zeichenaufgabe",
           "question_text": "Zeichne zwei Rechtecke, die genau einen gemeinsamen Punkt haben. Verwende ein Lineal!",
@@ -3945,7 +4722,7 @@
           ]
         },
         {
-          "id": 704,
+          "id": 1001,
           "question_number": 8,
           "question_type": "Quadernetz bestimmen",
           "question_text": "Trage unten ein!\nVier Netze (a, b, c, d) sind abgebildet. Folgende Netze ergeben einen Quader: ______. Keinen Quader gibt es bei ___ und ___, weil ________________________.",
@@ -3964,7 +4741,7 @@
           ]
         },
         {
-          "id": 705,
+          "id": 1002,
           "question_number": 9,
           "question_type": "Quadernetz einfärben",
           "question_text": "3 Quader wurden zur Hälfte in Farbe getaucht. Färbe die Netze ein!",
@@ -3981,7 +4758,7 @@
           ]
         },
         {
-          "id": 706,
+          "id": 1003,
           "question_number": 10,
           "question_type": "Quadernetz korrigieren",
           "question_text": "Die Zeichnung soll ein Quadernetz darstellen. Verbessere den Fehler und ergänze die fehlende Fläche. Zeichne mit dem Geodreieck ganz genau!",
@@ -3999,7 +4776,7 @@
           ]
         },
         {
-          "id": 707,
+          "id": 1004,
           "question_number": 11,
           "question_type": "Sachaufgabe",
           "question_text": "Florian baut aus Draht einen Würfel und einen Quader. Beide haben dieselbe Länge von 10cm. Der Quader ist 4cm breit. Insgesamt braucht Florian für beide Körper 200cm Draht. Wie hoch ist der Quader? (Schreibe alle Rechnungen auf!)",
@@ -4034,7 +4811,7 @@
       "total_points": 26.0,
       "questions": [
         {
-          "id": 708,
+          "id": 1005,
           "question_number": 1,
           "question_type": "Kreuze an",
           "question_text": "Welche Fragen kannst du durch Rechnen beantworten? Kreuze an!\n\nGegeben ist eine Werbeanzeige des Radl-Markts mit folgenden Preisen:\n  Puky 300 (3-Gang-Schaltung): 195,50€\n  Speedy 50 (Alufelgen + 5-Gang): 229,–€\n  Fahrradhelm: 42€\n  Beleuchtungsset: 25,50€\n  Fahrradmantel: 10€/Stück\n  Werkzeugset: 12,75€\n  Flasche: 3,25€\n\nFragen:\na) Wie viel muss Florian für das Rad Puky und eine Fahrradflasche bezahlen?\nb) Florian hat 300€. Reicht sein Geld für das Rad Puky und einen Fahrradkorb?\nc) Kosten das Fahrrad Puky und ein Fahrradhelm mehr als das Rad Speedy?\nd) Wie lange hat der Radl-Markt geöffnet, wenn Florian das Speedy 50 kaufen möchte?",
@@ -4054,7 +4831,7 @@
           ]
         },
         {
-          "id": 709,
+          "id": 1006,
           "question_number": 2,
           "question_type": "Tabelle ausfüllen",
           "question_text": "Diese Tabellen kannst du ausfüllen!\n\nTabelle 1 (Geschwindigkeit 120km/h):\n  1h → 120km\n  30min → ?\n  10min → ?\n  1min → ?\n  11min → ?\n\nTabelle 2 (Geschwindigkeit 140km/h):\n  1h → 140km\n  ? → 280km\n  ? → 70km\n  ? → 35km\n  ? → 245km",
@@ -4072,7 +4849,7 @@
           ]
         },
         {
-          "id": 710,
+          "id": 1007,
           "question_number": 3,
           "question_type": "Textaufgabe",
           "question_text": "Löse die Textaufgabe mit Skizze, Rechnungen und Antworten!\n\nFamilie Meier macht einen Ausflug. Mit ihren Rädern fahren sie um 8.15 Uhr von zu Hause weg. Nach 1 Stunde 25 Minuten machen sie 35 Minuten am Fischteich eine Pause. Danach fahren sie noch 40 Minuten zu einer Burg. Die Burgbesichtigung dauert 1 Stunde 30 Minuten. Für den Rückweg brauchen sie 2 Stunden 30 Minuten.\n\na) Zeichne eine Skizze mit allen Angaben aus der Geschichte!\nb) Was musst du ausrechnen? Kreuze an! (Abfahrt / Dauer des Ausflugs / Länge der Strecke / Ankunft)\nc) Rechne nun aus!\nF: Wie viele Stunden und Minuten dauert der Ausflug?\nF: Um wie viel Uhr sind sie wieder zu Hause?",
@@ -4093,7 +4870,7 @@
           ]
         },
         {
-          "id": 711,
+          "id": 1008,
           "question_number": 4,
           "question_type": "Textaufgabe",
           "question_text": "Die Freunde Florian und Tim wollen zu einem Fußballspiel nach München fahren, das um 14.00 Uhr beginnt.\n\nFlorian fährt mit dem Rad. Bis nach München sind es 35km. Er schafft 14km in der Stunde. Für eine Pause plant er 20 Minuten ein. Tim fährt die gleiche Strecke mit dem Auto. Dafür braucht er 30 Minuten. Beim Tanken braucht er zusätzlich 10 Minuten.\n\na) Trage wichtige Angaben ein:\n   Abfahrt von Florian | Abfahrt von Tim\n   Geschwindigkeit von Florian | Fahrzeit von Tim\n   Pause von Florian | Tanken\n   Gesamtstrecke\n\nb) Wie lange ist Florian insgesamt unterwegs?\nc) Wie lange ist Tim unterwegs?\nd) Wann muss Florian losradeln, wenn er 30 Minuten vor dem Spiel in München sein möchte?\nd) Wie lange stand Tim im Stau, wenn er um 13.00 Uhr losfuhr, aber erst um 14.10 Uhr in München ankam?",
@@ -4115,7 +4892,7 @@
           ]
         },
         {
-          "id": 712,
+          "id": 1009,
           "question_number": 5,
           "question_type": "Sachaufgabe",
           "question_text": "Anna und Leon sollen für das Sportfest 3 Reihen Hütchen am Sportplatz aufstellen. Die Hütchen in jeder Reihe müssen 3m Abstand voneinander haben. Jede Reihe ist 27m lang.\n\nF: Wie viele Hütchen brauchen die Kinder, wenn auch am Anfang von jeder Reihe ein Hütchen stehen muss.",
@@ -4134,7 +4911,7 @@
           ]
         },
         {
-          "id": 713,
+          "id": 1010,
           "question_number": 6,
           "question_type": "Sachaufgabe",
           "question_text": "Florian ist 1,41m groß. Uli ist 15cm größer als Florian. Florian ist 7cm kleiner als Sarah, aber 24cm größer als Sabine.\nWie groß sind die Kinder?\nFlorian: _______ Uli: _______ Sarah: _______ Sabine: _______",
@@ -4166,7 +4943,7 @@
       "total_points": 45.0,
       "questions": [
         {
-          "id": 714,
+          "id": 1011,
           "question_number": 1,
           "question_type": "Grundaufgaben Division und Multiplikation",
           "question_text": "Löse die Aufgaben.\n650 : 10 = ___    50 · 30 = ___\n700 : 70 = ___     7 · 90 = ___\n420 :  6 = ___    60 ·  8 = ___",
@@ -4185,7 +4962,7 @@
           ]
         },
         {
-          "id": 715,
+          "id": 1012,
           "question_number": 2,
           "question_type": "Halbschriftliche Multiplikation",
           "question_text": "Multipliziere halbschriftlich!\n32 · 5 = ___    4 · 98 = ___    78 · 7 = ___    175 · 6 = ___",
@@ -4204,7 +4981,7 @@
           ]
         },
         {
-          "id": 716,
+          "id": 1013,
           "question_number": 3,
           "question_type": "Halbschriftliche Multiplikation und Division",
           "question_text": "Berechne halbschriftlich.\n8 · 63 = ___    747 : 9 = ___",
@@ -4222,7 +4999,7 @@
           ]
         },
         {
-          "id": 717,
+          "id": 1014,
           "question_number": 4,
           "question_type": "Klecksaufgaben (Umkehraufgaben)",
           "question_text": "Klecksaufgaben. Schreibe die richtigen Zahlen in die Felder.\n  ___ · 9 = ___   (294 : ___ = ___)\n  ___ · 2 = ___   (280 : ___ = 40)\n  ___ · ___       (360 : 60 = ___)\n(Hinweis: Fehlende Faktoren/Divisoren so bestimmen, dass die Gleichungen aufgehen.)",
@@ -4241,7 +5018,7 @@
           ]
         },
         {
-          "id": 718,
+          "id": 1015,
           "question_number": 5,
           "question_type": "Teiler einer Zahl",
           "question_text": "Schreibe alle Teiler der Zahl auf.\nTeiler von 20: _________________________________________________\nTeiler von 64: _________________________________________________",
@@ -4258,7 +5035,7 @@
           ]
         },
         {
-          "id": 719,
+          "id": 1016,
           "question_number": 6,
           "question_type": "Knobelaufgabe (Zahlenrätsel)",
           "question_text": "Florians Onkel hat einen Sohn, der 20 Jahre jünger ist als er selbst. Zusammen sind die beiden 48 Jahre alt.\nWie alt ist Florians Onkel? Wie alt ist sein Sohn?",
@@ -4276,7 +5053,7 @@
           ]
         },
         {
-          "id": 720,
+          "id": 1017,
           "question_number": 7,
           "question_type": "Sachaufgabe (Schulfest, Geld)",
           "question_text": "Bei einem Schulfest werden insgesamt 968 Euro eingenommen. Dann werden davon 308 Euro für Musikinstrumente ausgegeben. Für die Schulbücherei werden 8 Bücher gekauft. Jedes Buch kostet 8 Euro.\nWie viel Geld bleibt übrig?",
@@ -4297,7 +5074,7 @@
           ]
         },
         {
-          "id": 721,
+          "id": 1018,
           "question_number": 8,
           "question_type": "Sachaufgabe (Division mit Rest)",
           "question_text": "Herr Meier möchte 439 Murmeln an seine 6 Kinder verteilen.\nWie viele Murmeln bekommt jedes Kind?",
@@ -4315,7 +5092,7 @@
           ]
         },
         {
-          "id": 722,
+          "id": 1019,
           "question_number": 9,
           "question_type": "Vielfache",
           "question_text": "Schreibe vier Vielfache der Zahl 8 auf:\n_________________________________________________________________\nSchreibe aus den Zahlen 320 bis 570 alle Vielfachen von 70 auf:\n_________________________________________________________________",
@@ -4332,7 +5109,7 @@
           ]
         },
         {
-          "id": 723,
+          "id": 1020,
           "question_number": 10,
           "question_type": "Teilbarkeitsregeln",
           "question_text": "Kreise Zahlen, die durch 5 teilbar sind, ein und unterstreiche die, die durch 6 teilbar sind:\n72   16   335   822   5 220   69   7   4 155\n\nVervollständige: Eine Zahl ist durch 2 teilbar, wenn …",
@@ -4350,7 +5127,7 @@
           ]
         },
         {
-          "id": 724,
+          "id": 1021,
           "question_number": 11,
           "question_type": "Halbschriftlich rechnen (schriftlich aufgestellt)",
           "question_text": "Schreibe stellengerecht untereinander und rechne halbschriftlich aus.\na) 39 · 6 = ___\nb) 235 · 4 = ___\nc) 647 : 7 = ___\nd) 294 : 6 = ___\ne) 447 : 5 = ___",
@@ -4383,7 +5160,7 @@
       "total_points": 18.0,
       "questions": [
         {
-          "id": 725,
+          "id": 1022,
           "question_number": 1,
           "question_type": "Rechenaufgabe",
           "question_text": "Dividiere schriftlich!\na) 5 859 : 9 =\nb) 40 014 : 6 =\nc) 234 063 : 3 =",
@@ -4401,7 +5178,7 @@
           ]
         },
         {
-          "id": 726,
+          "id": 1023,
           "question_number": 2,
           "question_type": "Sachaufgabe",
           "question_text": "Eine 34,40 m lange Schnur wird in vier gleich lange Stücke geteilt.\nFrage: Wieviel Meter ist ein Stück lang?\nAntwort: ___",
@@ -4418,7 +5195,7 @@
           ]
         },
         {
-          "id": 727,
+          "id": 1024,
           "question_number": 3,
           "question_type": "Rechenaufgabe",
           "question_text": "Dividiere 380 952 durch 8. Multipliziere das Ergebnis mit 7!",
@@ -4436,7 +5213,7 @@
           ]
         },
         {
-          "id": 728,
+          "id": 1025,
           "question_number": 4,
           "question_type": "Lückenaufgabe",
           "question_text": "Welche Ziffern fehlen?\na) 3_6_ : 4 = _6_\nb) 3_6_ : 6 = 5__",
@@ -4453,7 +5230,7 @@
           ]
         },
         {
-          "id": 729,
+          "id": 1026,
           "question_number": 5,
           "question_type": "Kopfrechenaufgabe",
           "question_text": "Wenn du diese Zahlen durch 5 dividierst, bleibt immer ein Rest. Gib den Rest an, ohne zu rechnen!\na) 28 397\nb) 35 786\nc) 70 019\nd) 196 204\ne) 26 383\nRest: ___ Rest: ___ Rest: ___ Rest: ___ Rest: ___",
@@ -4474,7 +5251,7 @@
           ]
         },
         {
-          "id": 730,
+          "id": 1027,
           "question_number": 6,
           "question_type": "Rechenaufgabe",
           "question_text": "Rechne schriftlich! Hier bleibt ein Rest.\na) 683 : 5 =\nb) 1 803 : 4 =",
@@ -4491,7 +5268,7 @@
           ]
         },
         {
-          "id": 731,
+          "id": 1028,
           "question_number": 7,
           "question_type": "Sachaufgabe",
           "question_text": "Herr Meier kauft ein neues Auto für 20 520 €.\nFür sein altes Auto bekommt er noch 2 550 €.\nEr bezahlt das neue Auto in sechs gleichen Teilbeträgen.\nF: Wie hoch ist der Teilbetrag?",
@@ -4509,7 +5286,7 @@
           ]
         },
         {
-          "id": 732,
+          "id": 1029,
           "question_number": 8,
           "question_type": "Teilbarkeitsaufgabe",
           "question_text": "Welche Zahlen sind durch 6 teilbar? Kreuze an!\na) 16 524\nb) 23 456\nc) 34 578\nd) 44 868\ne) 56 354",
@@ -4542,7 +5319,7 @@
       "total_points": 54.0,
       "questions": [
         {
-          "id": 733,
+          "id": 1030,
           "question_number": 1,
           "question_type": "Stellenwertaufgabe",
           "question_text": "Wie heißen die Zahlen? Schreibe auf!\n4 T, 3 H, 2 Z, 5 E = ___\n9 T, 9 H, 7 Z, 9 E = ___\n3 H, 6 T, 7 Z, 4 E = ___\n6 E, 2 Z, 6 T, 9 H = ___\n4 T, 3 E, 5 H = ___\n5 T, 13 H, 1 Z = ___",
@@ -4563,7 +5340,7 @@
           ]
         },
         {
-          "id": 734,
+          "id": 1031,
           "question_number": 2,
           "question_type": "Zahlenstrahlaufgabe",
           "question_text": "Du siehst einen Ausschnitt aus dem Zahlenstrahl! Vervollständige!\n(Zahlenstrahl mit Markierungen bei 5 880, 6 100, 6 200, 6 460, 6 510 und leeren Feldern)",
@@ -4580,7 +5357,7 @@
           ]
         },
         {
-          "id": 735,
+          "id": 1032,
           "question_number": 3,
           "question_type": "Zahlenbildungsaufgabe",
           "question_text": "Bilde aus den Ziffern 2, 6, 8, 5 sechs verschiedene Zahlen und ordne sie der Größe nach!\nBeginne mit der kleinsten Zahl!\n_______ _______ _______ _______ _______ _______",
@@ -4598,7 +5375,7 @@
           ]
         },
         {
-          "id": 736,
+          "id": 1033,
           "question_number": 4,
           "question_type": "Zahlenreihenaufgabe",
           "question_text": "Setze die Zahlenreihen fort!\n8270  8310  8350  [___] [___] [___] [___] [___] [___]  8630\n6013  6009  6005  [___] [___] [___] [___] [___] [___]  5977",
@@ -4615,7 +5392,7 @@
           ]
         },
         {
-          "id": 737,
+          "id": 1034,
           "question_number": 5,
           "question_type": "Nachbarzahlenaufgabe",
           "question_text": "Suche die Nachbarzahlen!\nNT | NH | NZ | VG | Zahl | NF | NZ | NH | NT\n___ | ___ | ___ | ___ | 4783 | ___ | ___ | ___ | ___\n___ | ___ | ___ | ___ | 3021 | ___ | ___ | ___ | ___",
@@ -4629,7 +5406,7 @@
           ]
         },
         {
-          "id": 738,
+          "id": 1035,
           "question_number": 6,
           "question_type": "Rechenaufgabe",
           "question_text": "Löse folgende Aufgaben! Rechne schriftlich!\n2571 + 4769 = ___\n5612 – 2047 = ___\n3578 + 278 = ___\n9053 – 4384 = ___\n3468 + 1533 + 2456 = ___\n7876 – 1433 – 2724 = ___",
@@ -4644,7 +5421,7 @@
           ]
         },
         {
-          "id": 739,
+          "id": 1036,
           "question_number": 7,
           "question_type": "Sachaufgabe",
           "question_text": "Die erste von drei Zahlen ist 2225. Die zweite ist um 375 größer. Alle drei Zahlen ergeben zusammen 4899. Wie lautet die zweite und dritte Zahl!",
@@ -4662,7 +5439,7 @@
           ]
         },
         {
-          "id": 740,
+          "id": 1037,
           "question_number": 8,
           "question_type": "Knobelaufgabe",
           "question_text": "Rebecas Zahl hat die Ziffern 3, 5, 8, 6. Sie liegt zwischen 4000 und 7000. Es ist eine ungerade Zahl. Sie besitzt 5 Hunderter. Wie heißt die Zahl?",
@@ -4682,7 +5459,7 @@
           ]
         },
         {
-          "id": 741,
+          "id": 1038,
           "question_number": 9,
           "question_type": "Rundeaufgabe",
           "question_text": "Runde folgende Zahlen!\nAuf Zehner: 76 ___ 299 ___ 9909 ___\nAuf Hunderter: 123 ___ 2756 ___ 3466 ___\nAuf Tausender: 3479 ___ 1188 ___ 876 ___",
@@ -4696,7 +5473,7 @@
           ]
         },
         {
-          "id": 742,
+          "id": 1039,
           "question_number": 10,
           "question_type": "Rundeaufgabe",
           "question_text": "Runde folgende Zahl auf Zehner, Hunderter und Tausender!\n8527\n≈ ___ ___ ___",
@@ -4714,7 +5491,7 @@
           ]
         },
         {
-          "id": 743,
+          "id": 1040,
           "question_number": 11,
           "question_type": "Knobelaufgabe",
           "question_text": "Tom hat eine Zahl auf Zehner gerundet. Jetzt heißt seine Zahl 1570. Nenne zwei mögliche Zahlen, die er gerundet haben könnte!",
@@ -4730,7 +5507,7 @@
           ]
         },
         {
-          "id": 744,
+          "id": 1041,
           "question_number": 12,
           "question_type": "Rechenaufgabe",
           "question_text": "Jetzt geht es zum Schluss noch um das Malnehmen und Teilen von großen Zahlen. Denke an die „Nullertricks“!\n500 • 2 = ___\n300 • 5 = ___\n7 • 600 = ___\n70 • 70 = ___\n4500 : 5 = ___\n2100 : 7 = ___\n4800 : 600 = ___\n3200 : 400 = ___\n7200 : 800 = ___\n2400 : 80 = ___",
@@ -4757,7 +5534,7 @@
       "total_points": 45.0,
       "questions": [
         {
-          "id": 745,
+          "id": 1042,
           "question_number": 1,
           "question_type": "Vergleichsaufgabe",
           "question_text": "Ordne die Zahlen. Beginne mit der Kleinsten!\n5 338, 5 234, 5 324, 5 248, 5 238",
@@ -4771,7 +5548,7 @@
           ]
         },
         {
-          "id": 746,
+          "id": 1043,
           "question_number": 2,
           "question_type": "Zahlenwörter",
           "question_text": "Schreibe folgende Zahlenwörter als Zahlen!\nFünftausendsiebenundfünfzig ___\ndreitausendsechshundertsieben ___",
@@ -4785,7 +5562,7 @@
           ]
         },
         {
-          "id": 747,
+          "id": 1044,
           "question_number": 3,
           "question_type": "Zahlenstrahlaufgabe",
           "question_text": "Ergänze die Zahlen an den Zahlenstrahlen!\nZahlenstrahl 1: ... 2 430 ... 2 440 ... 2 450 ...\nA = ___ B = ___\nZahlenstrahl 2: ... 5 000 ... 6 000 ... 7 000 ...\nA = ___ B = ___",
@@ -4802,7 +5579,7 @@
           ]
         },
         {
-          "id": 748,
+          "id": 1045,
           "question_number": 4,
           "question_type": "Stellenwertaufgabe",
           "question_text": "a) Wie heißen die Zahlen?\n3E 7H 6 T = ___\n4 T 16 H 2 Z 36 E = ___\nb) Tausche!\n6 T + 7 Z = ___ Z\n3 T + 8 H + 10 Z = ___ H",
@@ -4821,7 +5598,7 @@
           ]
         },
         {
-          "id": 749,
+          "id": 1046,
           "question_number": 5,
           "question_type": "Nachbarzahlenaufgabe",
           "question_text": "Suche Vorgänger (V) und Nachfolger (N), Nachbarzehner (NZ), Nachbarhunderter (NH) und Nachbartausender (NT)!\nNT | NH | NZ | V | Zahl | N | NZ | NH | NT\n___ | ___ | ___ | ___ | 4376 | ___ | ___ | ___ | ___",
@@ -4835,7 +5612,7 @@
           ]
         },
         {
-          "id": 750,
+          "id": 1047,
           "question_number": 6,
           "question_type": "Nachbarzahlenaufgabe",
           "question_text": "Finde die Nachbarzahlen!\nVorgänger | Zahl | Nachfolger | NH | NT\n___ | 8751 | ___ | ___ | ___\n4999 | ___ | ___ | ___ | ___",
@@ -4849,7 +5626,7 @@
           ]
         },
         {
-          "id": 751,
+          "id": 1048,
           "question_number": 7,
           "question_type": "Zahlenbildungsaufgabe",
           "question_text": "Bilde aus den Ziffern 5, 7, 1, 8 die größte und die kleinste Zahl!\n___ (größte Zahl)  ___ (kleinste Zahl)",
@@ -4866,7 +5643,7 @@
           ]
         },
         {
-          "id": 752,
+          "id": 1049,
           "question_number": 8,
           "question_type": "Zahlenreihenaufgabe",
           "question_text": "Setze die Zahlenreihe fort!\n5 004 | 5007 | 4998 | 5001 | ___ | ___\n8170 | 8090 | 8010 | ___ | ___ | ___\n1230 | 1140 | 2140 | 2050 | ___ | ___",
@@ -4884,7 +5661,7 @@
           ]
         },
         {
-          "id": 753,
+          "id": 1050,
           "question_number": 9,
           "question_type": "Ergänzungsaufgabe",
           "question_text": "Ergänze\na) Zum nächsten vollen Tausender!\n2460 + ___ = ___\n4732 + ___ = ___\nb) auf Zehntausend!\n4330 + ___ = 10 000\n825 + ___ = 10 000",
@@ -4899,7 +5676,7 @@
           ]
         },
         {
-          "id": 754,
+          "id": 1051,
           "question_number": 10,
           "question_type": "Knobelaufgabe",
           "question_text": "Zieht man von 9742 eine Zahl ab, so erhält man die Hälfte von 1368. Wie heißt die Zahl?\nAntwort: ___",
@@ -4917,7 +5694,7 @@
           ]
         },
         {
-          "id": 755,
+          "id": 1052,
           "question_number": 11,
           "question_type": "Rechenaufgabe",
           "question_text": "a) 10000 = ___ • 500\n   10000 = ___ • 50\n   10000 = ___ • 5\nb) 10000 = ___ • 2000\n   10000 = ___ • 20\n   10000 = ___ • 2",
@@ -4932,7 +5709,7 @@
           ]
         },
         {
-          "id": 756,
+          "id": 1053,
           "question_number": 12,
           "question_type": "Sachaufgabe",
           "question_text": "Ein Paket mit 500 Blatt Kopierpapier ist 5 cm hoch.\nWie hoch ist ein Stapel mit 10 000 Blatt?\nAntwort: ___",
@@ -4949,7 +5726,7 @@
           ]
         },
         {
-          "id": 757,
+          "id": 1054,
           "question_number": 13,
           "question_type": "Sachaufgabe",
           "question_text": "Löse die Sachaufgaben. Schreibe alle Rechenschritte auf. Denke an die richtige Einheit.\nFahrstrecken:\nMünchen – Zagreb: 570 km\nZagreb – Istanbul: 1 320 km\nIstanbul – Ankara: 440 km\nMünchen – Madrid: 1 998 km\nMünchen – Istanbul: 2 004 km\n\nEin LKW hat bereits 555 km zurückgelegt, als er in München ankommt. Er fährt weiter nach Zagreb und anschließend nach Istanbul.\na) Wie lang war die gesamte Fahrstrecke?\nb) Innerhalb einer Woche fährt er auf direktem Weg zurück nach München. Welche Fahrstrecke hat der LKW nun insgesamt zurückgelegt?\nc) Runde das Ergebnis aus b) auf volle Tausender.\nd) Berechne den Unterschied zwischen der Strecke München – Madrid und der Strecke Istanbul – Ankara.",
@@ -4970,7 +5747,7 @@
           ]
         },
         {
-          "id": 758,
+          "id": 1055,
           "question_number": 14,
           "question_type": "Sachaufgabe",
           "question_text": "Löse die Textaufgabe!\nFamilie Meier kauft Weihnachtsgeschenke für die ganze Familie!\nDer 18-jährige Sohn bekommt einen Fernseher für 859 €, die 16-jährige Schwester wünscht sich eine neue Stereoanlage für 974 €. Außerdem kaufen sie 6 neue Videokassetten zu je 6 €. Mutter braucht dringend einen Wäschetrockner, der 1720 € kostet. Sie können den Preis etwas herunterhandeln, weil ein kleiner Lackschaden daran ist und bezahlen deshalb 140 € weniger. Sie zahlen 1449 € an und möchten den Rest in 20 gleichen Raten abzahlen.\nFrage: Wie viel beträgt eine Rate?",
@@ -5003,7 +5780,7 @@
       "total_points": 49.0,
       "questions": [
         {
-          "id": 759,
+          "id": 1056,
           "question_number": 1,
           "question_type": "Rechenaufgabe",
           "question_text": "Dividiere halbschriftlich!\n32 428 : 4 =\n42 077 : 7 =",
@@ -5020,7 +5797,7 @@
           ]
         },
         {
-          "id": 760,
+          "id": 1057,
           "question_number": 2,
           "question_type": "Kopfrechenaufgabe",
           "question_text": "Rechne aus! Denke an den Nullentrick! (Achte auf das Rechenzeichen!)\n8 000 : 10 = ___\n120 000 : 300 = ___\n7 200 : 9 = ___\n40 • 700 = ___\n9 000 • 800 = ___\n60 000 • 4 = ___",
@@ -5035,7 +5812,7 @@
           ]
         },
         {
-          "id": 761,
+          "id": 1058,
           "question_number": 3,
           "question_type": "Überschlagsaufgabe",
           "question_text": "Rechne nur den Überschlag! (Achte auf das Rechenzeichen!)\n31 790 : 60  Ü: ___\n2 781 : 5    Ü: ___\n8 051 • 70   Ü: ___\n1 134 • 800  Ü: ___",
@@ -5050,7 +5827,7 @@
           ]
         },
         {
-          "id": 762,
+          "id": 1059,
           "question_number": 4,
           "question_type": "Rechenaufgabe",
           "question_text": "Rechne aus! Rechne schriftlich und untereinander!\na) 194 • 5\nb) 190 • 3\nc) 982 • 9\nd) 6 140 • 6\ne) 85 041 • 7\nf) 45 678 • 4",
@@ -5071,7 +5848,7 @@
           ]
         },
         {
-          "id": 763,
+          "id": 1060,
           "question_number": 5,
           "question_type": "Lückenaufgabe",
           "question_text": "Ergänze die Lücken!\n_33 • 4 = 37_2\n44_ • 8 = _576\n5_0_ • 7 = _0642\n36_ • 3 = 1_01\n3_5_ • 7 = _566",
@@ -5091,7 +5868,7 @@
           ]
         },
         {
-          "id": 764,
+          "id": 1061,
           "question_number": 6,
           "question_type": "Knobelaufgabe",
           "question_text": "Nimm das Fünffache von 7 546 und subtrahiere 37 670. Wenn du das Ergebnis mit 7 multiplizierst, erhältst du meine Zahl. Umkreise die gesuchte Zahl mit einem grünen Stift!",
@@ -5110,7 +5887,7 @@
           ]
         },
         {
-          "id": 765,
+          "id": 1062,
           "question_number": 7,
           "question_type": "Rechenaufgabe",
           "question_text": "Wie lautet der Überschlag? Rechne aus!\n782 € • 9\nU: ___\n5 782 € • 8\nU: ___\n52 915 € • 3\nU: ___",
@@ -5128,7 +5905,7 @@
           ]
         },
         {
-          "id": 766,
+          "id": 1063,
           "question_number": 8,
           "question_type": "Sachaufgabe",
           "question_text": "Florian fährt viermal in der Woche mit seinem Fahrrad zur Schule. Seine Schule liegt genau 4 230 m (4,230 km) von zuhause entfernt.\nWie viele m beziehungsweise km fährt er in einer Woche?",
@@ -5146,7 +5923,7 @@
           ]
         },
         {
-          "id": 767,
+          "id": 1064,
           "question_number": 9,
           "question_type": "Sachaufgabe",
           "question_text": "Florian kauft vier Stück Seife zu je 1,39 € und zwei Flaschen Shampoo zu je 2,34 €. Seine Mutter hat ihm einen 20 €-Schein mitgegeben. Wie viel € erhält er zurück? (Rechnung und Antwort)",
@@ -5166,7 +5943,7 @@
           ]
         },
         {
-          "id": 768,
+          "id": 1065,
           "question_number": 10,
           "question_type": "Knobelaufgabe",
           "question_text": "Wenn ich zu meiner Zahl 78 addiere und die Hälfte abziehe, erhalte ich 50. Wie heißt meine Zahl?",
@@ -5195,7 +5972,7 @@
       "total_points": 35.0,
       "questions": [
         {
-          "id": 769,
+          "id": 1066,
           "question_number": 1,
           "question_type": "Größen ordnen",
           "question_text": "Ordne nach der Größe.\n340 ml ; ¾ l ; 3,4 l ; 1 l ; 30 ml ; 43 ml ; 0,3 l\n______ < ______ < ______ < ______ < ______ < ______ < ______",
@@ -5215,7 +5992,7 @@
           ]
         },
         {
-          "id": 770,
+          "id": 1067,
           "question_number": 2,
           "question_type": "Einheiten umwandeln (Liter → Milliliter)",
           "question_text": "Wandle in Milliliter um!\n6 l = ____ ml\n1,3 l = ____ ml\n0,7 l = ____ ml\n0,02 l = ____ ml\n¼ l = ____ ml\n⅛ l = ____ ml\n¾ l = ____ ml\n½ l = ____ ml",
@@ -5235,7 +6012,7 @@
           ]
         },
         {
-          "id": 771,
+          "id": 1068,
           "question_number": 3,
           "question_type": "Einheiten umwandeln (ml → l als Kommazahl)",
           "question_text": "Wandle in Liter um und schreibe als Kommazahl!\n1400 ml = ____\n250 ml = ____\n2050 ml = ____\n125 ml = ____\n50 ml = ____\n25 ml = ____",
@@ -5253,7 +6030,7 @@
           ]
         },
         {
-          "id": 772,
+          "id": 1069,
           "question_number": 4,
           "question_type": "Ergänzen auf 1 Liter",
           "question_text": "Wie viel fehlt zu einem Liter?\n0,6 l + ____\n¼ l + 60 ml + ____\n½ l + ____\n0,75 l + 125 ml + ____",
@@ -5274,7 +6051,7 @@
           ]
         },
         {
-          "id": 773,
+          "id": 1070,
           "question_number": 5,
           "question_type": "Sachaufgabe (Hohlmaße)",
           "question_text": "Eine Regentonne fasst 5 hl Wasser. Wie oft muss man mit einem 10-l-Eimer schöpfen, bis die Tonne leer ist?",
@@ -5293,7 +6070,7 @@
           ]
         },
         {
-          "id": 774,
+          "id": 1071,
           "question_number": 6,
           "question_type": "Visuelle Zuordnung (Bildaufgabe)",
           "question_text": "In eine Milchkanne passt immer genau ein Liter. Immer zwei Tropfen ergeben einen Liter. Male sie in der gleichen Farbe an!\n[Aufgabe mit Tropfen-Abbildungen — siehe Original-PDF]",
@@ -5310,7 +6087,7 @@
           ]
         },
         {
-          "id": 775,
+          "id": 1072,
           "question_number": 7,
           "question_type": "Ergänzen auf 8 Liter",
           "question_text": "Ergänze auf 8 Liter:\n15 ml + ____ = 8 l\n5 371 ml + ____ = 8 l\n3 499 ml + ____ = 8 l\n7 101 ml + ____ = 8 l",
@@ -5331,7 +6108,7 @@
           ]
         },
         {
-          "id": 776,
+          "id": 1073,
           "question_number": 8,
           "question_type": "Vergleichen (Hohlmaße, mit Brüchen)",
           "question_text": "Setze ein: <, > oder =\n3 400 ml ___ 7 · ½ l\n¼ l + 500 ml ___ 725 ml\n1 ¼ l ___ 1 125 ml\n3 l + 125 ml + ½ l ___ 3 000 ml + ¾ l",
@@ -5352,7 +6129,7 @@
           ]
         },
         {
-          "id": 777,
+          "id": 1074,
           "question_number": 9,
           "question_type": "Aufteilen (Sachaufgabe)",
           "question_text": "Wie viel Milch bekommt jeder? Schreibe in ml. Verteile 1 Liter Milch gerecht auf:\n8 Tassen: ____   2 Babyfläschchen: ____\n4 Katzennäpfe: ____   1 Kochtopf: ____",
@@ -5370,7 +6147,7 @@
           ]
         },
         {
-          "id": 778,
+          "id": 1075,
           "question_number": 10,
           "question_type": "Gewichtsangaben (Tabelle)",
           "question_text": "Trage die fehlenden Gewichtsangaben ein. Die Tabelle hat drei Zeilen (in kg, in t und kg, in t als Kommazahl) und sechs Spalten:\nSpalte 1: 5040 kg | 5 t 40 kg | ____ t\nSpalte 2: ____ kg | 3 t 2 kg | ____ t\nSpalte 3: ____ kg | ____ | 0,750 t\nSpalte 4: 1010 kg | ____ | ____\nSpalte 5: ____ kg | 2 t | ____\nSpalte 6: ____ kg | ____ | 4,020 t",
@@ -5388,7 +6165,7 @@
           ]
         },
         {
-          "id": 779,
+          "id": 1076,
           "question_number": 11,
           "question_type": "Vergleichen (Gewichte)",
           "question_text": "<, > oder =?\n30 g ___ 0,3 kg\n5,2 t ___ 5 t 2 kg\n8 700 g ___ 8,7 kg\n4 t 38 kg ___ 438 kg",
@@ -5408,7 +6185,7 @@
           ]
         },
         {
-          "id": 780,
+          "id": 1077,
           "question_number": 12,
           "question_type": "Sachaufgabe (mehrstufig, Bowle)",
           "question_text": "Familie Schmitz kauft für eine Party ein. Die Saftbowle besteht aus Ananassaft, Orangensaft, Apfelsaft und Mineralwasser. Es werden 3 Liter Orangensaft benötigt, halb so viel Ananassaft und 2 l Apfelsaft. Dazu kommen 2 Flaschen Mineralwasser mit je ¾ Liter.\na) Wie viel Bowle wird zubereitet?\nb) In ein Glas passen ¼ Liter. Wie viele Gläser können befüllt werden?",
