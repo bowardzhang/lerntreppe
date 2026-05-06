@@ -142,6 +142,8 @@
             "name": "Grammatik",
             "children": [
               { "id": "deutsch.klasse4.grammatik.kasus", "name": "Kasus: Nominativ, Akkusativ, Dativ, Genitiv", "children": [] },
+              { "id": "deutsch.klasse4.grammatik.zeiten", "name": "Zeitformen: Präsens, Präteritum, Perfekt, Plusquamperfekt, Futur", "children": [] },
+              { "id": "deutsch.klasse4.grammatik.wortarten", "name": "Wortarten bestimmen (Nomen, Verb, Adjektiv, Artikel, Pronomen)", "children": [] },
               { "id": "deutsch.klasse4.grammatik.satzglieder", "name": "Satzglieder: Subjekt, Prädikat, Objekt, Adverbiale", "children": [] },
               { "id": "deutsch.klasse4.grammatik.haupt_nebensatz", "name": "Haupt- und Nebensatz", "children": [] },
               { "id": "deutsch.klasse4.grammatik.steigerung", "name": "Steigerung von Adjektiven", "children": [] }
