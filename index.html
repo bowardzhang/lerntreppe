@@ -343,7 +343,11 @@
     app.appendChild(subjects);
     const bar = document.getElementById('stats-bar');
     bar.innerHTML = '';
-    [`<strong>${totalNodes}</strong> Knoten`, `<strong>${totalLeaves}</strong> Wissensbereiche`, ...chips]
+    const exercises = (dbData?.exercises||[]);
+    const totalExercises = exercises.length;
+    const totalQuestions = exercises.reduce((s,e)=>s+(e.questions||[]).length,0);
+    [`<strong>${totalExercises}</strong> Übungsblätter`, `<strong>${totalQuestions}</strong> Aufgaben`,
+     `<strong>${totalNodes}</strong> Knoten`, `<strong>${totalLeaves}</strong> Wissensbereiche`, ...chips]
       .forEach(c => { const ch = el('div','stat-chip'); ch.innerHTML = c; bar.appendChild(ch); });
   }
 
