@@ -107,7 +107,7 @@ QUESTIONS = [
         "n": 5,
         "type": "Kilometergeld",
         "text": (
-            "Vater faehrt 480 km zu seiner Schwester. Bei der Rueckfahrt fehlen "
+            "Vater fährt 480 km zu seiner Schwester. Bei der Rueckfahrt fehlen "
             "noch 240 km. Pro 80 km bekommt er 14 Euro Kilometergeld. "
             "Wie viel Euro erhaelt er insgesamt?"
         ),
@@ -158,7 +158,7 @@ QUESTIONS = [
         "n": 7,
         "type": "Schulfest-Gewinn",
         "text": (
-            "Die Klasse hat fuer das Schulfest eingekauft: 35 Becher Limonade zu "
+            "Die Klasse hat für das Schulfest eingekauft: 35 Becher Limonade zu "
             "je 80 Cent (= 28,00 Euro), 50 Brezen zu je 60 Cent (= 30,00 Euro), "
             "20 Wuerstchen zu je 1,40 Euro (= 28,00 Euro), Sonstiges 0,80 Euro. "
             "Verkauft wurden alle Speisen mit 25 Euro Gewinn auf Limonade, 20 Euro "
@@ -230,8 +230,8 @@ QUESTIONS = [
         "n": 10,
         "type": "Bootsfahrt",
         "text": (
-            "Ein Ausflugsboot hat Platz fuer 27 Personen. Bei voller Belegung "
-            "faehrt das Boot 4 Mal. Wie viele Personen wurden insgesamt befoerdert?"
+            "Ein Ausflugsboot hat Platz für 27 Personen. Bei voller Belegung "
+            "fährt das Boot 4 Mal. Wie viele Personen wurden insgesamt befoerdert?"
         ),
         "answer": "27 · 4 = 108 Personen.",
         "steps": [
@@ -291,7 +291,7 @@ QUESTIONS = [
         "type": "Schulweg",
         "text": (
             "Ben braucht zur Schule 12 Minuten. Er geht von Montag bis Freitag "
-            "morgens hin und mittags zurueck. Wie viele Minuten ist er pro Woche "
+            "morgens hin und mittags zurück. Wie viele Minuten ist er pro Woche "
             "unterwegs? Rechne in Stunden und Minuten um."
         ),
         "answer": "12 · 2 · 5 = 120 Minuten = 2 Stunden.",
@@ -333,7 +333,7 @@ QUESTIONS = [
         "n": 15,
         "type": "Hamburg-Fahrt",
         "text": (
-            "Familie Schmitt faehrt 720 km nach Hamburg. Sie machen nach 2/3 "
+            "Familie Schmitt fährt 720 km nach Hamburg. Sie machen nach 2/3 "
             "der Strecke eine Pause. Wie viele Kilometer sind sie schon gefahren "
             "und wie viele bleiben?"
         ),

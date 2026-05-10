@@ -26,7 +26,7 @@ QUESTIONS = [
             "- Vergiss den Schlusssatz nicht."
         ),
         "answer": (
-            "Musterloesung 'Bastelanleitung fuer einen Sonnenschutz':\n\n"
+            "Musterloesung 'Bastelanleitung für einen Sonnenschutz':\n\n"
             "Zum Basteln des Sonnenschutzes brauche ich einen duennen Pappkarton, "
             "einen farbigen Fotokarton, einen Bleistift, bunte Stifte, einen "
             "Locher und ein etwa 20 cm langes Gummiband.\n\n"
@@ -46,7 +46,7 @@ QUESTIONS = [
             "Einleitung: Werkzeug + Material auflisten (1 Pkt).",
             "Bilder 1-8 jeweils einen Schritt beschreiben (8 Pkt).",
             "Schluss-Satz (1 Pkt).",
-            "Vollstaendige Saetze, Satzzeichen (3 Pkt).",
+            "Vollstaendige Sätze, Satzzeichen (3 Pkt).",
             "Verschiedene Satzanfaenge (2 Pkt).",
             "Eine Personalform durchgehend (1 Pkt).",
             "Gegenwart (1 Pkt).",

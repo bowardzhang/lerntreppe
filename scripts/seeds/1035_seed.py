@@ -37,16 +37,16 @@ QUESTIONS = [
     },
     {
         "n": 2,
-        "type": "Saetze in Zukunft erkennen",
+        "type": "Sätze in Zukunft erkennen",
         "text": (
-            "Welche Saetze stehen in der Zukunft? Markiere sie.\n"
+            "Welche Sätze stehen in der Zukunft? Markiere sie.\n"
             "1. Morgen werde ich meine Oma besuchen.\n"
             "2. Gestern habe ich Fussball gespielt.\n"
             "3. Naechste Woche werden wir in den Urlaub fahren.\n"
             "4. Ich lese gerade ein Buch.\n"
             "5. In zwei Stunden wird der Zug abfahren."
         ),
-        "answer": "Saetze 1, 3 und 5 stehen in der Zukunft.",
+        "answer": "Sätze 1, 3 und 5 stehen in der Zukunft.",
         "steps": [
             "1. 'werde besuchen' = Futur.",
             "2. 'habe gespielt' = Perfekt (2. Vg).",
@@ -150,9 +150,9 @@ QUESTIONS = [
     },
     {
         "n": 6,
-        "type": "Saetze umstellen / Zeitform aendern",
+        "type": "Sätze umstellen / Zeitform aendern",
         "text": (
-            "Setze die folgenden Saetze in die angegebene Zeitstufe:\n"
+            "Setze die folgenden Sätze in die angegebene Zeitstufe:\n"
             "a) Lisa schreibt einen Brief. (1. Vergangenheit)\n"
             "b) Wir besuchten unseren Opa. (2. Vergangenheit)\n"
             "c) Der Hund frisst Knochen. (Zukunft)\n"
@@ -215,11 +215,11 @@ QUESTIONS = [
         "text": (
             "Schreibe den Text in der 2. Vergangenheit (Perfekt):\n"
             "'Anna geht zur Schule. Sie trifft ihre Freundin. "
-            "Sie unterhalten sich ueber das Wochenende. In der Pause spielen sie Fangen.'"
+            "Sie unterhalten sich über das Wochenende. In der Pause spielen sie Fangen.'"
         ),
         "answer": (
             "Anna ist zur Schule gegangen. Sie hat ihre Freundin getroffen. "
-            "Sie haben sich ueber das Wochenende unterhalten. In der Pause haben sie Fangen gespielt."
+            "Sie haben sich über das Wochenende unterhalten. In der Pause haben sie Fangen gespielt."
         ),
         "steps": [
             "geht -> ist gegangen (Bewegungsverb).",
@@ -283,7 +283,7 @@ QUESTIONS = [
         "n": 10,
         "type": "Zeitfehler verbessern",
         "text": (
-            "Verbessere die Zeitfehler in den Saetzen:\n"
+            "Verbessere die Zeitfehler in den Sätzen:\n"
             "1. Gestern werde ich Fussball spielen.\n"
             "2. Morgen ist die Klassenfahrt gewesen.\n"
             "3. Im letzten Sommer fahren wir an die Nordsee.\n"

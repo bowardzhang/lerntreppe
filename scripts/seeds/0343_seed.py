@@ -50,14 +50,14 @@ LESETEXT = (
     "haelt sich die Seiten vor Lachen. 'Krisch nicht, du schusslichs Gspnst!' "
     "rufen die Leute empoert.\n\n"
     "'Was bin ich?', kreischt das Gespenst und spruehte Funken vor Zorn.\n\n"
-    "Funken sind in einem E-Werk streng verboten, wie jeder weiss. Rrrums! gibt "
+    "Funken sind in einem E-Werk streng verboten, wie jeder weiß. Rrrums! gibt "
     "es einen Kurzschluss, und das ganze Haus mit Fenstern und Erkern, mit "
     "Kellern und Kerkern fliegt in die Luft. Es wirbelt nur so von E.\n\n"
     "Theo faengt sich eins und ist wieder Theo. Das Brautpaar sinkt sich seelig "
-    "in die Arme. Alle Kinder, die heute getauft werden, heissen Helene oder "
+    "in die Arme. Alle Kinder, die heute getauft werden, heißen Helene oder "
     "Engelbert. Das Gespenst Eene-Meene-Peene verschwindet auf Nimmerwiedersehen.\n\n"
     "Bis eines Tages der Kobold Oone-Moone-Poone auftaucht und alle O stiehlt. "
-    "Er traegt sie frt zu einem rt - und was das fuer Flgen hat, denkt euch "
+    "Er traegt sie frt zu einem rt - und was das für Flgen hat, denkt euch "
     "gefaelligst selbst aus."
 )
 
@@ -166,7 +166,7 @@ QUESTIONS = [
         "text": "Warum fand eine Feier in der Feuerwehrhalle statt?",
         "answer": "Weil zwoelf Feuerwehrlehrlinge ihren Feuertest bestanden hatten.",
         "steps": [
-            "Aus dem Abschnitt ueber den Buergermeister.",
+            "Aus dem Abschnitt über den Buergermeister.",
         ],
         "points": 3.0,
         "has_image": False,
@@ -196,7 +196,7 @@ QUESTIONS = [
         "text": "In welchen Faechern konnte man in der Schule nichts mehr lernen?",
         "answer": "Deutsch, Erdkunde, Schreiben, Lesen, Englisch.",
         "steps": [
-            "Aus dem Absatz ueber die Schule.",
+            "Aus dem Absatz über die Schule.",
         ],
         "points": 5.0,
         "has_image": False,
@@ -240,7 +240,7 @@ QUESTIONS = [
         "type": "Namen ankreuzen",
         "text": (
             "Kreuze die richtigen Namen an! Alle Kinder, die heute getauft "
-            "werden, heissen ...\n"
+            "werden, heißen ...\n"
             "(a) Theo\n"
             "(b) Helene\n"
             "(c) Engelbert"
@@ -260,9 +260,9 @@ QUESTIONS = [
         "n": 12,
         "type": "Kleidung der Braut",
         "text": "Was traegt die Braut?",
-        "answer": "Ganz in Weiss mit Schleppe und Schleier.",
+        "answer": "Ganz in Weiß mit Schleppe und Schleier.",
         "steps": [
-            "Aus dem Abschnitt ueber Braut und Braeutigam.",
+            "Aus dem Abschnitt über Braut und Braeutigam.",
         ],
         "points": 1.0,
         "has_image": False,
@@ -316,7 +316,7 @@ QUESTIONS = [
         ),
         "answer": "Sich die Seiten vor Lachen halten.",
         "steps": [
-            "Synonym fuer 'sich schlappachen' im Text suchen.",
+            "Synonym für 'sich schlappachen' im Text suchen.",
         ],
         "points": 2.0,
         "has_image": False,
@@ -332,10 +332,10 @@ QUESTIONS = [
         "answer": (
             "Es gibt einen Kurzschluss und das ganze E-Werk mit Fenstern und "
             "Erkern, mit Kellern und Kerkern fliegt in die Luft. Alle E kehren "
-            "zurueck."
+            "zurück."
         ),
         "steps": [
-            "Funken => Kurzschluss => Explosion => E kehren zurueck.",
+            "Funken => Kurzschluss => Explosion => E kehren zurück.",
         ],
         "points": 4.0,
         "has_image": False,
@@ -364,7 +364,7 @@ QUESTIONS = [
         "type": "Satz abschreiben",
         "text": "Schreibe den letzten Satz vollstaendig und richtig ab.",
         "answer": (
-            "'Er traegt sie fort zu einem Ort - und was das fuer Folgen hat, "
+            "'Er traegt sie fort zu einem Ort - und was das für Folgen hat, "
             "denkt euch gefaelligst selbst aus.'"
         ),
         "steps": [

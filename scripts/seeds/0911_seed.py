@@ -18,7 +18,7 @@ QUESTIONS = [
             "Ergaenze folgenden Lueckentext:\n"
             "Ein ___ hat drei Ecken. Ein Quadrat hat 4 Seiten, die alle ___ sind. "
             "Bei einem ___ liegen die gegenueberliegenden Seiten parallel zueinander. "
-            "Ein 90 Grad Winkel heisst ___ Winkel. Das Zeichen || bedeutet ___. "
+            "Ein 90 Grad Winkel heißt ___ Winkel. Das Zeichen || bedeutet ___. "
             "Parallelen haben ___ Schnittpunkt."
         ),
         "answer": (
@@ -99,14 +99,14 @@ QUESTIONS = [
         "type": "Geraden-Konstruktionen",
         "text": (
             "a) Zeichne drei Geraden, die sich in einem Punkt schneiden.\n"
-            "b) Zeichne eine Strecke, die eine Laenge von 5 cm hat.\n"
+            "b) Zeichne eine Strecke, die eine Länge von 5 cm hat.\n"
             "c) Zeichne zwei Halbgeraden, die senkrecht aufeinander stehen.\n"
             "d) Zeichne drei Geraden, die sich in drei Punkten schneiden.\n"
             "e) Zeichne drei Geraden, die zueinander parallel liegen."
         ),
         "answer": (
             "a) Drei Linien durch einen gemeinsamen Schnittpunkt. ; "
-            "b) Strecke A--B mit Laenge 5 cm. ; "
+            "b) Strecke A--B mit Länge 5 cm. ; "
             "c) Zwei Halbgeraden im 90 Grad Winkel zueinander. ; "
             "d) Drei Geraden in Dreiecksform (jede schneidet die anderen). ; "
             "e) Drei Geraden ohne Schnittpunkte, alle parallel zueinander."
@@ -144,9 +144,9 @@ QUESTIONS = [
         "n": 8,
         "type": "Patchwork-Decke",
         "text": (
-            "Lisa moechte fuer ihren Puppenwagen eine Patchwork-Decke in Form "
+            "Lisa möchte für ihren Puppenwagen eine Patchwork-Decke in Form "
             "eines Quadrates naehen. Sie braucht gleichgrosse Stoffquadrate "
-            "(Seitenlaenge 8 cm). Sie hat 48 Quadrate fuer den aeusseren Rand "
+            "(Seitenlaenge 8 cm). Sie hat 48 Quadrate für den aeusseren Rand "
             "der Decke zugeschnitten.\n"
             "a) Aus wievielen Stoffquadraten besteht jede Seite der Decke?\n"
             "b) Wieviele Stoffquadrate muss Lisa noch zuschneiden, um die "
@@ -156,7 +156,7 @@ QUESTIONS = [
         "answer": (
             "a) 48 - 4 (Eckquadrate doppelt) = 44 ; 44 / 4 = 11 ; "
             "11 + 2 Ecken = 13 Quadrate je Seite. ; "
-            "b) 11 x 11 = 121 weitere Quadrate fuer das Innere. ; "
+            "b) 11 x 11 = 121 weitere Quadrate für das Innere. ; "
             "c) 13 x 8 cm = 104 cm breit."
         ),
         "steps": [

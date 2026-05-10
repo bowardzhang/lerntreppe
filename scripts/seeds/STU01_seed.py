@@ -21,7 +21,7 @@ QUESTIONS = [
             "9,7 s. Im Hochsprung schafft sie 117 cm. Steven springt beim "
             "Weitsprung 257 cm weit. Beim Sprint benoetigt er 9,2 s und im "
             "Hochsprung schafft er 118,5 cm.'\n"
-            "Wie gross ist der Unterschied zwischen Kira und Steven im Weitsprung?"
+            "Wie groß ist der Unterschied zwischen Kira und Steven im Weitsprung?"
         ),
         "answer": "265 cm - 257 cm = 8 cm. Kira sprang 8 cm weiter als Steven.",
         "steps": [
@@ -41,7 +41,7 @@ QUESTIONS = [
         "type": "Fahrrad in der Werkstatt",
         "text": (
             "Tim gibt sein Fahrrad am Freitag um 16 Uhr in die Werkstatt. Er muss "
-            "18 EUR fuer einen neuen Reifen und 12 EUR fuer ein neues Licht "
+            "18 EUR für einen neuen Reifen und 12 EUR für ein neues Licht "
             "bezahlen. Er bezahlt die Reparatur von seinem Taschengeld. Einen Tag "
             "spaeter holt er es um 10 Uhr ab.\n"
             "Frage: Wie viele Stunden stand das Fahrrad in der Werkstatt?"
@@ -65,8 +65,8 @@ QUESTIONS = [
         "type": "Frau Meiers Einkauf ohne Getränke",
         "text": (
             "Frau Meier geht um 16 Uhr einkaufen. Um 18 Uhr trifft sie sich mit "
-            "Frau Mueller. Sie kauft Aepfel fuer 3 EUR, Getraenke fuer 5 EUR, "
-            "Brotbelag fuer 8 EUR und Haferflocken fuer 0,50 EUR. An der Kasse "
+            "Frau Mueller. Sie kauft Aepfel für 3 EUR, Getraenke für 5 EUR, "
+            "Brotbelag für 8 EUR und Haferflocken für 0,50 EUR. An der Kasse "
             "bezahlt sie mit einem 20-EUR-Schein.\n"
             "Frage: Wie viel haette sie ohne die Getraenke bezahlt?"
         ),
@@ -87,8 +87,8 @@ QUESTIONS = [
         "n": 4,
         "type": "Tiger und Hyäne (Gewichtsdifferenz)",
         "text": (
-            "Woelfe werden ungefaehr 80 cm gross und wiegen ungefaehr 40 kg. "
-            "Tiger wiegen sogar 120 kg, obwohl sie nur eine Koerperhoehe von "
+            "Woelfe werden ungefaehr 80 cm groß und wiegen ungefaehr 40 kg. "
+            "Tiger wiegen sogar 120 kg, obwohl sie nur eine Körperhöhe von "
             "75 cm haben. Loewen sind ungefaehr 100 cm hoch. Sie wiegen "
             "150 - 250 kg. Hyaenen sind mit ca. 35 kg am leichtesten. Ihre "
             "Schulterhoehe kann jedoch 60 cm betragen.\n"
@@ -112,7 +112,7 @@ QUESTIONS = [
         "type": "Radtour-Dauer (mit Pause)",
         "text": (
             "Hans und Franz machen eine 160 km lange Radtour. Sie fahren um "
-            "8:00 Uhr los. Fuer 20 km brauchen sie eine Stunde. Um 12:00 Uhr "
+            "8:00 Uhr los. Für 20 km brauchen sie eine Stunde. Um 12:00 Uhr "
             "machen sie eine Stunde Mittagspause.\n"
             "Frage: Wie lang dauert die Radtour insgesamt?"
         ),

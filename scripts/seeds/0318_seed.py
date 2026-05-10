@@ -7,13 +7,13 @@ EXERCISE = {
     "publisher": "CATLUX",
     "source_pdf": "0318.pdf",
     "answer_pdf": "0318 (1).pdf",
-    "total_points": 25.5,
+    "total_points": 26.0,
 }
 
 LESETEXT = (
-    "Wissenswertes ueber Portugal (Auszug)\n\n"
-    "Die portugiesische Flagge ist gruen-rot. Die Farbe Gruen steht fuer die "
-    "Hoffnung, Rot fuer das Blut jener, die fuer das Land ihr Leben gaben.\n\n"
+    "Wissenswertes über Portugal (Auszug)\n\n"
+    "Die portugiesische Flagge ist gruen-rot. Die Farbe Gruen steht für die "
+    "Hoffnung, Rot für das Blut jener, die für das Land ihr Leben gaben.\n\n"
     "Portugal liegt im Suedwesten Europas auf der Iberischen Halbinsel und "
     "hat eine Flaeche von 92 100 km². Es grenzt nur an Spanien und an den "
     "Atlantischen Ozean. Zu Portugal gehoeren auch die Inseln Madeira und die "
@@ -23,17 +23,17 @@ LESETEXT = (
     "und bedeutet 'der Westen'.\n\n"
     "Bekannte Seefahrer aus Portugal sind Heinrich der Seefahrer (ab 1419) "
     "und Vasco da Gama. Der Turm von Belem (1516) erinnert an die Zeit der "
-    "grossen Entdeckungen.\n\n"
+    "großen Entdeckungen.\n\n"
     "Bis 1974 herrschte Salazar als Diktator. Seit dem 25. April 1974 ist "
     "Portugal eine Demokratie. 1993 trat das Land der Europaeischen Union "
     "bei. Vier wichtige Nationalfeiertage sind: Tag der Republik (5. Oktober), "
     "Tag der Freiheit (25. April), Nationalfeiertag (10. Juni) und Tag der "
     "Unabhaengigkeit (1. Dezember). Am 10. Juni 1980 starb der Dichter "
     "Luis de Camoes.\n\n"
-    "Hauptstadt ist Lissabon. Ueber den Tejo fuehrt eine 2278 m lange Bruecke "
+    "Hauptstadt ist Lissabon. Über den Tejo führt eine 2278 m lange Bruecke "
     "(seit 1966). Im Norden liegt die Stadt Porto, von der der Portwein "
     "stammt. Vom Wein und der Stadt 'Porto' kommt auch der Landesname. "
-    "Seit 2002 ist der Euro die Waehrung. Die Kueche ist gepraegt von "
+    "Seit 2002 ist der Euro die Waehrung. Die Küche ist gepraegt von "
     "Stockfisch (Bacalhau), der auf viele Arten zubereitet wird, sowie "
     "Sardinen und Makrelen. Aus Portugal stammt auch viel Kork.\n\n"
     "In Portugal leben etwa 10 Millionen Menschen."
@@ -45,7 +45,7 @@ QUESTIONS = [
         "type": "Fragen zum Text in ganzen Sätzen",
         "text": (
             f"Lesetext:\n{LESETEXT}\n\n"
-            "Beantworte in ganzen Saetzen:\n"
+            "Beantworte in ganzen Sätzen:\n"
             "(a) Was bedeuten die Farben der portugiesischen Flagge?\n"
             "(b) Woher stammt der Name 'Algarve' und was bedeutet er?\n"
             "(c) Nenne zwei wichtige Feiertage Portugals und wann sie gefeiert "
@@ -55,7 +55,7 @@ QUESTIONS = [
             "(f) Woher kommt der Name Portugal?"
         ),
         "answer": (
-            "(a) Gruen steht fuer Hoffnung, Rot fuer das Blut jener, die fuer "
+            "(a) Gruen steht für Hoffnung, Rot für das Blut jener, die für "
             "das Land ihr Leben gaben. ; "
             "(b) Der Name stammt aus dem Arabischen ('Al-Gharb') und bedeutet "
             "'Westen'. ; "
@@ -69,7 +69,7 @@ QUESTIONS = [
             "(f) Vom Wein und der Stadt 'Porto' im Norden des Landes."
         ),
         "steps": [
-            "Antworten in ganzen Saetzen formulieren.",
+            "Antworten in ganzen Sätzen formulieren.",
             "Auf Textstellen Bezug nehmen.",
         ],
         "points": 15.0,
@@ -88,7 +88,7 @@ QUESTIONS = [
             "(a) In Portugal gibt es immer wieder Stierkaempfe.\n"
             "(b) Die Portugiesen verwenden den Stockfisch immer wieder, "
             "wobei jeder seine eigenen Rezepte hat.\n"
-            "(c) Die Portugiesen verwenden den Stockfisch sehr haeufig, "
+            "(c) Die Portugiesen verwenden den Stockfisch sehr häufig, "
             "wobei viele eigene Rezepte beruehmt sind."
         ),
         "answer": "Richtig: (b).",
@@ -163,7 +163,7 @@ QUESTIONS = [
         "answer": (
             "Seefahrer: Heinrich der Seefahrer, Vasco da Gama. ; "
             "Waehrung: Euro (seit 2002). ; "
-            "Turm von Belem: erinnert an die Zeit der grossen Entdeckungen "
+            "Turm von Belem: erinnert an die Zeit der großen Entdeckungen "
             "(1516). ; "
             "Stockfisch: Bacalhau, auf viele Arten zubereitet (z. B. mit "
             "eigenen Rezepten)."

@@ -7,7 +7,7 @@ EXERCISE = {
     "publisher": "CATLUX",
     "source_pdf": "0045.pdf",
     "answer_pdf": "0045 (1).pdf",
-    "total_points": 30.0,
+    "total_points": 33.0,
 }
 
 QUESTIONS = [
@@ -15,7 +15,7 @@ QUESTIONS = [
         "n": 1,
         "type": "Dreieck-Aufgabe Division",
         "text": (
-            "Welche Zahl kannst du fuer das Dreieck einsetzen?\n"
+            "Welche Zahl kannst du für das Dreieck einsetzen?\n"
             "[Dreieck] : 9 = 417 Rest 7"
         ),
         "answer": "[Dreieck] = 417 x 9 + 7 = 3753 + 7 = 3760.",
@@ -34,7 +34,7 @@ QUESTIONS = [
         "type": "Drei-Zahlen-Summe",
         "text": (
             "Drei Zahlen ergeben zusammen 100 000. Die erste Zahl ist 34 855. "
-            "Die zweite Zahl ist um 7 699 kleiner als die erste. Wie heisst "
+            "Die zweite Zahl ist um 7 699 kleiner als die erste. Wie heißt "
             "die dritte Zahl?"
         ),
         "answer": (
@@ -57,7 +57,7 @@ QUESTIONS = [
         "n": 3,
         "type": "Zeichen ersetzen Gleichungen",
         "text": (
-            "Setze fuer die Zeichen Zahlen ein. Dieselben Zeichen bedeuten "
+            "Setze für die Zeichen Zahlen ein. Dieselben Zeichen bedeuten "
             "dieselbe Zahl:\n"
             "[Stern] : 9 = [Kreis] ; [Stern] x 36 = 11 052 ; [Kreis] - [Quadrat] = 3552 : 12"
         ),
@@ -114,8 +114,8 @@ QUESTIONS = [
             "Ergaenzung: 100 000 - 87 610 = 12 390."
         ),
         "steps": [
-            "Fuer kleinste Zahl: aufsteigend, ohne fuehrende 0.",
-            "Fuer groesste Zahl: absteigend.",
+            "Für kleinste Zahl: aufsteigend, ohne fuehrende 0.",
+            "Für groesste Zahl: absteigend.",
             "Beides zu 100 000 ergaenzen.",
         ],
         "points": 2.0,
@@ -154,13 +154,13 @@ QUESTIONS = [
         "type": "Zahlenraetsel Verdoppeln",
         "text": (
             "Fuege ich zum Doppelten meiner Zahl die Zahl 15 000 hinzu, so "
-            "erhalte ich die Haelfte von 70 000. Wie heisst die Zahl?"
+            "erhalte ich die Haelfte von 70 000. Wie heißt die Zahl?"
         ),
         "answer": (
             "Haelfte von 70 000 = 35 000. "
             "35 000 - 15 000 = 20 000 (= 2 x Zahl). "
             "20 000 : 2 = 10 000. "
-            "Die Zahl heisst 10 000."
+            "Die Zahl heißt 10 000."
         ),
         "steps": [
             "Haelfte von 70 000 berechnen.",
@@ -182,7 +182,7 @@ QUESTIONS = [
         ),
         "answer": "a) 1 850 ; b) 1 949.",
         "steps": [
-            "Rundungsspanne fuer 1 900: 1 850 bis 1 949.",
+            "Rundungsspanne für 1 900: 1 850 bis 1 949.",
         ],
         "points": 2.0,
         "has_image": False,
@@ -203,7 +203,7 @@ QUESTIONS = [
         "steps": [
             "Hunderter-Stelle pruefen.",
             "Bei 5 oder mehr aufrunden.",
-            "Bei Tausender: Spanne 500 unter bis 499 ueber.",
+            "Bei Tausender: Spanne 500 unter bis 499 über.",
         ],
         "points": 2.0,
         "has_image": False,
@@ -239,7 +239,7 @@ QUESTIONS = [
         "text": (
             "Drei Zahlen ergeben zusammen 90 000. Wenn du die kleinste Zahl "
             "verdreifachst, erhaelst du die groesste, naemlich 43 653. Wie "
-            "heissen die drei Zahlen?"
+            "heißen die drei Zahlen?"
         ),
         "answer": (
             "Kleinste: 43 653 : 3 = 14 551 ; "
@@ -292,7 +292,7 @@ QUESTIONS = [
         "n": 15,
         "type": "Sechsstellig ohne 9 und 0",
         "text": (
-            "Wie heissen die kleinste und die groesste sechsstellige Zahl, bei "
+            "Wie heißen die kleinste und die groesste sechsstellige Zahl, bei "
             "denen weder 9 noch 0 vorkommen?"
         ),
         "answer": "Kleinste: 111 111 ; groesste: 888 888.",
@@ -309,8 +309,8 @@ QUESTIONS = [
         "n": 16,
         "type": "Drei-Zahlen mit 27396",
         "text": (
-            "Drei Zahlen ergeben zusammen 100 000. Eine Zahl heisst 27 396. Sie "
-            "ist genau dreimal so gross wie die kleinste Zahl. Wie heissen die "
+            "Drei Zahlen ergeben zusammen 100 000. Eine Zahl heißt 27 396. Sie "
+            "ist genau dreimal so groß wie die kleinste Zahl. Wie heißen die "
             "drei Zahlen?"
         ),
         "answer": (
@@ -350,7 +350,7 @@ QUESTIONS = [
         "type": "Zwei Zahlen Differenz",
         "text": (
             "Zwei Zahlen ergeben zusammen 20 991. Eine ist um 999 groesser als "
-            "die andere. Wie heissen die beiden Zahlen?"
+            "die andere. Wie heißen die beiden Zahlen?"
         ),
         "answer": (
             "20 991 - 999 = 19 992 ; 19 992 : 2 = 9 996 (kleinere Zahl) ; "
@@ -393,12 +393,12 @@ QUESTIONS = [
         "n": 20,
         "type": "Herr Sparsam Auto",
         "text": (
-            "Herr Sparsam hat ein Auto auf Tausender gerundet fuer rund 16 000 "
+            "Herr Sparsam hat ein Auto auf Tausender gerundet für rund 16 000 "
             "Euro gekauft. Wie viel hat er mindestens und hoechstens bezahlt?"
         ),
         "answer": "Mindestens: 15 500 Euro ; hoechstens: 16 499 Euro.",
         "steps": [
-            "Tausender-Spanne fuer 16 000: von 15 500 bis 16 499.",
+            "Tausender-Spanne für 16 000: von 15 500 bis 16 499.",
         ],
         "points": 1.0,
         "has_image": False,

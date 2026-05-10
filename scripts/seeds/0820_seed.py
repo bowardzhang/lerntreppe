@@ -17,7 +17,7 @@ QUESTIONS = [
         "text": (
             "Lesetext: 'Der Nachtvogel' (siehe beigefuegte Abbildung). "
             "Lies den Text genau und beantworte dann die folgenden Fragen "
-            "in ganzen Saetzen.\n\n"
+            "in ganzen Sätzen.\n\n"
             "1.1 Der Junge hatte das Gefuehl, als ob jemand im Zimmer atmete. "
             "Was hoerte er? Was war es tatsaechlich?"
         ),
@@ -72,7 +72,7 @@ QUESTIONS = [
         "n": 5,
         "type": "Falsche Woerter unterstreichen",
         "text": (
-            "Unterstreiche, was in den Saetzen falsch ist (sieben Fehler):\n"
+            "Unterstreiche, was in den Sätzen falsch ist (sieben Fehler):\n"
             "- ... es laeutete an der Haustuer. Der Junge wurde steif vor Angst.\n"
             "- Dann kratzte etwas an der Hauswand. Das war der Kater!\n"
             "- Jetzt kletterte er mit seinen Krallen am Fenster hoch.\n"

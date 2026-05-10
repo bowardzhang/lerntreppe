@@ -13,14 +13,14 @@ EXERCISE = {
 LESETEXT = (
     "Reiter, Retter, Ritter – Wie entstand das Rittertum im Mittelalter?\n\n"
     "Das Rittertum im Mittelalter in Europa umfasst in etwa die Zeit vom Jahr "
-    "1000 bis zum Jahr 1500. In mehr als fuenf Jahrhunderten wurden Maenner "
+    "1000 bis zum Jahr 1500. In mehr als fünf Jahrhunderten wurden Maenner "
     "von meist niederem Adel zum Ritter geschlagen, Kriege und Kreuzzuege "
     "gefuehrt, Burgen oder wie in Spanien, Kastelle gebaut.\n\n"
-    "In Frankreich heissen die Ritter 'Monsieur', in Spanien 'Don', in "
+    "In Frankreich heißen die Ritter 'Monsieur', in Spanien 'Don', in "
     "Deutschland 'Herr' und in England 'Sir'. In Asien wurden die japanischen "
     "Ritter 'Samurai' genannt.\n\n"
     "Der Ritterstand bildete sich zu einer Zeit, als Europa in viele "
-    "Koenigreiche aufgeteilt war, die heftige Kriege um jeden Zipfel Land "
+    "Königreiche aufgeteilt war, die heftige Kriege um jeden Zipfel Land "
     "fuehrten. Die Kriege um Laendereien wurden mit Reitern und Fussoldaten "
     "gefuehrt; die berittenen Soldaten waren dem Fussheer weit ueberlegen.\n\n"
     "Da der Reiter mit seinem Pferd und eigenen Waffen kaempfen musste, "
@@ -40,9 +40,9 @@ LESETEXT = (
     "von Lesen und Schreiben war eher nicht ueblich.\n\n"
     "Mit 14 Jahren wurde der junge Ritteranwaerter zum Schildknaben ernannt. "
     "Damit begann der dritte und haerteste Teil der Ausbildung. Der Knappe war "
-    "fuer die Ruestung und Waffen seines Herrn verantwortlich.\n\n"
+    "für die Ruestung und Waffen seines Herrn verantwortlich.\n\n"
     "Hatte der junge Knappe endlich das 21. Lebensjahr vollendet, wurde er in "
-    "den Ritterstand erhoben. Er benoeligte jede Menge Geld fuer die erste "
+    "den Ritterstand erhoben. Er benoeligte jede Menge Geld für die erste "
     "Ruestung - sie kostete in etwa soviel wie ein Bauernhof. Er benoeligte "
     "neben einem Auge 'wie ein Luchs', einem Herz 'wie ein Loewe', der "
     "Tapferkeit 'eines Ebers' und dem Mut 'eines Tigers' auch den Rittereid.\n\n"
@@ -66,7 +66,7 @@ QUESTIONS = [
         "type": "Fragen in ganzen Sätzen",
         "text": (
             f"Lesetext:\n{LESETEXT}\n\n"
-            "Beantworte in ganzen Saetzen:\n"
+            "Beantworte in ganzen Sätzen:\n"
             "(a) Wann entstand das Rittertum in Europa?\n"
             "(b) Warum stammten die Reiter einer Armee meist aus adligen Familien?\n"
             "(c) Woraus entwickelte sich das Rittertum im Laufe der Zeit?\n"
@@ -96,7 +96,7 @@ QUESTIONS = [
         "text": (
             "Unterstreiche im Text in den richtigen Farben:\n"
             "(rot) Wie viele Jahre dauerte die Ausbildung zum Ritter?\n"
-            "(blau) Wie heissen die Ritter in Japan?\n"
+            "(blau) Wie heißen die Ritter in Japan?\n"
             "(gelb) Welchen Eid legte Hartmut von Braunfels ab?\n"
             "(gruen) Welche Geschenke machte der zukuenftige Herr seinem Ritter?"
         ),
@@ -167,10 +167,10 @@ QUESTIONS = [
             "Kreuze an, was richtig (R) oder falsch (F) ist:\n"
             "(1) Die meisten Ritter konnten lesen und schreiben.\n"
             "(2) In Spanien hiessen die Ritter 'Don'.\n"
-            "(3) Europa war damals in viele Koenigreiche aufgeteilt.\n"
-            "(4) Die Ausbildung eines Fussoldaten dauerte laenger als die eines Reiters.\n"
+            "(3) Europa war damals in viele Königreiche aufgeteilt.\n"
+            "(4) Die Ausbildung eines Fussoldaten dauerte länger als die eines Reiters.\n"
             "(5) Die Ritter hatten einen eigenen Ehrenkodex.\n"
-            "(6) Nur Koenige konnten die Zeremonie der Ritterwuerde durchfuehren.\n"
+            "(6) Nur Könige konnten die Zeremonie der Ritterwuerde durchfuehren.\n"
             "(7) Ein Ritter in der Ausbildung lebte weiterhin bei seinen Eltern.\n"
             "(8) Nachdem ein junger Mann zum Ritter geschlagen wurde, durfte er selbst "
             "an Turnieren teilnehmen.\n"
@@ -179,7 +179,7 @@ QUESTIONS = [
         "answer": "(1) F ; (2) R ; (3) R ; (4) F ; (5) R ; (6) F ; (7) F ; (8) R ; (9) F.",
         "steps": [
             "(1) F: Lesen/Schreiben war nicht ueblich.",
-            "(4) F: Reiterausbildung dauerte laenger.",
+            "(4) F: Reiterausbildung dauerte länger.",
             "(6) F: Jeder Ritter konnte den Ritterschlag vornehmen.",
             "(7) F: Mit 7 Jahren kam er auf eine fremde Burg.",
             "(9) F: Lehen = Nutzungsrecht, kein Eigentum.",
@@ -195,7 +195,7 @@ QUESTIONS = [
         "n": 6,
         "type": "Fragen in ganzen Sätzen",
         "text": (
-            "Beantworte in ganzen Saetzen:\n"
+            "Beantworte in ganzen Sätzen:\n"
             "(a) Nenne vier Dinge, die ein werdender Ritter als Edelknabe erlernen musste.\n"
             "(b) Wer bezahlte die Ruestung eines Ritters, wenn er in den Ritterstand "
             "erhoben wurde?\n"
@@ -209,7 +209,7 @@ QUESTIONS = [
         ),
         "steps": [
             "(a) Aus dem Edelknaben-Abschnitt.",
-            "(b) Im Text: 'jede Menge Geld fuer die erste Ruestung'.",
+            "(b) Im Text: 'jede Menge Geld für die erste Ruestung'.",
             "(c) Eigene Meinung mit Begruendung.",
         ],
         "points": 5.0,

@@ -13,33 +13,33 @@ EXERCISE = {
 LESETEXT = (
     "Von Teufelsvögeln und Ungluecksraben\n\n"
     "Kraehen und Raben gehoeren zu den Tieren, die im Laufe der Jahrhunderte "
-    "besonders stark vom Menschen verfolgt wurden. Mangelndes Wissen ueber die "
+    "besonders stark vom Menschen verfolgt wurden. Mangelndes Wissen über die "
     "Lebensweise dieser Voegel war ein Grund dafuer. Obwohl der Kolkrabe zu "
     "den gefaehrdeten Tierarten gehoert, versuchten noch vor wenigen Jahren "
     "Schafer in Baden-Wuerttemberg die Jagd auf diesen Rabenvogel wieder "
     "durchzusetzen. Die Schafer behaupteten, ein Schwarm junger Kolkraben "
     "haette zahlreiche Laemmer getoetet und ausgewachsenen Schafen die Augen "
-    "ausgehackt. Eine wissenschaftliche Untersuchung brachte schliesslich den "
+    "ausgehackt. Eine wissenschaftliche Untersuchung brachte schließlich den "
     "Beweis: An den Vorwuerfen war nichts dran. Die Raben waren gerettet.\n\n"
     "Einigermaassen gut kamen Raben bei uns Menschen nur manchmal weg. Ein "
     "seltenes Beispiel hierfuer gibt es in der Religion der alten Germanen. "
     "In ihrer Vorstellung hatte der Goetterchef Odin zwei Raben, Huginn und "
-    "Muninn, die jeden Morgen durch die Welt flogen, um fuer ihren Herrn nach "
+    "Muninn, die jeden Morgen durch die Welt flogen, um für ihren Herrn nach "
     "dem Rechten zu sehen.\n\n"
-    "Haeufig jedoch waren die rabenschwarzen Voegel bei den aberglaeubischen "
-    "Leuten in frueheren Zeiten regelrecht verhasst. Man hielt sie fuer "
+    "Häufig jedoch waren die rabenschwarzen Voegel bei den aberglaeubischen "
+    "Leuten in frueheren Zeiten regelrecht verhasst. Man hielt sie für "
     "Teufelsvoegel, die mit dem Boesen im Bunde waren. Nicht zufaellig tauchen "
-    "deshalb in zahlreichen alten Sagen und Maerchen Raben als Begleiter des "
+    "deshalb in zahlreichen alten Sagen und Märchen Raben als Begleiter des "
     "Teufels auf. Und auch die boesen Hexen haben in diesen Geschichten "
     "zuweilen einen Raben als Gefaehrten.\n\n"
     "Raben galten ausserdem als Ungluecksbringer. Die alten Roemer hielten sie "
-    "sogar fuer Todesboten: Setzte sich ein Rabe auf das Hausdach, musste man "
+    "sogar für Todesboten: Setzte sich ein Rabe auf das Hausdach, musste man "
     "befuerchten, dass einer der Bewohner demnaechst sterben wuerde.\n\n"
     "Der schlechte Ruf der Raben hing hauptsaechlich mit ihrer Lebensweise "
     "zusammen: Rabenkraehen haben zum Beispiel die Angewohnheit, Feinden und "
     "toten Tieren die Augen auszuhacken. Hinzu kommt, dass Raben und Kraehen "
-    "als Aasfresser natuerlich auch vor dem Fleisch toter Menschen nicht Halt "
-    "machen. Deswegen waren sie haeufig auf Schlachtfeldern anzutreffen. Und "
+    "als Aasfresser natürlich auch vor dem Fleisch toter Menschen nicht Halt "
+    "machen. Deswegen waren sie häufig auf Schlachtfeldern anzutreffen. Und "
     "auch auf Hinrichtungsstaetten konnte man meist zahlreiche Raben beobachten, "
     "daher der Name 'Galgenvogel'.\n\n"
     "Es ist also kein Wunder, dass der Mensch Rabenvoegel in erster Linie mit "
@@ -69,7 +69,7 @@ QUESTIONS = [
             "zahlreiche Laemmer getoetet.\n"
             "(c) Die Schafer behaupteten, ein Schwarm junger Kolkraben haette "
             "zahlreiche Schafe getoetet.\n"
-            "(d) Politiker setzten sich fuer die Raben ein, damit diese nicht "
+            "(d) Politiker setzten sich für die Raben ein, damit diese nicht "
             "getoetet werden konnten.\n"
             "(e) Man ging mit Gift und Gewehren gegen die Raben vor.\n"
             "(f) Die Raben hatten in Wirklichkeit nur ein einziges Tier der "
@@ -77,7 +77,7 @@ QUESTIONS = [
         ),
         "answer": "Richtig: (b).",
         "steps": [
-            "Wortlaut genau pruefen: 'Laemmer' nicht 'Schafe'; (d) falsch: Politiker setzten sich fuer Schafer ein.",
+            "Wortlaut genau pruefen: 'Laemmer' nicht 'Schafe'; (d) falsch: Politiker setzten sich für Schafer ein.",
         ],
         "points": 2.0,
         "has_image": False,
@@ -90,7 +90,7 @@ QUESTIONS = [
         "n": 2,
         "type": "Namen der Raben",
         "text": (
-            "Wie heissen in der Religion der alten Germanen die beiden Raben "
+            "Wie heißen in der Religion der alten Germanen die beiden Raben "
             "des Gottes Odin? Kreuze an:\n"
             "(a) Hugin und Mumin\n"
             "(b) Hginn und Munnin\n"
@@ -114,7 +114,7 @@ QUESTIONS = [
         "type": "Aufgabe der Raben",
         "text": "Welche Aufgabe hatten die Raben Odins?",
         "answer": (
-            "Sie flogen jeden Morgen durch die Welt, um fuer Odin nach dem "
+            "Sie flogen jeden Morgen durch die Welt, um für Odin nach dem "
             "Rechten zu sehen (zu berichten, was geschah)."
         ),
         "steps": [
@@ -131,11 +131,11 @@ QUESTIONS = [
         "n": 4,
         "type": "Raben in Märchen",
         "text": (
-            "Woran erkennt man beim Lesen von Maerchen und Sagen, wie sehr "
+            "Woran erkennt man beim Lesen von Märchen und Sagen, wie sehr "
             "aberglaeubische Menschen die Raben fuerchten oder sogar hassen?"
         ),
         "answer": (
-            "In Sagen und Maerchen tauchen Raben als Begleiter des Teufels und "
+            "In Sagen und Märchen tauchen Raben als Begleiter des Teufels und "
             "boesen Hexen auf."
         ),
         "steps": [
@@ -151,7 +151,7 @@ QUESTIONS = [
     {
         "n": 5,
         "type": "Römer und Todesboten",
-        "text": "Inwiefern hielten die alten Roemer Raben fuer Todesboten?",
+        "text": "Inwiefern hielten die alten Roemer Raben für Todesboten?",
         "answer": (
             "Wenn sich ein Rabe auf ein Hausdach setzte, musste man befuerchten, "
             "dass einer der Bewohner demnaechst sterben wuerde."
@@ -172,7 +172,7 @@ QUESTIONS = [
         "text": "Weshalb verbinden Menschen Raben oft mit Krieg und Tod?",
         "answer": (
             "Weil Raben und Kraehen als Aasfresser auch vor dem Fleisch toter "
-            "Menschen nicht Halt machen und haeufig auf Schlachtfeldern und "
+            "Menschen nicht Halt machen und häufig auf Schlachtfeldern und "
             "Hinrichtungsstaetten anzutreffen waren."
         ),
         "steps": [
@@ -207,7 +207,7 @@ QUESTIONS = [
         "n": 8,
         "type": "Meinung begründen",
         "text": (
-            "Koennte man auch verstehen, dass sich manche Menschen vor dem "
+            "Könnte man auch verstehen, dass sich manche Menschen vor dem "
             "Verhalten der Raben gruseln? Begruende deine Meinung mit Hilfe "
             "einer Textstelle!"
         ),

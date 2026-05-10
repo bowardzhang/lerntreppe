@@ -7,7 +7,7 @@ EXERCISE = {
     "publisher": "CATLUX",
     "source_pdf": "2224.pdf",
     "answer_pdf": "2224 (1).pdf",
-    "total_points": 35.0,
+    "total_points": 41.0,
 }
 
 QUESTIONS = [
@@ -59,7 +59,7 @@ QUESTIONS = [
         "image": None,
         "knowledge": [
             "mathe.klasse4.groessen.volumen",
-            "mathe.klasse4.brueche.darstellen",
+            "mathe.klasse4.brueche",
             "mathe.klasse4.dezimalzahlen.rechnen",
         ],
     },

@@ -72,7 +72,7 @@ QUESTIONS = [
         "text": (
             "Stelle Fragen nach den unterstrichenen Nomen, antworte und bestimme "
             "den Fall.\n"
-            "Der Hund lauft auf der Strasse. "
+            "Der Hund lauft auf der Straße. "
             "Ein Junge ruft den Hund bei seinem Namen. "
             "Das Fell des Hundes ist sehr schoen. "
             "Der Junge gibt dem Hund eine Wurst."
@@ -102,7 +102,7 @@ QUESTIONS = [
         "text": (
             "Bestimme den Fall der unterstrichenen Nomen:\n"
             "Neulich machte unsere Klasse (_) einen Ausflug (_) in den Zoo. "
-            "Am Eingang gaben wir unserer Lehrerin (_) das Geld fuer die "
+            "Am Eingang gaben wir unserer Lehrerin (_) das Geld für die "
             "Eintrittskarten (_). Wegen des schlechten Wetters (_) besuchten "
             "wir zuerst das Schlangenhaus (_). Dann standen wir lange bei den "
             "Affen (_) und fuetterten sie. Bald war die Brotzeit vieler "
@@ -117,7 +117,7 @@ QUESTIONS = [
             "Klasse: Subjekt -> 1. Fall.",
             "Ausflug: Akkusativobjekt (machte was?) -> 4. Fall.",
             "Lehrerin: Dativobjekt (gaben wem?) -> 3. Fall.",
-            "Eintrittskarten: fuer + Akkusativ -> 4. Fall.",
+            "Eintrittskarten: für + Akkusativ -> 4. Fall.",
             "Wetters: Genitivattribut (wegen) -> 2. Fall.",
             "Schlangenhaus: Akkusativobjekt (besuchten was?) -> 4. Fall.",
             "Affen: bei + Dativ -> 3. Fall.",
@@ -190,22 +190,22 @@ QUESTIONS = [
         "text": (
             "Bestimme die Wortart jedes Wortes (Nomen, Verb, Adjektiv, Konjunktion):\n"
             "fliessen | gut | Fluss | weil | bevor | dass | eisig | sicher | "
-            "nachdem | Jaeger | obwohl | kalt | sehen | mittelblau | "
+            "nachdem | Jäger | obwohl | kalt | sehen | mittelblau | "
             "Freude | waehrend | Luft | toll | rasen | wenn"
         ),
         "answer": (
             "fliessen=Verb ; gut=Adjektiv ; Fluss=Nomen ; weil=Konjunktion ; "
             "bevor=Konjunktion ; dass=Konjunktion ; eisig=Adjektiv ; sicher=Adjektiv ; "
-            "nachdem=Konjunktion ; Jaeger=Nomen ; obwohl=Konjunktion ; kalt=Adjektiv ; "
+            "nachdem=Konjunktion ; Jäger=Nomen ; obwohl=Konjunktion ; kalt=Adjektiv ; "
             "sehen=Verb ; mittelblau=Adjektiv ; "
             "Freude=Nomen ; waehrend=Konjunktion ; Luft=Nomen ; toll=Adjektiv ; "
             "rasen=Verb ; wenn=Konjunktion"
         ),
         "steps": [
             "Verben (Taetigkeiten): fliessen, sehen, rasen.",
-            "Nomen (mit Artikel vorstellbar): Fluss, Jaeger, Freude, Luft.",
+            "Nomen (mit Artikel vorstellbar): Fluss, Jäger, Freude, Luft.",
             "Adjektive (Eigenschaften): gut, eisig, sicher, kalt, mittelblau, toll.",
-            "Konjunktionen (verbinden Saetze): weil, bevor, dass, nachdem, obwohl, waehrend, wenn.",
+            "Konjunktionen (verbinden Sätze): weil, bevor, dass, nachdem, obwohl, waehrend, wenn.",
         ],
         "points": 5.0,
         "has_image": False,

@@ -15,20 +15,20 @@ QUESTIONS = [
         "n": 1,
         "type": "Rezept verfassen",
         "text": (
-            "Schreibe ein genaues Rezept fuer die Zubereitung von Kraeuterkaese "
-            "(Maeuse-Kraeuterkaese fuer 5 Personen). Denke an die Auflistung der "
+            "Schreibe ein genaues Rezept für die Zubereitung von Kraeuterkaese "
+            "(Maeuse-Kraeuterkaese für 5 Personen). Denke an die Auflistung der "
             "Zutaten und Kuechengeraete. Die Bilder helfen dir.\n\n"
             "Wenn du fertig bist, ueberpruefe:\n"
             "- Sind alle Arbeitsschritte vollstaendig und in der richtigen Reihenfolge?\n"
-            "- Hast du die Schreibtipps fuer ein Rezept beachtet?"
+            "- Hast du die Schreibtipps für ein Rezept beachtet?"
         ),
         "answer": (
-            "Musterloesung 'Maeuse-Kraeuterkaese fuer 5 Personen'.\n\n"
+            "Musterloesung 'Maeuse-Kraeuterkaese für 5 Personen'.\n\n"
             "Zutaten: 100 g Frischkaese ; 500 g Quark ; 5 EL Milch ; 1 Bund Radieschen ; "
             "1 Bund gemischte Kraeuter.\n"
             "Kuechengeraete: grosse Schuessel ; Mixer (Handruehrgeraet) ; "
-            "Schneidbrett ; Kochloeffel ; scharfes Messer ; grosser runder Teller.\n\n"
-            "Einleitung: Mama, ich habe ein tolles Rezept fuer einen lustigen "
+            "Schneidbrett ; Kochloeffel ; scharfes Messer ; großer runder Teller.\n\n"
+            "Einleitung: Mama, ich habe ein tolles Rezept für einen lustigen "
             "Kraeuterkaese gefunden. Das ist ganz einfach.\n\n"
             "Vorgangsbeschreibung: Zuerst gibst du den Quark, den Frischkaese "
             "und die Milch in die Schuessel und verruehrst alles gut mit dem Mixer. "

@@ -15,10 +15,10 @@ LESETEXT = (
     "Ein Loewe, ein Fuchs und ein Esel gingen miteinander auf die Jagd. Als sie "
     "nun reichlich Beute gemacht hatten, befahl der Loewe dem Esel, diese zu "
     "verteilen. Dieser gehorchte und zerlegte alles in drei gleich grosse Teile. "
-    "Dann forderte er den Koenig der Tiere auf, selbst einen Teil auszuwaehlen. "
+    "Dann forderte er den König der Tiere auf, selbst einen Teil auszuwaehlen. "
     "Da aber wurde der Loewe wild, zerriss den Esel und befahl nun dem Fuchs zu "
     "teilen. Dieser haeufte alles zusammen, legte den Esel obenauf und erbat "
-    "sich nur etwas Weniges fuer seine Muehe. 'Schoen, mein Freund', sagte der "
+    "sich nur etwas Weniges für seine Muehe. 'Schoen, mein Freund', sagte der "
     "Loewe schmunzelnd, 'sage mir doch, wer hat dich so schoen teilen gelehrt?' "
     "Der listige Fuchs antwortete: 'Nun, das Schicksal des Esels.'"
 )
@@ -91,7 +91,7 @@ QUESTIONS = [
         "n": 4,
         "type": "Verteilung des Fuchses",
         "text": "Wie verteilt der Fuchs die Beute?",
-        "answer": "Er gibt fast alles dem Loewen und behaelt fuer sich nur wenig.",
+        "answer": "Er gibt fast alles dem Loewen und behaelt für sich nur wenig.",
         "steps": [
             "Aus dem Text: 'haeufte alles zusammen ... erbat sich nur etwas Weniges'.",
         ],
@@ -111,7 +111,7 @@ QUESTIONS = [
         ),
         "answer": (
             "(a) Der Loewe ist zufrieden. ; "
-            "(b) Weil er am meisten bekommt und sich fuer sehr schlau haelt."
+            "(b) Weil er am meisten bekommt und sich für sehr schlau haelt."
         ),
         "steps": [
             "Aus dem Text: 'Der Loewe schmunzelnd'.",
@@ -128,7 +128,7 @@ QUESTIONS = [
         "type": "Zufriedenheit begründen",
         "text": (
             "Waren Loewe und Fuchs mit der Teilung am Schluss zufrieden? "
-            "Nenne fuer jedes Tier einen Grund."
+            "Nenne für jedes Tier einen Grund."
         ),
         "answer": (
             "Der Loewe war zufrieden, weil er am meisten bekommen hat. ; "
@@ -174,7 +174,7 @@ QUESTIONS = [
             "(a) Fabel. ; "
             "(b) Z. B. 'Der Fuchs und die Katze', 'Der Rabe und der Fuchs', "
             "'Der Hase und der Igel'. ; "
-            "(c) Tiere koennen sprechen und denken; Tiere haben menschliche "
+            "(c) Tiere können sprechen und denken; Tiere haben menschliche "
             "Eigenschaften; kurzer Text; hat eine Lehre (Moral)."
         ),
         "steps": [

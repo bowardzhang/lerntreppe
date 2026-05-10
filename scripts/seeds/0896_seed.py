@@ -77,7 +77,7 @@ QUESTIONS = [
         "answer": (
             "a) Beide haben gleiche Chance vor dem Ziehen (5/10). "
             "Sabine zieht zuerst. ; "
-            "b) Sabine (3/10 vs. evtl. 3/9 oder 2/9 fuer Tim, hier zuerst Sabine). ; "
+            "b) Sabine (3/10 vs. evtl. 3/9 oder 2/9 für Tim, hier zuerst Sabine). ; "
             "c) Da nur noch 4 Erdbeerbonbons in 9 verbleiben (4/9), hat Sabine "
             "die kleinere Chance als Tim sie hatte (5/10 = 1/2). Tim hatte die "
             "groessere Chance gehabt."
@@ -129,7 +129,7 @@ QUESTIONS = [
             "Auf zehn Karten stehen die Ziffern 0 bis 9. Welche Aussagen sind "
             "richtig (R) oder falsch (F)?\n"
             "a) Wenn ich eine Karte ziehe, ist es sicher eine gerade Zahl.\n"
-            "b) Es ist moeglich, eine 5 zu ziehen.\n"
+            "b) Es ist möglich, eine 5 zu ziehen.\n"
             "c) Ich werde unmoeglich eine 11 ziehen.\n"
             "d) Es ist genau gleich wahrscheinlich, eine 0, 1, 2, ... oder 9 zu ziehen."
         ),
@@ -151,12 +151,12 @@ QUESTIONS = [
         "n": 6,
         "type": "Zahlen aus 1, 8, 5",
         "text": (
-            "Bilde aus den Ziffern 1, 8 und 5 alle moeglichen verschiedenen "
+            "Bilde aus den Ziffern 1, 8 und 5 alle möglichen verschiedenen "
             "dreistelligen Zahlen und ordne sie nach Groesse."
         ),
         "answer": "158, 185, 518, 581, 815, 851",
         "steps": [
-            "3 Ziffern -> 3! = 6 Moeglichkeiten.",
+            "3 Ziffern -> 3! = 6 Möglichkeiten.",
             "Mit 1 vorne: 158, 185.",
             "Mit 5 vorne: 518, 581.",
             "Mit 8 vorne: 815, 851.",
@@ -174,7 +174,7 @@ QUESTIONS = [
         "type": "Dosenwerfen",
         "text": (
             "Beim Dosenwerfen stehen 7 Dosen aufgestapelt. Marco trifft mit "
-            "einem Wurf 3 Dosen. Wie viele Dosen stehen noch und wie gross ist "
+            "einem Wurf 3 Dosen. Wie viele Dosen stehen noch und wie groß ist "
             "der Anteil der getroffenen Dosen?"
         ),
         "answer": "Noch 4 Dosen stehen. Anteil: 3 von 7 = 3/7 (~43%).",
@@ -193,17 +193,17 @@ QUESTIONS = [
         "n": 8,
         "type": "Fahrradschloss Anne (Kombinatorik)",
         "text": (
-            "Anne hat ein Zahlenschloss mit 4 Stellen. Sie weiss, dass die erste "
+            "Anne hat ein Zahlenschloss mit 4 Stellen. Sie weiß, dass die erste "
             "Ziffer eine 1 ist, die zweite eine gerade Ziffer (0, 2, 4, 6 oder 8 - "
-            "nur 2 Moeglichkeiten merkt sie) und die letzten beiden Ziffern "
+            "nur 2 Möglichkeiten merkt sie) und die letzten beiden Ziffern "
             "ungerade Ziffern (1, 3, 5, 7, 9 - nur 7 mal 7 Optionen) sind. "
-            "Wie viele moegliche Kombinationen muss sie durchprobieren?"
+            "Wie viele mögliche Kombinationen muss sie durchprobieren?"
         ),
-        "answer": "1 · 2 · 7 · 7 = 98 Moeglichkeiten.",
+        "answer": "1 · 2 · 7 · 7 = 98 Möglichkeiten.",
         "steps": [
-            "Stelle 1: 1 Moeglichkeit (genau die 1).",
-            "Stelle 2: 2 Moeglichkeiten (gerade Ziffern, eingeschraenkt).",
-            "Stellen 3 & 4: je 7 Moeglichkeiten.",
+            "Stelle 1: 1 Möglichkeit (genau die 1).",
+            "Stelle 2: 2 Möglichkeiten (gerade Ziffern, eingeschraenkt).",
+            "Stellen 3 & 4: je 7 Möglichkeiten.",
             "Gesamt: 1 · 2 · 7 · 7 = 98.",
         ],
         "points": 3.0,

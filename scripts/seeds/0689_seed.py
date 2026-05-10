@@ -13,26 +13,26 @@ EXERCISE = {
 LESETEXT = (
     "Wie die kleine Wasserspinne das Feuer holte (Auszug)\n\n"
     "Am Anfang gab es kein Feuer und die Welt war kalt. Alle Tiere froren ganz "
-    "entsetzlich. Eines Tages tobte ein fuerchterliches Gewitter ueber der "
-    "Erde, grelle Blitze zuckten ueber den Himmel und der Donner grollte. "
+    "entsetzlich. Eines Tages tobte ein fuerchterliches Gewitter über der "
+    "Erde, grelle Blitze zuckten über den Himmel und der Donner grollte. "
     "Ploetzlich schlug ein Blitz in eine alte, abgestorbene Eiche ein, die "
     "trockene Rinde entzuendete sich und der Baum stand sofort in lodernden "
     "Flammen.\n\n"
     "Nun freuten sich die Tiere und sagten: 'Von dieser brennenden Eiche werden "
-    "wir uns Feuer holen. Endlich werden wir uns waermen koennen.' Dieser Baum "
+    "wir uns Feuer holen. Endlich werden wir uns waermen können.' Dieser Baum "
     "stand jedoch auf einer Insel und die Tiere konnten wegen des tiefen "
     "Wassers nicht herankommen.\n\n"
     "Der Rabe flog als erster und versengte sich die Federn, bis sie ganz "
     "schwarz waren. Die kleine Schleiereule blickte in den hohlen Baum, ein "
     "heisser Luftstrom brannte ihr beinahe die Augen aus - ihre Augen sind rot "
     "bis auf den heutigen Tag. Die Barteule und die Horneule kehrten ohne Feuer "
-    "zurueck; weisse Ringe um ihre Augen blieben. Auch die schwarze Schlange "
+    "zurück; weisse Ringe um ihre Augen blieben. Auch die schwarze Schlange "
     "und die gruene Natter scheiterten.\n\n"
-    "Endlich erklaerte sich die kleine Wasserspinne bereit: 'Ich weiss, wie ich "
-    "es mache.' Sie spann einen Faden aus ihrem Koerper und webte eine kleine, "
+    "Endlich erklaerte sich die kleine Wasserspinne bereit: 'Ich weiß, wie ich "
+    "es mache.' Sie spann einen Faden aus ihrem Körper und webte eine kleine, "
     "runde Tasche, die sie auf ihrem Ruecken befestigte. Dann schwamm sie zur "
     "Insel, legte ein winziges Stueckchen gluehende Holzkohle in ihre Tasche "
-    "und kam damit eilends zurueck. Nun konnten sich die Tiere endlich waermen."
+    "und kam damit eilends zurück. Nun konnten sich die Tiere endlich waermen."
 )
 
 QUESTIONS = [
@@ -61,7 +61,7 @@ QUESTIONS = [
     {
         "n": 2,
         "type": "Warum wollten die Tiere das Feuer?",
-        "text": "Warum wuenschten sich die Tiere das Feuer? Begruende in ganzen Saetzen.",
+        "text": "Warum wuenschten sich die Tiere das Feuer? Begruende in ganzen Sätzen.",
         "answer": "Die Tiere froren, weil es kalt war, und sie wollten sich waermen.",
         "steps": [
             "Aus dem Anfang des Textes: 'Am Anfang gab es kein Feuer und die Welt war kalt. Alle Tiere froren'.",
@@ -113,11 +113,11 @@ QUESTIONS = [
         "type": "Zitat aus dem Text",
         "text": (
             "Was sagten die Tiere, als sie das Feuer sahen? Schreibe ganze "
-            "Saetze aus dem Text."
+            "Sätze aus dem Text."
         ),
         "answer": (
             "'Von dieser brennenden Eiche werden wir uns Feuer holen. Endlich "
-            "werden wir uns waermen koennen.'"
+            "werden wir uns waermen können.'"
         ),
         "steps": [
             "Originalzitate verwenden.",
@@ -166,7 +166,7 @@ QUESTIONS = [
         "n": 8,
         "type": "Richtige Sätze ankreuzen",
         "text": (
-            "Kreuze die richtigen Saetze an:\n"
+            "Kreuze die richtigen Sätze an:\n"
             "(1) Der Rabe versuchte als erster Feuer zu holen.\n"
             "(2) Die Schleiereule hatte keine Lust, das Feuer zu holen.\n"
             "(3) Der brennende Baum stand in einem tiefen Sumpf.\n"
@@ -191,14 +191,14 @@ QUESTIONS = [
         "n": 9,
         "type": "Wer holte das Feuer und wie?",
         "text": (
-            "Wer schafft es schliesslich, das Feuer zu holen? Wie gelingt das? "
-            "Erklaere in ganzen Saetzen."
+            "Wer schafft es schließlich, das Feuer zu holen? Wie gelingt das? "
+            "Erklaere in ganzen Sätzen."
         ),
         "answer": (
             "Die kleine Wasserspinne holt das Feuer. Sie webt eine kleine Tasche "
             "aus ihrem Faden und befestigt sie auf ihrem Ruecken. Dann schwimmt "
             "sie zur Insel, legt ein winziges Stueckchen gluehende Holzkohle in "
-            "die Tasche und kommt damit zurueck."
+            "die Tasche und kommt damit zurück."
         ),
         "steps": [
             "Schritte: weben, schwimmen, Holzkohle holen, zurueckkehren.",
@@ -236,7 +236,7 @@ QUESTIONS = [
         "n": 11,
         "type": "Wer sagt was?",
         "text": (
-            "'Ich weiss, wie ich es mache' - Wer sagt das und was ist damit "
+            "'Ich weiß, wie ich es mache' - Wer sagt das und was ist damit "
             "gemeint?"
         ),
         "answer": (
@@ -303,7 +303,7 @@ QUESTIONS = [
         "type": "Aussage der Geschichte",
         "text": "Was zeigt uns die Geschichte?",
         "answer": (
-            "Auch jemand, der klein ist (nicht gross und stark), kann grosse "
+            "Auch jemand, der klein ist (nicht groß und stark), kann grosse "
             "Taten vollbringen."
         ),
         "steps": [

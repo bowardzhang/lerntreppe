@@ -11,7 +11,7 @@ EXERCISE = {
 }
 
 LESETEXT = (
-    "Das Maerchen vom Igel (von Can Göknil)\n\n"
+    "Das Märchen vom Igel (von Can Göknil)\n\n"
     "Einst lebte ein Igel im Wald. Der hatte so viele Stacheln, dass ihn "
     "niemand zum Freund haben wollte. Er spazierte ganz allein im Wald "
     "umher. 'Vielleicht finde ich einen Freund', dachte er sich.\n\n"
@@ -20,8 +20,8 @@ LESETEXT = (
     "stacheligen Igel nicht bemerken!' Sogar der Regenwurm verbarg sich "
     "hinter einem Baum. Die Schildkroete und die Schnecke verkrochen sich in "
     "ihren Haeusern; der Ruesselkaefer vergrub sich in der Erde. Der Uhu "
-    "sagte: 'Bitte, belaestigen Sie mich nicht, ich bin muede.' Der Igel "
-    "kehrte nach Hause zurueck. Die ganze Nacht ueber war er traurig: 'Ich "
+    "sagte: 'Bitte, belaestigen Sie mich nicht, ich bin müde.' Der Igel "
+    "kehrte nach Hause zurück. Die ganze Nacht über war er traurig: 'Ich "
     "bin so allein, so allein', dachte er.\n\n"
     "Im Land, in dem der Igel wohnte, hatte es lange, lange Zeit nicht "
     "geregnet. Als der Tag anbrach, standen die Enten betruebst vor dem "
@@ -29,12 +29,12 @@ LESETEXT = (
     "Elefant, benommen von der starken Hitze, war an das Seeufer gekommen, "
     "um sich zu duschen; aber am Seegrund war nur mehr so wenig Wasser, dass "
     "sein Ruessel voll Schlamm und Erde wurde.\n\n"
-    "Ein alter Vogel sagte: 'Unsere Lage ist sehr ernst. Wir muessen ein "
+    "Ein alter Vogel sagte: 'Unsere Lage ist sehr ernst. Wir müssen ein "
     "Mittel gegen diese Duerre finden.' Da kam dem Igel eine Idee. Muehsam "
     "kletterte er auf die Spitze des hoechsten Berges. Dann stellte er seine "
     "Stacheln hoch und sprang und huepfte mit aller Kraft, bis er am Himmel "
     "viele Loecher gemacht hatte. Und aus diesen Loechern begann es "
-    "tatsaechlich in grossen Tropfen zu regnen. Der Regen wurde immer "
+    "tatsaechlich in großen Tropfen zu regnen. Der Regen wurde immer "
     "heftiger. Es regnete und regnete, mehrere Tage lang. Die Tiere waren "
     "sehr erleichtert. 'Der Igel hat uns geholfen', sagten sie. 'Es ist doch "
     "nuetzlich, wenn man Stacheln hat', sagte der alte Vogel, und von dem "
@@ -47,7 +47,7 @@ QUESTIONS = [
         "type": "Autor nennen",
         "text": (
             f"Lesetext:\n{LESETEXT}\n\n"
-            "Wie heisst der Autor dieses Maerchens?"
+            "Wie heißt der Autor dieses Märchens?"
         ),
         "answer": "Can Göknil.",
         "steps": [
@@ -174,11 +174,11 @@ QUESTIONS = [
         "text": (
             "Vollende folgende Satzanfaenge sinnvoll:\n"
             "(a) Der Igel spazierte im Wald, um ___\n"
-            "(b) Der Uhu behauptete, er sei zu muede, weil ___"
+            "(b) Der Uhu behauptete, er sei zu müde, weil ___"
         ),
         "answer": (
             "(a) Der Igel spazierte im Wald, um Freunde zu finden. ; "
-            "(b) Der Uhu behauptete, er sei zu muede, weil er den Igel nicht mochte."
+            "(b) Der Uhu behauptete, er sei zu müde, weil er den Igel nicht mochte."
         ),
         "steps": [
             "(a) Ziel des Igels aus dem Text.",
@@ -195,15 +195,15 @@ QUESTIONS = [
         "n": 10,
         "type": "Lehre ankreuzen",
         "text": (
-            "Kreuze die Saetze an, die die Lehre der Geschichte enthalten:\n"
+            "Kreuze die Sätze an, die die Lehre der Geschichte enthalten:\n"
             "(a) Traue deinen Freunden nicht!\n"
-            "(b) Nur der hat Freunde, der sich fuer sie auch einsetzt.\n"
+            "(b) Nur der hat Freunde, der sich für sie auch einsetzt.\n"
             "(c) Habe keine Vorurteile!\n"
             "(d) Auf Freunde kann man sich nicht verlassen."
         ),
         "answer": "Richtig: (b) und (c).",
         "steps": [
-            "(b) Der Igel setzt sich fuer alle ein und bekommt dafuer Freunde.",
+            "(b) Der Igel setzt sich für alle ein und bekommt dafuer Freunde.",
             "(c) Die Tiere hatten Vorurteile wegen der Stacheln.",
         ],
         "points": 2.0,
