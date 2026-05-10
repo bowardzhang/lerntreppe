@@ -19,11 +19,11 @@ LESETEXT = (
     "Asta, mein Hund, lief uns immer hinterher.\n\n"
     "Eines Tages wollten wir am Forellenteich angeln. Wir brauchten Wuermer "
     "als Koeder. Direkt am schiefen Eisenkreuz mit den Rosen sollte es welche "
-    "geben. Der alte Bauer Jost hatte uns das gesagt: Dort hat er frueher "
+    "geben. Der alte Bauer Jost hatte uns das gesagt: Dort hat er früher "
     "selbst Wuermer gefunden.\n\n"
     "Doch als wir zu graben anfingen, schwirrte es ploetzlich um uns: ein "
     "ganzer Wespenschwarm! Die stechlustigen Brummer kamen aus dem Boden "
-    "geschossen. Wir liefen Hals ueber Kopf zum Forellenteich und sprangen "
+    "geschossen. Wir liefen Hals über Kopf zum Forellenteich und sprangen "
     "hinein. Wir tauchten unter, bis die Wespen weg waren. Asta hatten viele "
     "Stiche bekommen. Sie schuettelte sich die Ohren, rieb die Schnauze am "
     "Boden, sauste im Kreis herum und scharrte sich. Wir spritzten sie mit "
@@ -59,7 +59,7 @@ QUESTIONS = [
         "type": "Gründe nennen",
         "text": (
             "Der Friedhof ist ein ungewoehnlicher Platz zum Spielen. Warum "
-            "spielten die Kinder trotzdem dort? Nenne drei Gruende."
+            "spielten die Kinder trotzdem dort? Nenne drei Gründe."
         ),
         "answer": "(1) Sie hatten keinen anderen Spielplatz. (2) Sie hatten kein Geld. (3) Sie hatten kein anderes Spielzeug.",
         "steps": [
@@ -94,7 +94,7 @@ QUESTIONS = [
             "An welcher Stelle wollten die Kinder Wuermer zum Angeln suchen? "
             "Warum glaubten sie, ausgerechnet dort welche zu finden?"
         ),
-        "answer": "Am schiefen Eisenkreuz mit den Rosen, weil der alte Bauer Jost dort frueher selbst Wuermer gefunden hatte.",
+        "answer": "Am schiefen Eisenkreuz mit den Rosen, weil der alte Bauer Jost dort früher selbst Wuermer gefunden hatte.",
         "steps": [
             "Begruendung: Bauer Jost hatte den Tipp gegeben.",
         ],
@@ -174,7 +174,7 @@ QUESTIONS = [
     {
         "n": 9,
         "type": "Synonym für Wespen",
-        "text": "Im Text wird fuer die Wespen auch noch dieses Wort verwendet:",
+        "text": "Im Text wird für die Wespen auch noch dieses Wort verwendet:",
         "answer": "Stechlustige Brummer.",
         "steps": [
             "Synonym aus dem Text identifizieren.",

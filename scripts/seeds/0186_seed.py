@@ -20,13 +20,13 @@ QUESTIONS = [
         ),
         "answer": (
             "Ueberschrift: Der Wasserkreislauf.\n"
-            "Wasser verdunstet durch die Waerme der Sonne. Unsichtbarer "
-            "Wasserdampf steigt auf. In kaelteren Luftschichten "
+            "Wasser verdunstet durch die Wärme der Sonne. Unsichtbarer "
+            "Wasserdampf steigt auf. In kälteren Luftschichten "
             "kondensiert der Dampf. Kleine Wassertropfen bilden sich. "
             "Viele Wassertropfen bilden zusammen eine Wolke und fallen als "
             "Niederschlag auf die Erde. Sie versickern im Boden und "
             "sammeln sich an einer wasserundurchlaessigen Schicht. Als "
-            "Quelle kommt das Wasser wieder an die Oberflaeche zurueck."
+            "Quelle kommt das Wasser wieder an die Oberflaeche zurück."
         ),
         "steps": [
             "Verdunsten -> Kondensieren -> Niederschlag -> Versickern.",
@@ -55,16 +55,16 @@ QUESTIONS = [
         "n": 3,
         "type": "Trocknen begruenden",
         "text": (
-            "Florian haengt seine feuchten Handschuhe ueber die Heizung, "
-            "Petra haengt ihre ueber einen Stuhl. Wessen Handschuhe "
+            "Florian haengt seine feuchten Handschuhe über die Heizung, "
+            "Petra haengt ihre über einen Stuhl. Wessen Handschuhe "
             "trocknen schneller? Kreuze an und begruende deine Wahl! "
             "Verwende dabei die Fachbegriffe!"
         ),
         "answer": (
-            "Florians Handschuhe trocknen schneller, weil durch die Waerme "
+            "Florians Handschuhe trocknen schneller, weil durch die Wärme "
             "das Wasser schneller verdunstet."
         ),
-        "steps": ["Verdunsten + Waerme als Faktor erklaeren."],
+        "steps": ["Verdunsten + Wärme als Faktor erklaeren."],
         "points": 2.0,
         "has_image": False,
         "image": None,
@@ -77,7 +77,7 @@ QUESTIONS = [
         "answer": (
             "Wenn es regnet, sickert das Regenwasser durch die "
             "Erdschichten, bis es auf wasserundurchlaessige Schichten "
-            "trifft. Hier bilden sich nun unterirdische Seen und Fluesse. "
+            "trifft. Hier bilden sich nun unterirdische Seen und Flüsse. "
             "Man spricht von 'Grundwasser'."
         ),
         "steps": ["Versickern + wasserundurchlaessige Schicht."],
@@ -110,7 +110,7 @@ QUESTIONS = [
         "type": "Wasser sparen",
         "text": (
             "Trinkwasser ist kostbar. Wie kannst du dazu beitragen, "
-            "Wasser zu sparen? Nenne 3 Moeglichkeiten!"
+            "Wasser zu sparen? Nenne 3 Möglichkeiten!"
         ),
         "answer": (
             "1. Duschen statt Baden.\n"
@@ -131,22 +131,22 @@ QUESTIONS = [
         "n": 7,
         "type": "Gefahren Grundwasser",
         "text": (
-            "Betrachte die Bilder! Beschreibe, warum hier Gefahren fuer "
+            "Betrachte die Bilder! Beschreibe, warum hier Gefahren für "
             "das Grundwasser entstehen und nenne Folgen, die bald danach "
-            "eintreten koennen (Saetze)."
+            "eintreten können (Sätze)."
         ),
         "answer": (
-            "Wenn Oel in Gewaesser laeuft, kann das oekologische "
+            "Wenn Oel in Gewässer laeuft, kann das ökologische "
             "Gleichgewicht gestoert werden. Das Wasser kann umkippen. Wenn "
             "das Oel ins Grundwasser eindringt und wir es trinken, "
-            "koennen wir uns vergiften.\n"
+            "können wir uns vergiften.\n"
             "Wenn Pflanzenschutzmittel in das Grundwasser eindringt und wir "
-            "oder Lebewesen davon trinken oder darin schwimmen, koennen "
-            "wir krank werden. Das Wasser in den Blaettern verdunstet und "
+            "oder Lebewesen davon trinken oder darin schwimmen, können "
+            "wir krank werden. Das Wasser in den Blättern verdunstet und "
             "steigt auf. Das Gift kommt mit dem Regen wieder herunter und "
             "gelangt ins Grundwasser."
         ),
-        "steps": ["Oel und Pflanzenschutzmittel als Gefahrenquellen.", "Folgen fuer Mensch und Natur."],
+        "steps": ["Oel und Pflanzenschutzmittel als Gefahrenquellen.", "Folgen für Mensch und Natur."],
         "points": 4.0,
         "has_image": False,
         "image": None,
@@ -159,13 +159,13 @@ QUESTIONS = [
             "Setze die richtige Niederschlagsart in den jeweils passenden "
             "Lueckentext ein!\n"
             "- Wenn sich nachts die Luft nahe dem Boden stark abkuehlt, "
-            "verdichtet sich der Wasserdunst. An Graesern, Blaettern und "
+            "verdichtet sich der Wasserdunst. An Graesern, Blättern und "
             "anderen Pflanzen bildet sich: ___\n"
             "- Faellt nachts die Temperatur unter den Gefrierpunkt, "
             "gefriert der Tau. Man nennt es ___\n"
             "- Sind gefrorene Wassertropfen, die so schnell zur Erde "
-            "fallen, dass sie nicht auftauen koennen: ___\n"
-            "- Hoch oben in noch kaelteren Luftschichten gefrieren die "
+            "fallen, dass sie nicht auftauen können: ___\n"
+            "- Hoch oben in noch kälteren Luftschichten gefrieren die "
             "Wasserteilchen in den Wolken und wachsen zu Eiskristallen "
             "zusammen. Bei niedrigen Temperaturen fallen diese als ___ "
             "zur Erde."
@@ -199,7 +199,7 @@ QUESTIONS = [
     {
         "n": 10,
         "type": "Wetterbeobachter",
-        "text": "Wie heisst der Fachausdruck fuer 'Wetterbeobachter'?",
+        "text": "Wie heißt der Fachausdruck für 'Wetterbeobachter'?",
         "answer": "Meteorologe.",
         "steps": ["Berufsbezeichnung kennen."],
         "points": 1.0,

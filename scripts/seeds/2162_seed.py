@@ -7,7 +7,7 @@ EXERCISE = {
     "publisher": "CATLUX",
     "source_pdf": "2162.pdf",
     "answer_pdf": "2162 (1).pdf",
-    "total_points": 30.0,
+    "total_points": 34.0,
 }
 
 QUESTIONS = [
@@ -16,18 +16,18 @@ QUESTIONS = [
         "type": "Wahre Aussagen ankreuzen",
         "text": (
             "Stimmen diese Aussagen? Kreuze die richtigen Aussagen an!\n"
-            "(a) Parallelen muessen mindestens 5 mm Abstand haben.\n"
+            "(a) Parallelen müssen mindestens 5 mm Abstand haben.\n"
             "(b) Eine Gerade hat einen Anfangspunkt A.\n"
             "(c) Ein Rechteck hat vier gleich lange Seiten.\n"
             "(d) Gerade Linien, die senkrecht zueinander verlaufen, bilden einen rechten Winkel.\n"
             "(e) Eine Senkrechte zwischen 2 Parallelen ist die kuerzeste Verbindung "
             "zwischen diesen Geraden.\n"
             "(f) Parallele Geraden haben irgendwann einen Schnittpunkt.\n"
-            "(g) Der Durchmesser eines Kreises ist dreimal so gross wie der Radius."
+            "(g) Der Durchmesser eines Kreises ist dreimal so groß wie der Radius."
         ),
         "answer": "Richtig: (d) und (e).",
         "steps": [
-            "(a) falsch: Parallelen koennen jeden Abstand haben.",
+            "(a) falsch: Parallelen können jeden Abstand haben.",
             "(b) falsch: Gerade ist endlos, Strahl/Halbgerade hat Anfangspunkt.",
             "(c) falsch: Quadrat hat 4 gleiche Seiten, Rechteck nur Paare.",
             "(d) richtig.",
@@ -87,9 +87,9 @@ QUESTIONS = [
         "n": 4,
         "type": "Stadtplan-Konstruktion",
         "text": (
-            "Stadtplan-Aufgabe: Zeichne zur Hauptstrasse eine parallele Strasse, "
+            "Stadtplan-Aufgabe: Zeichne zur Hauptstrasse eine parallele Straße, "
             "die durch den Parkplatz (P) geht. Mache dann von der Schule (S) aus "
-            "einen geraden Weg, der im rechten Winkel zur Hauptstrasse fuehrt."
+            "einen geraden Weg, der im rechten Winkel zur Hauptstrasse führt."
         ),
         "answer": (
             "1. Geodreieck an Hauptstrasse anlegen, parallel verschieben bis P, Linie ziehen. ; "
@@ -110,22 +110,22 @@ QUESTIONS = [
         "type": "Konstruktion Quadrat",
         "text": (
             "a) Zeichne auf der Geraden g die Strecke AB = 3 cm.\n"
-            "b) Zeichne vom Punkt A aus eine senkrechte Strecke mit Laenge 3 cm. "
-            "Der zweite Endpunkt heisst C.\n"
+            "b) Zeichne vom Punkt A aus eine senkrechte Strecke mit Länge 3 cm. "
+            "Der zweite Endpunkt heißt C.\n"
             "c) Zeichne durch C eine parallele Gerade zu g.\n"
             "d) Zeichne durch B eine parallele Gerade zu AC. Der Schnittpunkt "
-            "mit der Geraden durch C heisst D. Wie lang ist BD?\n"
+            "mit der Geraden durch C heißt D. Wie lang ist BD?\n"
             "e) Welche Figur hast du gezeichnet?"
         ),
         "answer": (
             "a) AB = 3 cm auf g. ; "
-            "b) AC senkrecht zu g, Laenge 3 cm. ; "
+            "b) AC senkrecht zu g, Länge 3 cm. ; "
             "c) Parallele zu g durch C. ; "
             "d) BD = 3 cm. ; "
             "e) Ein Quadrat (Viereck mit 4 gleichen Seiten und 4 rechten Winkeln)."
         ),
         "steps": [
-            "Schritt fuer Schritt mit Geodreieck konstruieren.",
+            "Schritt für Schritt mit Geodreieck konstruieren.",
             "AC und BD beide senkrecht und beide 3 cm -> alle Seiten gleich.",
             "Vier rechte Winkel + 4 gleiche Seiten = Quadrat.",
         ],
@@ -193,7 +193,7 @@ QUESTIONS = [
             "4. Gerade durch den Mittelpunkt ziehen. ; "
             "5. Am Kreisrand einstechen und wieder zwei Halbkreise ziehen."
         ),
-        "steps": ["Reihenfolge in vollstaendigen Saetzen aufschreiben."],
+        "steps": ["Reihenfolge in vollstaendigen Sätzen aufschreiben."],
         "points": 4.0,
         "has_image": False,
         "image": None,
@@ -214,8 +214,8 @@ QUESTIONS = [
         "n": 10,
         "type": "Parkett fortsetzen / erfinden",
         "text": (
-            "a) Setze die gegebene Parkettierung in alle moeglichen Richtungen einmal fort.\n"
-            "b) Parkettmuster koennen auch aus zwei verschiedenen Formen bestehen. "
+            "a) Setze die gegebene Parkettierung in alle möglichen Richtungen einmal fort.\n"
+            "b) Parkettmuster können auch aus zwei verschiedenen Formen bestehen. "
             "Erfinde ein Parkett mit Sechsecken und entweder Dreiecken oder Vierecken. "
             "Zeichne es mindestens viermal."
         ),

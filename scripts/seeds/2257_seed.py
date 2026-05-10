@@ -7,13 +7,13 @@ EXERCISE = {
     "publisher": "CATLUX",
     "source_pdf": "2257.pdf",
     "answer_pdf": "2257 (1).pdf",
-    "total_points": 23.0,
+    "total_points": 24.0,
 }
 
 LESETEXT = (
     "Kleine Ursache, große Wirkung\n\n"
     "Ein Lagerfeuer, eine achtlos weggeworfene Zigarette oder bewusste "
-    "Brandstiftung: Fuer Waldbraende gibt es viele Ursachen. Nur in wenigen "
+    "Brandstiftung: Für Waldbraende gibt es viele Ursachen. Nur in wenigen "
     "Faellen werden sie allein durch Naturgewalt ausgeloest, etwa durch einen "
     "Blitzeinschlag.\n\n"
     "Wenn der Wald erst brennt, kann sich das Feuer bei extremer Trockenheit "
@@ -26,7 +26,7 @@ LESETEXT = (
     "Gebaeude geschuetzt werden. Auch flammenhemmende Chemikalien werden "
     "eingesetzt.\n\n"
     "Die Ureinwohner Australiens, die Aboriginals, pflegten jahrtausendelang "
-    "Feuer im Wald zu legen - im Fruehjahr, wenn der Boden vom Winter noch "
+    "Feuer im Wald zu legen - im Frühjahr, wenn der Boden vom Winter noch "
     "feucht war. Diese 'reinigenden' Feuer verbrannten das hohe Gras des "
     "vergangenen Sommers und die Schichten abgeworfener Baumrinden, nicht aber "
     "die noch feuchten Baeume. So gewannen die Aboriginals einerseits "
@@ -34,9 +34,9 @@ LESETEXT = (
     "vor, weil sie das brennbare Material am Boden schon vorher beseitigt "
     "hatten.\n\n"
     "Dass heute tendenziell mehr Braende entstehen, die groessere Schaeden "
-    "anrichten, ist zu einem grossen Teil Schuld der Menschen. Grossstaedte in "
+    "anrichten, ist zu einem großen Teil Schuld der Menschen. Grossstaedte in "
     "Kalifornien oder Australien, aber auch Ferienwohnungen im Mittelmeerraum "
-    "weiten sich zunehmend in akut brandgefaehrdete Waelder und Buschlaender "
+    "weiten sich zunehmend in akut brandgefaehrdete Wälder und Buschlaender "
     "aus. Nicht zuletzt heizt der Mensch durch Brandrodungen in "
     "Regenwaldgebieten den Klimawandel an. Hoehere Temperaturen rund um den "
     "Globus lassen Landstriche schneller und umfangreicher verdorren und "
@@ -54,7 +54,7 @@ QUESTIONS = [
         ),
         "answer": (
             "Im Text geht es um Waldbraende, ihre Ursachen und um die "
-            "Moeglichkeiten der Bekaempfung."
+            "Möglichkeiten der Bekaempfung."
         ),
         "steps": [
             "Hauptthema identifizieren: Waldbraende.",
@@ -122,7 +122,7 @@ QUESTIONS = [
         ),
         "answer": (
             "Abschnitt 1: 'Wie entstehen Waldbraende?' ; "
-            "Abschnitt 2: 'Wie koennen Waldbraende geloescht werden?' ; "
+            "Abschnitt 2: 'Wie können Waldbraende geloescht werden?' ; "
             "Abschnitt 3: 'Wie schuetzen sich die Aboriginals vor Waldbraenden?' ; "
             "Abschnitt 4: 'Der Mensch ist schuld, dass mehr Waldbraende entstehen.'"
         ),
@@ -148,7 +148,7 @@ QUESTIONS = [
             "Brandenburg.\n"
             "(3) Im Saarland gab es in den Jahren 1991-2017 im Durchschnitt 9 "
             "Waldbraende.\n"
-            "(4) Es entstanden mehr Waldbraende durch natuerliche Ursachen als "
+            "(4) Es entstanden mehr Waldbraende durch natürliche Ursachen als "
             "durch Brandstiftung."
         ),
         "answer": "(1) F ; (2) R ; (3) N ; (4) F",
@@ -173,11 +173,11 @@ QUESTIONS = [
         "answer": (
             "Beispiele: (1) Im Jahr 2016 entstanden die meisten Waldbraende "
             "durch unbekannte Ursachen. (2) Im Jahr 2018 brannte es in "
-            "Brandenburg am haeufigsten."
+            "Brandenburg am häufigsten."
         ),
         "steps": [
             "Auffaelligkeiten im Schaubild auswaehlen.",
-            "Ganze Saetze formulieren.",
+            "Ganze Sätze formulieren.",
         ],
         "points": 4.0,
         "has_image": True,

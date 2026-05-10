@@ -38,12 +38,12 @@ QUESTIONS = [
         "n": 2,
         "type": "Zeitstufe eines Briefes bestimmen",
         "text": (
-            "In welcher Zeitstufe haette Kunibert den Brief ueber das Reitturnier "
+            "In welcher Zeitstufe haette Kunibert den Brief über das Reitturnier "
             "geschrieben?"
         ),
         "answer": "1. Vergangenheit (Praeteritum/Imperfekt)",
         "steps": [
-            "Beim Schreiben eines Briefes ueber Vergangenes verwendet man in der Regel das Praeteritum (1. Vergangenheit).",
+            "Beim Schreiben eines Briefes über Vergangenes verwendet man in der Regel das Praeteritum (1. Vergangenheit).",
         ],
         "points": 1.0,
         "has_image": False,
@@ -116,7 +116,7 @@ QUESTIONS = [
         "type": "Zukunft aus dem Jahr 2050",
         "text": (
             "So erzaehlt Kunibert seine Zukunftsaussichten aus dem Jahr 2050! "
-            "Verwende die Du-Form und die Zukunft. Schreibe 4-5 Saetze."
+            "Verwende die Du-Form und die Zukunft. Schreibe 4-5 Sätze."
         ),
         "answer": (
             "Beispiel: Du wirst in einem Raumschiff leben. "
@@ -178,7 +178,7 @@ QUESTIONS = [
         "n": 7,
         "type": "Zeitfehler verbessern",
         "text": (
-            "Verbessere die Zeitfehler in den Saetzen:\n"
+            "Verbessere die Zeitfehler in den Sätzen:\n"
             "1. Nina sagt: 'Ich freute mich jetzt schon auf den guten Kuchen.'\n"
             "2. Gestern wird sie den Schokoladenkuchen mit Mama backen.\n"
             "3. Morgen ist Oma zu Besuch gekommen."
@@ -230,14 +230,14 @@ QUESTIONS = [
             "Fuelle die Luecken mit passenden Verben in der richtigen Zeit:\n"
             "Heute ___ die Ferien. Daniel ___ ganz aufgeregt. "
             "___ auf der Reise alles gut ___? "
-            "Gestern ___ Mutti die letzten Dinge fuer die Reise ___. "
+            "Gestern ___ Mutti die letzten Dinge für die Reise ___. "
             "Daniel und seine Schwester Maja ___ im Garten, um sich abzulenken. "
             "Schnell ___ Daniel noch ein Lieblingsspielzeug in den Koffer."
         ),
         "answer": (
             "Heute beginnen die Ferien. Daniel ist ganz aufgeregt. "
             "Wird auf der Reise alles gut gehen? "
-            "Gestern packte Mutti die letzten Dinge fuer die Reise zusammen. "
+            "Gestern packte Mutti die letzten Dinge für die Reise zusammen. "
             "Daniel und seine Schwester Maja spielten im Garten, um sich abzulenken. "
             "Schnell legt Daniel noch ein Lieblingsspielzeug in den Koffer."
         ),
@@ -289,9 +289,9 @@ QUESTIONS = [
     },
     {
         "n": 11,
-        "type": "Saetze aus Woertern bilden",
+        "type": "Sätze aus Woertern bilden",
         "text": (
-            "Ordne die Woerter zu sinnvollen Saetzen in der angegebenen Zeit:\n"
+            "Ordne die Woerter zu sinnvollen Sätzen in der angegebenen Zeit:\n"
             "a) 2. Vergangenheit: leider - vergessen - Telefonnummer - ich - mein Onkel\n"
             "b) 1. Vergangenheit: sie - gestern - anziehen - ihr neues Kleid\n"
             "c) Gegenwart: Tina - die Loesung - nicht wissen - deshalb - sie - einfach - raten\n"
@@ -300,13 +300,13 @@ QUESTIONS = [
         "answer": (
             "a) Ich habe leider die Telefonnummer meines Onkels vergessen. ; "
             "b) Sie zog gestern ihr neues Kleid an. ; "
-            "c) Tina weiss die Loesung nicht, deshalb raet sie einfach. ; "
+            "c) Tina weiß die Loesung nicht, deshalb raet sie einfach. ; "
             "d) Ute wird in den Ferien alleine mit der Eisenbahn nach Italien fahren."
         ),
         "steps": [
             "a) Perfekt: habe ... vergessen.",
             "b) Praeteritum: zog ... an.",
-            "c) Praesens: weiss, raet.",
+            "c) Praesens: weiß, raet.",
             "d) Futur: wird ... fahren.",
         ],
         "points": 7.0,
@@ -318,12 +318,12 @@ QUESTIONS = [
     },
     {
         "n": 12,
-        "type": "Zeitstufe von Saetzen bestimmen",
+        "type": "Zeitstufe von Sätzen bestimmen",
         "text": (
             "Schreibe die richtige Zeitstufe hinter jeden Satz:\n"
             "1. Gestern hat es fast den ganzen Tag geregnet.\n"
             "2. Die Kinder mussten die Pause im Haus verbringen.\n"
-            "3. Ein Tiefdruckgebiet ist ueber Bayern gezogen.\n"
+            "3. Ein Tiefdruckgebiet ist über Bayern gezogen.\n"
             "4. Die Sonne kam ueberhaupt nicht hervor.\n"
             "5. Hoffentlich hat sich niemand erkaeltet!\n"
             "6. Bald wird die Sonne wieder scheinen.\n"

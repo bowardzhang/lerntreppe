@@ -14,11 +14,11 @@ LESETEXT = (
     "Die Schrift der Prinzessin (Katrin Behrend)\n\n"
     "Nun hoert mal zu! Es war naemlich einmal eine allerliebste kleine "
     "Prinzessin, heiter und schoen wie die Fruehlingssonne, freundlich und "
-    "gut, wie eben nur Prinzessinnen sein koennen. Aber sie hatte es trotz "
+    "gut, wie eben nur Prinzessinnen sein können. Aber sie hatte es trotz "
     "ihrer Freundlichkeit und Schoenheit nicht gut; denn ihre Eltern waren "
     "gestorben, und sie lebte nun mit ihrem alten Onkel in ihrem Schloss. "
     "Der grimmige Mann aber war nicht fuersorglich zu ihr, denn der Vater der "
-    "Prinzessin hatte in seinem Testament bestimmt, dass er nicht laenger als "
+    "Prinzessin hatte in seinem Testament bestimmt, dass er nicht länger als "
     "bis zum 21. Lebensjahr seiner Tochter im Schloss bleiben duerfe; dann "
     "sollten das Schloss und Land der Prinzessin Gisa allein gehoeren. Das "
     "mochte aber der muerrische Onkel ganz und gar nicht.\n\n"
@@ -44,7 +44,7 @@ LESETEXT = (
     "sagte der Rabe immer wieder. 'Das scheint mir ja hier ein schreckliches "
     "Land zu sein', sagte er, 'selbst dieser Vogel hat einen Vogel.'\n\n"
     "Doch mit einem Mal wurde er aufmerksam: 'Wie? Z ist a? Sollte der Vogel "
-    "das Raetsel loesen koennen?' Schnell schrieb er sich das ABC auf, und dann "
+    "das Raetsel loesen können?' Schnell schrieb er sich das ABC auf, und dann "
     "noch einmal rueckwaerts darunter, und konnte lesen: 'Kommt und helft mir! "
     "Ihr seid willkommen! Gisa.'\n\n"
     "Der Prinz liess nicht locker, bis der boese Onkel gestand; dann liess er "
@@ -60,13 +60,13 @@ QUESTIONS = [
         "type": "Testament des Vaters",
         "text": (
             f"Lesetext:\n{LESETEXT}\n\n"
-            "Was stand in dem Testament, das der Vater fuer die Prinzessin "
+            "Was stand in dem Testament, das der Vater für die Prinzessin "
             "geschrieben hatte?\n"
             "(a) Was durfte der Onkel nicht?\n"
             "(b) Was sollte danach gehoeren?"
         ),
         "answer": (
-            "(a) Der Onkel durfte nicht laenger als bis zum 21. Lebensjahr seiner "
+            "(a) Der Onkel durfte nicht länger als bis zum 21. Lebensjahr seiner "
             "Tochter im Schloss bleiben. ; "
             "(b) Dann sollten das Schloss und das Land der Prinzessin Gisa allein "
             "gehoeren."
@@ -241,7 +241,7 @@ QUESTIONS = [
         "n": 10,
         "type": "Geheimschrift entschlüsseln",
         "text": (
-            "Gisa hat eine Nachricht fuer dich. Kannst du sie entschluesseln?\n"
+            "Gisa hat eine Nachricht für dich. Kannst du sie entschluesseln?\n"
             "Tipp: Das Alphabet rueckwaerts: z=a, y=b, x=c, w=d, v=e, u=f, "
             "t=g, s=h, r=i, q=j, p=k, o=l, n=m, m=n, l=o, k=p, j=q, i=r, "
             "h=s, g=t, f=u, e=v, d=w, c=x, b=y, a=z"

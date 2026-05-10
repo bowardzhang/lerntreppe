@@ -21,18 +21,18 @@ LESETEXT = (
     "armseliger Bartputzer, du buntscheckiger Narr, du Hungerleider und "
     "Maeusejager, was kommt dir in den Sinn? Du unterstehst dich zu fragen, wie "
     "es mir gehe? Was hast du gelernt? Wie viel Kuenste verstehst du?' 'Ich "
-    "verstehe nur eine einzige', antwortete bescheiden die Katze. 'Was fuer eine "
+    "verstehe nur eine einzige', antwortete bescheiden die Katze. 'Was für eine "
     "Kunst ist das?', fragte der Fuchs. 'Wenn die Hunde hinter mir her sind, so "
     "kann ich auf einen Baum springen und mich retten.' 'Das ist alles?', fragte "
-    "der Fuchs, 'ich bin Herr ueber hundert Kuenste und habe ueberdies noch einen "
+    "der Fuchs, 'ich bin Herr über hundert Kuenste und habe ueberdies noch einen "
     "Sack voll Listen. Du jammerst mich, komm mit mir, ich will dich lehren, wie "
     "man den Hunden entgeht.'\n\n"
-    "Indessen kam ein Jaeger mit vier Hunden daher. Die Katze sprang behende auf "
+    "Indessen kam ein Jäger mit vier Hunden daher. Die Katze sprang behende auf "
     "einen Baum und kletterte in den Gipfel, wo Aeste und Laubwerk sie voellig "
     "verbargen. 'Bindet den Sack auf, Herr Fuchs, bindet den Sack auf!', rief "
     "ihm die Katze zu, aber die Hunde hatten ihn schon gepackt und hielten ihn "
     "fest. 'Ei, Herr Fuchs!', rief die Katze, 'Ihr bliebt mit Euren hundert "
-    "Kuensten stecken. Haettet Ihr heraufklettern koennen wie ich, so waer's "
+    "Kuensten stecken. Haettet Ihr heraufklettern können wie ich, so waer's "
     "nicht um Euer Leben geschehen.'"
 )
 
@@ -42,7 +42,7 @@ QUESTIONS = [
         "type": "Zeilen finden",
         "text": (
             f"Lesetext:\n{LESETEXT}\n\n"
-            "Schreibe die Zeilen auf, in denen du folgende Saetze findest:\n"
+            "Schreibe die Zeilen auf, in denen du folgende Sätze findest:\n"
             "(a) 'Du jammerst mich, komm mit mir ...'\n"
             "(b) 'Die Katze sprang behende auf einen Baum und kletterte...'"
         ),
@@ -67,7 +67,7 @@ QUESTIONS = [
             "Ergaenze mit passenden Woertern aus dem Text:\n"
             "(a) Der Fuchs, voller ___, musterte die Katze ... und ___, ...\n"
             "(b) ... aber die Hunde hatten ihn schon ___...\n"
-            "(c) 'ich bin Herr ueber hundert ___...'"
+            "(c) 'ich bin Herr über hundert ___...'"
         ),
         "answer": "(a) Hochmut / ueberlegte ; (b) gepackt ; (c) Kuenste.",
         "steps": [
@@ -85,10 +85,10 @@ QUESTIONS = [
         "type": "Richtige Aussagen ankreuzen",
         "text": (
             "Kreuze die richtigen Aussagen an:\n"
-            "(1) Der Fuchs war wuetend ueber die Katze.\n"
+            "(1) Der Fuchs war wuetend über die Katze.\n"
             "(2) Am Anfang der Geschichte denkt die Katze, der Fuchs sei sehr dumm.\n"
             "(3) Die Katze beherrscht die Kunst, die Hunde zu erschrecken.\n"
-            "(4) Es kam ein Jaeger mit vier Hunden vorbei.\n"
+            "(4) Es kam ein Jäger mit vier Hunden vorbei.\n"
             "(5) Der Fuchs hat einen echten Sack bei sich.\n"
             "(6) Die Katze klettert am Schluss auf einen Baum.\n"
             "(7) Der Fuchs verliert am Ende sein Leben."
@@ -183,11 +183,11 @@ QUESTIONS = [
         "type": "Ueberlegenheit erklären",
         "text": (
             "Wie kam es dazu, dass am Ende der Geschichte die Katze dem Fuchs "
-            "ueberlegen war? Erklaere in ganzen Saetzen!"
+            "ueberlegen war? Erklaere in ganzen Sätzen!"
         ),
         "answer": (
             "Die Katze hat nicht mit hundert Kuensten geprahlt, sondern besass "
-            "die richtige Faehigkeit: auf einen Baum klettern zu koennen. So "
+            "die richtige Faehigkeit: auf einen Baum klettern zu können. So "
             "konnten die Hunde sie nicht fangen, waehrend der Fuchs trotz seiner "
             "vielen Listen hilflos war."
         ),
@@ -206,7 +206,7 @@ QUESTIONS = [
         "type": "Fabelmerkmal erkennen",
         "text": "Woran erkennst du, dass es sich tatsaechlich um eine Fabel handelt?",
         "answer": (
-            "Z. B.: Die Personen sind Tiere und die Tiere koennen sprechen. "
+            "Z. B.: Die Personen sind Tiere und die Tiere können sprechen. "
             "Die Tiere haben menschliche Eigenschaften (Hochmut, Bescheidenheit). "
             "Die Geschichte hat eine Lehre (Moral): Prahlerei hilft nichts."
         ),

@@ -40,7 +40,7 @@ QUESTIONS = [
         "knowledge": [
             "mathe.klasse3.schriftlich.addition",
             "mathe.klasse3.schriftlich.subtraktion",
-            "mathe.klasse3.zahlenraetsel.magische_quadrate",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
         ],
     },
     {
@@ -72,7 +72,7 @@ QUESTIONS = [
         "knowledge": [
             "mathe.klasse3.schriftlich.addition",
             "mathe.klasse3.schriftlich.subtraktion",
-            "mathe.klasse3.zahlenraetsel.magische_quadrate",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
         ],
     },
     {
@@ -103,7 +103,7 @@ QUESTIONS = [
         "knowledge": [
             "mathe.klasse3.schriftlich.addition",
             "mathe.klasse3.schriftlich.subtraktion",
-            "mathe.klasse3.zahlenraetsel.magische_quadrate",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
         ],
     },
     {
@@ -136,7 +136,7 @@ QUESTIONS = [
         "knowledge": [
             "mathe.klasse3.schriftlich.addition",
             "mathe.klasse3.schriftlich.subtraktion",
-            "mathe.klasse3.zahlenraetsel.magische_quadrate",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
         ],
     },
     {
@@ -168,7 +168,7 @@ QUESTIONS = [
         "knowledge": [
             "mathe.klasse3.schriftlich.addition",
             "mathe.klasse3.schriftlich.subtraktion",
-            "mathe.klasse3.zahlenraetsel.magische_quadrate",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
         ],
     },
     {
@@ -201,7 +201,7 @@ QUESTIONS = [
         "knowledge": [
             "mathe.klasse3.schriftlich.addition",
             "mathe.klasse3.schriftlich.subtraktion",
-            "mathe.klasse3.zahlenraetsel.magische_quadrate",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
         ],
     },
     {
@@ -232,7 +232,7 @@ QUESTIONS = [
         "knowledge": [
             "mathe.klasse3.schriftlich.addition",
             "mathe.klasse3.schriftlich.subtraktion",
-            "mathe.klasse3.zahlenraetsel.magische_quadrate",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
         ],
     },
     {
@@ -264,7 +264,7 @@ QUESTIONS = [
         "knowledge": [
             "mathe.klasse3.schriftlich.addition",
             "mathe.klasse3.schriftlich.subtraktion",
-            "mathe.klasse3.zahlenraetsel.magische_quadrate",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
         ],
     },
     {
@@ -296,7 +296,7 @@ QUESTIONS = [
         "knowledge": [
             "mathe.klasse3.schriftlich.addition",
             "mathe.klasse3.schriftlich.subtraktion",
-            "mathe.klasse3.zahlenraetsel.magische_quadrate",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
         ],
     },
 ]

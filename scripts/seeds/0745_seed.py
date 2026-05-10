@@ -7,7 +7,7 @@ EXERCISE = {
     "publisher": "CATLUX",
     "source_pdf": "0745.pdf",
     "answer_pdf": "0745 (1).pdf",
-    "total_points": 19.0,
+    "total_points": 20.0,
 }
 
 QUESTIONS = [
@@ -191,7 +191,7 @@ QUESTIONS = [
         ),
         "answer": "10 volle Kisten.",
         "steps": [
-            "Verbrauch fuer 1-Liter-Flaschen: 33 × 20 = 660 l.",
+            "Verbrauch für 1-Liter-Flaschen: 33 × 20 = 660 l.",
             "Rest: 790 – 660 = 130 l.",
             "Pro ½-l-Kiste: 26 × 0,5 = 13 l.",
             "130 : 13 = 10 volle Kisten.",

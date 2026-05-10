@@ -48,7 +48,7 @@ QUESTIONS = [
             "rechne die richtige Frage aus.\n"
             "'Linda wuerde gern mit ihrem Pferd zu ihrer Oma reiten. Oma wohnt "
             "allerdings 214 km vom Pferdestall entfernt. Lindas Oma ist 82 Jahre "
-            "alt. Sie liebt Pferde und ist frueher mindestens 3 Stunden pro Woche "
+            "alt. Sie liebt Pferde und ist früher mindestens 3 Stunden pro Woche "
             "geritten. Linda ist 67 Jahre juenger als Oma.'\n"
             "(a) Wie lang braucht Linda mit dem Pferd, bis sie bei Oma ist?\n"
             "(b) Wann kommt Linda bei Oma an?\n"
@@ -76,7 +76,7 @@ QUESTIONS = [
             "die man mit einer Rechnung beantworten kann."
         ),
         "answer": (
-            "Beispiel: 'Wie viele Stunden ist Oma frueher mindestens in einem "
+            "Beispiel: 'Wie viele Stunden ist Oma früher mindestens in einem "
             "Jahr geritten?' 3 h · 52 Wochen = 156 h pro Jahr."
         ),
         "steps": [
@@ -135,7 +135,7 @@ QUESTIONS = [
         ),
         "steps": [
             "(a) waere 20 : 4 = 5 (kleiner Bruder).",
-            "(c) Keine Rechnung moeglich, ausser alle wiegen gleich viel.",
+            "(c) Keine Rechnung möglich, ausser alle wiegen gleich viel.",
             "(b) Vater = 4 · Lisa = 4 · 20 = 80 kg.",
         ],
         "points": 1.0,
@@ -163,7 +163,7 @@ QUESTIONS = [
             "Antwort: Mit dem Fahrrad braucht Hans 8 Minuten bis zur Schule."
         ),
         "steps": [
-            "(a) Keine eindeutige Rechnung moeglich.",
+            "(a) Keine eindeutige Rechnung möglich.",
             "(c) waere 18 · 2 - 1 = 35.",
             "(b) Franz: 18 : 2 = 9; Hans (Fahrrad): 9 - 1 = 8.",
         ],

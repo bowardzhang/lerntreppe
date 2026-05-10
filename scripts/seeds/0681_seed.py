@@ -18,7 +18,7 @@ QUESTIONS = [
             "Florian will zu seinem Geburtstag einen Raketenkuchen haben. Mit "
             "Hilfe der Bilder erklaert er seiner Mutter, wie sie den Kuchen "
             "herstellen kann (die Biskuitrolle ist schon fertig gebacken). "
-            "Verwende fuer das Rezept die persoenliche du-Form.\n\n"
+            "Verwende für das Rezept die persoenliche du-Form.\n\n"
             "Zutaten:\n"
             "(a) Biskuitrolle\n"
             "(b) 1 Waffelhoernchen\n"
@@ -36,7 +36,7 @@ QUESTIONS = [
         ),
         "answer": (
             "Musterloesung 'Rezept Raketenkuchen':\n\n"
-            "Einleitung: Mama, ich habe das Rezept fuer einen tollen Raketen"
+            "Einleitung: Mama, ich habe das Rezept für einen tollen Raketen"
             "kuchen gefunden. Es ist ganz einfach.\n\n"
             "Zutaten/Material: Du brauchst eine fertige Biskuitrolle, "
             "1 Waffelhoernchen, 6 Eiswaffeln, 500 g Marzipanrohmasse, "

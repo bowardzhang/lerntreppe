@@ -15,7 +15,7 @@ QUESTIONS = [
         "n": 1,
         "type": "Lateinische Fachbegriffe der Grammatik",
         "text": (
-            "Wie heissen die lateinischen Fachbegriffe?\n"
+            "Wie heißen die lateinischen Fachbegriffe?\n"
             "2. Fall: ___    Satzgegenstand: ___\n"
             "1. Fall: ___    Satzergaenzung: ___\n"
             "Satzaussage: ___    3. Fall: ___"
@@ -193,7 +193,7 @@ QUESTIONS = [
             "Ich werde mein___ Onkel und mein___ Tante ein___ schoenen Brief "
             "schreiben und mich bei ___ bedanken. "
             "Ich werde ___ dann ein schoen___ Foto mein___ Familie mitbringen. "
-            "Natuerlich soll ich ___ auch von mein___ Eltern schoene Gruesse ausrichten."
+            "Natürlich soll ich ___ auch von mein___ Eltern schoene Grüße ausrichten."
         ),
         "answer": (
             "den Brief meinem Freund ; Der Brief meinem Onkel ; "
@@ -217,9 +217,9 @@ QUESTIONS = [
     },
     {
         "n": 8,
-        "type": "Saetze mit Konjunktionen verbinden",
+        "type": "Sätze mit Konjunktionen verbinden",
         "text": (
-            "Verbinde die passenden Saetze mit sinnvollen Konjunktionen "
+            "Verbinde die passenden Sätze mit sinnvollen Konjunktionen "
             "(jede nur einmal):\n"
             "1. Moni hat ihre Freundin verpasst. / Ich darf den Krimi nicht anschauen.\n"
             "2. Vater muss schnell zum Flughafen. / Sie schaut sich einen Spielfilm an.\n"

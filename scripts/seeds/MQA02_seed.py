@@ -41,7 +41,7 @@ QUESTIONS = [
         "knowledge": [
             "mathe.klasse3.schriftlich.addition",
             "mathe.klasse3.schriftlich.subtraktion",
-            "mathe.klasse3.zahlenraetsel.magische_quadrate",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
         ],
     },
     {
@@ -73,7 +73,7 @@ QUESTIONS = [
         "knowledge": [
             "mathe.klasse3.schriftlich.addition",
             "mathe.klasse3.schriftlich.subtraktion",
-            "mathe.klasse3.zahlenraetsel.magische_quadrate",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
         ],
     },
     {
@@ -104,7 +104,7 @@ QUESTIONS = [
         "knowledge": [
             "mathe.klasse3.schriftlich.addition",
             "mathe.klasse3.schriftlich.subtraktion",
-            "mathe.klasse3.zahlenraetsel.magische_quadrate",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
         ],
     },
     {
@@ -136,7 +136,7 @@ QUESTIONS = [
         "knowledge": [
             "mathe.klasse3.schriftlich.addition",
             "mathe.klasse3.schriftlich.subtraktion",
-            "mathe.klasse3.zahlenraetsel.magische_quadrate",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
         ],
     },
     {
@@ -169,7 +169,7 @@ QUESTIONS = [
         "knowledge": [
             "mathe.klasse3.schriftlich.addition",
             "mathe.klasse3.schriftlich.subtraktion",
-            "mathe.klasse3.zahlenraetsel.magische_quadrate",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
         ],
     },
     {
@@ -201,7 +201,7 @@ QUESTIONS = [
         "knowledge": [
             "mathe.klasse3.schriftlich.addition",
             "mathe.klasse3.schriftlich.subtraktion",
-            "mathe.klasse3.zahlenraetsel.magische_quadrate",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
         ],
     },
     {
@@ -233,7 +233,7 @@ QUESTIONS = [
         "knowledge": [
             "mathe.klasse3.schriftlich.addition",
             "mathe.klasse3.schriftlich.subtraktion",
-            "mathe.klasse3.zahlenraetsel.magische_quadrate",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
         ],
     },
     {
@@ -266,7 +266,7 @@ QUESTIONS = [
         "knowledge": [
             "mathe.klasse3.schriftlich.addition",
             "mathe.klasse3.schriftlich.subtraktion",
-            "mathe.klasse3.zahlenraetsel.magische_quadrate",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
         ],
     },
     {
@@ -297,14 +297,14 @@ QUESTIONS = [
         "knowledge": [
             "mathe.klasse3.schriftlich.addition",
             "mathe.klasse3.schriftlich.subtraktion",
-            "mathe.klasse3.zahlenraetsel.magische_quadrate",
+            "mathe.klasse4.sachaufgaben.zahlenraetsel",
         ],
     },
 ]
 
 NEW_KNOWLEDGE = [
     {
-        "id": "mathe.klasse3.zahlenraetsel.magische_quadrate",
+        "id": "mathe.klasse4.sachaufgaben.zahlenraetsel",
         "label": "Magische Quadrate (3×3)",
         "description": "3×3-Gitter, in dem jede Zeile, Spalte und Diagonale dieselbe Summe ergibt.",
         "parent": "mathe.klasse3",

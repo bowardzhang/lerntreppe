@@ -2,8 +2,8 @@ EXERCISE = {
     "id": "0450",
     "subject": "Deutsch",
     "grade": 3,
-    "title": "Aufsatz: Maerchen vom armen Hirten weiterschreiben",
-    "topic": "Maerchen, Maerchenmerkmale, weitererzaehlen, Praeteritum",
+    "title": "Aufsatz: Märchen vom armen Hirten weiterschreiben",
+    "topic": "Märchen, Maerchenmerkmale, weitererzaehlen, Praeteritum",
     "publisher": "CATLUX",
     "source_pdf": "0450.pdf",
     "answer_pdf": "0450 (1).pdf",
@@ -13,28 +13,28 @@ EXERCISE = {
 QUESTIONS = [
     {
         "n": 1,
-        "type": "Hirten-Maerchen weiterschreiben",
+        "type": "Hirten-Märchen weiterschreiben",
         "text": (
-            "Aufgabe: Lies den Maerchenanfang. Wie koennte das Maerchen weiter"
+            "Aufgabe: Lies den Maerchenanfang. Wie könnte das Märchen weiter"
             "gehen? Finde eine passende Ueberschrift und einen Schluss.\n\n"
             "Beachte die Maerchenmerkmale:\n"
-            "- Maerchen beginnen meist mit 'Es war einmal...' und haben ein "
+            "- Märchen beginnen meist mit 'Es war einmal...' und haben ein "
             "typisches Ende.\n"
             "- Die Zahlen 7 und 3 spielen eine wichtige Rolle.\n"
             "- Sie spielen 'irgendwo in der weiten Welt'.\n"
             "- Das Gute wird belohnt, das Boese bestraft.\n"
-            "- Tiere koennen sprechen.\n"
-            "- Maerchen gehen immer gut aus.\n\n"
+            "- Tiere können sprechen.\n"
+            "- Märchen gehen immer gut aus.\n\n"
             "Anfang:\n"
             "Vor vielen, vielen Jahren lebte einmal ein armer Hirte. Er hatte "
             "sieben Schafe und weidete sie an einem hohen Berg. Er stuetzte "
             "sich auf seinen Stock und dachte an sein Elend. Der Hirte sagte "
             "leise vor sich hin: 'Oh, haette ich doch immer genug zu essen "
-            "und koennte gut leben! Ich wuerde auch die Armen nicht vergessen!' "
+            "und könnte gut leben! Ich wuerde auch die Armen nicht vergessen!' "
             "Da stand auf einmal ein kleines Maennlein vor ihm mit rotem "
             "Kaeppchen und langem Bart. 'Geh mit mir', sagte es, 'ich werde "
             "dir aus deiner Not helfen!' Das Maennlein trug eine Wurzel in der "
-            "Hand. Vor einem grossen Felsen blieb es stehen. Es schlug mit der "
+            "Hand. Vor einem großen Felsen blieb es stehen. Es schlug mit der "
             "Wurzel dreimal gegen den Stein. Der Hirte glaubte kaum seinen "
             "Augen, was er da erblickte ...\n\n"
             "Stichwort-Hilfe (du musst sie nicht alle nehmen):\n"
@@ -52,16 +52,16 @@ QUESTIONS = [
             "gestorben sind ...') (1) ;\n"
             "- Praeteritum durchgaengig (1) ;\n"
             "- treffende Adjektive und Verben (1) ;\n"
-            "- klare Saetze mit Satzzeichen (1).\n\n"
-            "Maerchen-Tipps zur Anwendung:\n"
+            "- klare Sätze mit Satzzeichen (1).\n\n"
+            "Märchen-Tipps zur Anwendung:\n"
             "- Zeit ungenau ('Einst lebten ...').\n"
-            "- Ort ungenau ('... in einem grossen Koenigreich ...').\n"
-            "- Allgemeine Personen ('Koenig', 'Tochter').\n"
+            "- Ort ungenau ('... in einem großen Königreich ...').\n"
+            "- Allgemeine Personen ('König', 'Tochter').\n"
             "- Wundersame Ereignisse, Zahlen 3, 7, 12.\n"
             "- Gegensatzpaare: Schloss-Huette, arm-reich.\n"
             "- Besondere Gegenstaende: goldene Kugel, vergifteter Apfel.\n"
             "- Zauberspruch (z. B. 'Baeumchen, ruettel dich und schuettel dich, "
-            "wirf Gold und Silber ueber mich!').\n"
+            "wirf Gold und Silber über mich!').\n"
             "- 'Grosse' werden bestraft, 'Kleine' belohnt.\n"
             "- Schluss: '... und wenn sie nicht gestorben sind, dann leben sie "
             "noch heute.'"

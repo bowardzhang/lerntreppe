@@ -39,10 +39,10 @@ LESETEXT = (
     "stehen und sagt ihm ein freundliches Wort. Dann streckt der Hund seinen "
     "Kopf zum Eingang des Kaufhauses und winselt klaerglich. Da er sich im "
     "Uebrigen von keinem anfassen laesst, verliert, wer auf ihn aufmerksam "
-    "wird, schnell die Lust, sich laenger mit ihm zu befassen.\n\n"
+    "wird, schnell die Lust, sich länger mit ihm zu befassen.\n\n"
     "So liegt der kleine, braungefleckte Hund nach vielen Stunden noch immer "
-    "auf der Strasse, eng an die Wand gepresst und zitternd. Es beginnt dunkel "
-    "zu werden. Jetzt weint und winselt der vergessene Hund laengst nicht mehr. "
+    "auf der Straße, eng an die Wand gepresst und zitternd. Es beginnt dunkel "
+    "zu werden. Jetzt weint und winselt der vergessene Hund längst nicht mehr. "
     "Er liegt nur da, zittert und seufzt manchmal so tief, wie nur einer "
     "seufzen kann, der den schlimmsten Kummer ganz allein aushalten muss.\n\n"
     "Da trippeln ploetzlich eilige Schritte naeher und naeher und eine helle "
@@ -59,9 +59,9 @@ QUESTIONS = [
         "type": "Name des Hundes",
         "text": (
             f"Lesetext:\n{LESETEXT}\n\n"
-            "Wie heisst der Hund?"
+            "Wie heißt der Hund?"
         ),
-        "answer": "Er heisst Puenktchen.",
+        "answer": "Er heißt Puenktchen.",
         "steps": [
             "Am Ende des Textes: 'Puenktchen, mein Puenktchen'.",
         ],
@@ -142,7 +142,7 @@ QUESTIONS = [
         "n": 6,
         "type": "Satz unterstreichen",
         "text": (
-            "Fuer den Hund ist die Nase wichtiger als das Auge. "
+            "Für den Hund ist die Nase wichtiger als das Auge. "
             "Unterstreiche den passenden Satz im Text!"
         ),
         "answer": (

@@ -7,7 +7,7 @@ EXERCISE = {
     "publisher": "CATLUX",
     "source_pdf": "0873.pdf",
     "answer_pdf": "0873 (1).pdf",
-    "total_points": 37.0,
+    "total_points": 39.0,
 }
 
 LESETEXT = (

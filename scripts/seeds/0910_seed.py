@@ -18,7 +18,7 @@ QUESTIONS = [
             "Fuelle die Luecken mit den richtigen Begriffen:\n"
             "Um einen Kreis zu zeichnen, brauchst du einen ___. Die Spitze "
             "stichst du in den ___, dann kannst du den Kreis zeichnen. Die "
-            "Entfernung von der Kreislinie zur Mitte ist ueberall gleich gross. "
+            "Entfernung von der Kreislinie zur Mitte ist ueberall gleich groß. "
             "Sie wird ___ genannt. Wenn du durch die Mitte des Kreises eine "
             "gerade Linie zeichnest, bekommst du den ___ des Kreises. Er ist "
             "doppelt so lang wie der ___."
@@ -94,7 +94,7 @@ QUESTIONS = [
         "n": 5,
         "type": "Rechteck mit Diagonalen und Kreis",
         "text": (
-            "Zeichne ein Rechteck mit der Laenge 7 cm und der Breite 4 cm. "
+            "Zeichne ein Rechteck mit der Länge 7 cm und der Breite 4 cm. "
             "Verbinde die gegenueberliegenden Eckpunkte (Diagonalen). Du "
             "erhaelst den Schnittpunkt S. Zeichne um S einen Kreis mit dem "
             "Radius r = 2 cm."
@@ -149,7 +149,7 @@ QUESTIONS = [
         "type": "Kombi-Konstruktion",
         "text": (
             "Zeichne mit Geodreieck und Zirkel:\n"
-            "a) Einen Kreis mit 3 cm Radius. Wie gross ist der Durchmesser?\n"
+            "a) Einen Kreis mit 3 cm Radius. Wie groß ist der Durchmesser?\n"
             "b) Zeichne durch den Mittelpunkt des Kreises eine Gerade.\n"
             "c) Zeichne zu deiner Geraden eine parallele Gerade im Abstand 2 cm.\n"
             "d) Zeichne zu der Geraden von b) zwei senkrechte Geraden."

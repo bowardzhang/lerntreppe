@@ -16,12 +16,12 @@ LESETEXT = (
     "Baerenmutter mit zwei Baerenkindern. Eines Tages, als sie heranwuchsen, "
     "beschlossen die Brueder, sich auf den Weg zu machen. Sie verabschiedeten "
     "sich von ihrer Mutter und nahmen etwas zu essen mit auf den Weg.\n\n"
-    "Bald hatten sie ein Stueck Kaese gefunden. 'Ach, Bruederchen, ich moechte "
+    "Bald hatten sie ein Stueck Kaese gefunden. 'Ach, Bruederchen, ich möchte "
     "essen!', sagte das juengere Baerlein. Doch sie konnten sich nicht "
     "einigen, wer welches Stueck Kaese bekommen sollte. Sie begannen zu "
     "streiten.\n\n"
     "Da kam der schlaue Gevatter Fuchs daher. 'Was streitet ihr denn, junge "
-    "Herren?', fragte er. 'Wir koennen uns nicht einigen, wie wir den Kaese "
+    "Herren?', fragte er. 'Wir können uns nicht einigen, wie wir den Kaese "
     "teilen sollen.' 'Das ist doch ganz einfach', lachte der Fuchs, 'ich werde "
     "teilen!'.\n\n"
     "Der Fuchs brach den Kaese in zwei Stuecke. Doch eine Haelfte war groesser "
@@ -30,7 +30,7 @@ LESETEXT = (
     "ein Stueck vom groesseren Teil ab - und es wurde kleiner als das andere. "
     "Also biss er auch davon ab. So ging es immer wieder, bis der Fuchs den "
     "ganzen Kaese gegessen hatte.\n\n"
-    "Die beiden Baerlein blieben mit leerem Magen zurueck. Der schlaue Fuchs "
+    "Die beiden Baerlein blieben mit leerem Magen zurück. Der schlaue Fuchs "
     "aber zog vergnuegt davon."
 )
 
@@ -128,7 +128,7 @@ QUESTIONS = [
         "n": 6,
         "type": "Unzufriedenheit der Bären",
         "text": "Warum waren die beiden Baeren mit dem Handeln des Fuchses staendig unzufrieden?",
-        "answer": "Der Fuchs teilte den Kaese nie gerecht auf - die Stuecke waren immer ungleich gross.",
+        "answer": "Der Fuchs teilte den Kaese nie gerecht auf - die Stuecke waren immer ungleich groß.",
         "steps": [
             "Begruendung: ungerechte Aufteilung.",
         ],
@@ -210,7 +210,7 @@ QUESTIONS = [
         "n": 11,
         "type": "Adjektive zu Tieren",
         "text": (
-            "Nenne je ein passendes Adjektiv fuer das Verhalten der Tiere und "
+            "Nenne je ein passendes Adjektiv für das Verhalten der Tiere und "
             "begruende:\n"
             "Baerlein: ___\n"
             "Fuchs: ___"
@@ -257,7 +257,7 @@ QUESTIONS = [
         "text": "Ersetze 'seufzte' durch ein anderes passendes Wort.",
         "answer": "stoehnte (oder klagte, jammerte).",
         "steps": [
-            "Synonym fuer 'seufzen'.",
+            "Synonym für 'seufzen'.",
         ],
         "points": 1.0,
         "has_image": False,
@@ -299,8 +299,8 @@ QUESTIONS = [
         ),
         "answer": (
             "(a) Eine Fabel. ; "
-            "(b) (1) Tiere koennen sprechen/denken (z. B. 'Ach, Bruederchen, "
-            "ich moechte essen!'). (2) Tiere haben menschliche Eigenschaften "
+            "(b) (1) Tiere können sprechen/denken (z. B. 'Ach, Bruederchen, "
+            "ich möchte essen!'). (2) Tiere haben menschliche Eigenschaften "
             "(der Fuchs lacht und ueberlistet). ; "
             "(c) Beispiele: 'Der Fuchs und die Gaense', 'Der Hase und der Igel', "
             "'Zwei Froesche in der Milch'. ; "

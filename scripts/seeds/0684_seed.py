@@ -2,8 +2,8 @@ EXERCISE = {
     "id": "0684",
     "subject": "Deutsch",
     "grade": 3,
-    "title": "Aufsatz: Maerchen mit vorgegebenen Zutaten",
-    "topic": "Maerchen, eigenes Maerchen schreiben, Aufbau, Praeteritum",
+    "title": "Aufsatz: Märchen mit vorgegebenen Zutaten",
+    "topic": "Märchen, eigenes Märchen schreiben, Aufbau, Praeteritum",
     "publisher": "CATLUX",
     "source_pdf": "0684.pdf",
     "answer_pdf": "0684 (1).pdf",
@@ -13,17 +13,17 @@ EXERCISE = {
 QUESTIONS = [
     {
         "n": 1,
-        "type": "Eigenes Maerchen schreiben",
+        "type": "Eigenes Märchen schreiben",
         "text": (
-            "Schreibe ein Maerchen mit den folgenden 'Zutaten':\n"
-            "- Ort: Huette des Bauern, Schloss des Zauberers, Maerchenland\n"
+            "Schreibe ein Märchen mit den folgenden 'Zutaten':\n"
+            "- Ort: Huette des Bauern, Schloss des Zauberers, Märchenland\n"
             "- Held: armer Bauer\n"
             "- Gegenspieler: boeser Zauberer\n"
             "- Helfer: kleine Fee\n"
             "- Problem des Bauern: Frau verschwunden\n\n"
             "Tipps:\n"
             "- Verwende alle 'Zutaten' und schreibe ein spannendes, logisch "
-            "aufgebautes Maerchen.\n"
+            "aufgebautes Märchen.\n"
             "- Schreibe in der 1. Vergangenheit (Praeteritum).\n"
             "- Beachte den richtigen Aufbau: Einleitung - Hauptteil - Schluss. "
             "Erzaehle im Hauptteil ausfuehrlich und beschreibe genau.\n"
@@ -34,7 +34,7 @@ QUESTIONS = [
             "Beurteilungs-Leitfaden:\n"
             "- maerchentypischer Anfang ('Es war einmal') (1) ;\n"
             "- alle 5 vorgegebenen Zutaten verwendet (Bauer, Zauberer, Fee, "
-            "verschwundene Frau, Schloss/Huette/Maerchenland) (2) ;\n"
+            "verschwundene Frau, Schloss/Huette/Märchenland) (2) ;\n"
             "- klarer Aufbau: Einleitung, Hauptteil, Schluss (2) ;\n"
             "- Problem geloest, Boeser bestraft, Held belohnt (1) ;\n"
             "- Praeteritum durchgaengig (1) ;\n"
@@ -43,11 +43,11 @@ QUESTIONS = [
             "- maerchentypischer Schlusssatz (1).\n\n"
             "Beispiel-Skizze: Es war einmal ein armer Bauer, der mit seiner "
             "Frau in einer kleinen Huette lebte. Eines Tages verschwand die "
-            "Frau spurlos. Der Bauer machte sich auf in das ferne Maerchen"
+            "Frau spurlos. Der Bauer machte sich auf in das ferne Märchen"
             "land, denn er hatte gehoert, dass ein boeser Zauberer in einem "
             "praechtigen Schloss alle Frauen entfuehrte. Auf seinem Weg "
             "begegnete ihm eine kleine Fee, die ihm drei Wuensche gab. "
-            "(Hauptteil mit drei Aufgaben/Abenteuern.) Schliesslich befreite "
+            "(Hauptteil mit drei Aufgaben/Abenteuern.) Schließlich befreite "
             "der Bauer seine Frau, der Zauberer wurde bestraft, und sie "
             "lebten gluecklich bis ans Ende ihrer Tage."
         ),

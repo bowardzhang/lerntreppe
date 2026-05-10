@@ -7,7 +7,7 @@ EXERCISE = {
     "publisher": "CATLUX",
     "source_pdf": "0411.pdf",
     "answer_pdf": "0411 (1).pdf",
-    "total_points": 21.0,
+    "total_points": 18.0,
 }
 
 LESETEXT = (
@@ -20,16 +20,16 @@ LESETEXT = (
     "wurde er 1680 in Bristol. Als junger Mann hat er als einfacher Matrose auf "
     "englischen Militaerschiffen gearbeitet. Mit diesen Schiffen war er dann in "
     "der Karibik unterwegs, wo er mit seiner Mannschaft waehrend eines Krieges "
-    "fuer England feindliche Schiffe pluenderte. Dabei hat Schwarzbart gelernt, "
+    "für England feindliche Schiffe pluenderte. Dabei hat Schwarzbart gelernt, "
     "wie man andere Schiffe ausraubt.\n\n"
-    "Eines Tages hatte Schwarzbart dann keine Lust mehr fuer das englische "
+    "Eines Tages hatte Schwarzbart dann keine Lust mehr für das englische "
     "Militaer zu arbeiten und heuerte auf einem richtigen Piratenschiff an. "
     "Kurze Zeit spaeter gelang es diesen Piraten, ein beruehmtes franzoesisches "
     "Handelsschiff, die 'Concorde', zu ueberfallen. Zur Belohnung wurde "
     "Schwarzbart zum Kapitaen des erbeuteten Schiffes ernannt.\n\n"
     "Das Besondere an Blackbeard war, dass er bei seinen Beutezuegen immer "
     "besonders grausam aussah. Er hatte naemlich immer mehrere Messer und "
-    "Pistolen an seinem Koerper haengen, und band sich an die Enden seines "
+    "Pistolen an seinem Körper haengen, und band sich an die Enden seines "
     "langen, schwarzen Bartes brennende Lunten, die gluehten und rauchten. "
     "Blackbeard muss dabei wirklich ausgesehen haben wie der Teufel persoenlich, "
     "so dass sich die Leute auf den ueberfallenen Schiffen oft von selbst "
@@ -79,7 +79,7 @@ QUESTIONS = [
         "n": 2,
         "type": "Fragen mit ganzen Sätzen beantworten",
         "text": (
-            "Beantworte folgende Fragen mit vollstaendigen Saetzen:\n"
+            "Beantworte folgende Fragen mit vollstaendigen Sätzen:\n"
             "(a) Warum sah Kapitaen Schwarzbart bei seinen Beutezuegen immer "
             "besonders grausam aus?\n"
             "(b) In welchen Meeren segelte Klaus Stoertebeker?\n"
@@ -88,13 +88,13 @@ QUESTIONS = [
         ),
         "answer": (
             "(a) Er sah so grausam aus, weil er mehrere Messer und Pistolen an "
-            "seinem Koerper haengen hatte und weil er sich brennende Lunten an "
+            "seinem Körper haengen hatte und weil er sich brennende Lunten an "
             "seinem langen Bart band. ; "
             "(b) Er segelte in der Nordsee und in der Ostsee. ; "
             "(c) Der Henker stellte Stoertebeker ein Bein."
         ),
         "steps": [
-            "Antworten in vollstaendigen Saetzen formulieren.",
+            "Antworten in vollstaendigen Sätzen formulieren.",
             "Auf Textstellen Bezug nehmen.",
         ],
         "points": 5.0,
@@ -109,8 +109,8 @@ QUESTIONS = [
         "type": "Richtig oder Falsch ankreuzen",
         "text": (
             "Welche Aussagen sind richtig? Kreuze nur die richtigen an:\n"
-            "(1) Blackbeard heisst zu Deutsch Schwarzbrot.\n"
-            "(2) In Wirklichkeit heisst Kapitaen Schwarzbart Edward Teach.\n"
+            "(1) Blackbeard heißt zu Deutsch Schwarzbrot.\n"
+            "(2) In Wirklichkeit heißt Kapitaen Schwarzbart Edward Teach.\n"
             "(3) Kapitaen Schwarzbart segelte in der Ostsee.\n"
             "(4) Weil Schwarzbart mit seiner Mannschaft ein beruehmtes "
             "italienisches Handelsschiff ueberfiel, wurde er zur Belohnung "

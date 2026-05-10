@@ -19,7 +19,7 @@ QUESTIONS = [
             "Der Wuerfel hat ___ Ecken. Zwischen zwei benachbarten Ecken liegt "
             "eine ___. Der Wuerfel hat ___ davon. Der Wuerfel hat sechs ___. "
             "Sie haben die Form eines ___. Oben liegt die ___, unten liegt die ___, "
-            "die restlichen vier heissen ___. Aus zwei aneinandergeklebten "
+            "die restlichen vier heißen ___. Aus zwei aneinandergeklebten "
             "Wuerfeln entsteht ein ___. Ich brauche ___ kleine Wuerfel, um einen "
             "groesseren Wuerfel (Kantenlaenge 2) zu bauen."
         ),
@@ -67,10 +67,10 @@ QUESTIONS = [
         "n": 3,
         "type": "Körperrätsel",
         "text": (
-            "Welcher Koerper ist gemeint?\n"
+            "Welcher Körper ist gemeint?\n"
             "a) Ich habe keine Ecken und keine Kanten und kann rollen.\n"
             "b) Ich habe 12 Kanten und 8 Ecken. Gegenueberliegende Flaechen "
-            "sind gleich gross. Ich habe mindestens 4 rechteckige Flaechen.\n"
+            "sind gleich groß. Ich habe mindestens 4 rechteckige Flaechen.\n"
             "c) Ich habe genau eine Spitze.\n"
             "d) Ich habe zwei kreisfoermige Flaechen.\n"
             "e) Ich habe eine quadratische Grundflaeche und 4 gleich grosse "
@@ -97,7 +97,7 @@ QUESTIONS = [
         "n": 4,
         "type": "Aussagen über den Würfel",
         "text": (
-            "Welche Aussagen ueber den Wuerfel sind richtig? Kreuze an:\n"
+            "Welche Aussagen über den Wuerfel sind richtig? Kreuze an:\n"
             "(1) Der Wuerfel hat 8 Seiten.\n"
             "(2) Der Wuerfel hat 12 Kanten.\n"
             "(3) Der Wuerfel hat nur Rechtecke (keine Quadrate) als Flaechen.\n"
