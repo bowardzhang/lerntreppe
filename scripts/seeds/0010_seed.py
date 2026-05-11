@@ -17,12 +17,14 @@ QUESTIONS = [
         "text": (
             "Laubbäume kann man am Wuchs, an Form und Rand der Blätter, der Rinde, "
             "ihren Blüten und Früchten unterscheiden. Zeige was du kannst und "
-            "vervollständige die Tabelle (Bilder zur Buche-Frucht und zum Linde-Blatt sind gegeben):\n\n"
-            "| Baum  | Blatt (Blattform, Blattrand) | Frucht/Samen |\n"
-            "|-------|------------------------------|--------------|\n"
-            "| Buche | ?                            | (Bild: Buchecker) |\n"
-            "| Linde | (Bild: Linde-Blatt)          | ?            |\n"
-            "| Ahorn | ?                            | ?            |"
+            "vervollständige die Tabelle. Die ersten beiden Bäume sind nur durch je ein "
+            "Bild (Frucht bzw. Blatt) angedeutet — du musst auch den Baumnamen "
+            "selbst herausfinden:\n\n"
+            "| Baum  | Blatt (Blattform, Blattrand) | Frucht/Samen      |\n"
+            "|-------|------------------------------|-------------------|\n"
+            "| ?     | ?                            | (Bild: Frucht)    |\n"
+            "| ?     | (Bild: Blatt)                | ?                 |\n"
+            "| Ahorn | ?                            | ?                 |"
         ),
         "answer": (
             "| Baum  | Blatt (Blattform, Blattrand)            | Frucht/Samen                              |\n"
