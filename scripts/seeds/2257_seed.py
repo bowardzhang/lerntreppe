@@ -153,7 +153,7 @@ QUESTIONS = [
         ),
         "answer": "(1) F ; (2) R ; (3) N ; (4) F",
         "steps": [
-            "Aus den Schaubildern (im PDF) ablesen.",
+            "Aus den Schaubildern ablesen.",
         ],
         "points": 4.0,
         "has_image": True,

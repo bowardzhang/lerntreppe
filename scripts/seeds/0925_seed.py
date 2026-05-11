@@ -58,13 +58,13 @@ QUESTIONS = [
         "type": "Übersetzen / Zuordnen",
         "text": (
             "Wie heißen diese Orte heute? Übersetze! "
-            "[Abbildung mit Ortsnamen auf –ing im Original-PDF]"
+            ""
         ),
         "answer": (
             "Die Ortsnamen auf –ing im Raum München gehen auf Bajuwarensiedlungen zurück, "
             "benannt nach dem Sippenältesten, z. B.: "
             "Thalkirchen (von Tagolf), Sendling (Sindeo), Giesing (Kisino) usw. "
-            "(genaue Zuordnung laut Abbildung im PDF)."
+            "(siehe Abbildung — Zuordnung der Ortsnamen mit der Endung –ing zu den heutigen Orten der Region München)."
         ),
         "steps": [
             "Orte auf –ing wurden von den Bajuwaren gegründet und nach dem Sippenältesten benannt.",

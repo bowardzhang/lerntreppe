@@ -231,9 +231,9 @@ QUESTIONS = [
         "type": "Zahlenstrahl",
         "text": (
             "Trage die fehlenden Zahlen ein und verbinde die Zahlen unten mit dem Zahlenstrahl! "
-            "[Aufgabe enthält eine Zahlenstrahl-Abbildung im Original-PDF]"
+            ""
         ),
-        "answer": "Lösung im PDF 0021 (1).pdf, Aufgabe 12 (grafisch).",
+        "answer": "Die markierten Stellen auf dem Zahlenstrahl entsprechen den vorgegebenen Zahlen (siehe Bild).",
         "steps": [
             "Zahlen am Zahlenstrahl ablesen und zuordnen.",
         ],

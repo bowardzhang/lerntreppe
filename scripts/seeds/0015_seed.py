@@ -245,11 +245,10 @@ QUESTIONS = [
         "type": "Korrekturaufgabe (Text korrigieren)",
         "text": (
             "Korrigiere folgenden Text. Streiche falsche Begriffe durch und schreibe ein passendes "
-            "Wort darüber! [Text mit eingebauten Fehlern – Abbildung im PDF]"
+            "Wort darüber!"
         ),
         "answer": (
-            "Die falschen Begriffe sind durchzustreichen und durch korrekte Fachbegriffe zu ersetzen "
-            "(Lösung grafisch im Antwort-PDF 0015 (1).pdf, Aufgabe 12)."
+            "Die falschen Fachbegriffe im Text sind durchzustreichen und durch die richtigen Begriffe zu ersetzen."
         ),
         "steps": [
             "Falsche Begriffe im Text identifizieren und durch korrekte Fachbegriffe ersetzen.",
