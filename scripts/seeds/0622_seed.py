@@ -81,8 +81,8 @@ QUESTIONS = [
             "Aus dem Text: gerechte Teilung gefiel dem Loewen nicht.",
         ],
         "points": 2.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0622_q3_reaktion_des_lwen.png",
         "knowledge": [
             "deutsch.klasse4.texte.leseverstehen",
         ],

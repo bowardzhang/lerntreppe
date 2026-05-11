@@ -29,8 +29,8 @@ QUESTIONS = [
             "2100 : 7 = 300, 700 · 6 = 4200, 30 · 25 = 750, 4500 : 9 = 500.",
         ],
         "points": 4.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "4698_q1_rechenaufgaben_aus_zahlen.png",
         "knowledge": [
             "mathe.klasse4.zahlen1000000.zahlenfolgen",
             "mathe.klasse4.schriftlich.multiplikation",
@@ -115,8 +115,8 @@ QUESTIONS = [
             "Stellenwerte beachten.",
         ],
         "points": 7.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "4698_q4_schriftliche_rechnungen_g.png",
         "knowledge": [
             "mathe.klasse4.schriftlich.addition",
             "mathe.klasse4.schriftlich.subtraktion",

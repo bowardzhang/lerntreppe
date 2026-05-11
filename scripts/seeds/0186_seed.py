@@ -33,8 +33,8 @@ QUESTIONS = [
             "Fachbegriffe verwenden.",
         ],
         "points": 6.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0186_q1_wasserkreislauf_beschreib.png",
         "knowledge": ["hsu.klasse3.wasser.kreislauf"],
     },
     {
@@ -148,8 +148,8 @@ QUESTIONS = [
         ),
         "steps": ["Oel und Pflanzenschutzmittel als Gefahrenquellen.", "Folgen für Mensch und Natur."],
         "points": 4.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0186_q7_gefahren_grundwasser.png",
         "knowledge": ["hsu.klasse3.wasser.kreislauf"],
     },
     {
@@ -192,8 +192,8 @@ QUESTIONS = [
         ),
         "steps": ["Vier Geraete benennen.", "Messgroessen zuordnen."],
         "points": 8.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0186_q9_wettergeraete.png",
         "knowledge": ["hsu.klasse3.luft_wetter.phaenomene"],
     },
     {

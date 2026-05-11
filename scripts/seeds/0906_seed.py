@@ -109,8 +109,8 @@ QUESTIONS = [
             "A: Die Familie ist um 14.55 Uhr wieder zu Hause.",
         ],
         "points": 9.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0906_q3_textaufgabe.png",
         "knowledge": [
             "mathe.klasse4.sachaufgaben.mehrstufig",
             "mathe.klasse4.groessen.zeit",

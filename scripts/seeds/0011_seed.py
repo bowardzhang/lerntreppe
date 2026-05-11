@@ -239,8 +239,8 @@ QUESTIONS = [
             "Die Lärche ist der einzige heimische Nadelbaum, der im Herbst seine Nadeln abwirft.",
         ],
         "points": 1.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0011_q12_kurzantwort.png",
         "knowledge": ["hsu.klasse2.tiere_pflanzen.pflanzen"],
     },
     {
@@ -256,8 +256,8 @@ QUESTIONS = [
             "Zapfenlage: Tanne aufrecht (himmelwärts), Fichte hängend.",
         ],
         "points": 2.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0011_q13_vergleichen.png",
         "knowledge": ["hsu.klasse2.tiere_pflanzen.pflanzen"],
     },
     {

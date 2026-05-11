@@ -82,8 +82,8 @@ QUESTIONS = [
             "Erst wenn alle Fußgänger den Überweg passiert haben, darfst du weiterfahren.",
         ],
         "points": 3.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0255_q3_verhalten_am_zebrastreife.png",
         "knowledge": ["hsu.klasse2.verkehr.regeln"],
     },
     {
