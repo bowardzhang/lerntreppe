@@ -115,17 +115,15 @@ QUESTIONS = [
         "n": 6,
         "type": "Ankreuzen / Zuordnen",
         "text": (
-            "So ein Durcheinander! Kreuze an, wenn Blatt und Frucht wirklich zusammengehören! "
-            ""
+            "So ein Durcheinander! Kreuze an, wenn Blatt und Frucht wirklich zusammengehören!"
         ),
         "answer": (
-            "Anzukreuzen sind nur die Blatt-Frucht-Paare, die zum selben Baum gehören.\n"
-            "Korrekte Paare: Eichenblatt-Eichel, Buchenblatt-Buchecker, Ahornblatt-Ahornfrucht (Propeller),\n"
-            "Lindenblatt-Lindennuss, Birkenblatt-Birkensamenstand.\n"
-            "Falsche Paare wie z. B. Buchenblatt mit einer Eichel oder Eichenblatt mit einer Buchecker bleiben unmarkiert."
+            "Nur das mittlere Paar — die Kastanie — ankreuzen. "
+            "Bei den anderen beiden Paaren passen Blatt und Frucht nicht zum selben Baum."
         ),
         "steps": [
-            "Blatt und Frucht des gleichen Baumes gehören zusammen (z. B. Eichenblatt – Eichel).",
+            "Bei jedem Paar prüfen, ob Blatt und Frucht zum gleichen Baum gehören.",
+            "Kastanienblatt und Kastanienfrucht passen zusammen — als einziges Paar ankreuzen.",
         ],
         "points": 3.0,
         "has_image": True,
