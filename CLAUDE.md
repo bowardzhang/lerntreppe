@@ -22,3 +22,4 @@ This applies to all repositories in this project (`lerntreppe`, `Schule-Uebungen
 - After adding seeds: run `python3 scripts/build_db.py` then `python3 scripts/export_json.py` from repo root
 - Knowledge IDs must match nodes in `knowledge-index.json`
 - Do NOT link magic squares or similar arithmetic puzzles to multiplication knowledge nodes
+- Per question, `has_image`/`image` is the prompt illustration, `has_answer_image`/`answer_image` (optional) is a separate image shown with the answer (e.g., a sample drawing to compare against). Both default to False/None.
