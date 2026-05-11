@@ -145,8 +145,8 @@ QUESTIONS = [
         "points": 3.0,
         "has_image": False,
         "image": None,
-        "has_answer_image": True,
-        "answer_image": "0011_q7_buche_blatt.png",
+        "has_answer_image": False,
+        "answer_image": None,
         "knowledge": ["hsu.klasse2.tiere_pflanzen.pflanzen"],
     },
     {
