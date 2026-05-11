@@ -15,17 +15,21 @@ QUESTIONS = [
         "n": 1,
         "type": "Tabelle ergänzen",
         "text": (
-            "Laubbäume kann man am Wuchs, an Form und Rand der Blätter, der Rinde, ihren "
-            "Blüten und Früchten unterscheiden. Zeige was du kannst und vervollständige die Tabelle.\n"
-            "Baum | Blatt (Blattform, Blattrand) | Frucht/Samen\n"
-            "Buche | ? | ?\n"
-            "Linde | ? | ?\n"
-            "Ahorn | ? | ?"
+            "Laubbäume kann man am Wuchs, an Form und Rand der Blätter, der Rinde, "
+            "ihren Blüten und Früchten unterscheiden. Zeige was du kannst und "
+            "vervollständige die Tabelle (Bilder zur Buche-Frucht und zum Linde-Blatt sind gegeben):\n\n"
+            "| Baum  | Blatt (Blattform, Blattrand) | Frucht/Samen |\n"
+            "|-------|------------------------------|--------------|\n"
+            "| Buche | ?                            | (Bild: Buchecker) |\n"
+            "| Linde | (Bild: Linde-Blatt)          | ?            |\n"
+            "| Ahorn | ?                            | ?            |"
         ),
         "answer": (
-            "Buche: Blattform Tropfenform, Blattrand leicht gewellt, Frucht: Buchecker.\n"
-            "Linde: Flugsamen (Lindenblüte), herzförmiges Blatt.\n"
-            "Ahorn: Blattform handförmig, Blattrand grob gezackt, Frucht: Flugsamen (Propeller-Frucht)."
+            "| Baum  | Blatt (Blattform, Blattrand)            | Frucht/Samen                              |\n"
+            "|-------|-----------------------------------------|-------------------------------------------|\n"
+            "| Buche | tropfenförmig, Rand leicht gewellt      | Buchecker                                 |\n"
+            "| Linde | herzförmig, Rand fein gezackt           | Lindenfrüchte mit Flugblatt (Lindenblüte) |\n"
+            "| Ahorn | handförmig (gelappt), Rand grob gezackt | Flugsamen (Doppelflügel/Propeller)        |"
         ),
         "steps": [
             "Buche: tropfenförmiges Blatt, leicht gewellter Rand, Bucheckern als Früchte.",
