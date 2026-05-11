@@ -74,7 +74,7 @@ QUESTIONS = [
         "type": "Zuordnen / Benennen",
         "text": (
             "Um welche Bäume handelt es sich? Wie heißen die Früchte der Laubbäume? "
-            "[Abbildung mit vier Bäumen im Original-PDF]"
+            ""
         ),
         "answer": (
             "Kiefer (Nadelbaum).\n"
@@ -116,11 +116,13 @@ QUESTIONS = [
         "type": "Ankreuzen / Zuordnen",
         "text": (
             "So ein Durcheinander! Kreuze an, wenn Blatt und Frucht wirklich zusammengehören! "
-            "[Abbildung mit Blatt-Frucht-Paaren im Original-PDF]"
+            ""
         ),
         "answer": (
-            "Die jeweils zusammengehörenden Blatt-Frucht-Paare sind anzukreuzen "
-            "(laut Lösung im PDF 0011 (1).pdf, Aufgabe 6)."
+            "Anzukreuzen sind nur die Blatt-Frucht-Paare, die zum selben Baum gehören.\n"
+            "Korrekte Paare: Eichenblatt-Eichel, Buchenblatt-Buchecker, Ahornblatt-Ahornfrucht (Propeller),\n"
+            "Lindenblatt-Lindennuss, Birkenblatt-Birkensamenstand.\n"
+            "Falsche Paare wie z. B. Buchenblatt mit einer Eichel oder Eichenblatt mit einer Buchecker bleiben unmarkiert."
         ),
         "steps": [
             "Blatt und Frucht des gleichen Baumes gehören zusammen (z. B. Eichenblatt – Eichel).",

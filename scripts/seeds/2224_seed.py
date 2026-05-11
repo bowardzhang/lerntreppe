@@ -141,7 +141,7 @@ QUESTIONS = [
         "text": (
             "In eine Milchkanne passt immer genau ein Liter. Immer zwei Tropfen ergeben "
             "einen Liter. Male sie in der gleichen Farbe an!\n"
-            "[Aufgabe mit Tropfen-Abbildungen — siehe Original-PDF]"
+            ""
         ),
         "answer": "Visuelle Zuordnungsaufgabe — Tropfenpaare, deren Summe 1 Liter ergibt, gleich einfärben.",
         "steps": [

@@ -277,7 +277,7 @@ QUESTIONS = [
             "Nenne den jeweiligen Ort, von dem die Materialien stammten!"
         ),
         "answer": (
-            "Die Antwort ergibt sich aus dem Unterrichtsstoff (im PDF keine Musterlösung angegeben). "
+            "Die Antwort ergibt sich aus dem Unterrichtsstoff. "
             "Typische Antworten: Backsteine/Ziegel aus lokalen Ziegeleien; Kalkstein aus dem Umland; "
             "Holz aus bayerischen Wäldern."
         ),
