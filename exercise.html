@@ -187,6 +187,17 @@ function buildAnswerBox(q) {
     box.appendChild(Object.assign(document.createElement('div'), { className:'answer-text', textContent: q.answer_text }));
   }
 
+  if (q.has_answer_image && q.answer_image_path) {
+    const imgWrap = document.createElement('div');
+    imgWrap.className = 'q-image-wrap';
+    imgWrap.style.padding = '10px 0 0 0';
+    const img = document.createElement('img');
+    img.src = `data/img/${q.answer_image_path}`;
+    img.alt = `Lösungsabbildung zu Aufgabe ${q.question_number}`;
+    imgWrap.appendChild(img);
+    box.appendChild(imgWrap);
+  }
+
   if (q.answer_steps && q.answer_steps.length) {
     const label = document.createElement('div');
     label.className = 'answer-label';
