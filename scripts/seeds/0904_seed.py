@@ -27,8 +27,8 @@ QUESTIONS = [
             "65 379 → auf 10 000 gerundet = 70 000 (65 ≥ 65).",
         ],
         "points": 3.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0904_q1_runden_und_sulendiagramm.png",
         "knowledge": [
             "mathe.klasse4.zahlen1000000.runden",
             "mathe.klasse4.sachaufgaben.tabellen",
@@ -176,8 +176,8 @@ QUESTIONS = [
             "Größte: Ziffern absteigend → 8, 5, 4, 3, 1 → 85 431.",
         ],
         "points": 2.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0904_q7_grte_und_kleinste_zahl_bi.png",
         "knowledge": [
             "mathe.klasse4.zahlen1000000.stellenwerte",
         ],

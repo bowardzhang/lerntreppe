@@ -31,8 +31,8 @@ QUESTIONS = [
         "answer": "5057\n3607",
         "steps": [],
         "points": 1.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "2136_q2_zahlenwrter.png",
         "knowledge": [
             "mathe.klasse4.zahlen1000000.stellenwerte",
         ],

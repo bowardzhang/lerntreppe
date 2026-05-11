@@ -33,8 +33,8 @@ QUESTIONS = [
             "Glücksrad: 5 Felder → 5:2 geht nicht auf.",
         ],
         "points": 4.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0895_q1_faires_glcksspiel_empfehl.png",
         "knowledge": [
             "mathe.klasse4.wahrscheinlichkeit.chancen",
         ],
@@ -113,8 +113,8 @@ QUESTIONS = [
             "b) Ungleiche Chancen: Felder ungleichmäßig vergeben.",
         ],
         "points": 2.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0895_q4_glcksrder_frben.png",
         "knowledge": [
             "mathe.klasse4.wahrscheinlichkeit.chancen",
         ],
@@ -164,8 +164,8 @@ QUESTIONS = [
             "Gesamt: 3 × 2 = 6 Möglichkeiten.",
         ],
         "points": 2.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0895_q6_kombinatorik_kinder_auf_e.png",
         "knowledge": [
             "mathe.klasse4.wahrscheinlichkeit.kombinatorik",
         ],

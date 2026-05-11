@@ -124,8 +124,8 @@ QUESTIONS = [
         "answer": "Richtig: (b) Pebowipuckel.",
         "steps": ["Genauen Namen im Text nachprüfen."],
         "points": 1.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "1008_q4_hunderasse_ankreuzen.png",
         "knowledge": ["deutsch.klasse4.texte.leseverstehen"],
     },
     {

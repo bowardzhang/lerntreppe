@@ -285,8 +285,8 @@ QUESTIONS = [
             "Materialien und Herkunftsorte aus dem Unterricht herleiten.",
         ],
         "points": 5.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0630_q13_nennen_mit_ortsangaben.png",
         "knowledge": ["hsu.klasse4.deutschland.geografie"],
     },
     {

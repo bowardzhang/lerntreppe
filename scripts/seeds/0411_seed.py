@@ -169,8 +169,8 @@ QUESTIONS = [
             "Piraten benutzten oft Schoner: schnelle, wendige Schiffe mit zwei Masten.",
         ],
         "points": 1.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0411_q5_schiffstyp_identifizieren.png",
         "knowledge": [
             "deutsch.klasse4.texte.leseverstehen",
         ],
@@ -187,8 +187,8 @@ QUESTIONS = [
             "Jedes Wort rueckwaerts lesen.",
         ],
         "points": 1.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0411_q6_geheimschrift_entziffern.png",
         "knowledge": [
             "deutsch.klasse4.texte.leseverstehen",
         ],
@@ -224,8 +224,8 @@ QUESTIONS = [
             "Aus den Stichworten entsteht: Laufe halb um den See herum ODER schwimme quer durch.",
         ],
         "points": 1.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0411_q8_wegbeschreibung_mit_bedin.png",
         "knowledge": [
             "deutsch.klasse4.texte.leseverstehen",
         ],

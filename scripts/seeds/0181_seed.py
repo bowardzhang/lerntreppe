@@ -31,8 +31,8 @@ QUESTIONS = [
         ),
         "steps": ["Reihenfolge der Kläranlage durchgehen."],
         "points": 8.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0181_q1_beschriften_klranlage.png",
         "knowledge": ["hsu.klasse3.wasser.kreislauf"],
     },
     {

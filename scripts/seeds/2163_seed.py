@@ -110,8 +110,8 @@ QUESTIONS = [
             "Drei schwarze Löwen = Schwaben",
         ],
         "points": 8.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "2163_q3_wappen.png",
         "knowledge": [
             "hsu.klasse4.deutschland.bundeslaender",
         ],

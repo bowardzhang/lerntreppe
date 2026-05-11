@@ -49,8 +49,8 @@ QUESTIONS = [
             "Ort: am Petersberg (Petersbergl).",
         ],
         "points": 4.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0925_q2_kurzantwort.png",
         "knowledge": ["hsu.klasse4.deutschland.geografie"],
     },
     {

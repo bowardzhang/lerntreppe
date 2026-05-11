@@ -167,8 +167,8 @@ QUESTIONS = [
             "Versickerung: Wasser dringt durch den wasserdurchlässigen Boden nach unten.",
         ],
         "points": 2.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0012_q8_freie_antwort_pftze_versc.png",
         "knowledge": ["hsu.klasse3.wasser.kreislauf"],
     },
     {

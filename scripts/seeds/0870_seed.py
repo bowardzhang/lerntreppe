@@ -95,8 +95,8 @@ QUESTIONS = [
         "answer": "Till Eulenspiegel, seine Mutter (Frau Eulenspiegel) und zwei Diebe.",
         "steps": ["Aus dem Text alle Figuren benennen."],
         "points": 2.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0870_q3_personen_nennen.png",
         "knowledge": ["deutsch.klasse4.texte.leseverstehen"],
     },
     {

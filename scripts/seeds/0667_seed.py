@@ -84,8 +84,8 @@ QUESTIONS = [
             "Faulbehälter: nimmt den Klärschlamm auf.",
         ],
         "points": 3.0,
-        "has_image": False,
-        "image": None,
+        "has_image": True,
+        "image": "0667_q3_zuordnen.png",
         "knowledge": ["hsu.klasse4.umwelt.naturschutz"],
     },
     {
