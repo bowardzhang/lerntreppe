@@ -45,6 +45,8 @@ CREATE TABLE IF NOT EXISTS questions (
     max_points      REAL,
     has_image       INTEGER NOT NULL DEFAULT 0,
     image_path      TEXT,
+    has_answer_image INTEGER NOT NULL DEFAULT 0,
+    answer_image_path TEXT,
     UNIQUE(exercise_id, question_number)
 );
 
@@ -90,14 +92,17 @@ def insert_exercise(con, ex, questions):
         cur.execute("""
             INSERT INTO questions
                 (exercise_id, question_number, question_type, question_text,
-                 answer_text, answer_steps, max_points, has_image, image_path)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                 answer_text, answer_steps, max_points,
+                 has_image, image_path,
+                 has_answer_image, answer_image_path)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """, (
             ex["id"], q["n"], q.get("type"), q["text"],
             q.get("answer"),
             json.dumps(q.get("steps", []), ensure_ascii=False),
-            q.get("points"), 1 if q.get("has_image") else 0,
-            q.get("image"),
+            q.get("points"),
+            1 if q.get("has_image") else 0, q.get("image"),
+            1 if q.get("has_answer_image") else 0, q.get("answer_image"),
         ))
         qid = cur.lastrowid
         for kid in q.get("knowledge", []):

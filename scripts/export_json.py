@@ -30,6 +30,8 @@ for ex in con.execute("SELECT * FROM exercises ORDER BY subject, grade, id"):
             "max_points":      q["max_points"],
             "has_image":       bool(q["has_image"]),
             "image_path":      q["image_path"],
+            "has_answer_image": bool(q["has_answer_image"]),
+            "answer_image_path": q["answer_image_path"],
             "knowledge":       kids,
         })
 
