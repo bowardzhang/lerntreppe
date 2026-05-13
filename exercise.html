@@ -86,6 +86,12 @@
     .q-image-wrap { padding: 0 20px 14px; }
     .q-image-wrap img { max-width: 100%; border-radius: 8px; border: 1px solid var(--border); }
 
+    /* Monospace rendering for text containing ASCII diagrams / arrow alignments */
+    .q-text.is-mono, .answer-text.is-mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Courier New", monospace;
+      font-size: .9rem;
+    }
+
     /* ── Knowledge pills ── */
     .q-knowledge { padding: 0 20px 10px; display: flex; gap: 6px; flex-wrap: wrap; }
     .k-pill {
@@ -178,13 +184,24 @@ function updateProgress() {
   document.getElementById('progress-count').textContent = `${revealed} / ${totalQ}`;
 }
 
+// Heuristic: text contains column-aligned diagrams (multiple ↓/↑ arrows on a line).
+// Such layouts only render correctly with monospace fonts.
+function needsMono(s) {
+  if (!s) return false;
+  return (s.match(/↓/g) || []).length >= 2 || (s.match(/↑/g) || []).length >= 2;
+}
+
 function buildAnswerBox(q) {
   const box = document.createElement('div');
   box.className = 'answer-box';
 
   if (q.answer_text) {
     box.appendChild(Object.assign(document.createElement('div'), { className:'answer-label', textContent:'Antwort' }));
-    box.appendChild(Object.assign(document.createElement('div'), { className:'answer-text', textContent: q.answer_text }));
+    const at = document.createElement('div');
+    at.className = 'answer-text';
+    if (needsMono(q.answer_text)) at.classList.add('is-mono');
+    at.textContent = q.answer_text;
+    box.appendChild(at);
   }
 
   if (q.has_answer_image && q.answer_image_path) {
@@ -266,6 +283,7 @@ function renderExercise(ex) {
     }
     const qt = document.createElement('div');
     qt.className = 'q-text';
+    if (needsMono(q.question_text)) qt.classList.add('is-mono');
     qt.textContent = q.question_text;
     qMeta.appendChild(qt);
     qh.appendChild(qMeta);

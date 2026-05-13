@@ -92,22 +92,22 @@ QUESTIONS = [
         "n": 5,
         "type": "Tabelle (Aggregatzustände des Wassers)",
         "text": (
-            "Wasser hat 3 Zustandsformen. Nenne die fehlenden zwei und schreibe ihre "
-            "Eigenschaft (=Wiewort) dazu (wie im Beispiel)! "
-            "[Tabelle mit einer ausgefüllten Zeile als Beispiel]"
+            "___       → ___       → Dampf\n"
+            " ↓           ↓           ↓\n"
+            "___       → ___       → gasförmig"
         ),
         "answer": (
-            "fest → Eis (hart, kalt)\n"
-            "flüssig → Wasser (nass, fließend)\n"
-            "gasförmig → Wasserdampf (unsichtbar, warm)"
+            "(Eis)     → (Wasser)  → Dampf\n"
+            " ↓           ↓           ↓\n"
+            "(fest)    → (flüssig) → gasförmig"
         ),
         "steps": [
             "Drei Aggregatzustände: fest (Eis), flüssig (Wasser), gasförmig (Wasserdampf).",
-            "Eigenschaftswörter beschreiben den jeweiligen Zustand.",
+            "Stoffname über der Linie, Eigenschaft (Wiewort) darunter.",
         ],
         "points": 4.0,
-        "has_image": True,
-        "image": "0014_q5_tabelle.png",
+        "has_image": False,
+        "image": None,
         "knowledge": ["hsu.klasse3.wasser.kreislauf"],
     },
     {
