@@ -92,6 +92,8 @@ QUESTIONS = [
         "n": 5,
         "type": "Tabelle (Aggregatzustände des Wassers)",
         "text": (
+            "Wasser hat 3 Zustandsformen. Nenne die fehlenden zwei und "
+            "schreibe ihre Eigenschaft (=Wiewort) dazu (wie im Beispiel)!\n\n"
             "___       → ___       → Dampf\n"
             " ↓           ↓           ↓\n"
             "___       → ___       → gasförmig"
