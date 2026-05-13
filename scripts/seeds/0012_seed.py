@@ -14,20 +14,7 @@ QUESTIONS = [
     {
         "n": 1,
         "type": "Ankreuzen (Wassereigenschaften)",
-        "text": (
-            "Kreuze an!\n"
-            "a) Kippe ein halb mit Wasser gefülltes Glas nach rechts. Wie sieht der Wasserspiegel aus? "
-            "[Bild: waagerecht / schräg / nach rechts geneigt]\n"
-            "b) Schütte in ein mit Wasser gefülltes Glas einige Tropfen Tinte. Was geschieht? "
-            "[Bild: Tinte bleibt oben / Tinte verteilt sich überall / Tinte sinkt nach unten]\n"
-            "c) Gib einige Tropfen Salatöl in ein Glas mit Wasser. Wo sammelt sich das Öl? "
-            "[Bild: unten / gemischt / oben]\n"
-            "d) Hauche gegen einen Spiegel. Was siehst du? "
-            "[Bild: Spiegel bleibt klar / Spiegel beschlägt / Spiegel wird trocken]\n"
-            "e) Stelle ein Glas mit heißem Wasser neben eines mit kaltem. Lasse gleichzeitig in jedes "
-            "einen Würfelzucker gleiten. Welcher Würfel zerfällt schneller? "
-            "[Bild: kaltes Wasser / gleichzeitig / heißes Wasser]"
-        ),
+        "text": "Kreuze an!",
         "answer": (
             "a) B (Wasserspiegel bleibt waagerecht)\n"
             "b) A (Tinte verteilt sich gleichmäßig im Wasser)\n"
