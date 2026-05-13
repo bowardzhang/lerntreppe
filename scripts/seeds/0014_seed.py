@@ -13,14 +13,17 @@ EXERCISE = {
 QUESTIONS = [
     {
         "n": 1,
-        "type": "Lückentext (Wasserkreislauf-Diagramm)",
+        "type": "Lückentext (Wasserkreislauf)",
         "text": (
-            "Fülle die Lücken! [Diagramm zeigt den Wasserkreislauf mit Beschriftungsfeldern]"
+            "Fülle die Lücken!\n"
+            "Die ___ erhitzt das Wasser aus Seen, Flüssen und dem ___. "
+            "Das Wasser ___ und wird hoch oben wieder zu ___, weil es oben ___ ist. "
+            "So entstehen allmählich ___."
         ),
         "answer": (
-            "Die Sonne erhitzt das Wasser aus Seen, Flüssen und dem Meer. "
-            "Das Wasser verdunstet und wird hoch oben wieder zu kleinen Tropfen, weil es oben kälter ist. "
-            "So entstehen allmählich Wolken."
+            "Die (Sonne) erhitzt das Wasser aus Seen, Flüssen und dem (Meer). "
+            "Das Wasser (verdunstet) und wird hoch oben wieder zu (kleinen Tropfen), "
+            "weil es oben (kälter) ist. So entstehen allmählich (Wolken)."
         ),
         "steps": [
             "Sonne erhitzt Wasser → Verdunstung.",
@@ -28,8 +31,8 @@ QUESTIONS = [
             "Tropfen bilden Wolken.",
         ],
         "points": 6.0,
-        "has_image": True,
-        "image": "0014_q1_kreislauf.png",
+        "has_image": False,
+        "image": None,
         "knowledge": ["hsu.klasse3.wasser.kreislauf"],
     },
     {
