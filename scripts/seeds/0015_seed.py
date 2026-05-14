@@ -256,27 +256,21 @@ QUESTIONS = [
             "kleiner werden sie."
         ),
         "answer": (
-            "Fünf falsche Begriffe streichen und ersetzen:\n"
-            "1. große  →  sehr kleine  (Wasserteilchen)\n"
-            "2. verdampfen  →  verdichten (kondensieren)\n"
-            "3. schneit  →  regnet\n"
-            "4. langsam  →  schnell\n"
-            "5. kleiner  →  größer\n\n"
-            "Vollständig korrigierter Text:\n"
-            "Die Sonne erwärmt die Oberfläche der Erde, so dass sehr kleine "
-            "Wasserteilchen nach oben steigen. In kälteren Luftschichten "
-            "verdichten die Wasserteilchen. Je tiefer die Luftschichten sind, "
-            "desto größer ist die Wahrscheinlichkeit, dass es regnet. "
+            "Die Sonne erwärmt die Oberfläche der Erde, so dass "
+            "(große → sehr kleine) Wasserteilchen nach oben steigen. "
+            "In kälteren Luftschichten (verdampfen → verdichten) die "
+            "Wasserteilchen. Je (tiefer → höher) die Luftschichten sind, "
+            "desto größer ist die Wahrscheinlichkeit, dass es schneit. "
             "Manchmal hagelt es auch, weil Wassertropfen in kalten "
-            "Luftschichten gefrieren. Sie fallen schnell zur Erde herab, so "
-            "dass sie nicht auftauen können. Je länger sie fallen, desto "
-            "größer werden sie."
+            "Luftschichten gefrieren. Sie fallen (langsam → schnell) zur "
+            "Erde herab, so dass sie nicht auftauen können. Je länger sie "
+            "fallen, desto (kleiner → größer) werden sie."
         ),
         "steps": [
             "Falsche Begriffe identifizieren und durch fachlich korrekte Wörter ersetzen.",
-            "Großes Wasser → kleine Teilchen steigen auf.",
-            "Beim Aufsteigen kühlen sich Teilchen ab → verdichten/kondensieren (nicht verdampfen).",
-            "In tiefen/warmen Luftschichten regnet es (nicht schneit).",
+            "Kleine Wasserteilchen steigen auf (nicht große).",
+            "Beim Aufsteigen kühlen sich die Teilchen ab → verdichten/kondensieren (nicht verdampfen).",
+            "Schnee entsteht in höheren, kälteren Luftschichten — daher 'höher' statt 'tiefer'.",
             "Hagel ist schwer und fällt schnell; je länger es fällt, desto größer wird das Korn.",
         ],
         "points": 5.0,
