@@ -244,18 +244,44 @@ QUESTIONS = [
         "n": 12,
         "type": "Korrekturaufgabe (Text korrigieren)",
         "text": (
-            "Korrigiere folgenden Text. Streiche falsche Begriffe durch und schreibe ein passendes "
-            "Wort darüber!"
+            "Korrigiere folgenden Text. Streiche falsche Begriffe durch und "
+            "schreibe ein passendes Wort darüber!\n\n"
+            "Die Sonne erwärmt die Oberfläche der Erde, so dass große "
+            "Wasserteilchen nach oben steigen. In kälteren Luftschichten "
+            "verdampfen die Wasserteilchen. Je tiefer die Luftschichten sind, "
+            "desto größer ist die Wahrscheinlichkeit, dass es schneit. "
+            "Manchmal hagelt es auch, weil Wassertropfen in kalten "
+            "Luftschichten gefrieren. Sie fallen langsam zur Erde herab, so "
+            "dass sie nicht auftauen können. Je länger sie fallen, desto "
+            "kleiner werden sie."
         ),
         "answer": (
-            "Die falschen Fachbegriffe im Text sind durchzustreichen und durch die richtigen Begriffe zu ersetzen."
+            "Fünf falsche Begriffe streichen und ersetzen:\n"
+            "1. große  →  sehr kleine  (Wasserteilchen)\n"
+            "2. verdampfen  →  verdichten (kondensieren)\n"
+            "3. schneit  →  regnet\n"
+            "4. langsam  →  schnell\n"
+            "5. kleiner  →  größer\n\n"
+            "Vollständig korrigierter Text:\n"
+            "Die Sonne erwärmt die Oberfläche der Erde, so dass sehr kleine "
+            "Wasserteilchen nach oben steigen. In kälteren Luftschichten "
+            "verdichten die Wasserteilchen. Je tiefer die Luftschichten sind, "
+            "desto größer ist die Wahrscheinlichkeit, dass es regnet. "
+            "Manchmal hagelt es auch, weil Wassertropfen in kalten "
+            "Luftschichten gefrieren. Sie fallen schnell zur Erde herab, so "
+            "dass sie nicht auftauen können. Je länger sie fallen, desto "
+            "größer werden sie."
         ),
         "steps": [
-            "Falsche Begriffe im Text identifizieren und durch korrekte Fachbegriffe ersetzen.",
+            "Falsche Begriffe identifizieren und durch fachlich korrekte Wörter ersetzen.",
+            "Großes Wasser → kleine Teilchen steigen auf.",
+            "Beim Aufsteigen kühlen sich Teilchen ab → verdichten/kondensieren (nicht verdampfen).",
+            "In tiefen/warmen Luftschichten regnet es (nicht schneit).",
+            "Hagel ist schwer und fällt schnell; je länger es fällt, desto größer wird das Korn.",
         ],
         "points": 5.0,
-        "has_image": True,
-        "image": "0015_q12_korrektur.png",
+        "has_image": False,
+        "image": None,
         "knowledge": ["hsu.klasse3.wasser.kreislauf"],
     },
     {
