@@ -14,18 +14,15 @@ QUESTIONS = [
     {
         "n": 1,
         "type": "Beschriften (Wasserversorgungsanlage)",
-        "text": (
-            "Beschrifte die Zeichnung der Wasserversorgungsanlage! "
-            "[Diagramm mit 7 Beschriftungsfeldern (a–g)]"
-        ),
+        "text": "Beschrifte die Zeichnung der Wasserversorgungsanlage!",
         "answer": (
-            "a) Tiefbrunnen\n"
-            "b) Wasserwerk\n"
-            "c) Pumpe\n"
-            "d) Hochbehälter\n"
-            "e) Fallleitung\n"
-            "f) Rohrnetz\n"
-            "g) Steigleitung"
+            "1. Tiefbrunnen\n"
+            "2. Wasserwerk\n"
+            "3. Pumpe\n"
+            "4. Hochbehälter\n"
+            "5. Fallleitung\n"
+            "6. Rohrnetz\n"
+            "7. Steigleitung"
         ),
         "steps": [
             "Wasser wird aus dem Tiefbrunnen gepumpt.",
